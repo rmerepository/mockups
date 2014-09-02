@@ -1,0 +1,42 @@
+body {
+	margin: 0px;
+	padding: 100px 80px;
+	background-color: #F6F6F6;
+	line-height: 34px;
+}
+.invalid-page {
+	font-family: Tahoma, Arial;
+	padding: 0px 20px; 
+	font-size: 16px
+	
+}
+
+.invalid-page h1{
+	font-size: 30px;
+	margin: 26px 0;
+	color: #2E2E2E;
+	font-weight: normal;
+	margin: 0px
+}
+
+.invalid-page table td{
+	vertical-align: middle;
+}
+
+.invalid-page a {
+	color: #0A7896;
+	text-decoration: none;
+}
+
+
+.header {
+	background: url('/assets/images/top-navigation-background-active.png') repeat-x;
+	padding: 5px 0 0 13px;
+	height: 42px;
+	margin-bottom: 15px;
+}
+
+.rme-logo-large {
+	height: 270px;
+	width: 240px;
+}

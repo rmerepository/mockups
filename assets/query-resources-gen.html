@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+
+	<style>
+	pre {
+    background-color: #eee;
+    padding: 5px;
+    border: 1px solid #FAFAFA;
+}
+label {
+    width:200px;
+    display:inline-block;
+    text-align:right
+}
+
+	</style>
+
+</head>
+<body>
+	
+
+<label>State</label>
+<input type="text" id="state">
+<br />
+<label>Timeline</label>
+<input type="text" id="timeline">
+<br />
+<label>Sec Order</label>
+<input type="text" id="sec_order">
+<br />
+<label>section</label>
+<input type="text" id="section">
+<br />
+<label>form order</label>
+<input type="text" id="form_order">
+<br />
+<label>form_title</label>
+<input type="text" id="form_title">
+<br />
+<label>form_description</label>
+<textarea id="form_description" cols="30" rows="10"></textarea>
+<br />
+<label>file_id</label>
+<input type="text" id="file_id">
+<br />
+<label>presource_type</label>
+<input type="text" id="presource_type">
+<br />
+<button id="go">go!</button>
+<pre>
+    <div id="sql"></div>
+</pre> 
+
+<script src="js/libs/jquery-1.7.2.min.js"></script>
+<script>
+	
+$(function () {
+    var a = [];
+    $('#go').click(function () {
+
+        qry = "INSERT INTO presources (state, timeline, sec_order, section, form_order, form_title, form_description, file_id, presource_type) VALUES";
+
+        a.push("('" 
+        	   + $("#state").val() + "', '" 
+        	   + $("#timeline").val() + "', '" 
+        	   + $("#sec_order").val() + "', '" 
+        	   + $("#section").val() + "', '" 
+        	   + $("#form_order").val() + "', '" 
+        	   + $("#form_title").val() + "', '" 
+        	   + $("#form_description").val() + "', '"  
+        	   + $("#file_id").val() + "', '" 
+        	   + $("#presource_type").val() + "'"
+        	   + ")" 
+        	   + "<br>");
+          
+          $('#sql').html(qry + "<br>" + a);
+    })
+
+});
+
+</script>
+
+</body>
+</html>
