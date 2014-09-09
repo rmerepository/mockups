@@ -1,0 +1,451 @@
+.progress-tracker-middle-line {
+  display: none
+}
+.progress-tracker {
+  height: 241px;
+  text-align: center;
+  padding: 2px 30px 0 30px;
+  position: relative;
+  border-bottom: 1px solid #f5f5f5;
+  color: #2e2e2e;
+  max-width: none;
+  background-color:  #f8f8f8
+
+}
+.progress-tracker h1 {
+  font-size: 22px;
+  font-weight: normal;
+  color: #2e2e2e;
+}
+.progress-tracker h1 span {
+  font-weight: bold;
+}
+.progress-tracker .span12 {
+  position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.tracker-icons .left-arrow, .tracker-icons .right-arrow {
+  position: absolute;
+  top: 34px;
+}
+
+.tracker-icons .right-arrow {
+  right: 0px;
+}
+
+
+.next-arrow,
+.prev-arrow {
+  background-image: url('../images/progress-tracker-icons.png');
+  background-repeat: no-repeat;
+  height: 43px;
+  width: 47px;
+  display: inline-block;
+}
+.prev-arrow {
+  background-position: -252px -416px;
+}
+.prev-arrow:hover {
+  background-position: -252px -467px;
+}
+.next-arrow {
+  background-position: -252px -316px;
+}
+.next-arrow:hover {
+  background-position: -252px -364px;
+}
+.steps-icon {
+  background-image: url('../images/progress-tracker-icons.png');
+  background-repeat: no-repeat;
+  height: 95px;
+  width: 98px;
+  display: inline-block;
+  outline: none;
+  position: relative;
+}
+.steps-icon span {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  width: 98px;
+  font-size: 14px;
+  color: #a1a1a1;
+  text-align: center;
+  font-weight: normal;
+}
+.steps-icon span.active {
+  color: #1c8fb4;
+}
+.steps-icon.address {
+  background-position: -84px -310px;
+}
+.steps-icon.address-active {
+  background-position: -520px -405px;
+}
+.steps-icon.address-done {
+  background-position: -519px -503px;
+}
+.steps-icon.photos-done {
+  background-position: -420px -503px;
+}
+.steps-icon.owners-done {
+  background-position: -521px -503px;
+}
+.steps-icon.photos-active {
+  background-position: -422px -405px;
+}
+.steps-icon.owners-active {
+  background-position: -320px -405px;
+}
+.steps-icon.photos {
+  background-position: -421px -305px;
+}
+.steps-icon.owners {
+  background-position: -319px -305px;
+}
+.steps-icon.features {
+  background-position: -110px -5px;
+}
+.steps-icon.features-active {
+  background-position: -111px -105px;
+}
+.steps-icon.features-done {
+  background-position: -110px -203px;
+}
+.steps-icon.lease {
+  background-position: -209px -4px;
+}
+.steps-icon.lease-active {
+  background-position: -209px -105px;
+}
+.steps-icon.lease-done {
+  background-position: -208px -203px;
+}
+.steps-icon.advertise {
+  background-position: -511px -5px;
+}
+.steps-icon.advertise-active {
+  background-position: -511px -105px;
+}
+.steps-icon.description {
+  background-position: -11px -5px;
+}
+.steps-icon.description-active {
+  background-position: -11px -105px;
+}
+.steps-icon.description-done {
+  background-position: -10px -203px;
+}
+.steps-icon.inspection {
+  background-position: -410px -5px;
+}
+.steps-icon.inspection-active {
+  background-position: -410px -105px;
+}
+.steps-icon.inspection-done {
+  background-position: -409px -203px;
+}
+
+.steps-icon.occupants {
+    background-position: -319px -304px;
+}
+.steps-icon.occupants-active {
+  background-position: -319px -405px;
+}
+.steps-icon.occupants-done {
+  background-position: -319px -503px;
+}
+
+.steps-icon.property {
+  background-position: -520px -305px;
+}
+.steps-icon.property-active {
+  background-position: -520px -405px;
+}
+.steps-icon.property-done {
+  background-position: -519px -503px;
+}
+
+
+.steps-icon.medium {
+  background-position: -511px -5px;
+}
+.steps-icon.medium-active {
+  background-position: -511px -105px;
+}
+
+.progress-tracker .span12 .buttons {
+  position: absolute;
+  top: -12px;
+  right: 0px;
+  text-align: right;
+}
+.progress-icon-container {
+  padding-top: 8px;
+  letter-spacing: -8px;
+}
+.progress-icon-container span {
+  letter-spacing: 1px;
+}
+.progress-tracker-arrow {
+  display: inline-block;
+  height: 6px;
+  width: 33px;
+  margin-bottom: 47px;
+}
+.progress-tracker-icon-bg {
+  position: absolute;
+  height: 105px;
+  width: 105px;
+  top: 3px;
+  background-image: url('../images/progress-tracker-icons.png');
+  background-position: -105px -309px;
+}
+.add-property-form .progress-tracker-arrow {
+  width: 72px;
+}
+.advertise-property-form .progress-tracker-arrow {
+  width: 63px;
+}
+@media (max-width: 1200px) {
+  .advertise-property-form .progress-tracker-arrow {
+    width: 57px;
+  }
+}
+.progress-tracker-arrow.active {
+  background: #4bb1d2;
+}
+/*.text {
+  width: 540px;
+  margin: 20px auto;
+  height: 200px;
+}*/
+.profile-photo-add-property {
+  width: 412px;
+  margin: 30px auto;
+  height: 324px;
+  position: relative;
+}
+
+.profile-photo-add-property .content{
+  border: 1px solid #d4d4d4;
+  -webkit-box-shadow: 0 0px 5px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 0px 5px rgba(0, 0, 0, 0.16);
+  width: 407px;
+  padding: 11px;
+  background-color: #FFFFFF;
+  position: absolute;
+  bottom: 1px;
+}
+
+.profile-photo-add-property .text {
+  background-image: url('../images/house-avatar.png');
+  background-position: 81px 84px;
+  background-repeat: no-repeat;
+  width: 387px;
+  height: 286px;
+  margin: auto;
+  background-color: #ececec;
+  vertical-align: middle;
+  text-align: center;
+  display: table-cell;
+}
+.profile-photo-add-property.has-image {
+  cursor: pointer;
+}
+.profile-photo-add-property.has-image .remove-profile-image {
+  display: none;
+}
+.profile-photo-add-property.has-image:hover .remove-profile-image{
+  display: block;
+}
+.profile-photo-add-property.has-image .text{
+  background: #ececec;
+}
+
+.remove-profile-image {
+  text-align: right;
+  display: none;
+}
+.remove-profile-image a {
+  display: inline-block;
+  background-image: url("../images/misc.png");
+  background-position: -152px -28px;
+  background-repeat: no-repeat;
+  height: 12px;
+  width: 11px;
+  margin-bottom: 7px;
+}
+/* advetise */
+.advertise-table-medium {
+  width: 100%;
+}
+.advertise-table-medium td{
+  padding: 33px 15px;
+  width: 12%;
+}
+.advertise-table-medium tr {
+  background: url('../images/files/assets/images/0') no-repeat;
+  background-color: #f8f8f8;
+}
+.advertise-table-medium tr.last {
+  background: none;
+}
+.advertise-table-medium .mediums-desc {
+ width: 65% 
+}
+.advertise-table-medium  h3 {
+  color:#1C8FB4;
+}
+.advertise-table-medium h1, .advertise-table-medium .amount{
+  font-size: 18px;
+  position: relative;
+}
+.advertise-table-medium h1:hover .white-popover {
+  display: block;
+} 
+
+.advertise-table-medium td.top{ 
+  width: 80%;
+}
+.advertise-table-medium td.amount{ 
+  background-color: rgba(93, 93, 93, 0.01);
+  width: 126px;
+  text-align: center;
+}
+.advertise-table-medium tr.selected{ 
+  background-color: #f4f4f4 
+}
+.advertise-table-medium .selected .amount{ 
+  color: #1f93b8 
+}
+.advertise-table-medium .ads-checkbox {
+  width: 70px;
+  text-align: center;
+}
+.ads-checkbox .checkbox-bg{
+  background-color: rgba(238, 238, 238, 0.41);
+  display: inline-block;
+  height: 37px;
+  width: 34px;
+  padding-left: 19px;
+  padding-top: 8px;
+}
+
+.mediums-icon span{
+  background-image: url("../images/misc.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 121px;
+  height: 115px;
+}
+.mediums-sub-icon span{
+  background-image: url("../images/third-party-websites.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+.facebook-advertise-medium {
+  background-position: -125px -595px;
+}
+.twitter-advertise-medium {
+  background-position: -247px -595px;
+}
+.property-website-advertise-medium {
+  background-position: -4px -595px;
+}
+.lease-advertise-medium {
+  background-position: -370px -595px;
+}
+.pdf-advertise-medium {
+  background-position: -495px -595px;
+}
+span.rent-au-logo {
+  background-image: url("../images/misc.png");
+  background-position: -18px -731px;
+  width: 50px;
+  height: 35px;
+  vertical-align: middle;
+}
+span.realestate-logo {
+  background-image: url("../images/misc.png");
+  background-position: -122px -728px;
+  width: 231px;
+  height: 35px;
+  vertical-align: middle;
+}
+.third-party-mediums-au-logo {
+  width: 694px;
+  height: 35px;
+  vertical-align: middle;
+  background-position: -8px -18px;
+}
+b.orange {
+  color: #f99919;
+  font-weight: normal;
+}
+.total-amount {
+  background-color: #f8f8f8;
+  border-top:1px solid #f1f1f1;
+  border-bottom:1px solid #f1f1f1;
+}
+.total-amount td{
+  padding: 0;
+  text-align:right;
+}
+.total-amount td span{
+  display: inline-block;
+}
+.total-amount .caption {
+  padding: 3px;
+  background-color: #E5E5E5;
+  width: 150px;
+  text-align: center;
+}
+.advertise-table-medium .submit td{
+  background-color: #FBFBFB;
+  padding: 12px 27px 12px 0;
+  text-align: right;
+}
+#totalAmount {
+  background-color: #f2f2f2;
+  color: #1f93b8;
+  font-size: 24px;
+  text-align: center;
+  padding: 14px;
+  width: 128px;
+} 
+.advertise-table-medium tr td.custom-checkbox-field2 label {
+  margin-left: 40px;
+}
+
+.control-caption {
+  font-size: 16px;
+  margin: 26px 0px;
+}
+.address-lease-sign-form {
+  position: relative;
+}
+
+.address-lease-sign-form  .edit-address-lease-sign {
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  color: #6E6E6E;
+}
+.address-lease-sign-form  .edit-address-lease-sign:hover {
+  color:#08C;
+}
+
+#forLeaseSignForm .controls .disable {
+  background-color: #DFDFDF;
+  color: #888;
+  border-color: #E0E0E0;
+}
+
+
+.buttons {
+  width: 907px !important;
+  margin: 0 auto;
+  text-align: right;
+}

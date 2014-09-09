@@ -1,0 +1,105 @@
+.photos-ads-module li{
+	width: 184px;
+	height: 156px;
+	float: left;
+	margin-right: 10px;
+	position: relative;
+	margin-top: 26px;
+	cursor: default;
+}
+.photos-ads-module li.is_draggable {
+	cursor: move;
+}
+.photos-ads-module .links {
+	display: none;
+}
+.photo {
+	._c {
+		position: relative;
+		height: 100%;
+		display: block;
+	}
+}
+
+.photos-ads-module .links a{
+	font-size: 11px;
+}
+.photos-ads-module li .content{ 
+	border: 1px solid #e3e3e3;
+	width: 184px;
+	height: 143px;
+	bottom: 0;
+	position: absolute;
+	-webkit-box-shadow: 0 0 3px #E4E4E4;
+	-moz-box-shadow: 0 0 3px #e4e4e4;
+	box-shadow: 0 0 3px #E4E4E4;
+	padding-top:3px;
+}
+.photos-ads-module li.hover .content{ 
+	height: 162px;
+	padding-top:2px;
+	-webkit-box-shadow: 0 0 6px rgba(196, 196, 196, 0.93);
+	-moz-box-shadow: 0 0 6px rgba(196, 196, 196, 0.93);
+	box-shadow: 0 0 6px rgba(196, 196, 196, 0.93);
+} 
+.photos-ads-module .ui-sortable-helper .content  {
+	background-color: #FFF;
+	border: 1px solid #6bc7e5;
+	-webkit-box-shadow: 0 0 6px #6bc7e5;
+	-moz-box-shadow: 0 0 6px #6bc7e5;
+	box-shadow: 0 0 6px #6bc7e5;
+}
+.photos-ads-module li.hover .links {
+	display: block;
+	padding-left: 6px;
+	position: relative;
+}
+.photos-ads-module li .remove-photo {
+	position: absolute;
+	height: 11px;
+	width: 11px;
+	top: 0px;
+	right: 8px;
+	display: inline-block;
+	font-weight: bold;
+	color: #8f8f8f;
+}
+.photos-ads-module li .photo {
+	width: 172px;
+	height: 130px;
+	text-align: center;
+	background-color: #EEE;
+	position: relative;
+	margin-left: 6px;
+	margin-top: 3px;
+	background-image: url('../images/house-avatar.png');
+	background-repeat: no-repeat;
+	overflow: hidden;
+	background-position: center center;
+	background-size: cover;
+}
+.photos-ads-module li.has-image .photo {
+	background: #EEE;
+}
+
+.photos-ads-module li .position {
+	right: 0;
+	bottom: 0;
+	position: absolute;
+}
+.photos-ads-module li .position { 
+	background-color: #adadad;
+	color: #FFF;
+	padding: 5px 11px;
+	font-size: 15px;
+	font-family: "Myriad Pro", Arial;
+}
+.photos-ads-module li.has-image .position {
+	background: @blue;	
+}
+
+.photos-ads-module .ui-state-default {
+	border: none;
+	background: none;
+}
+

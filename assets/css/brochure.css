@@ -1,0 +1,463 @@
+/*http://pxtoem.com/ */
+/* base font font size 15px */
+
+@page  {
+  margin: 0px 0px 0px 0px;
+  padding-bottom: 0px;
+}
+table, body {
+  font-family: helvetica;
+}
+body {
+  width: 793px;
+  background-color: #FFF;
+  color: #6C6C6C;
+}
+.header {  
+  background-color: #FFF;
+  width: 100%;
+  border-bottom: 1px solid #EBEBEB;
+  padding: 10px 0px 10px 0px;
+}
+
+.bg-gray {
+  background-color: #f8f8f8
+}
+
+.hg-pad {
+  padding: 10px 7px;
+}
+
+.mb-none {
+  margin-bottom: 0 !important
+}
+
+.hga-pad {
+  padding: 11px 7px 5px;
+}
+
+.f14 {
+  font-size: 1.067em;
+}
+.f13 {
+  font-size: 0.867em;
+}
+
+.mnud {
+  margin-left: 15px;
+}
+
+.fdes-long { margin-top: 10px; }
+.fdes-long .desc-header {
+  font-size: .9em;
+}
+
+.fdes-long .f14 {
+  font-size: .8em;
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  border-top: 1px solid #EBEBEB;
+  text-align: center;
+  padding: 8px 0;
+  background-color: #FFF;
+}
+
+.hm-pad {
+  padding: 0px 7px;
+}
+
+table td {
+  font-family: helvetica;
+  font-size: 1em;
+}
+.border-collapse {
+  border-collapse: collapse;
+}
+.full-length {
+  width: 100%;
+  border-collapse: collapse;
+}
+.item {
+  vertical-align: middle;
+  color: #FFF;
+  font-size: 0.77em;
+  padding: 2px 0px;
+}
+
+.sub-feature {
+  width: 317px;
+  position: absolute;
+  right: 6px;
+  top: -47px;
+
+}
+
+.right-col {
+  background-color: #FFF;
+  border: 1px solid #EBEBEB;
+  padding: 10px 0px;
+}
+
+.property-address {
+  font-size: 1.789em;
+  font-weight: normal;
+  color: #696969;
+  display: inline-block;
+}
+
+.bold {
+  font-weight: bold;
+}
+.amount {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1A95BD;
+  line-height: 100%;
+}
+.amount-label {
+  font-weight: normal;
+  font-size: 0.72em;
+  color: #868686;
+}
+.rent-term {
+  font-size: .9em;
+ color: #868686;
+  display: block;
+}
+
+.f10 {
+  font-size: 10px;
+}
+
+.ins-date-warp {  
+  background-image: url('../images/public-tenant-icons/summary-profile-tps.png');
+  background-position: -221px -450px;
+  background-repeat: no-repeat;
+  margin-bottom: 13px;
+  margin-left: 37px;
+  padding-top: 2px;
+  padding-left: 55px;
+}
+
+h3.header-features {
+  height: 1.5em;
+  color: #FFF;
+  margin: 0px;
+}
+.flabel {
+  padding-top: 2px;
+  display: inline-block;
+  color: #5e5e5e
+}
+
+.main-features {
+  border-bottom: 1px solid #EBEBEB;
+}
+
+
+
+.main-features tbody tr > td {
+  width: 8%;
+}
+.main-features img {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.main-features tbody tr > td.extra-width {
+  width: 20%;
+  padding-left: 0px;
+}
+
+.ipd {margin-right: 8px;}
+
+.mm-label {
+  font-size: 1.3em;
+  line-height: 1.3em;
+  font-weight: bold;
+  color: #5A5A5A;
+  display: inline-block;
+  vertical-align: middle;
+}
+.win {
+  font-size: 1em;
+  color: #636363;
+}
+.win span {
+  width: 73px;
+  display: inline-block;
+  text-align: right;
+}
+.main-features {
+  overflow: hidden;
+}
+
+.contact-details {
+  border-top: 1px solid #EBEBEB;
+  width: 100%;
+  position: absolute;
+  bottom: 53px;
+  padding: 10px 0px;
+} 
+
+.mfi {
+  position: relative;
+  height: 522.5px;
+}
+
+.description {
+  width: 54%;
+  font-size: .8em;
+  padding: 4px 9px 7px;
+  color: #6C6C6C;
+}
+
+.re_description {
+  font-size:1.067em;
+  line-height: 150%;
+  margin-bottom: 13px;
+}
+
+
+.main-images-wrap {
+  position: relative;
+  height: 380px;
+  overflow: hidden;
+}
+.main-images-wrap div {
+  background-color: #ececec;
+}
+.main-images-wrap .big {
+  width: 514px;
+  height: 385px;
+  background-image: url('../images/house-avatar.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.main-images-wrap .small {
+  position: absolute;
+  width: 250px;
+  right: 7px;
+  height: 187px;
+  top: 0px;
+  background-image: url('../images/house-avatar.png');
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-position: center center;
+}
+.text-center {
+  text-align: center;
+}
+
+.desc-header {
+  font-weight: bold;
+  font-size: 1.400em;
+  color: #6C6C6C
+}
+
+.asd-gray {
+  color: #868686
+}
+
+.mar-none {
+  margin: 6px 0px
+}
+
+.vasd {
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+.contact-details-inner {
+  position: relative;height: 100px;
+  height: 55px;
+}
+
+.dy {
+  position: absolute;
+}
+.dy.desc-header {
+  top: 0px;
+  left: 10px;
+}
+
+.contact-info {
+  left: 193px;
+  top: 7px;
+  position: absolute;
+}
+
+.contact-person {
+  left: 15px;
+  top: 0px;
+  width: 177px;
+}
+
+.main-images-wrap .small.buttom {
+  top: 192px;
+}
+.re_description {
+  overflow: hidden;
+  position: relative;
+}
+.contact-icons {
+  vertical-align: middle;
+  margin-right: 20px;
+  display: inline-block;
+  width: 21px;
+}
+.baseline-pdf {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+}
+td.t-inspection {
+  width: 50%;
+  padding-left: 20px;
+}
+td.t-contact {
+  width: 50%;
+  padding-left: 20px;
+}
+
+
+.max_height-4 {
+  height: 161px;
+  padding-bottom: 10px;
+}
+.max_height-3 {
+  height: 186px;
+  padding-bottom: 10px;
+}
+.max_height-2 {
+  height: 212px;
+  padding-bottom: 10px;
+}
+.max_height-1 {
+  height: 239px;
+  padding-bottom: 10px;
+}
+
+
+.main-feature {
+  background-image: url('../images/public-tenant-icons/summary-profile-tps.png');
+  background-position: 1px 102px;
+  background-repeat: no-repeat;
+  height: 41px;
+  width: 30px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.df-icons-bedrooms {
+  background-position: -115px -81px;
+}
+
+.df-icons-bathroom {
+  background-position: -15px -154px;
+}
+
+.df-icons-car-space {
+  background-position: -18px -82px;
+}
+
+.df-icons-house {
+  background-position: -116px -154px;
+}
+
+.df-icons-contact-email {
+  background-position: -118px -458px;
+  height: 23px;
+}
+
+.df-icons-contact-phone {
+  background-position: -22px -459px;
+  height: 23px;
+}
+
+.df-icons-dollar-small {
+  background-position: -230px -300px;
+  width: auto;
+  height: 33px;
+  padding-left: 25px;
+}
+
+.features-icon {
+  background-image: url("/assets/images/sprites-preview-promote-page.png");
+  background-repeat: no-repeat;
+  background-position: -99999px -99999px;
+  display: inline-block;
+  width: 23px;
+  height: 25px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+.features-icon.cooling {
+  background-position: -22px -146px;
+}
+.features-icon.furnished {
+  background-position: -24px -218px;
+}
+.features-icon.security {
+  background-position: -62px -146px;
+}
+.features-icon.heating {
+  background-position: -102px -184px;
+}
+.features-icon.pet-friendly {
+  background-position: -63px -219px;
+}
+.features-icon.built-in-wardrobes {
+  background-position: -62px -183px;
+}
+.features-icon.garden {
+  background-position: -101px -218px;
+}
+.features-icon.child-friendly {
+  background-position: -103px -148px;
+}
+.features-icon.gas {
+  background-position: -22px -183px;
+}
+.features-icon.spa {
+  background-position: -23px -263px;
+}
+.features-icon.dishwasher {
+  background-position: -62px -258px;
+}
+.features-icon.fully-fenced {
+  background-position: -152px -185px;
+}
+.features-icon.internal-laundry {
+  background-position: -150px -148px;
+}
+.features-icon.swimming-pool {
+  background-position: -152px -217px;
+}
+.features-icon.alarm-system {
+  background-position: -17px -307px;
+}
+.features-icon.ducted-heating {
+  background-position: -102px -184px;
+}
+.features-icon.ducted-cooling {
+  background-position: -60px -304px;
+}
+.features-icon.open-fire-place {
+  background-position: -18px -347px;
+}
+.features-icon.outdoor-ent {
+  background-position: -103px -305px;
+}
+.features-icon.balcony {
+  background-position: -149px -262px;
+}
+#f-ul-id-17 {
+  font-size: 13px;
+}

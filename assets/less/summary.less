@@ -1,0 +1,646 @@
+.summary-promote {
+	
+}
+
+.property-meta {
+	.property-image {
+		height: 260px;
+		overflow: hidden;
+	}
+}
+
+
+._tbl-or {
+	width: 100%;
+}
+
+.media-action label {
+	font-size: 18px;
+	font-weight: bold;
+	margin-right: 30px;
+}
+
+.pdf-progress-loader {
+	padding: 10px 0px;
+	img {
+		margin-right: 20px
+	}
+}
+
+._col1-2 {
+	width: 10%;
+}
+
+._col1-2 {
+	width: 60%;
+}
+
+._col-2 {
+	width: 0%;
+}
+
+._col-3 {
+	width: 30%;
+	text-align: right
+}
+
+.collapsible-content { display: none; padding: 10px 0px;  }
+
+.collapse-nav {
+			text-align: center;
+			margin-top: 14px;
+			height: 22px;
+			.collapse-btn {
+				background-image: @misc_url_src;
+				background-repeat: no-repeat;
+				background-position: 13px -470px;
+				display: inline-block;
+				cursor: pointer;
+				border: 1px solid #E2E2E2;
+				background-color: #FDFDFD;
+				width: 41px;
+				height: 17px;
+				.border-radius-custom(3px 3px 0px 0px);
+				.opacity(.7); 
+				margin-top: 6px;
+				&:hover {
+					background-position: 13px -436px;
+					.opacity(1);
+				}
+				
+				&.toggle { background-position: -53px -802px;
+				
+					&:hover {
+						background-position: -53px -836px;
+					}
+
+				}
+			}
+		}
+
+.summary-content {
+	margin-left: 360px;
+	background-color: #eee;
+	min-height:100%;
+	background-color: @white;
+	border-left: 1px solid @gray_border_colour;
+}
+[class^='feature-icon-'],
+[class*=' feature-icon-'] {
+	.background-image-custom('../images/summary-features-icon.png');
+	height: 42px;
+	width: 42px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+
+.wrap-not-seeking {
+	display: none;
+	min-height: 440px;
+}
+
+.copy-paste-link {
+	font-size: 19px !important;
+	padding: 13px 10px !important;
+}
+
+.if-header {
+	margin-left: 10px;
+}
+
+.micro-blogs {
+	.meta {
+		text-align: left;
+	}
+	ul li {
+	display: inline-block;
+	text-align: center;
+	margin-left: 10px;
+	position: relative;
+	}
+}
+
+	.summary-tenant {
+		background-color: #FFF;
+		position: relative;		
+
+
+		.buttons {
+			position: absolute;
+			width: 300px;
+			right: 0px;
+			top: -7px;
+		}
+	}
+
+
+.summary-sidebar {
+	width: 360px;
+	background-color: @white;
+	display: block;
+	position: absolute;
+	top: 152px;
+	border: 1px solid #efefef; 
+	border-bottom: none;
+	border-right: none;
+	padding-top: 15px;
+	.summary {
+		position: relative;
+	}
+	.property-meta {
+		padding: 0 18px; 
+
+		.description p {
+			font-size: 12px;
+		}
+		.features {
+			margin-top: 10px;
+			li {
+				margin-left: 29px;
+				display: inline-block;
+				&:first-child{
+					margin-left: 0px;
+				}
+			}
+
+			.item-qty {
+				display: inline-block;
+				vertical-align: middle;
+				font-size: 20px;
+				margin-left: 11px;
+			}
+
+
+
+			.feature-icon-bedrooms {
+				background-position: 1px 1px;
+			}
+			.feature-icon-garage {
+				background-position: -102px 1px;
+			}
+			.feature-icon-bathrooms {
+				background-position: -203px 1px;
+			}
+
+		}
+	}
+
+
+	.collapse-nav {
+		position: absolute;
+		top: 199px;
+		right: -13px;
+		box-shadow: none;
+		.collapse-btn {
+			border-right: 0;
+			width: 14px;
+			height: 39px;
+			.border-radius-custom(3px 0px 0px 3px);
+			background-position: 1px -791px;	
+			&:hover {  background-position: -29px -791px; }
+			&.toggle { background-position: 1px -821px;
+				&:hover {  background-position: -29px -822px; }
+			}
+		}
+	}
+
+
+	.property-meta.tenant {
+		margin-top: 20px;
+
+		._peo {
+			padding: 10px 0 10px 55px;
+			margin: 10px 0px;
+			min-height: 36px;
+			position: relative;
+
+			h2 {
+				text-align: left;
+			}
+			.ipd {
+				position: absolute;
+				left: 0px;
+				top: 13px;
+			}
+		}
+
+		h2 {
+			font-size: 18px;
+			font-weight: bold;
+			text-align: center;
+			margin: 5px 0px;
+		}
+
+		.features {
+
+			margin-top: 19px;
+			
+			li {
+				width: 50%;
+				padding: 0px;
+				margin-left: 0px !important;
+				display: inline-block;
+				float: left;
+				text-align: center;
+			}
+
+			.item-value {
+				font-size: 24px;
+			}
+		
+		}
+
+		.lookin-surrounding {
+			.suburb-s {
+				font-size: 18px;
+				margin: 0;
+
+				li {
+					margin:  5px 0px;
+				}
+			}
+		}
+	}
+
+}
+
+	.property-image img {
+		max-width: 100%;
+		height: auto;
+	}
+
+
+	.media-item, .action-table {
+		background-color: @white;
+		padding: 25px 0px 0px 0px;
+		border-bottom: 1px solid #EBEBEB;
+		&:first-child {
+			border-top: none;
+		}
+		h1 {
+			font-size: 18px;
+			font-weight: bold;
+			color: #616161
+		}
+
+		.media-icon {
+			text-align: center;
+			padding: 8px 60px 18px 60px;
+		}
+
+		.media-desc, .action-desc {
+			width: 60%;
+			padding-right: 37px;
+		}
+
+		.media-action {
+			.k-dropdown { margin-right: 10px }
+			.k-dropdown-wrap {
+				width: 108px;
+				text-align: left;
+			}
+
+			.r-italic {
+				color: @green;
+				  margin-bottom: 14px;
+				  display: block;				  
+				  font-size: 16px;
+				  font-style: normal;
+				  .tooltip-blue {
+				  	margin-top: 0px;
+				  }				 
+			}
+		}
+
+		.media-action, .action-purchase {
+			.custom-checkbox-field2 {
+				display: inline-block;
+				width: 24px;
+				vertical-align: middle;
+				height: 38px;
+				margin-left: 14px;
+
+			}
+			.re-wrap {
+				width: 110px;
+				text-align: center;
+
+			}
+
+		}
+		.action-purchase {
+			.re-wrap {
+				width :126px;
+				.amount {  display: block; text-align: center; width: 100%; margin-bottom: 25px; }
+			}
+		}
+		 
+	}
+
+	.action-table {
+		border-bottom: none;
+	}
+
+
+
+.micro-blogs {
+	background-color: #f8f8f8;
+	padding: 20px 0px;
+	border: 1px solid #FAFAFA;
+	border-left: 0px;
+	border-right: 0px;
+}
+
+
+.weekly-rent {
+	margin-top: 10px;
+	display: block;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+
+.collapse {
+	.summary-content {
+		margin-left: 88px;
+	}
+
+	._peo {
+		background: none !important;
+		padding: 0px !important;
+	}
+
+	.suburb-s {
+		font-size: 12px !important;
+		font-weight: bold;
+	}
+
+
+	.d-note-header{
+		text-align: center;
+		font-weight: bold;
+		color: #838383;
+		letter-spacing: 1px;
+		font-size: 13px;
+		display: block !important;
+	}
+
+
+
+	.re-wrap {
+
+			max-width: 1562px;
+	}
+	.property-image {
+		text-align: center;
+		margin-bottom: 19px;
+	}
+	
+	&.summary-sidebar {
+		padding-right: 0px;
+
+		.collapse-nav {
+			right: 0px;
+			top: 111px;
+		}
+
+		.features li {
+			margin-left: 0px;
+			text-align: left;
+			display: block;
+			margin-bottom: 25px;
+		}
+
+
+
+	.property-meta.tenant{
+		.features {
+			li {
+				float: none;
+				width: 100%
+			}
+			.item-value {			
+				font-size: 14px;
+				height: 26px;
+				width: 35px;		
+				padding-top: 9px;
+			}
+		}
+	}
+
+
+
+
+	.headline, .description, .property-address, .weekly-rent, .no-filter  { display: none !important;}
+	
+}
+
+	.property-meta {
+		width: 100px;
+		margin: 0 auto;
+	}
+
+	.summary {
+		margin-top: 195px;
+
+		.property-image {
+			text-align: center;
+			min-height: 60px;
+			.background-image-custom ('../images/xsmall-house-avatar.png', 50%, 50%);
+			background-color: #ECECEC;
+			width: 85px;
+			&.has-image { min-height: 5px; background-image: none; }
+			img {
+				width: 79px;
+				cursor: pointer;
+			}
+		}
+
+	}
+
+		.summary-sidebar .collapse-nav {
+			.collapse-btn {
+				border-right: 0;
+				width: 18px;
+				height: 47px;
+				background-position: 3px -818px;
+				&:hover {  background-position: -27px -819px; }
+			}
+	}
+}
+
+.promote-option-header {
+	width: 70%;
+	padding-left: 12px;
+}
+
+
+#forLeaseSignForm {
+	display: block;
+	height: 0;
+	position: relative;
+	.well {
+		position: absolute;
+	}
+	&.open {
+			height: auto;
+		.well {
+			position: relative;
+		}
+	}
+}
+
+.promote-null {
+	.summary-sidebar {
+		display: none !important;
+	}
+	.summary-content {
+		margin-left: 0px;
+	}
+
+
+	@media all and (max-width: 1200px) {
+		.navbar-fixed-top{ width: 1200px; }
+	}
+
+	@media all and (min-width: 1440px) {
+		.re-wrap{
+			margin: 0 auto;
+			width: 1440px;
+		}
+
+		.left-marg-summary {
+			margin-left: 260px;
+		}
+	}
+
+	.micro-blogs .meta {
+		text-align: center;
+	}
+
+	label[for="agentpoint"] {
+		.opacity(.5);
+		cursor: default;
+	}
+
+	.action-purchase{
+		text-align: left;
+		 .re-wrap{
+			display: inline-block;
+		}
+	}
+}
+
+
+.left-marg-summary {
+	margin-left: 217px;
+} 
+
+.mediums-sub-icon span {
+	background-image: url("../images/third-party-websites.png");
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+
+span.realestate-logo {
+background-image: url("../images/misc.png");
+background-position: -122px -728px;
+width: 231px;
+height: 35px;
+vertical-align: middle;
+}
+
+
+
+span.rent-au-logo {
+	background-image: url("../images/misc.png");
+	background-position: -18px -731px;
+	width: 50px;
+	height: 35px;
+	vertical-align: middle;
+}
+
+.third-party-mediums-au-logo {
+	width: 694px;
+	height: 35px;
+	vertical-align: middle;
+	background-position: -8px -18px;
+}
+
+
+.lease-purchase-history {
+	td {
+		padding: 0px 0px 10px 38px;
+		font-size: 12px;
+
+		&:first-child {
+			padding-left: 0px;
+		}	
+	}
+}
+
+.media-action {
+	.k-dropdown-wrap {  
+		.border-radius-custom( 6px 0px 6px 0px );
+		 background-color: #fcfcfc
+	}
+}
+
+.re-wrap {
+	padding: 0px 40px;
+}
+
+
+
+.repost-action-wrap {
+	text-align: center;
+	padding: 24px 0px;
+	background: #FDFDFD;
+	border: 1px solid #F0F0F0;
+	border-left: none;
+	border-right: none;
+
+	h3 {
+		margin: 0px;
+	}
+	.green-small {
+		margin-left: 10px;
+	}
+}
+
+.checkout-total {
+	width: 158px;
+	display: inline-block;
+}
+
+.lease-history-purchase {
+	border-left: 6px solid #E7E7E7;
+	padding-left: 17px;
+	border-radius: 3px;
+}
+
+
+.top-media-l.disable {
+	.opacity(.7);
+}
+.btn-blocker {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	display: block;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+
+._capTion {
+	font-size: 15px; line-height: 25px; padding: 13px 0 7px;
+}
+
+.two-col-summary {
+	._col-1 {
+		width: 20%;	
+	}	
+}
