@@ -23,6 +23,7 @@
 		$('#rentReminiders').click(function(){
 
 			var el = $(this);
+			// open switch
 			
 			if ( el.is(':checked') ) {
 				$('#lblRentReminider').text('Last sent [21/05/2014]');
