@@ -24,6 +24,7 @@
 
 			var el = $(this);
 			// open switch
+			// sample
 			
 			if ( el.is(':checked') ) {
 				$('#lblRentReminider').text('Last sent [21/05/2014]');
