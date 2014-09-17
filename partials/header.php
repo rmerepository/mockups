@@ -39,5 +39,5 @@
 <![endif]-->
 </head>
 
-<body class="profile">
+<body class="rent-collection">
 <div class="rme-wrap">

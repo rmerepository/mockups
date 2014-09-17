@@ -1,0 +1,308 @@
+@MM_max_height : 660px;
+
+.mailwrap {
+	border-width: 1px;
+	border-color: @gray_border_colour;
+	border-bottom-style: solid;
+	background-color: #FFF;	
+	overflow: hidden;
+	.a-filter {
+		display: block;
+		padding: 0px 20px;
+		font-size: 24px;
+		line-height: 71px;
+		.fa-chevron-down {
+			position: absolute;
+			top: 30%;
+			right: 20px;
+		}
+		&:hover {
+			.glyphicon-chevron-down{
+				color: @blue;	
+			}			
+		}
+	}
+}
+
+.mmsg-empty {
+	background-color: #F8F8F8;
+	padding: 20px 20px;
+	border-bottom: 1px solid #ebebeb;
+}
+
+.mi-info-wrap {
+	max-height: @MM_max_height;
+	overflow-y: auto;
+}
+
+// #ui-datepicker-div {
+// 	z-index: 99 !important;
+// }
+
+.mail-filter {
+	border-width: 1px;	
+	border-color: @gray_border_colour;
+	border-bottom-style: solid;
+	.lbe {
+		margin-bottom: 20px;
+	}
+	.mail_counter {
+		height: 28px;		
+		width: 28px;
+		top: -13px;
+		right: -13px;
+		em {
+			font-family: @tahoma_font;
+			font-size: 14px;
+			line-height: 22px;
+		}
+	}
+	margin-left: -15px;
+	.dropdown-menu {
+		font-size: 30px;
+		font-family: @roboto_font;
+		width: 100%;
+		margin-top: -71px;
+		right: 0px;
+		background-color: #FFF;
+		text-align: center;			
+		color: #6e6e6e;				
+		overflow: hidden;
+		 li > a {
+		 	display: block;
+		 	padding: 24px 0px;
+		 	color: #8f8f8f;
+		 	font-weight: 300;
+		 	border-bottom: 1px solid @gray_border_colour;
+		 	&:hover {
+				color: #8f8f8f;
+		 		background-color: #f9f9f9;
+		 	}
+		 }
+	}
+
+
+}
+
+.mi-info {
+	border-width: 1px;
+	border-color: @gray_border_colour;
+	border-left-style: solid;	
+	margin-left: -15px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.delete-msg {
+	margin-top: 14px;
+}
+
+.mail-items {
+	margin-left: -15px;
+	max-height: @MM_max_height;
+	overflow-y: auto;
+	li {
+	
+	}
+	.m {
+		border-left: 4px solid transparent;
+		padding: 10px 0px 16px;
+		display: block;
+		color: #666666;
+		background-color: #fff;
+		position: relative;
+		&:after {
+			content: " ";
+			position: absolute;
+			width: 100%;
+			border-bottom: 1px solid @gray_border_colour;
+			bottom: 0px;
+		}
+		&.unread {
+			background-color: #f9f9f9;
+			.name,h6 {
+				font-weight: bold;
+			}
+		}
+		&.selected {
+			background-color: @blue;
+			color: #FFF;
+			.mm-msg {
+				color: #FFF !important;
+			}
+		}
+		&:hover {
+			background-color: @blue_btn_hover;
+			color: #FFF;
+			.mm-msg {
+				color: #FFF !important;
+			}
+		}
+	}
+
+		.message .m{
+			border-left-color: @green;
+		}
+		.notification .m{
+			border-left-color: #ed335d;
+		}
+
+	.mm-photo {
+		position: absolute;
+		left: 14px;
+		top: 13px;
+	}
+
+	.mm-data {
+		margin-left: 90px;
+		position: relative;
+		margin-right: 11px;
+		.name { 
+			font-size: 16px;
+			margin-top: 10px;
+			margin-bottom: 2px;
+		}
+		h6 {
+			position: absolute;
+			font-weight: normal;
+			right: 0px;
+			top: 0px;
+			margin-top: 0px;
+		}
+		.mm-msg {
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			padding-right: 21px;
+			font-size: 13px;
+			color: #959595;
+		}
+	}
+
+}
+
+
+.conversation{
+	padding-left: 36px;
+	padding-right: 18px;
+	min-height: 400px;
+	padding-bottom: 63px;
+	.friend, .me {
+		min-height: 105px;
+		position: relative;
+		margin: 51px 0;
+		padding-left: 100px;
+		padding-right: 140px;
+	}
+
+	.friend {
+			padding-left: 140px;			
+			padding-right: 100px;
+		.msg {
+			float: right !important;
+		}
+	}
+
+	.time-sent {
+		font-size: 11px;
+		margin-top: 34px;
+	}
+
+	.msg {
+		font-size: 13px;		
+		padding: 31px;
+		border-radius: 5px;
+		position: relative;
+		border: 1px solid #f3f3f3;
+		width: 100%;
+		&:after {
+				content: "";
+				.background-image-custom ( '../images/n/sprites-ui.png', 1px, -849px);
+				display: block;
+				position: absolute;
+				bottom: -3px;				
+				height: 20px;
+				width: 30px;
+			}
+	}
+	.iro {
+		position: absolute;
+		bottom: 0px;
+
+		.profile-photo {
+			margin-bottom: 5px;
+		}
+
+	}
+	.friend {
+		.iro {
+			left: 0px
+		}
+		.msg {
+			float: left;
+			background-color: #f9f9f9;
+			&:after {
+				left: -25px;				
+			}
+		}
+	}
+
+	.me {
+		.iro {
+			right: 0px;
+		}
+		.msg {
+			float: left;
+			background-color: @blue;
+			color: #FFF;
+			a {
+				color: #FFF;
+				text-decoration: underline;
+			}
+			&:after {
+				background-position: 0px -816px;
+				right: -25px;
+				bottom: -4px;			
+			}
+		}
+	}
+}
+
+.messaging {
+	margin-right: 0px;
+	position: absolute;
+	padding-right: 140px;
+	bottom: -2px;
+	z-index: 10;
+	width: 100%;
+	textarea {
+		float: right;
+		width: 100%;
+		height: 68px
+	}
+
+	.msging-send {
+		position: absolute;
+		right: 0;
+		width: 140px;
+		height: 68px;
+		font-size: 16px;
+		border-radius: 0;
+	}
+}
+
+
+@media (max-width: 992px) {
+	.mailwrap {	
+		.col-md-4 {
+			width: 33.33333333333333%;
+		}
+
+		.col-md-8 {
+			width: 66.66666666666666%;
+		}	
+	}
+
+
+}
+
