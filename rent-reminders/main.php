@@ -24,6 +24,8 @@
 				<div class="info-group bg-gray">
                     <h3>Gene Rivera</h3>
 					<div class="v-lighter-text">Primary Tenant</div>
+
+					  <div class="info-g-action">  <button class="btn btn-primary btn-lg">&nbsp;&nbsp;&nbsp;&nbsp;Edit / Remove&nbsp;&nbsp;&nbsp;</button> </div>
 				</div>
 
 				<div id="addUpdateTenant" class="colpd-content collapse">
@@ -142,7 +144,9 @@
 
 				<div class="info-group">
 					<h3>$100 Per Month</h3>
-					<div class="v-lighter-text">Rent</div>					
+					<div class="v-lighter-text">Rent</div>	
+
+					  <div class="info-g-action">  <button class="btn btn-primary btn-lg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Update Rent&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button> </div>				
 				</div>
 
                               
