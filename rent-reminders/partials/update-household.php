@@ -9,6 +9,10 @@
 	</div>
 	
 	<div class="modal-body">
+
+	<div class="well">
+		<div class="text-danger"><b>Note: Need warning text</b></div>
+	</div>
 	
 	<h3>Tenant Information</h3>
 
@@ -43,10 +47,6 @@
 
 
 		<br/><h3>Lease &amp; Rent Payment</h3>
-
-		<div class="well">
-			<div class="text-danger"><b>Note: Need text here</b></div>
-		</div>
 
 		<div class="control-group">
 			<label class="control-label" for="leaseStartDate">Lease Start Date</label>
