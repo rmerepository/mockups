@@ -27,7 +27,7 @@
 			// sample
 			
 			if ( el.is(':checked') ) {
-				$('#lblRentReminider').text('Last sent [21/05/2014]');
+				$('#lblRentReminider').text('Last sent 21/05/2014');
 			} else {
 				$('#lblRentReminider').text('Turned off	');
 			}
