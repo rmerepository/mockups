@@ -14,13 +14,17 @@ right: 0px;
 }
 
 .max-width-wrap {
-margin: 0 30px;
+	margin: 0 30px;
 }
 
-.btn.btn-reduced {
+.btn.btn-reduced-auto {
 	width: auto;
 	padding-left: 10px;
 	padding-right: 10px;
+}
+
+.sd-table td, .sd-table th {
+	font-size: 13px;
 }
 
 </style>
@@ -32,8 +36,8 @@ margin: 0 30px;
 		<div class="wrap-g wrap-g-m">
 		<div class="max-width-wrap position-relative">
 			<div class="floating-btn">
-	            <a href="#" class="btn btn-primary btn-reduced" data-target="#updateHouseHold" data-toggle="modal">Make Changes</a>
-	            <a href="#" class="btn btn-primary btn-reduced btn-dark" data-target="#removeHouseHold" data-toggle="modal">Remove Household</a>
+	            <a href="#" class="btn btn-primary btn-reduced btn-reduced-auto" data-target="#updateHouseHold" data-toggle="modal">Change Tenant Details</a>
+	            <a href="#" class="btn btn-primary btn-reduced btn-reduced-auto btn-dark" data-target="#removeHouseHold" data-toggle="modal">Remove</a>
         </div>
 			<h2 class="rb-font text-center mnu-40 f42 f42-r">Rent Payments</h2>	
 			<h4 class="text-center rb-font mno-22">Enter rent payments and track exactly where your tenants are paid upto</h4>
@@ -74,7 +78,7 @@ margin: 0 30px;
 				</div>
 
 			<div class="brdr-top">
-	<table class="table sd-table" id="recHistory">
+<table class="table sd-table" id="recHistory">
 		<thead>
 			<tr class="bg-gray">
 				<td>Date Paid</td>
@@ -83,7 +87,57 @@ margin: 0 30px;
 				<td>Action</td>
 			</tr>
 		</thead>
-		<tbody></tbody>
+		<tbody>
+    <tr>
+          <td>06/10/2014</td>
+          <td><div>21/10/2014 - 21/10/2014 ($100)</div><div>14/10/2014 - 20/10/2014 ($300)</div></td>
+          <td>$400</td>
+          <td><div class="tbl-action-text">
+              <a href="javascript:edit(301)">Edit</a> - 
+              <a href="javascript:remove(301)">Remove</a> -
+              <a href="javascript:remove(301)">Send Reciept</a>
+             </div>
+             <div style="font-size:11px; margin-top:3px;" class="v-lighter-text"> Rent Reciept sent last 22/3/13 </div>
+	    </td>
+  	</tr>
+
+    <tr>
+          <td>06/10/2014</td>
+          <td><div>21/10/2014 - 21/10/2014 ($100)</div><div>14/10/2014 - 20/10/2014 ($300)</div></td>
+          <td>$400</td>
+          <td><div class="tbl-action-text">
+              <a href="javascript:edit(301)">Edit</a> - 
+              <a href="javascript:remove(301)">Remove</a> -
+              <a href="javascript:remove(301)">Send Reciept</a>
+             </div>
+	    </td>
+  	</tr>
+
+  	    <tr>
+          <td>06/10/2014</td>
+          <td><div>21/10/2014 - 21/10/2014 ($100)</div><div>14/10/2014 - 20/10/2014 ($300)</div></td>
+          <td>$400</td>
+          <td><div class="tbl-action-text">
+              <a href="javascript:edit(301)">Edit</a> - 
+              <a href="javascript:remove(301)">Remove</a> -
+              <a href="javascript:remove(301)">Send Reciept</a>
+             </div>
+             <div style="font-size:11px; margin-top:3px;" class="v-lighter-text"> Rent Reciept sent last 22/3/13 </div>
+	    </td>
+  	</tr>
+
+    <tr>
+          <td>06/10/2014</td>
+          <td>07/10/2014 - 13/10/2014</td>
+          <td>$300</td>
+          <td><div class="tbl-action-text">
+           <a href="javascript:edit(300)">Edit</a> -
+           <a href="javascript:remove(300)">Remove</a> - 
+		   <a href="javascript:remove(300)">Send Reciept</a>
+           </div></td>
+  </tr>
+
+</tbody>
 	</table>
 
 

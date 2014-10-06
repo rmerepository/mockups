@@ -5,13 +5,13 @@
 </div>	<div class="modal-content">
 	<div class="modal-header">
 	 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-		<h2 class="normal-weight">Update Household</h2>
+		<h2 class="normal-weight">Update Tenant Details</h2>
 	</div>
 	
 	<div class="modal-body">
 
 	<div class="well">
-		<div class="text-danger"><b>Note: Need warning text</b></div>
+		<div class="text-danger"><b>By changing the rent, this will modify all current payments already entered.</b></div>
 	</div>
 	
 	<h3>Tenant Information</h3>
