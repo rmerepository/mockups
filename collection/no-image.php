@@ -49,6 +49,7 @@
 		background-size: auto;
 		background-color: #eaeaea;
 		text-shadow: 1px 1px 1px #747474;
+		height: 176px !important;
 	}
 
 	.wrap-main-holder.no-image:before {
@@ -119,10 +120,10 @@
 	}
 
 	.btn.btn-reduced-auto {
-width: auto;
-padding-left: 10px;
-padding-right: 10px;
-}
+		width: auto;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
 
 </style>
 
