@@ -21,6 +21,7 @@
 		color: #FFF;
 	}
 
+	
 	.wrap-main-holder .content {
 		color: #FFF;		
 		position: absolute;
@@ -30,6 +31,7 @@
 		font-size: 16px;
 		font-weight: 300;
 	}
+
 
 	.wrap-main-holder:before {
 		content: "";
@@ -42,6 +44,18 @@
 		height: 100%;		
 		z-index: 1;
 	}
+
+	.wrap-main-holder.no-image {
+		background-size: auto;
+		background-color: #eaeaea;
+		text-shadow: 1px 1px 1px #747474;
+	}
+
+	.wrap-main-holder.no-image:before {
+		display: none;
+	}
+
+	
 
 	.menu-collection {
 		border-bottom: 1px solid #e1e1e1;
@@ -132,7 +146,7 @@ padding-right: 10px;
 		<div class="push-up-wrap-hi">
 			<div class="single-col-mid w-shadow bg-white rb-font">
 			
-				<div class="wrap-main-holder" style="background-image: url('images/sample.png');">
+				<div class="wrap-main-holder no-image" style="background-image: url('/assets/images/house-avatar.png')">
 					<div class="content">
 						<div class="f26 fw-100">2a Worthy Avenue, Mount Lawley</div>
 						<div>Gene Rivera</div>
