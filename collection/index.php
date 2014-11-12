@@ -141,23 +141,13 @@
 <div class="row">
 		<div class="col-md-12">
 
-		<div class="wrap-g wrap-g-m">
-		<div class="max-width-wrap position-relative">
+			<div class="max-width-wrap position-relative">
 
-	<!-- 	<div class="floating-btn">
-            <a href="#" class="btn btn-primary btn-reduced btn-reduced-auto" data-target="#updateHouseHold" data-toggle="modal">Change Tenant Details</a>
-            <a href="#" class="btn btn-primary btn-reduced btn-reduced-auto btn-dark" data-target="#removeHouseHold" data-toggle="modal">Remove</a>
-        </div> -->
-
-		 <!-- <h2 class="rb-font text-center mnu-40 f42 f42-r">&nbsp;</h2>	 -->
-			<!-- <h2 class="rb-font text-center mnu-40 f42 f42-r">Rent Payments</h2>	
-			<h4 class="text-center rb-font mno-22">Enter rent payments and track exactly where your tenants are paid upto</h4> -->
-
-
-		</div>
+			<h2 class="rb-font text-center mnu-40 f42 f42-r">Rent Payments</h2>	
+	
 		</div>
 			
-		<div class="push-up-wrap-hi" style="margin-top: -396px;">
+		<div class="push-up-wrap-hi" style="margin-top: 32px;">
 			<div class="single-col-mid w-shadow bg-white rb-font">
 			
 				<div class="wrap-main-holder" style="background-image: url('images/sample.png');">
