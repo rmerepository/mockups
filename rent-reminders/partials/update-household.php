@@ -10,9 +10,10 @@
 	
 	<div class="modal-body">
 
-	<div class="well">
-		<div class="text-danger"><b>By changing the rent, this will modify all current payments already entered.</b></div>
-	</div>
+	<div class="well w-warning">
+   <i class="fa fa-exclamation-circle fa-icd"></i>
+    <p> By changing the rent, this will modify all current payments already entered.</p>
+</div>
 	
 	<h3>Tenant Information</h3>
 
