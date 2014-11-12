@@ -16,7 +16,7 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;
-		height: 336px;
+		height: 276px;
 		position: relative;
 		color: #FFF;
 	}
@@ -105,10 +105,35 @@
 	}
 
 	.btn.btn-reduced-auto {
-width: auto;
-padding-left: 10px;
-padding-right: 10px;
-}
+		width: auto;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.top-cp-action {
+		color: #FFF;
+		font-size: 35px;
+		position: absolute;
+		top: 10px;
+		right: 22px;
+		z-index: 4;
+		width: 100%;
+		text-align: right;
+	}
+
+	.top-cp-action a{
+		color: #FFF;
+		opacity: .8;
+	}
+
+	.top-cp-action a:hover{
+		opacity: 1;
+	}
+
+	.top-cp-action .fa-edit {
+		top: 3px;
+		position: relative;
+	}
 
 </style>
 
@@ -119,20 +144,29 @@ padding-right: 10px;
 		<div class="wrap-g wrap-g-m">
 		<div class="max-width-wrap position-relative">
 
-		<div class="floating-btn">
+	<!-- 	<div class="floating-btn">
             <a href="#" class="btn btn-primary btn-reduced btn-reduced-auto" data-target="#updateHouseHold" data-toggle="modal">Change Tenant Details</a>
             <a href="#" class="btn btn-primary btn-reduced btn-reduced-auto btn-dark" data-target="#removeHouseHold" data-toggle="modal">Remove</a>
-        </div>
+        </div> -->
 
-			<h2 class="rb-font text-center mnu-40 f42 f42-r">Rent Payments</h2>	
-			<h4 class="text-center rb-font mno-22">Enter rent payments and track exactly where your tenants are paid upto</h4>
+		 <!-- <h2 class="rb-font text-center mnu-40 f42 f42-r">&nbsp;</h2>	 -->
+			<!-- <h2 class="rb-font text-center mnu-40 f42 f42-r">Rent Payments</h2>	
+			<h4 class="text-center rb-font mno-22">Enter rent payments and track exactly where your tenants are paid upto</h4> -->
+
+
 		</div>
 		</div>
 			
-		<div class="push-up-wrap-hi">
+		<div class="push-up-wrap-hi" style="margin-top: -396px;">
 			<div class="single-col-mid w-shadow bg-white rb-font">
 			
 				<div class="wrap-main-holder" style="background-image: url('images/sample.png');">
+
+					<div class="top-cp-action">
+						<a href="#" rel="tooltip" data-original-title="Change Tenant Details" data-placement="top" data-toggle="tooltip"> <span class="fa fa-edit"></span> </a>
+						<a href="#" data-original-title="Remove" rel="tooltip" data-placement="top" data-toggle="tooltip"> <span class="fa fa-trash-o"></span> </a>
+					</div>
+
 					<div class="content">
 						<div class="f26 fw-100">2a Worthy Avenue, Mount Lawley</div>
 						<div>Gene Rivera</div>
@@ -163,8 +197,8 @@ padding-right: 10px;
 	<script>
 		$(function(){
 			$('.k-dd').kendoDropDownList();	
+			$("[rel='tooltip']").tooltip();
 		});
-
 	</script>
 
 <?php require('partials/update-household.php') ?>
