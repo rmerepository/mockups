@@ -146,7 +146,7 @@ padding-right: 10px;
 		<div class="push-up-wrap-hi">
 			<div class="single-col-mid w-shadow bg-white rb-font">
 			
-				<div class="wrap-main-holder no-image" style="background-image: url('/assets/images/house-avatar.png')">
+				<div class="wrap-main-holder no-image" style="background-image: url('/assets/images/n/bg-blur-image.jpg')">
 					<div class="content">
 						<div class="f26 fw-100">2a Worthy Avenue, Mount Lawley</div>
 						<div>Gene Rivera</div>
