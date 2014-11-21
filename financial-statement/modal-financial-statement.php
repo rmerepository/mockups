@@ -7,9 +7,64 @@
 </div>
 <div class="modal-body">
 
-	<h3>Reporting Period <span style="margin-top: 0;top: -4px;position: relative" class="tooltip-blue pop-over-right" data-toggle="popover" data-html="true" data-trigger="hover" data-placement="right" data-content="Select July to the following June if this report is for your tax accountant." style="vertical-align: top;" data-original-title="Reporting Period"></span></h3>
+<h4 class="normal-weight clearfix">
+			<label class="control-label normal-weight" for="reportingPeriod">Reporting Period</label>
+			<span style="margin-top: 0;top: -2px;position: relative" class="tooltip-blue pop-over-right" data-toggle="popover" data-html="true" data-trigger="hover" data-placement="right" data-content="Select July to the following June if this report is for your tax accountant." style="vertical-align: top;" data-original-title="Reporting Period"></span>
+		</h4>
 
-	<div class="control-group">
+
+		<div class="control-group inspection-time clearfix">
+			
+		<label class="control-label" >From</label>
+			<div class="controls clearfix">
+					<div class="controls">
+					
+						<div class="controls">
+							<select class="k-dd k-dd-small" >					
+								<option value="1">January</option>
+								<option value="2">Feb</option>
+								<option value="3">March</option>
+							</select>	
+						</div>
+
+						<div class="controls">
+							<select class="k-dd k-dd-small" >					
+								<option value="1">2011</option>
+								<option value="2">2012</option>
+								<option value="3">2013</option>
+							</select>	
+						</div>						
+				</div>
+			</div>
+			</div>
+
+			<div class="control-group inspection-time clearfix">
+
+			<label class="control-label" >To</label>			
+				<div class="controls clearfix">
+						<div class="controls">
+							<div class="controls">
+								<select class="k-dd k-dd-small" >					
+									<option value="1">January</option>
+									<option value="2">Feb</option>
+									<option value="3">March</option>
+								</select>	
+							</div>
+
+							<div class="controls">
+								<select class="k-dd k-dd-small" >					
+									<option value="1">2011</option>
+									<option value="2">2012</option>
+									<option value="3">2013</option>
+								</select>	
+							</div>						
+					</div>
+				</div>
+
+		</div>
+
+
+	<div class="control-group mnu">
     <div class="custom-checkbox-field features-item">
         <input  type="checkbox" value="1" id="d1">
         <label for="d1">For end of financial year? Provide additional info for your accountant.</label> <!-- keep the label -->
@@ -40,8 +95,6 @@
 				<input autocomplete="off" data-is-required="true" name="last_name" placeholder="$" class="form-control fc-large" maxlength="30" value="" type="text">
 				<span class="tooltip-blue pop-over-right" da	ta-toggle="popover" data-html="true" data-trigger="hover" data-placement="right" data-content="This will help your tax accountant save you money. If over 5 years ago it may not be required by your accountant. Leave blank if you are unsure of the answer or don't have a loan on the property." style="vertical-align: top;" data-original-title="Borrowing fees"></span>
 			</div>
-
-			
 		</div>
 
 
