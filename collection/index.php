@@ -45,6 +45,7 @@
 
 	.menu-collection {
 		border-bottom: 1px solid #e1e1e1;
+		position: relative;
 	}
 
 	.menu-collection .act{
@@ -52,7 +53,7 @@
 		text-align: center;
 		height: 183px;
 		padding-top: 23px;
-		border-right: 1px solid #E1E1E1;
+		
 	}
 
 	.menu-collection h3 {
@@ -65,7 +66,7 @@
 	}
 
 	.menu-collection .act:last-child {
-		border-right: none;
+		border-left: 1px solid #E1E1E1;
 	}
 
 	.menu-collection .btn-large {
@@ -135,17 +136,18 @@
 		position: relative;
 	}
 
+	.overlap-desc {
+		position: absolute;
+		text-align: center;
+		width: 532px;
+		top: 23px;
+	}
+
 </style>
 
 
 <div class="row">
 		<div class="col-md-12">
-
-			<div class="max-width-wrap position-relative">
-
-			<h2 class="rb-font text-center mnu-40 f42 f42-r">Rent Payments</h2>	
-	
-		</div>
 			
 		<div class="push-up-wrap-hi" style="margin-top: 32px;">
 			<div class="single-col-mid w-shadow bg-white rb-font">
@@ -161,6 +163,7 @@
 						<div class="f26 fw-100">2a Worthy Avenue, Mount Lawley</div>
 						<div>Gene Rivera</div>
 						<div>$300 Per Week</div>
+						<div><b>Next payment due 18/09/2014</b></div>
 					</div>
 				</div>
 

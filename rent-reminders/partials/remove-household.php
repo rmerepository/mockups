@@ -7,18 +7,11 @@
 </div>
 <div class="modal-body" style="padding: 20px 25px;">
 
-	<h4 class="normal-weight">Are you sure you want to remove this tenant and payment history? </h4>
-
-<div id="confirm_desc"></div>
-<input type="hidden" id="remove_lease" value="">
-<input type="hidden" id="remove_collection" value="">
-
-</div>
+	<h4 class="normal-weight">Reporting Period </h4>
 
 <div class="modal-footer">
-
 <a href="#" data-dismiss="modal">Cancel</a>
-&nbsp;&nbsp;&nbsp;<button class="btn btn-danger" id="confirmDelete" data-dismiss="modal">Remove</button>
+&nbsp;&nbsp;&nbsp;<button class="btn btn-success" id="confirmDelete" data-dismiss="modal">Get Report</button>
 </div>
 </div>
 </div>

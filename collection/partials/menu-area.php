@@ -1,12 +1,16 @@
 <div class="clearfix menu-collection">
+	<div class="overlap-desc">
+		<h3 class="sm-hd">Enter Payments</h3>
+		<div class="v-lighter-text sub-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+	</div>
 <div class="pull-left act">
-	<h3 class="sm-hd">Up to date</h3>
-	<div class="v-lighter-text sub-desc">Next payment due 18/09/2014</div>
+	<h3 class="sm-hd">&nbsp;</h3>
+	<div class="v-lighter-text sub-desc">&nbsp;</div>
 	<button class="btn btn-primary btn-large" data-toggle="modal" data-target="#addPayment">Money In</button>
 </div>
 <div class="pull-left act">
-	<h3 class="sm-hd">Description</h3>
-	<div class="v-lighter-text sub-desc">Lorem ipsum is dollor</div>
+	<h3 class="sm-hd">&nbsp;</h3>
+	<div class="v-lighter-text sub-desc">&nbsp;</div>
 	<button class="btn btn-primary btn-large" data-toggle="modal" data-target="#moneyOut">Money Out</button>
 </div>
 <div class="pull-left act">
