@@ -36,9 +36,9 @@
 				<div class="info-group text-center bg-gray">
 					<h3>Payment History</h3>
 					<div class="mnu">
-						<a href="#">
+						<a href="#" rel="tooltip" data-original-title="Hi, Tell more about me" data-placement="top" data-toggle="tooltip">
 							<i class="fa fa-paste"></i> Financial Statement 
-						</a><span style="top: -3px;position: relative;" id="addAdressPopover" data-html="true" data-trigger="hover" data-toggle="popover" data-original-title="Financial Statement" data-content="Content" class="tooltip-blue po-small pop-over-right base-align" data-placement="right"></span>
+						</a>
 					</div>
 				</div>
 
