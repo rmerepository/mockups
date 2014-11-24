@@ -2,149 +2,6 @@
 <?php require('../partials/top-nav.php') ?>
 <?php require('../partials/bread.php') ?>
 
-<style>
-
-	.f26 {
-		font-size: 26px;
-	}
-
-	.fw-100 {
-		font-weight: 100;
-	}
-	
-	.wrap-main-holder {
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;
-		height: 276px;
-		position: relative;
-		color: #FFF;
-	}
-
-	.wrap-main-holder .content {
-		color: #FFF;		
-		position: absolute;
-		z-index: 2;		
-		bottom: 21px;
-		left: 21px;
-		font-size: 16px;
-		font-weight: 300;
-	}
-
-	.wrap-main-holder:before {
-		content: "";
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		background-color: rgba(0, 0, 0, 0.50);
-		display: block;
-		height: 100%;		
-		z-index: 1;
-	}
-
-	.menu-collection {
-		border-bottom: 1px solid #e1e1e1;
-		position: relative;
-	}
-
-	.menu-collection .act{
-		width: 33.3%;
-		text-align: center;
-		height: 183px;
-		padding-top: 23px;
-		
-	}
-
-	.menu-collection h3 {
-		margin: 3px 0;
-	}
-
-	.menu-collection .sub-desc {
-		font-size: 14px;
-		margin: 5px 0px 25px;
-	}
-
-	.menu-collection .act:last-child {
-		border-left: 1px solid #E1E1E1;
-	}
-
-	.menu-collection .btn-large {
-		padding-left: 41px;
-		padding-right: 41px;
-	}
-
-	.uiTabs .nav-tabs > li > a.text-left {
-		text-align: left;
-	}
-
-	.nav-tabs > li {
-		overflow: hidden;
-	}
-
-
-	.nav-tabs > li > a.ex-action {
-		display: inline-block !important;
-		border: none;
-		position: absolute;
-		padding: 0;
-		color: #22B2E2;
-		top: 16px;
-		right: -87px;
-		font-size: 13px;
-		cursor: pointer !important;
-		-webkit-transition: all 0.5s;
-		transition: all 0.5s;
-	} 
-
-	.nav-tabs > li.active > a.ex-action {
-		right: 10px;
-	} 
-
-	.ex-action:hover {
-		color: #4BC7F1 !important;
-	}
-
-	.btn.btn-reduced-auto {
-		width: auto;
-		padding-left: 10px;
-		padding-right: 10px;
-	}
-
-	.top-cp-action {
-		color: #FFF;
-		font-size: 35px;
-		position: absolute;
-		top: 10px;
-		right: 22px;
-		z-index: 4;
-		width: 100%;
-		text-align: right;
-	}
-
-	.top-cp-action a{
-		color: #FFF;
-		opacity: .8;
-	}
-
-	.top-cp-action a:hover{
-		opacity: 1;
-	}
-
-	.top-cp-action .fa-edit {
-		top: 3px;
-		position: relative;
-	}
-
-	.overlap-desc {
-		position: absolute;
-		text-align: center;
-		width: 532px;
-		top: 23px;
-	}
-
-</style>
-
 
 <div class="row">
 		<div class="col-md-12">
@@ -152,20 +9,23 @@
 		<div class="push-up-wrap-hi" style="margin-top: 32px;">
 			<div class="single-col-mid w-shadow bg-white rb-font">
 			
-				<div class="wrap-main-holder" style="background-image: url('images/sample.png');">
+				<div id="payment-wrap-info" class="wrap-main-holder no-image  ">
 
-					<div class="top-cp-action">
-						<a href="#" rel="tooltip" data-original-title="Change Tenant Details" data-placement="top" data-toggle="tooltip"> <span class="fa fa-edit"></span> </a>
-						<a href="#" data-original-title="Remove" rel="tooltip" data-placement="top" data-toggle="tooltip"> <span class="fa fa-trash-o"></span> </a>
-					</div>
 
-					<div class="content">
-						<div class="f26 fw-100">2a Worthy Avenue, Mount Lawley</div>
-						<div>Gene Rivera</div>
-						<div>$300 Per Week</div>
-						<div><b>Next payment due 18/09/2014</b></div>
-					</div>
-				</div>
+	<div class="top-cp-action" id="divButton">
+		<a href="javascript:update_household(6)" rel="tooltip" data-original-title="Change lease details" data-placement="top" data-toggle="tooltip"> <span class="fa fa-edit"></span> </a>
+		<a href="#" data-original-title="Remove tenancy" rel="tooltip" data-placement="top" data-toggle="modal" data-target="#removeHouseHold"> <span class="fa fa-trash-o"></span> </a>
+	</div>
+
+
+	<div class="content">
+		<div class="f26 fw-100">12 / 32 123 Drive, The Bight </div>
+		<div class="f14" id="tname">John Doe</div>
+		<div class="f14" id="capRent">$400 Per Week</div>		
+        <div> <b class="text-danger" id="caption_balance">$800 owing</b></div>
+        <div class="f14 text-success" id="caption_due_date">Rent Due</div>
+	</div>
+</div>
 
 				<?php require_once('partials/menu-area.php') ?>
 
@@ -175,6 +35,11 @@
 
 				<div class="info-group text-center bg-gray">
 					<h3>Payment History</h3>
+					<div class="mnu">
+						<a href="#">
+							<i class="fa fa-paste"></i> Financial Statement 
+						</a><span style="top: -3px;position: relative;" id="addAdressPopover" data-html="true" data-trigger="hover" data-toggle="popover" data-original-title="Financial Statement" data-content="Content" class="tooltip-blue po-small pop-over-right base-align" data-placement="right"></span>
+					</div>
 				</div>
 
 				<?php require_once('partials/tab-area.php') ?>
@@ -183,9 +48,10 @@
 
 		</div>	
 
+
+
 		</div>
 	</div>
-
 
 	<script>
 		$(function(){
