@@ -3,13 +3,14 @@
 <div class="modal-content">
 <div class="modal-header">
 <button class="close" data-dismiss="modal">×</button>
-<h3>Create your Statement</h3>
+<h3>Create Your Statement</h3>
 </div>
 <div class="modal-body">
 
 <h4 class="normal-weight clearfix">
 			<label class="control-label normal-weight" for="reportingPeriod">Reporting Period</label>
-			<span style="margin-top: 0;top: -2px;position: relative" class="tooltip-blue pop-over-right" data-toggle="popover" data-html="true" data-trigger="hover" data-placement="right" data-content="Select July to the following June if this report is for your tax accountant." style="vertical-align: top;" data-original-title="Reporting Period"></span>
+			
+			<!-- <span style="margin-top: 0;top: -2px;position: relative" class="tooltip-blue pop-over-right" data-toggle="popover" data-html="true" data-trigger="hover" data-placement="right" data-content="Select July to the following June if this report is for your tax accountant." style="vertical-align: top;" data-original-title="Reporting Period"></span> -->
 		</h4>
 
 
@@ -41,7 +42,7 @@
 	<div class="control-group mnu">
     	<div class="controls">    
     	<label>
-       	 For end of financial year? <a href="#" data-toggle="collapse" data-target="#additionalInfo"> Provide additional info for your accountant</a>.
+       	 For end of financial year? <a href="#" data-toggle="collapse" data-target="#additionalInfo"> Provide additional info for your accountant.</a>
      	</label>
      	</div>
 	</div>
