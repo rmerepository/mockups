@@ -9,7 +9,7 @@
 		<div class="push-up-wrap-hi" style="margin-top: 32px;">
 			<div class="single-col-mid w-shadow bg-white rb-font">
 			
-				<div id="payment-wrap-info" class="wrap-main-holder no-image  ">
+	<div id="payment-wrap-info" class="wrap-main-holder no-image  ">
 
 
 	<div class="top-cp-action" id="divButton">

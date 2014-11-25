@@ -38,39 +38,15 @@
 			</div>
 			</div>
 
-			<div class="control-group inspection-time clearfix">
-
-			<label class="control-label" >To</label>			
-				<div class="controls clearfix">
-						<div class="controls">
-							<div class="controls">
-								<select class="k-dd k-dd-small" >					
-									<option value="1">January</option>
-									<option value="2">Feb</option>
-									<option value="3">March</option>
-								</select>	
-							</div>
-
-							<div class="controls">
-								<select class="k-dd k-dd-small" >					
-									<option value="1">2011</option>
-									<option value="2">2012</option>
-									<option value="3">2013</option>
-								</select>	
-							</div>						
-					</div>
-				</div>
-
-		</div>
-
-
 	<div class="control-group mnu">
-    <div class="custom-checkbox-field features-item">
-        <input  type="checkbox" value="1" id="d1">
-        <label for="d1">For end of financial year? Provide additional info for your accountant.</label> <!-- keep the label -->
-     </div>
+    	<div class="controls">    
+    	<label>
+       	 For end of financial year? <a href="#" data-toggle="collapse" data-target="#additionalInfo"> Provide additional info for your accountant</a>.
+     	</label>
+     	</div>
 	</div>
 
+	<div id="additionalInfo" class="colpd-content oe-mar collapse">
 	<div class="control-group">
 			<label class="control-label" for="dateAvailable">Date the property first became available for rent</label> 
 			<div class="controls controls-popover-float">
@@ -101,9 +77,11 @@
 		<div class="control-group">
 	    <div class="custom-checkbox-field features-item custom-radio-field">
 	        <input  type="checkbox" value="1" id="d2">
-	        <label for="d2">Do you have a Depreciation Schedule?</label> <span class="tooltip-blue pop-over-right-with-delay" data-toggle="popover" data-html="true" data-trigger="hover" data-placement="right" data-content="This report is created by a Quantity Surveyor and helps you save $1,000's every year by claiming depreciation on the building and fixtures. <a target='_blank' href='http://www.rentmyestate.com.au/save-over-1000-every-year-when-you-understand-asset-depreciation-on-your-property/'> More info</a>" style="vertical-align: top;" data-original-title="Depreciation Schedule"></span>
+	        <label for="d2" data-toggle="collapse" data-target="#depreciationSchedule">Do you have a Depreciation Schedule?</label> <span class="tooltip-blue pop-over-right-with-delay" data-toggle="popover" data-html="true" data-trigger="hover" data-placement="right" data-content="This report is created by a Quantity Surveyor and helps you save $1,000's every year by claiming depreciation on the building and fixtures. <a target='_blank' href='http://www.rentmyestate.com.au/save-over-1000-every-year-when-you-understand-asset-depreciation-on-your-property/'> More info</a>" style="vertical-align: top;" data-original-title="Depreciation Schedule"></span>
 	     </div>
 		</div>
+
+		<div id="depreciationSchedule" class="colpd-content oe-mar collapse">
 
 		<div class="control-group">
 			<label class="control-label" for="capitalAllowance">Total Capital Working Allowance for period</label>
@@ -119,7 +97,8 @@
 	       <input autocomplete="off" data-is-required="true" name="last_name" placeholder="$" class="form-control fc-large" maxlength="30" value="" type="text"><span class="tooltip-blue pop-over-right" data-toggle="popover" data-html="true" data-trigger="hover" data-placement="right" data-content="Check your report for the total fixture and fittings you can claim for the period. This refers to the depreciation you can claim on things like air conditioning, appliances, curtains etc." style="vertical-align: top;" data-original-title="Total Fixture &amp; Fittings"></span>
 	     </div>
 		</div>
-
+		</div>
+	</div>
 
 </div>
 <div class="modal-footer">
