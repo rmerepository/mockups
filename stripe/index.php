@@ -30,5 +30,7 @@ $message = json_decode($input);
       **/
       curl_close($ch);       
       // var_dump($result);
+      
+http_response_code(200);
 
  ?>
