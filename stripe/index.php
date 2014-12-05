@@ -6,7 +6,8 @@ Stripe::setApiKey("sk_test_4ScS1JhfEBAMD47lROwZcxXN");
 
 $input = @file_get_contents("php://input");
 $message = json_decode($input);
-var_dump(input);
+var_dump($input);
+http_response_code(200);
 
       $ch = curl_init();
       $url = "https://myestate.slack.com/services/hooks/slackbot?token=3YzHDutHK2ux69X0mDuZDbSa&channel=%23system-message";
@@ -31,6 +32,6 @@ var_dump(input);
       curl_close($ch);       
       // var_dump($result);
 
-http_response_code(200);
+
 
  ?>
