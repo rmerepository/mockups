@@ -5,7 +5,7 @@ require_once('lib/Stripe.php');
 Stripe::setApiKey("sk_test_4ScS1JhfEBAMD47lROwZcxXN");
 
 $input = @file_get_contents("php://input");
-$message = json_decode($input);
+$message = json_decode(json_encode($input));
 var_dump($input);
 http_response_code(200);
 
