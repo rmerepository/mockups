@@ -22,7 +22,7 @@
 <!-- extra CSS -->
 <link rel="stylesheet" href="<?php echo $assets_link; ?>/assets/css/fileupload/bootstrap-image-gallery.min.css?v=1.1.2">
 <link rel="stylesheet" href="<?php echo $assets_link; ?>/assets/css/fileupload/jquery.fileupload-ui.css?v=1.1.2">
-<link href='//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+<link href='//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
 <!--[if IE]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<link rel="stylesheet" href="<?php echo $assets_link; ?>/assets/css/ie.css?v=1.1.2">
