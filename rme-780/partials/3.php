@@ -7,36 +7,67 @@
     </div>
 
     <div class="modal-body">
+
+    <div class="purchased-items">
+    <div class="medium">
+        <div class="medium-header">
+              <a href="#" class="collapse-ad collapsed" data-toggle="collapse" data-target="#propertySite_0">
+              <span class="colpd-icons"></span>Subscription Fee</a>
+              <span class="inline-amount">$15</span>            
+        </div>
+        <div id="propertySite_0" class="colpd-content">
+            <div class="medium-items">
+              <div class="medium-desc">Montly Subscription</div>
+            </div>
+        </div>
+    </div>
     
-   	<h4>Credit Card Information</h4>
+</div>
 
-   	<div class="row">
-   		<div class="col-md-6">
-   			<?php control_form_summary ('Card Number', '4242 4242 4242 4242' ) ?>	
-   		</div>
-   		<div class="col-md-6">
-		   	<?php control_form_summary ('Card Type', '<i class="cc-type fa fa-cc-visa"></i>' ) ?>	
-   		</div>
-   	</div>
-     
+<div class="modal-wid-wrap brdr-top mno-22">
+    <div class="purchased-items">
+        <div class="medium-header theme-color">
+            <b>Total</b>
+            <span class="inline-amount"><b>$<span id="general_total">15</span></b></span>
+       </div>
+    </div>
+</div>
 
-     <div class="row">
-     	<div class="col-md-6">
-		     <div class="control-group">
-		        <label class="control-label">Expiration Date</label>
-		        <div class="controls">
-		         	<div class="lbl-value">12 / 17</div>
-		        </div>
-		      </div> 
+  <hr class="hr-in-m">
+    
+   	<h4 class="add-fa-sort collapse-ad collapse in" data-toggle="collapse" data-target="#ccCreditCard">Credit Card Information </h4>
+    
+    <div id="ccCreditCard" class="in"> 
+   
+     	<div class="row" >
+     		<div class="col-md-6">
+     			<?php control_form_summary ('Card Number', '4242 4242 4242 4242' ) ?>	
+     		</div>
+     		<div class="col-md-6">
+  		   	<?php control_form_summary ('Card Type', '<i class="cc-type fa fa-cc-visa"></i>' ) ?>	
+     		</div>
      	</div>
-     	<div class="col-md-6">
-		     <div class="control-group">
-		        <label class="control-label">CSC</label>
-		        <div class="controls">
-		         	<div class="lbl-value">123</div>
-		        </div>
-		      </div> 
-     	</div>
+       
+
+       <div class="row">
+       	<div class="col-md-6">
+  		     <div class="control-group">
+  		        <label class="control-label">Expiration Date</label>
+  		        <div class="controls">
+  		         	<div class="lbl-value">12 / 17</div>
+  		        </div>
+  		      </div> 
+       	</div>
+       	<div class="col-md-6">
+  		     <div class="control-group">
+  		        <label class="control-label">CSC</label>
+  		        <div class="controls">
+  		         	<div class="lbl-value">123</div>
+  		        </div>
+  		      </div> 
+       	</div>
+       </div>
+
      </div>
      
      <hr class="hr-in-m">
@@ -44,7 +75,9 @@
 
 	<div class="row">
      <div class="col-md-6">
-     	<h4>Billing Information</h4>
+     	<h4 class="add-fa-sort collapse-ad collapse in" data-toggle="collapse" data-target="#ccBilling">Billing Information</h4>
+
+       <div id="ccBilling" class="in"> 
 
 	      <div class="control-group">
 	        <label class="control-label">Name</label>
@@ -86,15 +119,20 @@
         <?php control_form_summary('Country' , 'Australia') ?>
       </div>
      </div>
+     </div>
      
 
      <div class="col-md-6">
-     	
-  <h4>Shipping Information</h4>
 
-    <div class="control-group">
-     	<?php control_form_summary('Same as Billing Address' , 'Yes') ?>
-    </div>
+      <h4 class="add-fa-sort collapse-ad collapse in" data-toggle="collapse" data-target="#ccShipping">Shipping Information</h4>
+     	
+      <div id="ccShipping" class="in">
+
+          <div class="control-group">
+           	<?php control_form_summary('Same as Billing Address' , 'Yes') ?>
+          </div>
+
+       </div> 
 
      </div>
 
@@ -104,7 +142,9 @@
     
 <hr class="hr-in-m">
    
-      <h4>Contact Information</h4>
+      <h4 class="add-fa-sort collapse-ad collapse in" data-toggle="collapse" data-target="#ccContact">Contact Information</h4>
+
+      <div id="ccContact" class="in">
 
       <div class="control-group">
         <label class="control-label" for="contactNumber">Mobile / Home Number</label>
@@ -119,33 +159,7 @@
           <div class="lbl-value">email@yahoo.com</div>
         </div>
       </div> 
-
-<hr class="hr-in-m">
-
-<div class="purchased-items">
-    <div class="medium">
-        <div class="medium-header">
-              <a href="#" class="collapse-ad collapsed" data-toggle="collapse" data-target="#propertySite_0">
-              <span class="colpd-icons"></span>Subscription Fee</a>
-              <span class="inline-amount">$15</span>            
-        </div>
-        <div id="propertySite_0" class="colpd-content">
-            <div class="medium-items">
-              <div class="medium-desc">Montly Subscription</div>
-            </div>
-        </div>
-    </div>
-    
-</div>
-
-<div class="modal-wid-wrap brdr-top mno-22">
-        <div class="purchased-items">
-            <div class="medium-header theme-color">
-                <b>Total</b>
-                <span class="inline-amount"><b>$<span id="general_total">15</span></b></span>
-           </div>
-        </div>
-</div>
+      </div>
 
 </div>
 

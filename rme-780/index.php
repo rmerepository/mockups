@@ -34,6 +34,24 @@
 	@fa-cc-visa: #0157a2;
 	*/
 
+	.add-fa-sort:hover {
+		color: #22B2E2;
+		cursor: pointer;
+	}
+
+	.add-fa-sort:after {
+		font-family: 'FontAwesome';
+		content: "\f0de";
+		position: relative;
+		top: 3px;
+		margin-left: 7px;
+	}
+	
+	.add-fa-sort.collapsed:after {
+		content: "\f0dd";
+		top: -3px;
+	}
+
 	.cc-type  {
 		font-size: 33px;
 	}
