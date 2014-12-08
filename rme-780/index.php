@@ -79,7 +79,7 @@
 
 	<script>
 		$(function(){
-			$('.k-dd').kendoDropDownList();	
+			
 			$("[rel='tooltip']").tooltip();
 
 			// forward action modals

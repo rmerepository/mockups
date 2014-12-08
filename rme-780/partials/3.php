@@ -80,6 +80,11 @@
         <div class="lbl-value">12345</div>
         </div>
       </div> 	
+
+
+      <div class="control-group">
+        <?php control_form_summary('Country' , 'Australia') ?>
+      </div>
      </div>
      
 

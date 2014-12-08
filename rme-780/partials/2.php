@@ -94,6 +94,15 @@
         </div>
       </div> 
 
+      <div class="control-group">
+        <label class="control-label" for="Country">Country</label>
+           <select class="k-dd" >  
+              <option value="1">Australia</option>
+              <option value="2">NOTE: all country will be added default will (AU)</option>
+        </select>
+      </div> 
+
+    
   
       <h4>Shipping Information</h4>
 
