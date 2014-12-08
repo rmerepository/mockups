@@ -52,6 +52,34 @@
 		top: -3px;
 	}
 
+	.cs-chck-box.custom-radio-field label { 
+		padding: 21px 0 23px 44px;
+		background-color: #F2F2F2;
+		border: 1px solid #EBEBEB;
+		display: block;
+		height: auto;
+	}	
+
+	/*Apply custom icon for uncheck*/
+	.cs-chck-box.custom-checkbox-field:not(#dummy) > input[type="checkbox"] + label {
+		background-position: -5px -209px;
+	}
+	
+	/*Apply custom icon for uncheck hover*/
+	.cs-chck-box.custom-checkbox-field:not(#dummy) > input[type="checkbox"] + label:hover {
+		background-position: -5px -271px;
+	}
+	
+	/*Apply custom icon for checked*/
+	.cs-chck-box.custom-checkbox-field:not(#dummy) > input[type="checkbox"]:checked + label {
+		background-position: -5px -334px;
+	}
+	
+	/*Apply custom icon for checked hover*/
+	.cs-chck-box.custom-checkbox-field:not(#dummy) > input[type="checkbox"]:checked + label:hover {
+		background-position: -5px -395px;
+	}
+
 	.cc-type  {
 		font-size: 33px;
 	}

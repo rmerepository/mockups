@@ -6,11 +6,20 @@
       <h2 class="normal-weight">Upgrade your plan</h2>
     </div>
     <div class="modal-body">
-      <p>You need to upgrade your plan to start tracking rent for this property</p>
-      <?php include('fee.php') ?>
+      <p style="margin-top:10px;">You need to upgrade your plan to start tracking rent for this property</p>
+
+      <hr class="hr-in-m">
+
+      <?php include('purchased-item.php') ?>
+
+      <?php include('grand-total.php'); ?>
+
+      <?php include('payment-option-cc.php'); ?>
+      <?php include('payment-option-pp.php'); ?>
+
     </div>
     <div class="modal-footer">
-      <a href="#" data-dismiss="modal" aria-hidden="true">Cancel</a> &nbsp;&nbsp;&nbsp; <button class="btn btn-primary" type="submit" id="upgradeNow">Upgrade Now</button>
+      <a href="#" data-dismiss="modal" aria-hidden="true">Cancel</a> &nbsp;&nbsp;&nbsp; <button class="btn btn-primary" type="submit" id="upgradeNow">Confirm &amp; Pay</button>
     </div>
   </div>	
 </div>
