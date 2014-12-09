@@ -3,11 +3,13 @@
   <div class="modal-content">
     <div class="modal-header">
       <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-      <h2 class="normal-weight">Successful modal header</h2>
+      <h2 class="normal-weight">Thank You!</h2>
     </div>
 
     <div class="modal-body">
-      'thank note' start <a href="#"> collecting now </a>
+      <h4 class="text-center rb-font mno-22 text-center">You have successfully subsribe </h4>
+      <div class="text-center"><a href="#" class="btn btn-primary btn-large mnu">Start now</a></div>
+      <div>&nbsp;</div>
     </div>
   </div>	
 </div>
