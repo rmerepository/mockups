@@ -33,136 +33,30 @@
     </div>
 </div>
 
-  <hr class="hr-in-m">
+    <div>&nbsp;</div>
     
-   	<h4 class="add-fa-sort collapse-ad collapse in" data-toggle="collapse" data-target="#ccCreditCard">Credit Card Information </h4>
+   	<h4 class="collapse-ad collapse in">Credit Card Information </h4>
     
-    <div id="ccCreditCard" class="in"> 
-   
-     	<div class="row" >
-     		<div class="col-md-6">
-     			<?php control_form_summary ('Card Number', '4242 4242 4242 4242' ) ?>	
-     		</div>
-     		<div class="col-md-6">
-  		   	<?php control_form_summary ('Card Type', '<i class="cc-type fa fa-cc-visa"></i>' ) ?>	
-     		</div>
-     	</div>
-       
+      <div id="ccCreditCard">
 
-       <div class="row">
-       	<div class="col-md-6">
-  		     <div class="control-group">
-  		        <label class="control-label">Expiration Date</label>
-  		        <div class="controls">
-  		         	<div class="lbl-value">12 / 17</div>
-  		        </div>
-  		      </div> 
-       	</div>
-       	<div class="col-md-6">
-  		     <div class="control-group">
-  		        <label class="control-label">CSC</label>
-  		        <div class="controls">
-  		         	<div class="lbl-value">123</div>
-  		        </div>
-  		      </div> 
-       	</div>
+        <div class="row">
+            <div class="col-md-6">
+              <?php control_form_summary ('Email', 'john.doe@email.com' ) ?> 
+            </div>            
+          </div> 
+     
+         	<div class="row">
+         		<div class="col-md-6">
+         			<?php control_form_summary ('Card Number', '**** **** **** 4242' ) ?>	
+         		</div>
+            <div class="col-md-6">
+              <?php control_form_summary ('Expiration Date', '12 / 17' ) ?> 
+            </div>
+         	</div>
+         
        </div>
 
      </div>
-     
-     <hr class="hr-in-m">
-
-
-	<div class="row">
-     <div class="col-md-6">
-     	<h4 class="add-fa-sort collapse-ad collapse in" data-toggle="collapse" data-target="#ccBilling">Billing Information</h4>
-
-       <div id="ccBilling" class="in"> 
-
-	      <div class="control-group">
-	        <label class="control-label">Name</label>
-	        <div class="controls">
-	          <div class="lbl-value">John Doe</div>
-	        </div>
-	      </div> 
-   
-	      <div class="control-group">
-	        <label class="control-label" for="address1">Address 1</label>
-	        <div class="controls">
-	          <div class="lbl-value">123/45 James, St.</div>
-	        </div>
-	      </div> 
-
-	      <div class="control-group">
-	        <label class="control-label" for="suburb">Suburb</label>
-	        <div class="controls">
-	        	 <div class="lbl-value">Melbourne</div>
-	        </div>
-	      </div> 
-
-	      <div class="control-group">
-	        <label class="control-label" for="stateProvinceRegion">State / Province / Region</label>
-	        <div class="controls">
-	          <div class="lbl-value">NSW</div>
-	        </div>
-	      </div> 
-
-      <div class="control-group">
-        <label class="control-label" for="postalCode">Postal Code</label>
-        <div class="controls">
-        <div class="lbl-value">12345</div>
-        </div>
-      </div> 	
-
-
-      <div class="control-group">
-        <?php control_form_summary('Country' , 'Australia') ?>
-      </div>
-     </div>
-     </div>
-     
-
-     <div class="col-md-6">
-
-      <h4 class="add-fa-sort collapse-ad collapse in" data-toggle="collapse" data-target="#ccShipping">Shipping Information</h4>
-     	
-      <div id="ccShipping" class="in">
-
-          <div class="control-group">
-           	<?php control_form_summary('Same as Billing Address' , 'Yes') ?>
-          </div>
-
-       </div> 
-
-     </div>
-
-     </div>
-
-  
-    
-<hr class="hr-in-m">
-   
-      <h4 class="add-fa-sort collapse-ad collapse in" data-toggle="collapse" data-target="#ccContact">Contact Information</h4>
-
-      <div id="ccContact" class="in">
-
-      <div class="control-group">
-        <label class="control-label" for="contactNumber">Mobile / Home Number</label>
-        <div class="controls">
-         <div class="lbl-value">+123121123</div>
-        </div>
-      </div> 
-
-      <div class="control-group">
-        <label class="control-label" for="email">Email</label>
-        <div class="controls">
-          <div class="lbl-value">email@yahoo.com</div>
-        </div>
-      </div> 
-      </div>
-
-</div>
-
 
     <div class="modal-footer">
       <a href="#" id="confirmPaymentBack">Back</a> &nbsp;&nbsp;&nbsp; <button class="btn btn-primary" type="submit" id="confirmPayment">Confirm &amp; Pay</button>

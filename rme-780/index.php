@@ -135,18 +135,25 @@
 <div style="margin: 20px;">
 	<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#upgradePlan">Add Household</a>
 </div>
-
-<!-- <div style="margin: 20px;">
+<!--
+<div style="margin: 20px;">
 	<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#creditCardInfo">Payment Info</a>
+</div>
+ -->
+ 
+<div style="margin: 20px;">
+	<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#summaryDetails">Summary</a>
 </div>
 
 <div style="margin: 20px;">
-	<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#summaryDetails">Summary</a>
-</div> -->
+	<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#errorStripe">Error on stripe</a>
+</div>
 
 <?php require_once('partials/1.php') ?>
 <?php require_once('partials/confirm-payment-modal.php') ?>
+<?php require_once('partials/3.php') ?>
 
+<?php require_once('partials/error-from-stripe.php') ?>
 
 	<script>
 		$(function(){
