@@ -1,6 +1,7 @@
-<div class="modal" keyboard="true" id="upgradePlan"  role="dialog" aria-labelledby="upgradePlan" aria-hidden="true">
+<div class="powered-by-stripe modal" keyboard="true" id="upgradePlan"  role="dialog" aria-labelledby="upgradePlan" aria-hidden="true">
 <div class="modal-dialog">
   <div class="modal-content">
+    <div class="modal-overlap-loader"></div>
     <div class="modal-header">
       <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
       <h2 class="normal-weight">Upgrade Your Plan</h2>

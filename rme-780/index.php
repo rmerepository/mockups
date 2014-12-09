@@ -1,6 +1,18 @@
 <?php require('../partials/header.php') ?>
 
 <style>
+
+	.ovlap {
+		background-image: url('https://members-dev.rentmyestate.com.au/assets/images/ajax-loader.gif');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-color: #000;
+		z-index: 99px;
+		position: absolute;
+		height: 100%;
+		width: 100%;
+	}
+
 	.med-frm {
 		width: 100px;
 	}
@@ -90,6 +102,19 @@
 	.fa-cc-paypal { color:  #253b80; }
 	.fa-cc-stripe { color: #00afe1; }
 	.fa-cc-visa { color: #0157a2; }
+
+	.powered-by-stripe:before {
+		content: " ";
+		display: block;
+		position: fixed;
+		bottom: 11px;
+		right: 27px;
+		height: 27px;
+		width: 121px;
+		background-image: url('/assets/images/powered-by-stripe-outline.png');
+		background-repeat: no-repeat;
+		opacity: .5;
+	}	
 
 </style>
 
