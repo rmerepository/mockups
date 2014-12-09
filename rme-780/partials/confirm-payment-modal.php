@@ -9,9 +9,6 @@
     <div class="modal-body">
       'thank note' start <a href="#"> collecting now </a>
     </div>
-
-
-  
   </div>	
 </div>
 </div>

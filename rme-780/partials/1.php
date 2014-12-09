@@ -3,7 +3,7 @@
   <div class="modal-content">
     <div class="modal-header">
       <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-      <h2 class="normal-weight">Upgrade your plan</h2>
+      <h2 class="normal-weight">Upgrade Your Plan</h2>
     </div>
     <div class="modal-body">
       <p style="margin-top:10px;">You need to upgrade your plan to start tracking rent for this property</p>

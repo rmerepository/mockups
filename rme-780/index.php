@@ -141,13 +141,14 @@
 			  	el = $(this);
         		selectedBox = this.id;
 
-    //     		var attr = $(this).attr('data-with-col-option');
+       		var attr = $(this).attr('data-with-col-option');
+
+       		$( '.collapse-cc-details' ).removeClass('in') ;
+
         		
-    //     		if (typeof attr !== typeof undefined && attr !== false) {
-        			
-    //     			$( el.attr('data-target') ).addClass('in') ;
-					
-				// }
+         	if (typeof attr !== typeof undefined && attr !== false) {
+        		$( el.attr('data-target') ).addClass('in') ;
+			}
 
 		        $(".paymentOptionAD").each(function() {
 
