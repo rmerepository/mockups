@@ -120,8 +120,8 @@
 </div> -->
 
 <?php require_once('partials/1.php') ?>
-<?php require_once('partials/2.php') ?>
-<?php require_once('partials/3.php') ?>
+<?php require_once('partials/confirm-payment-modal.php') ?>
+
 
 	<script>
 		$(function(){
@@ -130,32 +130,40 @@
 
 			// forward action modals
 
-			$('#upgradeNow').on('click', function (e) {
-			 	$('#upgradePlan').modal('hide');
-			 	$('#creditCardInfo').modal('show');
-			});
-
-			$('#completeCreditInfo').on('click', function (e) {
-			 	$('#creditCardInfo').modal('hide');
-			 	$('#summaryDetails').modal('show');
-			});
-
 			$('#confirmPayment').on('click', function (e) {
-			 	$('#summaryDetails').modal('hide');		
-			 	window.location.href = 'thank-you-page.php'	 	
+			 	$('#upgradePlan').modal('hide');
+			 	$('#doneModal').modal('show');
 			});
 
-			// back action modals
+			var selectedBox = null;
 
-			$('#confirmPaymentBack').on('click', function (e) {
-			 	$('#summaryDetails').modal('hide');
-			 	$('#creditCardInfo').modal('show');
-			});
+			  $(".paymentOptionAD").click(function() {
+			  	el = $(this);
+        		selectedBox = this.id;
 
-			$('#completeCreditInfoBack').on('click', function (e) {
-			 	$('#creditCardInfo').modal('hide');
-			 	$('#upgradePlan').modal('show');
-			});
+    //     		var attr = $(this).attr('data-with-col-option');
+        		
+    //     		if (typeof attr !== typeof undefined && attr !== false) {
+        			
+    //     			$( el.attr('data-target') ).addClass('in') ;
+					
+				// }
+
+		        $(".paymentOptionAD").each(function() {
+
+
+		            if ( this.id == selectedBox ) {
+		                this.checked = true;
+		            }
+		            else {
+		                this.checked = false;
+		            };   
+
+		          
+
+		        });
+		   	 });    	
+
 
 		});
 	</script>

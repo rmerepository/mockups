@@ -1,11 +1,11 @@
 <div class="control-group mno-22">
   <div class="cs-chck-box custom-checkbox-field features-item custom-radio-field">
-      <input  type="checkbox" value="1" id="cc">
-      <label for="cc" data-toggle="collapse" data-target="#creditCardinfo">Pay with Credit Card</label>
+      <input class="paymentOptionAD"  type="checkbox" value="creditCard1" id="paymenTypeCC">
+      <label data-toggle="collapse" data-target="#creditCardinfo" for="paymenTypeCC">Pay with Credit Card</label>
    </div>
 </div>
 
-<div id="creditCardinfo">
+<div id="creditCardinfo" class="collapse">
 
 	<div class="control-group">
 		<label class="control-label" for="email">Email</label>
