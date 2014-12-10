@@ -15,13 +15,13 @@
 
       <?php include('grand-total.php') ?>
 
-      <?php include('payment-option-cc-saved.php'); ?>
+      <?php // include('payment-option-cc-saved.php'); ?>
       <?php include('payment-option-cc.php'); ?>      
       <?php include('payment-option-pp.php'); ?>
 
     </div>
     <div class="modal-footer">
-      <a href="#" data-dismiss="modal" aria-hidden="true">Cancel</a> &nbsp;&nbsp;&nbsp; <button class="btn btn-primary" type="submit" id="confirmPayment">Confirm &amp; Pay</button>
+      <a href="#" data-dismiss="modal" aria-hidden="true">Cancel</a> &nbsp;&nbsp;&nbsp; <button class="btn btn-primary" type="submit" id="confirmPayment">Proceed</button>
     </div>
   </div>	
 </div>

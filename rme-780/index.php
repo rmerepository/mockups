@@ -180,16 +180,29 @@
  -->
  
 <div style="margin: 20px;">
+	<p>Summary modal for user to review their details</p>
 	<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#summaryDetails">Summary</a>
 </div>
 
+
+
 <div style="margin: 20px;">
+	<p>After User made the payment</p>
+	<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#doneModal">'Thank you' modal</a>
+</div>
+
+<div style="margin: 20px;">
+	<p>Modal for error transaction on stripe</p>
 	<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#errorStripe">Error on stripe</a>
 </div>
 
 <?php require_once('partials/1.php') ?>
 <?php require_once('partials/confirm-payment-modal.php') ?>
 <?php require_once('partials/3.php') ?>
+
+
+<?php require_once('partials/confirm-payment-modal.php') ?>
+
 
 <?php require_once('partials/error-from-stripe.php') ?>
 
@@ -200,10 +213,10 @@
 
 			// forward action modals
 
-			$('#confirmPayment').on('click', function (e) {
-			 	$('#upgradePlan').modal('hide');
-			 	$('#doneModal').modal('show');
-			});
+			// $('#confirmPayment').on('click', function (e) {
+			//  	$('#upgradePlan').modal('hide');
+			//  	$('#doneModal').modal('show');
+			// });
 
 			var selectedBox = null;
 
