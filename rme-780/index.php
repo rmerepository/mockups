@@ -65,32 +65,37 @@
 	}
 
 	.cs-chck-box.custom-radio-field label { 
-		padding: 21px 0 23px 44px;
-		background-color: #F2F2F2;
+		/*background-image: none;*/
+		background-color: #FFF; 
+		padding: 19px 0 16px 45px;
 		border: 1px solid #EBEBEB;
 		display: block;
 		height: auto;
+		border-radius: 2px;
 	}	
 
 	/*Apply custom icon for uncheck*/
 	.cs-chck-box.custom-checkbox-field:not(#dummy) > input[type="checkbox"] + label {
-		background-position: -5px -209px;
+		background-position: -5px -200px;
 	}
 	
 	/*Apply custom icon for uncheck hover*/
 	.cs-chck-box.custom-checkbox-field:not(#dummy) > input[type="checkbox"] + label:hover {
-		background-position: -5px -271px;
+		background-position: -5px -262px;
 	}
 	
 	/*Apply custom icon for checked*/
 	.cs-chck-box.custom-checkbox-field:not(#dummy) > input[type="checkbox"]:checked + label {
-		background-position: -5px -334px;
+		background-position: -5px -326px;
+		background-color: #F3F3F3;
 	}
 	
 	/*Apply custom icon for checked hover*/
 	.cs-chck-box.custom-checkbox-field:not(#dummy) > input[type="checkbox"]:checked + label:hover {
-		background-position: -5px -395px;
+		background-position: -5px -387px;
+		background-color: #F3F3F3;
 	}
+
 
 	.cc-type  {
 		font-size: 33px;
@@ -103,6 +108,22 @@
 	.fa-cc-stripe { color: #00afe1; }
 	.fa-cc-visa { color: #0157a2; }
 
+	.lbl-pay-option {
+		height: 33px;
+		display: inline-block;
+		padding-top: 9px;
+	}
+
+	.credit-cards-icons {
+		background-image: url('/assets/images/credit-cards.png');
+		width: 225px;
+	}
+
+	.paypal-icon {
+		background-image: url('/assets/images/paypal.png');
+		width: 51px;
+	}
+
 	.powered-by-stripe:before {
 		content: " ";
 		display: block;
@@ -114,6 +135,23 @@
 		background-image: url('/assets/images/powered-by-stripe-outline.png');
 		background-repeat: no-repeat;
 		opacity: .5;
+	}	
+
+	.powered-by-stripe-solid-inline {
+		position: relative;
+	}
+	
+	.powered-by-stripe-solid-inline:after {
+		content: " ";
+		display: block;
+		position: absolute;
+		top: 24px;
+		right: 9px;
+		height: 27px;
+		width: 121px;
+		background-image: url('/assets/images/powered-by-stripe.png');
+		background-repeat: no-repeat;
+		opacity: .5
 	}	
 
 </style>

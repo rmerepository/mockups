@@ -1,4 +1,4 @@
-<div class="powered-by-stripe modal" keyboard="true" id="upgradePlan"  role="dialog" aria-labelledby="upgradePlan" aria-hidden="true">
+<div class="modal" keyboard="true" id="upgradePlan"  role="dialog" aria-labelledby="upgradePlan" aria-hidden="true">
 <div class="modal-dialog">
   <div class="modal-content">
     <div class="modal-overlap-loader"></div>
