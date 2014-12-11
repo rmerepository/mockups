@@ -9,12 +9,12 @@
 
 <div id="creditCardinfo" class="collapse collapse-cc-details">
 
-	<div class="control-group">
+<!-- 	<div class="control-group">
 		<label class="control-label" for="email">Email</label>
 		<div class="controls">
 			<input autocomplete="off" name="email" id="email" class="form-control" maxlength="30" tabindex="1">
 		</div>
-	</div> 
+	</div>  -->
 
 	 <div class="control-group">
         <label class="control-label " for="creditCardNumber">Card Number</label>
