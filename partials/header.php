@@ -39,5 +39,21 @@
 <![endif]-->
 </head>
 
+<style type="text/css">
+	body:before{
+		content: "Mockup Site";
+		position: fixed;
+		top: 10px;
+		left: 10px;
+		z-index: 9999;
+		padding: 7px 12px;
+		border: 1px solid #616161;
+		background-color: rgba(0, 0, 0, 0.47);
+		color: #FFF;
+		font-family: arial;
+		font-size: 12px;
+	}
+</style>
+
 <body class="rent-collection">
 <div class="rme-wrap">
