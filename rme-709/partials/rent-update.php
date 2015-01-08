@@ -32,19 +32,19 @@
 		<div class="control-group">
 			<label class="control-label" for="paymentPeriod">Payment Period</label>
 			<div class="controls controls-popover-float">
-			<select class="k-dd fc-large" >					
-				<option value="1">02/12/2015 - 08/12/2015</option>
-				<option value="2">02/12/2015 - 08/12/2015</option>
-				<option value="3">02/12/2015 - 08/12/2015</option>
-				<option value="4">02/12/2015 - 08/12/2015</option>
-				<option value="5">02/12/2015 - 08/12/2015</option>
-				<option value="6">02/12/2015 - 08/12/2015</option>
-				<option value="7">02/12/2015 - 08/12/2015</option>
-				<option value="8">02/12/2015 - 08/12/2015</option>
-				<option value="9">02/12/2015 - 08/12/2015</option>
-				<option value="10">02/12/2015 - 08/12/2015</option>
-				<option value="11">02/12/2015 - 08/12/2015</option>
-				<option value="12">02/12/2015 - 08/12/2015</option>
+			<select class="k-dd fc-large" >			
+				<option value="1">18/11/2014 - 17/12/2014</option>
+				<option value="1">18/12/2014 - 17/01/2015</option>
+				<option value="1">18/01/2015 - 17/02/2015</option>
+				<option value="1">18/02/2015 - 17/03/2015</option>
+				<option value="1">18/03/2015 - 17/04/2015</option>
+				<option value="1">18/04/2015 - 17/05/2015</option>
+				<option value="1">18/05/2015 - 17/06/2015</option>
+				<option value="1">18/06/2015 - 17/07/2015</option>
+				<option value="1">18/07/2015 - 17/08/2015</option>
+				<option value="1">18/08/2015 - 17/09/2015</option>
+				<option value="1">18/09/2015 - 17/10/2015</option>
+				<option value="1">18/10/2015 - 17/11/2015</option>
 			</select>	
 				<span class="tooltip-blue pop-over-right" data-toggle="popover" data-html="true" data-trigger="hover" data-placement="right" data-content="Content here" style="vertical-align: top;" data-original-title="Title"></span>
 			</div>

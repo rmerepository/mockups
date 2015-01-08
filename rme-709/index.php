@@ -65,122 +65,23 @@
 	<div class="content">
 		<div class="f26 fw-100">1.4 / 1.4 Test Street, Tesbury </div>
 		<div class="f14" id="tname">Sam Sparro</div>
+		<div class="f14">
+			<span id="capRent">$300 Per Week</span> -
+			<b class="text-danger" id="caption_balance">$1,500 owing</b>
+			<span class="f14" id="caption_due_date">Rent Due</span>
+		</div>
 	</div>
 </div>				
 	
-
-
-	<div id="addUpdateTenant" class="colpd-content collapse">
-
-	<div class="brdr-top brdr-bottom cc-inner">
-
-	<p>Add more tenant and select your main tenant</p>
-
-	<div class="awe-wrap nice-scroll">
-
-		<table class="table rs-table table-hover">
-			<tbody><tr>
-				<td width="3%">
-					<div class="radio-group custom-radio-field">
-                     <input type="radio" name="primaryTenant" id="user1" value="user1" checked="true"><label for="user1">&nbsp;</label>
-                     </div>
-				</td>
-				<td width="73%">
-					<h3 class="namef-d">John Doe</h3>
-					<div class="emailf-d v-lighter-text">john@gmail.com</div>
-				</td>
-				<td width="15%">
-					<a href="#" data-toggle="modal" data-target="#addTenantOne">Edit</a> - <a href="#">Remove</a>
-				</td>
-			</tr>
-			<tr>
-				<td width="3%">
-					<div class="radio-group custom-radio-field">
-                     <input type="radio" name="primaryTenant" id="user2" value="user2"><label for="user2">&nbsp;</label>
-                     </div>
-				</td>
-				<td width="73%">
-					<h3 class="namef-d">Jane Doe</h3>
-					<div class="emailf-d v-lighter-text">jane@gmail.com</div>
-				</td>
-				<td width="15%">
-					<a href="#" data-toggle="modal" data-target="#addTenantOne">Edit</a> - <a href="#">Remove</a>
-				</td>
-			</tr>
-		</tbody></table>
-
-	</div>
-
-		<p class="text-left	">
-		 <span class="mm-link" data-toggle="collapse" data-target="#addUpdateTenant">Cancel</span> &nbsp;&nbsp;&nbsp;	<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#addTenantOne">Add Tenant</button>
-		</p>
-	</div>
-</div>	
-
-<div class="modal fade" id="addTenantOne" tabindex="-1" role="dialog" aria-labelledby="addTenantOne" aria-hidden="true">
-<div class="modal-dialog overflow-visible">
-	<div class="modal-content">
-	<div class="modal-header">
-	 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-		<h2>Add Tenant</h2>
-	</div>
-	
-	<div class="modal-body">
-		<div class="control-group">
-			<label class="control-label" for="firstName">First Name</label>
-			<div class="controls">
-				<input name="firstName" placeholder="First Name" class="form-control fc-large" maxlength="30" tabindex="1" value="" type="text">
-			</div>
-			<p class="uihelp-text">If multiple tenants, enter the main contact</p>
-		</div>
-		<div class="control-group">
-			<label class="control-label" for="lastName">Last Name</label>
-			<div class="controls">
-				<input name="lastName" placeholder="Last Name" class="form-control fc-large" maxlength="30" tabindex="1" value="" type="text">
-			</div>
-		</div>
-
-		<div class="control-group">
-			<label class="control-label" for="mobileNumber">Mobile Number</label>
-			<div class="controls">
-				<input name="mobileNumber" placeholder="Mobile Number" class="form-control fc-large" maxlength="30" tabindex="1" value="" type="text"> <span class="tooltip-blue pop-over-right" data-toggle="popover" data-html="true" data-trigger="hover" data-placement="right" data-content="Soon we'll be able to send late notifications when your tenants have not paid their rent." style="vertical-align: top;" data-original-title="Coming Soon"></span>
-			</div>
-		</div>
-
-		<div class="control-group">
-			<label class="control-label" for="paymentPeriod">Email Address</label>
-			<div class="controls">
-				<input name="rentAmount" placeholder="Email" class="form-control fc-large" maxlength="30" tabindex="1" value="" type="text">  <span class="tooltip-blue pop-over-right" data-toggle="popover" data-html="true" data-trigger="hover" data-placement="right" data-content="Soon your tenant will be able to log in and see all their payments and get rent reminders." style="vertical-align: top;" data-original-title="Coming Soon"></span>
-			</div>
-		</div>
-	</div>
-
-	<div class="modal-footer">
-		 <a href="#" data-dismiss="modal" aria-hidden="true">Cancel</a> &nbsp;&nbsp;&nbsp; <button class="btn btn-primary">Save Changes</button>
-	</div>
-	</div>	
-</div>
-</div>
-	
+	<?php if( isset( $_GET["rent_increase"]) ) { ?>
 	<div class="container bg-gray br-bt-gr basic-pad">
 		<div class="row">
-
-			<?php if( isset( $_GET["rent_increase"]) ) { ?>
-				<div class="col-md-7">
-					<div class="f14">Rent Increase on 02/12/2015 - 08/12/2015 &bull; <a href="#" data-toggle="modal" data-target="#cancelRentIncrease">Cancel Increase</a> </div>	
+				<div class="col-md-12">
+					<div class="f14">Rent Increase on 18/09/2015 - 17/10/2015 &bull; <a href="#" data-toggle="modal" data-target="#cancelRentIncrease">Cancel Increase</a> </div>	
 				</div>
-			<?php } else {  ?>
-				<div class="col-md-7">
-					<div class="f14" id="capRent">$300 Per Week</div>		
-				</div>
-			<?php }   ?>	
-			
-			<div class="col-md-5">
-		        <div> <b class="text-danger" id="caption_balance">$1,500 owing</b> <span class="f14" id="caption_due_date">Rent Due</span></div>
-	        </div>
 		</div>
 	</div>
-
+<?php } ?>
 
          <div class="clearfix menu-collection">
 <div class="overlap-desc">
