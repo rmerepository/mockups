@@ -167,7 +167,7 @@
 
 			<?php if( isset( $_GET["rent_increase"]) ) { ?>
 				<div class="col-md-7">
-					<div class="f14">Rent Increase on 1/23/2015 &bull; <a href="#" data-toggle="modal" data-target="#cancelRentIncrease">Cancel Increase</a> </div>	
+					<div class="f14">Rent Increase on 02/12/2015 - 08/12/2015 &bull; <a href="#" data-toggle="modal" data-target="#cancelRentIncrease">Cancel Increase</a> </div>	
 				</div>
 			<?php } else {  ?>
 				<div class="col-md-7">
