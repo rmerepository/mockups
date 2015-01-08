@@ -33,10 +33,18 @@
 			<label class="control-label" for="paymentPeriod">Payment Period</label>
 			<div class="controls controls-popover-float">
 			<select class="k-dd fc-large" >					
-				<option value="1">Weekly</option>
-				<option value="2">Fornightly</option>
-				<option value="3">4 Weekly</option>
-				<option value="4">Monthly</option>
+				<option value="1">02/12/2015 - 08/12/2015</option>
+				<option value="2">02/12/2015 - 08/12/2015</option>
+				<option value="3">02/12/2015 - 08/12/2015</option>
+				<option value="4">02/12/2015 - 08/12/2015</option>
+				<option value="5">02/12/2015 - 08/12/2015</option>
+				<option value="6">02/12/2015 - 08/12/2015</option>
+				<option value="7">02/12/2015 - 08/12/2015</option>
+				<option value="8">02/12/2015 - 08/12/2015</option>
+				<option value="9">02/12/2015 - 08/12/2015</option>
+				<option value="10">02/12/2015 - 08/12/2015</option>
+				<option value="11">02/12/2015 - 08/12/2015</option>
+				<option value="12">02/12/2015 - 08/12/2015</option>
 			</select>	
 				<span class="tooltip-blue pop-over-right" data-toggle="popover" data-html="true" data-trigger="hover" data-placement="right" data-content="Content here" style="vertical-align: top;" data-original-title="Title"></span>
 			</div>
