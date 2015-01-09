@@ -1,23 +1,23 @@
 <style type="text/css">
 .ls-opt-lbl {
-  background-color: #F2C858;
-  margin-left: -46px;
+  background: #F7F7F7;
+  margin-left: -45px;
   top: 16px;
   position: relative;
   padding: 10px 19px;
   border-radius: 0 0 2px 2px;
-  color: #FFF;
+  color: #898989;
   font-size: 13px;
   line-height: 150%;
 }
 .lsff-lbl {
   padding: 10px 19px;
-  background-color: #FFF;
   margin-left: -7px;
   font-size: 13px;
   border: 1px solid #EBEBEB;
-  background: #FAFAFA;
-  color: #797979;
+  color: #FFF;
+  border-radius: 2px;
+  background-color: #F2C858;
 }
 </style>
 
@@ -31,9 +31,7 @@
    </div>
 </div>
 
-<div class="lsff-lbl">
-  New card information entered here will not be saved as your monthly renewal billing details.
-</div>
+
 
 <div id="creditCardinfo" class="collapse collapse-cc-details">
 
@@ -66,4 +64,8 @@
           <input autocomplete="off" name="creditCardCSC" id="creditCardCSC" class="med-frm form-control" maxlength="30" tabindex="5"> <span class="tooltip-blue pop-over-right" data-toggle="popover" data-html="true" data-trigger="hover" data-placement="right" data-content="<img src='/assets/images/n/myestate-csc-info.jpg'>" style="vertical-align: top;" data-original-title="Security Code"></span>
         </div>
       </div>  
+</div>
+
+<div class="lsff-lbl">
+  New card information entered here will not be saved as your monthly renewal billing details.
 </div>
