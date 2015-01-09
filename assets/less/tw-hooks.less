@@ -13,9 +13,11 @@ li { list-style: none;}
 ul, ol { padding: 0px }
 
 .bg-gray {
-background-color: #F8F8F8;
+	background-color: #F8F8F8;
 }
 
+.br-bt-gr { border-bottom: 1px solid #E1E1E1; }
+.basic-pad { padding: 14px 16px; }
 
 .f33{
 	font-size: 33px;
@@ -2613,7 +2615,7 @@ min-height: 414px;
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;
-		height: 276px;
+		height: 224px;
 		position: relative;
 		color: #FFF;
 		background-color: #666;
@@ -2731,24 +2733,28 @@ min-height: 414px;
 		color: #FFF;
 		font-size: 35px;
 		position: absolute;
-		top: 10px;
-		right: 22px;
+		top: 0px;
+		right: 0px;
 		z-index: 4;
-		width: 100%;
+		display: inline-block;
 		text-align: right;
+		width: 140px;
 	}
 
 	.top-cp-action a{
-		color: #FFF;
-		opacity: .8;
+		font-size: 25px;
+		padding: 4px 11px;
+		display: inline-block;
+		float: left;
 	}
 
 	.top-cp-action a:hover{
 		opacity: 1;
+		background-color: rgba(0, 0, 0, 0.38);
 	}
 
 	.top-cp-action .fa-edit {
-		top: 3px;
+		top: auto;
 		position: relative;
 	}
 

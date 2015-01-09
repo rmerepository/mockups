@@ -1,10 +1,38 @@
+<style type="text/css">
+.ls-opt-lbl {
+  background-color: #F2C858;
+  margin-left: -46px;
+  top: 16px;
+  position: relative;
+  padding: 10px 19px;
+  border-radius: 0 0 2px 2px;
+  color: #FFF;
+  font-size: 13px;
+  line-height: 150%;
+}
+.lsff-lbl {
+  padding: 10px 19px;
+  background-color: #FFF;
+  margin-left: -7px;
+  font-size: 13px;
+  border: 1px solid #EBEBEB;
+  background: #FAFAFA;
+  color: #797979;
+}
+</style>
+
 <div class="control-group mno-22">
   <div class="cs-chck-box custom-checkbox-field features-item custom-radio-field">
       <input class="paymentOptionAD" data-with-col-option="true" data-target="#creditCardinfo" type="checkbox" value="creditCard1" id="paymenTypeCC">
       <label for="paymenTypeCC" class="powered-by-stripe-solid-inline">
         <span class="credit-cards-icons lbl-pay-option"></span>
+        <div class="ls-opt-lbl">Use a different credit card for this one off payment. (using a new credit card will not replace your monthly billing information).</div>
       </label>
    </div>
+</div>
+
+<div class="lsff-lbl">
+  New card information entered here will not be saved as your monthly renewal billing details.
 </div>
 
 <div id="creditCardinfo" class="collapse collapse-cc-details">

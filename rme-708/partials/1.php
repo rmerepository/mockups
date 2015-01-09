@@ -15,9 +15,9 @@
 
       <?php include('grand-total.php') ?>
 
-      <?php // include('payment-option-cc-saved.php'); ?>
+      <?php include('payment-option-cc-saved.php'); ?>
       <?php include('payment-option-cc.php'); ?>      
-      <?php include('payment-option-pp.php'); ?>
+      <?php //include('payment-option-pp.php'); ?>
 
     </div>
     <div class="modal-footer">
