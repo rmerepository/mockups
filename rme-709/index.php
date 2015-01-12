@@ -27,6 +27,8 @@
 		padding: 4px 11px;
 		display: inline-block;
 		float: left;
+		color: #FFF;
+		opacity: .7;
 	}
 
 	.top-cp-action a:hover {
