@@ -58,7 +58,7 @@
 
 
 	<div class="top-cp-action" id="divButton">
-		<a href="#" id="linkRentUpdate" rel="tooltip" data-original-title="Rent Update" data-placement="top" data-toggle="tooltip"> <span class="fa fa-line-chart"></span> </a>
+		<a href="#" id="linkRentUpdate" rel="tooltip" data-original-title="Rent Increase" data-placement="top" data-toggle="tooltip"> <span class="fa fa-line-chart"></span> </a>
 		<a href="javascript:update_household(77)" rel="tooltip" data-original-title="Change lease details" data-placement="top" data-toggle="tooltip"> <span class="fa fa-edit"></span> </a>
 		<a href="#" data-original-title="Remove tenancy" rel="tooltip" data-placement="top" data-toggle="modal" data-target="#removeHouseHold"> <span class="fa fa-trash-o"></span> </a>
 	</div>
@@ -79,7 +79,7 @@
 	<div class="container bg-gray br-bt-gr basic-pad">
 		<div class="row">
 				<div class="col-md-12">
-					<div class="f14">Rent Increase on 18/09/2015 - 17/10/2015 &bull; <a href="#" data-toggle="modal" data-target="#cancelRentIncrease">Cancel Increase</a> </div>	
+					<div class="f14">Rent will be increased to $420 per week from 18 January 2015 &bull; <a href="#" data-toggle="modal" data-target="#cancelRentIncrease">Cancel Increase</a> </div>	
 				</div>
 		</div>
 	</div>

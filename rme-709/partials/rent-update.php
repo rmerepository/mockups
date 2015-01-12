@@ -4,7 +4,7 @@
 	<div class="modal-content">
 	<div class="modal-header">
 	 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-         <h2 class="normal-weight" id="captionPayment">Rent Update</h2>
+         <h2 class="normal-weight" id="captionPayment">Rent Increase (or decrease)</h2>
 	</div>
 	
 	<div class="modal-body">
@@ -15,7 +15,7 @@
 			<td>
 				<i class="fa fa-exclamation-circle fa-icd"></i>		
 			</td>
-			<td>Your current rent amount is $400</td>
+			<td>Your current rent amount is $400 per week</td>
 		</tr>
 	</table>
 	</div>
@@ -24,7 +24,7 @@
 			<label class="control-label" for="newAmount">New Rent Amount</label>
 			<div class="controls controls-popover-float">
 				<input autocomplete="off" data-is-required="true" name="newAmount" id="newAmount" placeholder="$" class="form-control fc-large" maxlength="30" tabindex="1" value="" type="text">
-				<div class="uihelp-text">1.9% increase from the current rent</div>
+				<div class="uihelp-text">That's a 1.9% increase from $400</div>
 			</div>
 		</div>	
 
@@ -46,7 +46,8 @@
 				<option value="1">18/09/2015 - 17/10/2015</option>
 				<option value="1">18/10/2015 - 17/11/2015</option>
 			</select>	
-				<span class="tooltip-blue pop-over-right" data-toggle="popover" data-html="true" data-trigger="hover" data-placement="right" data-content="Content here" style="vertical-align: top;" data-original-title="Title"></span>
+				<span class="tooltip-blue pop-over-right" data-toggle="popover" data-html="true" data-trigger="hover" data-placement="right" data-content="In VIC you must give your tenant atleast 60 days notice in writing. If the notice is being posted, you must allow extra days for delivery. <a href='#'>More info</a>" style="vertical-align: top;" data-original-title="Giving notice to tenants"></span>
+				<div class="uihelp-text">That’s allowing for atleast 60 days notice</div>
 			</div>
 		</div>
 
@@ -55,7 +56,7 @@
 
 
 	<div class="modal-footer">
-		 <a href="#" data-dismiss="modal" aria-hidden="true">Cancel</a> &nbsp;&nbsp;&nbsp; <button class="btn btn-primary" type="submit" id="confirmPayment">Confirm Update</button>
+		 <a href="#" data-dismiss="modal" aria-hidden="true">Cancel</a> &nbsp;&nbsp;&nbsp; <button class="btn btn-primary" type="submit" id="confirmPayment">Confirm</button>
 	</div>
 	</div>	
     </div>

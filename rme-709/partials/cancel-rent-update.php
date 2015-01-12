@@ -3,10 +3,10 @@
 <div class="modal-content">
 <div class="modal-header">
 <button class="close" data-dismiss="modal">×</button>
-<h3>Cancel Update</h3>
+<h3>Cancel Rent Increase</h3>
 </div>
 <div class="modal-body">
-  <p class="f14">Cancel the current update, rent increase $405?</p>
+  <p class="f14">Are you sure you want to cancel the rent increase?</p>
 </div>
 <div class="modal-footer">
 <a href="#" data-dismiss="modal">Cancel</a>
