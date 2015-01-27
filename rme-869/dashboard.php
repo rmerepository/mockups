@@ -29,7 +29,7 @@
     /* margin-bottom: 26px; */
 ">
 					<div class="wui-io-info">
-						<h4>Test Asnan</h4>
+						<h4>Gene Rivera</h4>
 						<div class="sub-text"><span class="text-danger">Move out date 23-Jan-2015</span></div>
 					</div>
 					<div class="wui-io-icon c-user"></div>
@@ -72,7 +72,7 @@
     /* margin-bottom: 26px; */
 ">
 					<div class="wui-io-info">
-						<h4>Test Asnan</h4>
+						<h4>Gene Rivera</h4>
 						<div class="sub-text"><span class="text-danger">Move out date 23-Jan-2015</span></div>
 					</div>
 					<div class="wui-io-icon c-user"></div>

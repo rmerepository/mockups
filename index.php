@@ -14,7 +14,11 @@
  	<ul>
  		<li><a href="rme-708">RME-708 - Montly  Subscription</a></li>
  		<li><a href="rme-709">RME-709 - Rent  Increase</a></li>
- 		<li><a href="rme-869">RME-869 - Vacate Tenant</a></li>
+ 		<li><a href="rme-869">RME-869 - Vacate Tenant</a>
+				<ul>
+					<li> <a href="rme-869/dashboard.php"> Dashboard </a> </li>
+				</ul>
+ 		</li>
  	</ul>	
 </body>
 </html>

@@ -76,15 +76,13 @@
 	</div>
 </div>				
 	
-	<?php if( isset( $_GET["rent_increase"]) ) { ?>
 	<div class="container bg-gray br-bt-gr basic-pad">
 		<div class="row">
 				<div class="col-md-12">
-					<div class="f14">Rent will be increased to $420 per week from 18 January 2015 &bull; <a href="#" data-toggle="modal" data-target="#cancelRentIncrease">Cancel Increase</a> </div>	
+					<div class="f14">Vacate Tenant: Move out Date 12 January 2015 and Balance to vacate: $1,500 &bull; <a href="#" data-toggle="modal" data-target="#cancelRentIncrease">Cancel Vacate</a> </div>	
 				</div>
 		</div>
 	</div>
-<?php } ?>
 
          <div class="clearfix menu-collection">
 <div class="overlap-desc">
@@ -101,16 +99,18 @@
 	<div class="v-lighter-text sub-desc">&nbsp;</div>
 	<button id="money_out" class="btn btn-primary btn-large">&nbsp;&nbsp;Spent&nbsp;&nbsp;&nbsp;</button>
 </div>
-<div class="pull-left act" style="background: #FFF7F7">
-	<div>
-	<h3 class="sm-hd"><span>Vacate Tenant</span><span id="addAdressPopover" data-html="true" data-trigger="hover" data-toggle="popover" data-original-title="Vacate Tenant" data-content="If popover needed" class="tooltip-blue po-small pop-over-right base-align" data-placement="right"></span></h3>
-	<div class=""><a href="#">Cancel vacate</a></div>
-	<div class="v-lighter-text">		
-		<span>Move out Date: <b>12 January 2015</b></span> <br>
-		<span>Balance to vacate: <b>$1,500</b></span> 
+<div class="pull-left act">
+	<h3 class="sm-hd"><span id="lblRentReminider">Turned off</span> <span id="addAdressPopover" data-html="true" data-trigger="hover" data-toggle="popover" data-original-title="Rent Reminders" data-content="If your tenant has missed or not paid their rent in full, they will receive email notifications over the following 16 days or until the rent is paid. Please ensure you still follow the formal procedures to terminate the tenancy if they don’t pay. <a href='http://www.rentmyestate.com.au/rent-payments/' target='_blank'>Read more." class="tooltip-blue po-small pop-over-right base-align" data-placement="right"></span></h3>
+	<div class="v-lighter-text sub-desc">Rent Reminders</div>
+
+	<div class="sw_small onoffswitch clearfix inline-block va-middle">
+	<input type="checkbox" name="rentReminiders" class="onoffswitch-checkbox" id="rentReminiders">
+	<label class="onoffswitch-label" for="rentReminiders">
+	<div class="onoffswitch-inner"></div>
+	<div class="onoffswitch-switch"></div>			        
+	</label>
 	</div>
-	
-	</div>
+
 </div>
 </div>	 
                              
@@ -404,9 +404,28 @@
 		</thead>
 		<tbody>
 
-	<tr style="background: #FFF7F7">
-		<td colspan="3"><b>Move out date: 12 January 2015</b></td>
-		<td colspan="2"><b>Balance to vacate: $1,500</b></b></td>
+		    <tr>
+          <td>10/12/2014</td>
+          <td>Misc</td>
+          <td>          	
+          		<div>25/11/2014 - 01/12/2014 ($300)</div>
+          </td>
+          <td>$200</td>
+          <td>
+          	<div class="tbl-action-text">
+	             <a href="javascript:edit(1382)" rel="tooltip" data-original-title="Edit" data-placement="top" data-toggle="tooltip"> <span class="fa fa-edit"></span>   </a>  
+	             <a href="javascript:remove(1382,'Rent')" rel="tooltip" data-original-title="Remove this Paymet" data-placement="top" data-toggle="tooltip"> <span class="fa fa-trash-o text-danger"></span> </a> 
+	             <a href="javascript:sendReceipt(1382,'Rent')" rel="tooltip" data-original-title="Email your tenant a receipt" data-placement="top" data-toggle="tooltip"> <span class="fa fa-file-text-o text-success"></span>   </a>
+             </div>
+
+             
+          </td>
+
+  </tr>
+
+	<tr style="background: #FFF1F1">
+		<td colspan="3">Move out date: 12 January 2015</td>
+		<td colspan="2">Balance to vacate: $1,500</td>
 	</tr>
     <tr>
           <td>10/12/2014</td>
