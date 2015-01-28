@@ -76,10 +76,10 @@
 	</div>
 </div>				
 	
-	<div class="container bg-gray br-bt-gr basic-pad">
+	<div class="container bg-gray br-bt-gr basic-pad" style="background: #FFF1F1">
 		<div class="row">
 				<div class="col-md-12">
-					<div class="f14">Vacate Tenant: Move out Date 12 January 2015 and Balance to vacate: $1,500 &bull; <a href="#" data-toggle="modal" data-target="#cancelRentIncrease">Cancel Vacate</a> </div>	
+					<div class="f14">Tenant move out 12 January 2015 with balance to vacate of $1,500 &bull; <a href="#" data-toggle="modal" data-target="#cancelVacateTenant">Cancel Vacate</a> </div>	
 				</div>
 		</div>
 	</div>
@@ -104,7 +104,7 @@
 	<div class="v-lighter-text sub-desc">Rent Reminders</div>
 
 	<div class="sw_small onoffswitch clearfix inline-block va-middle">
-	<input type="checkbox" name="rentReminiders" class="onoffswitch-checkbox" id="rentReminiders">
+	<input type="checkbox" name="rentReminiders" class="onoffswitch-checkbox" disabled="disabled" id="rentReminiders">
 	<label class="onoffswitch-label" for="rentReminiders">
 	<div class="onoffswitch-inner"></div>
 	<div class="onoffswitch-switch"></div>			        
@@ -482,6 +482,6 @@
 </script>	
 
 <?php require('partials/vacate-tenant.php') ?>
-
+<?php require('partials/cancel-vacate.php') ?>
 
 <?php require('../partials/footer.php') ?>
