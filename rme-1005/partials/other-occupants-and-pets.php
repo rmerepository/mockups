@@ -104,6 +104,9 @@
             </div>
           </div>
         </div>
+                    <div class="row"><div class="btn-container-plain text-right">
+          <button class="btn btn-primary btn-large" data-toggle="collapse" data-target="#currentAddress_section"><span>Next</span></button>
+        </div></div>
       </div>
     </div>
   </div>

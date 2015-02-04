@@ -20178,8 +20178,13 @@ input.save-btn {
 .collapsible-forms .collapsed:hover .colpd-icons {
   background-position: -2px -56px;
 }
-/* line 379, /Volumes/HD2/sites/rme.mockup/assets/less/form_components2.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/form_components2\.less}line{font-family:\00003379}}
+/* line 376, /Volumes/HD2/sites/rme.mockup/assets/less/form_components2.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/form_components2\.less}line{font-family:\00003376}}
+.collapsible-forms .collapsed.btn {
+  color: #FFF;
+}
+/* line 382, /Volumes/HD2/sites/rme.mockup/assets/less/form_components2.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/form_components2\.less}line{font-family:\00003382}}
 .collapsible-forms .medium-items {
   margin-left: 0;
   padding: 20px 31px 10px 31px;
