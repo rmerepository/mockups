@@ -159,11 +159,12 @@
 
 <?php 
 	
-	function control_form_summary ( $lbl, $value ) {
+	function control_form_summary ( $lbl, $name, $tabindex ) {
 		echo '<div class="control-group">
 		        <label class="control-label">'.$lbl.'</label>
 		        <div class="controls">
-		          <div class="lbl-value">'.$value.'</div>
+		          	<input autocomplete="off" name="'.$name.'" id="'.$name.'" placeholder="$" class="form-control fc-large" maxlength="30" tabindex="'.$tabindex.'" value="" type="text">
+
 		        </div>
 		      </div>';
 	}

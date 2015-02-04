@@ -2,44 +2,6 @@
 <?php require('../partials/top-nav.php') ?>
 <?php require('../partials/bread.php') ?>
 
-<style type="text/css">
-	.br-bt-gr { border-bottom: 1px solid #E1E1E1; }
-	.basic-pad { padding: 14px 16px; }
-
-	.wrap-main-holder {
-		height: 224px;
-	}
-
-	.top-cp-action {
-		color: #FFF;
-		font-size: 35px;
-		position: absolute;
-		top: 0px;
-		right: 0px;
-		z-index: 4;
-		display: inline-block;
-		text-align: right;
-		width: 195px;
-	}
-
-	.top-cp-action a {
-		font-size: 25px;
-		padding: 4px 11px;
-		display: inline-block;
-		float: left;
-		color: #FFF;
-		opacity: .7;
-	}
-
-	.top-cp-action a:hover {
-		background-color: rgba(0, 0, 0, 0.38);
-	}
-	.top-cp-action .fa-edit {
-		top: auto;
-	}
-
-</style>
-
 <div class="row">
 		<div class="col-md-12">
 

@@ -19,6 +19,7 @@
 					<li> <a href="rme-869/dashboard.php"> Dashboard </a> </li>
 				</ul>
  		</li>
+ 		<li><a href="rme-1005">RME-1005 Online Tenant Application</a>
  	</ul>	
 </body>
 </html>

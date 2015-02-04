@@ -13,6 +13,8 @@
 		});
 	</script>
 
+	<script src="/assets/js/ui.dropdownchecklist-1.4-min.js"></script>
+
 	</div>
 	</body>
 </html>

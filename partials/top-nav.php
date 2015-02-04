@@ -1,26 +1,30 @@
 <header class="navbar navbar-default">
       <div class="navbar-inner">
         <div class="container-fluid clearfix">
-			<a class="brand" href="https://members-dev.rentmyestate.com.au/dashboard/index">
-				<img src="https://members-dev.rentmyestate.com.au/assets/images/logo-dashboard-page.png" />
+			<a class="brand" href="#">
+				<img src="/assets/images/rme-logo.png" />
 			</a>
 
 
 <div class="pull-right">
 	<div class="nav-links">
 	<ul class="nav ui-top-menu">
-		
+	
+	<li>
+		<a href="#" class="button dropdown-toggle" title="Help &amp; Support">
+			<i class="fa fa-question-circle" style="font-size: 27px;"></i>
+		</a>
+	</li>
 
 	<li>
-	<a href="https://members-dev.rentmyestate.com.au/mailbox" class="button dropdown-toggle mailbox-page-link" >
-	<div class="ds-icons-envelope-gray">
-	</div>
-	</a>
+		<a href="#" class="button dropdown-toggle mailbox-page-link" title="Mailbox">
+			<i class="fa fa-envelope-o" style="font-size: 27px;"></i>
+		</a>
 	</li>
 	
 	<li class="dropdown">
-	<a href="#" id="username" class="button dropdown-toggle" data-toggle="dropdown" style="padding-left: 60px;">
-		<div class="profile-photo ppi-wrap ppi-xxsmall"><div class="_c no-img-avatar"><span class="default-avatar">BA</span></div></div>		<span style="display:inline-block">Bryan </span>	<span class="fa fa-chevron-down"></span>
+	<a href="#" id="username" class="button dropdown-toggle" data-toggle="dropdown" title="My Profile">
+		<div class="profile-photo ppi-wrap ppi-xxsmall"><div class="_c no-img-avatar"><span class="default-avatar">BA</span></div></div>	<span class="fa fa-chevron-down"></span>
 	</a>
 
 	<div class="box dropdown-menu" role="menu" aria-labelledby="username">

@@ -16,10 +16,27 @@ legend + .control-group {
   display: none !important;
 }
 
+.optional-field {
+  font-size: 12px;
+  font-family: helvetica,arial;
+  font-style: italic;
+  color: #E85656;
+  font-weight: normal;
+  letter-spacing: .7px;
+}
+
+label .lbl-long-desc {
+  line-height: 151%;
+  margin-top: -4px;
+}
+
 label.-fs13 {
   font-size: 13px;
 }
 
+.input-full-width {
+  width: 100%;
+}
 
 .form-global-error {
   text-align: center;
@@ -327,4 +344,40 @@ input.save-btn {
   left: -244px;
   text-align: right;
   width: 214px;
+}
+
+.collapsible-forms {
+  margin: 10px;
+
+  .medium-header h3 {
+    margin: 0px;
+    .optional-label {
+      font-size: 15px;
+    }
+  }
+  .collapse-ad {
+    padding: 18px 22px;
+    display: block;
+    cursor: pointer;
+    color: @rme_theme;
+  }
+
+  .collapse-ad:hover {
+    color: #4BC7F1;
+  }
+
+  .collapsed {
+    color: #666;
+    &:hover {
+      .colpd-icons{
+        background-position: -2px -56px;  
+      }
+    }
+
+  }
+
+  .medium-items {
+    margin-left: 0;
+    padding: 20px 31px 10px 31px;
+  }
 }

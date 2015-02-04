@@ -1,6 +1,8 @@
 .navbar {  
+  border-bottom: 1px solid #EAEAEA;
   background-color: #FFF;
   color: #000;
+  margin-bottom: 0px;
   .container-fluid {
     max-width: none;
     width: 100%;
@@ -58,9 +60,7 @@
   line-height: 114%;
   margin-top: 17px;
 } 
-.navbar {
-  margin-bottom: 0px;
-}
+
 .navigation .main {
   position: relative;
 }
@@ -75,4 +75,66 @@
 }
 .login-signup > ul > li {
   float: left;
+}
+
+// MENU STYLE
+
+.ui-top-menu>li {
+  float: left;
+  height: 69px;
+
+  &.no-left-border {
+    border-left:none;
+  }
+
+  &.no-border {
+    border:none;
+  }
+
+  > .button {
+     display: block;
+     position: relative;
+  }
+
+  .profile-photo {
+    position: absolute;
+    top: 10px;
+    left: 11px;
+  }
+   .fa-chevron-down {
+      position: relative;
+      top: 2px;
+      left: 8px
+   }
+
+   > .btn {
+    margin: 10px;
+   }
+
+   &.dropdown > .button{
+      padding-left: 53px;
+   }
+
+}
+
+.ui-top-menu {
+
+  .dropdown-toggle {
+    padding: 22px 15px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #6e6e6e;
+    height: 69px;
+  }
+  .dropdown-toggle:hover, .open .dropdown-toggle {
+    background-color: @blue !important;
+    color: #FFF;
+  }
+
+  .dropdown-menu {
+    left: auto;
+    right: 0px !important;
+    min-width: 187px;
+    border: 1px solid @gray_border_colour;
+  }
 }
