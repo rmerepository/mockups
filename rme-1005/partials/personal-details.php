@@ -68,7 +68,6 @@
               <label class="control-label" for="tenantStatus">Tick if applicable</label>
               <div class="controls clearfix">
                 <select name="typeTenant" tabindex="7" id="typeTenant" multiple="multiple">
-                  <option value="0">All Types</option>
                   <option value="1">Smoker</option>
                   <option value="2">Part-time student</option>
                   <option value="3">Full-time student</option>

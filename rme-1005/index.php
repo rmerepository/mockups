@@ -36,8 +36,6 @@
     uiDatePicker( '#preferredLeaseStartDate' );
     uiDatePicker( '#earliestLeaseStartDate' );
     
-    
-
        $("#typeTenant").dropdownchecklist( 
        		{ 
        		firstItemChecksAll: true, icon: {},
