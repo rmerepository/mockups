@@ -174,5 +174,5 @@ function control_form ( $lbl, $name, $tabindex, $placeholder ) {
 ?>
 
 
-<body class="bg-gray">
+<body class="bg-gray window-no-padding-bottom">
 <div class="rme-wrap">

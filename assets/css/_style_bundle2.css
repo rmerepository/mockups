@@ -9882,102 +9882,112 @@ a.app-switch {
 .rent-collection #ui-datepicker-div {
   z-index: 1042 !important;
 }
-/* line 2513, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032513}}
+/* line 2512, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032512}}
+.window-no-padding-bottom {
+  padding-bottom: 0px;
+}
+/* line 2514, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032514}}
+.window-no-padding-bottom .rme-wrap {
+  padding-bottom: 0px;
+}
+/* line 2520, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032520}}
 .tnc li {
   line-height: 26px;
 }
-/* line 2517, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032517}}
+/* line 2524, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032524}}
 .tnc ol,
 .tnc ul {
   margin: 17px 0px 17px 50px;
 }
-/* line 2521, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032521}}
+/* line 2528, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032528}}
 .tnc ol li {
   list-style-type: decimal;
 }
-/* line 2525, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032525}}
+/* line 2532, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032532}}
 .tnc ol.alpha li {
   list-style-type: lower-alpha;
 }
-/* line 2529, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032529}}
+/* line 2536, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032536}}
 .tnc ul li {
   list-style-type: disc;
 }
-/* line 2533, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032533}}
+/* line 2540, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032540}}
 ul.type-circle li {
   list-style-type: circle;
 }
-/* line 2537, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032537}}
+/* line 2544, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032544}}
 .tnc li,
 .tnc,
 .tnc p {
   line-height: 26px !important;
   font-size: 16px !important;
 }
-/* line 2544, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032544}}
+/* line 2551, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032551}}
 .sub-desc {
   font-size: 11px;
   margin-top: 3px;
 }
-/* line 2550, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032550}}
+/* line 2557, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032557}}
 .sd-table td,
 .sd-table th {
   padding: 15px 11px;
   border-bottom: 1px solid #EAEAEA;
   font-size: 13px;
 }
-/* line 2557, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032557}}
+/* line 2564, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032564}}
 .sdo-code-input {
   width: 100px;
 }
-/* line 2559, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032559}}
+/* line 2566, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032566}}
 .sdo-code-input .btn {
   padding-left: 13px;
   padding-right: 12px;
 }
-/* line 2566, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032566}}
+/* line 2573, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032573}}
 .input-group-lg #zclip-ZeroClipboardMovie_1 {
   right: 0px !important;
   opacity: 0;
   left: auto !important;
 }
-/* line 2574, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032574}}
+/* line 2581, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032581}}
 .tbl-action-text .fa {
   opacity: .6;
   font-size: 20px;
   padding-right: 3px;
   padding-left: 8px;
 }
-/* line 2580, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032580}}
+/* line 2587, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032587}}
 .tbl-action-text .fa:hover {
   opacity: 1;
 }
-/* line 2587, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032587}}
+/* line 2594, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032594}}
 .f26 {
   font-size: 26px;
 }
-/* line 2591, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032591}}
+/* line 2598, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032598}}
 .fw-100 {
   font-weight: 100;
 }
-/* line 2595, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032595}}
+/* line 2602, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032602}}
 .wrap-main-holder {
   background-repeat: no-repeat;
   background-size: cover;
@@ -9987,22 +9997,22 @@ ul.type-circle li {
   color: #FFF;
   background-color: #666;
 }
-/* line 2605, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032605}}
+/* line 2612, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032612}}
 .wrap-main-holder.no-image {
   background-image: url('/assets/images/logo-white-md.png');
   background-size: auto;
 }
-/* line 2610, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032610}}
+/* line 2617, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032617}}
 .overlap-desc {
   position: absolute;
   text-align: center;
   width: 480px;
   top: 23px;
 }
-/* line 2617, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032617}}
+/* line 2624, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032624}}
 .wrap-main-holder .content {
   color: #FFF;
   position: absolute;
@@ -10015,8 +10025,8 @@ ul.type-circle li {
   background-color: rgba(0, 0, 0, 0.35);
   width: 100%;
 }
-/* line 2630, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032630}}
+/* line 2637, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032637}}
 .wrap-main-holder:before {
   content: "";
   position: absolute;
@@ -10028,59 +10038,59 @@ ul.type-circle li {
   height: 100%;
   z-index: 1;
 }
-/* line 2642, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032642}}
+/* line 2649, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032649}}
 .menu-collection {
   border-bottom: 1px solid #e1e1e1;
   position: relative;
 }
-/* line 2647, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032647}}
+/* line 2654, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032654}}
 .menu-collection .act {
   width: 30%;
   text-align: center;
   height: 161px;
   padding-top: 23px;
 }
-/* line 2654, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032654}}
+/* line 2661, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032661}}
 .menu-collection .act:last-child {
   width: 40%;
 }
-/* line 2658, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032658}}
+/* line 2665, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032665}}
 .menu-collection h3 {
   margin: 3px 0;
 }
-/* line 2662, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032662}}
+/* line 2669, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032669}}
 .menu-collection .sub-desc {
   font-size: 14px;
   margin: 2px 0px 10px;
 }
-/* line 2667, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032667}}
+/* line 2674, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032674}}
 .menu-collection .act:last-child {
   border-left: 1px solid #E1E1E1;
 }
-/* line 2671, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032671}}
+/* line 2678, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032678}}
 .menu-collection .btn-large {
   padding-left: 41px;
   padding-right: 41px;
 }
-/* line 2676, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032676}}
+/* line 2683, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032683}}
 .uiTabs .nav-tabs > li > a.text-left {
   text-align: left;
 }
-/* line 2680, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032680}}
+/* line 2687, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032687}}
 .nav-tabs > li {
   overflow: hidden;
 }
-/* line 2685, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032685}}
+/* line 2692, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032692}}
 .nav-tabs > li > a.ex-action {
   display: inline-block !important;
   border: none;
@@ -10094,25 +10104,25 @@ ul.type-circle li {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
-/* line 2699, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032699}}
+/* line 2706, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032706}}
 .nav-tabs > li.active > a.ex-action {
   right: 10px;
 }
-/* line 2703, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032703}}
+/* line 2710, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032710}}
 .ex-action:hover {
   color: #4BC7F1 !important;
 }
-/* line 2707, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032707}}
+/* line 2714, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032714}}
 .btn.btn-reduced-auto {
   width: auto;
   padding-left: 10px;
   padding-right: 10px;
 }
-/* line 2713, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032713}}
+/* line 2720, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032720}}
 .top-cp-action {
   color: #FFF;
   font-size: 35px;
@@ -10124,8 +10134,8 @@ ul.type-circle li {
   text-align: right;
   width: 140px;
 }
-/* line 2725, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032725}}
+/* line 2732, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032732}}
 .top-cp-action a {
   font-size: 25px;
   padding: 4px 11px;
@@ -10134,19 +10144,19 @@ ul.type-circle li {
   color: #FFF;
   opacity: .7;
 }
-/* line 2734, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032734}}
+/* line 2741, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032741}}
 .top-cp-action a:hover {
   background-color: rgba(0, 0, 0, 0.38);
 }
-/* line 2738, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032738}}
+/* line 2745, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032745}}
 .top-cp-action .fa-edit {
   top: auto;
   position: relative;
 }
-/* line 2743, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032743}}
+/* line 2750, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032750}}
 h3 .popover {
   font-family: Roboto, sans-serif;
   font-weight: 200;
@@ -10154,54 +10164,54 @@ h3 .popover {
   line-height: 19px;
   color: #666666;
 }
-/* line 2751, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032751}}
+/* line 2758, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032758}}
 .menu-collection h3.popover-title {
   margin: 0px;
 }
-/* line 2755, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032755}}
+/* line 2762, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032762}}
 .float-popover {
   position: absolute;
   top: -1px;
   right: 0px;
 }
-/* line 2761, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032761}}
+/* line 2768, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032768}}
 .controls-float {
   position: relative;
 }
-/* line 2765, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032765}}
+/* line 2772, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032772}}
 .controls-float-small {
   width: 143px;
 }
-/* line 2772, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032772}}
+/* line 2779, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032779}}
 .med-frm {
   width: 100px;
 }
-/* line 2776, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032776}}
+/* line 2783, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032783}}
 .date-sep {
   margin: 0px 4px;
   font-size: 17px;
 }
-/* line 2781, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032781}}
+/* line 2788, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032788}}
 .lbl-value {
   color: #acacac;
 }
-/* line 2785, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032785}}
+/* line 2792, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032792}}
 .boxed-well {
   background-color: #F2F2F2;
   padding: 10px;
   border: 1px solid #D0D0D0;
   border-radius: 2px;
 }
-/* line 2792, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032792}}
+/* line 2799, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032799}}
 .boxed-well .inline-amount {
   right: 10px !important;
 }
@@ -10213,14 +10223,14 @@ h3 .popover {
 	@fa-cc-stripe: #00afe1;
 	@fa-cc-visa: #0157a2;
 	*/
-/* line 2805, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032805}}
+/* line 2812, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032812}}
 .add-fa-sort:hover {
   color: #22B2E2;
   cursor: pointer;
 }
-/* line 2810, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032810}}
+/* line 2817, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032817}}
 .add-fa-sort:after {
   font-family: 'FontAwesome';
   content: "\f0de";
@@ -10228,14 +10238,14 @@ h3 .popover {
   top: 3px;
   margin-left: 7px;
 }
-/* line 2818, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032818}}
+/* line 2825, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032825}}
 .add-fa-sort.collapsed:after {
   content: "\f0dd";
   top: -3px;
 }
-/* line 2823, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032823}}
+/* line 2830, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032830}}
 .cs-chck-box.custom-radio-field label {
   padding: 21px 0 23px 44px;
   background-color: #F2F2F2;
@@ -10243,43 +10253,43 @@ h3 .popover {
   display: block;
   height: auto;
 }
-/* line 2831, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032831}}
+/* line 2838, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032838}}
 .cc-type {
   font-size: 33px;
 }
-/* line 2835, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032835}}
+/* line 2842, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032842}}
 .fa-cc-amex {
   color: #007bc1;
 }
-/* line 2836, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032836}}
+/* line 2843, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032843}}
 .fa-cc-discover {
   color: #f68121;
 }
-/* line 2837, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032837}}
+/* line 2844, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032844}}
 .fa-cc-mastercard {
   color: #0a3a82;
 }
-/* line 2838, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032838}}
+/* line 2845, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032845}}
 .fa-cc-paypal {
   color: #253b80;
 }
-/* line 2839, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032839}}
+/* line 2846, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032846}}
 .fa-cc-stripe {
   color: #00afe1;
 }
-/* line 2840, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032840}}
+/* line 2847, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032847}}
 .fa-cc-visa {
   color: #0157a2;
 }
-/* line 2844, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032844}}
+/* line 2851, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032851}}
 .wui-ribbon {
   position: absolute;
   height: 64px;
@@ -10287,27 +10297,27 @@ h3 .popover {
   background-repeat: no-repeat;
   right: 0px;
 }
-/* line 2853, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032853}}
+/* line 2860, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032860}}
 .lbl-pay-option {
   height: 33px;
   display: inline-block;
   padding-top: 9px;
 }
-/* line 2859, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032859}}
+/* line 2866, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032866}}
 .credit-cards-icons {
   background-image: url('/assets/images/credit-cards.png');
   width: 225px;
 }
-/* line 2864, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032864}}
+/* line 2871, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032871}}
 .paypal-icon {
   background-image: url('/assets/images/paypal.png');
   width: 51px;
 }
-/* line 2869, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032869}}
+/* line 2876, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032876}}
 .powered-by-stripe:before {
   content: " ";
   display: block;
@@ -10320,8 +10330,8 @@ h3 .popover {
   background-repeat: no-repeat;
   opacity: .5;
 }
-/* line 2882, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032882}}
+/* line 2889, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032889}}
 .modal-overlap-loader {
   background-image: url('../images/ajax-loader.gif');
   background-position: center;
@@ -10332,13 +10342,13 @@ h3 .popover {
   height: 100%;
   width: 100%;
 }
-/* line 2894, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032894}}
+/* line 2901, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032901}}
 .powered-by-stripe-solid-inline {
   position: relative;
 }
-/* line 2898, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032898}}
+/* line 2905, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032905}}
 .powered-by-stripe-solid-inline:after {
   content: " ";
   display: block;
@@ -10351,8 +10361,8 @@ h3 .popover {
   background-repeat: no-repeat;
   opacity: 0.5;
 }
-/* line 2914, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032914}}
+/* line 2921, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032921}}
 .ui-tag {
   background: #cacaca;
   display: inline-block;
@@ -10360,18 +10370,18 @@ h3 .popover {
   border-radius: 2px;
   color: #FFF !important;
 }
-/* line 2922, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032922}}
+/* line 2929, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032929}}
 .new-ribbon {
   background-image: url('../images/n/new-red-ribbon.png');
 }
-/* line 2926, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032926}}
+/* line 2933, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032933}}
 .ie-support {
   display: none;
 }
-/* line 2930, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032930}}
+/* line 2937, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\000032937}}
 .k-ie9 .ie-support {
   display: block;
 }
@@ -10745,8 +10755,8 @@ h3 .popover {
 /* line 98, /Volumes/HD2/sites/rme.mockup/assets/less/profile-photo-wrap.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/profile-photo-wrap\.less}line{font-family:\0000398}}
 .ppi-xsmall ._c .default-avatar {
-  font-size: 22px;
-  margin-top: -11px;
+  font-size: 18px;
+  margin-top: -8px;
 }
 /* line 105, /Volumes/HD2/sites/rme.mockup/assets/less/profile-photo-wrap.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/profile-photo-wrap\.less}line{font-family:\00003105}}
@@ -18906,77 +18916,215 @@ ol[type="a"] li {
 .jspDrag:hover {
   background-color: #bdbdbd;
 }
-/* line 3, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\000033}}
-.mailwrap {
-  border-width: 1px;
-  border-color: #eaeaea;
-  border-bottom-style: solid;
+/* line 5, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\000035}}
+.col-wrap-1 {
+  float: left;
+  height: 100vh;
   background-color: #FFF;
-  overflow: hidden;
+  padding: 27px 23px;
+  width: 280px;
 }
-/* line 9, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\000039}}
-.mailwrap .a-filter {
-  display: block;
-  padding: 0px 20px;
-  font-size: 24px;
-  line-height: 71px;
-}
-/* line 14, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\0000314}}
-.mailwrap .a-filter .fa-chevron-down {
-  position: absolute;
-  top: 30%;
-  right: 20px;
+/* line 13, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\0000313}}
+.col-wrap-2 {
+  background-color: #31353d;
+  height: 100vh;
+  width: 365px;
+  color: #FFF;
 }
 /* line 20, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\0000320}}
-.mailwrap .a-filter:hover .glyphicon-chevron-down {
-  color: #22b2e2;
+.single-message {
+  width: 100%;
+  overflow-x: auto;
 }
-/* line 27, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\0000327}}
+/* line 23, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\0000323}}
+.single-message.folded {
+  height: 0px;
+}
+/* line 28, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\0000328}}
+.mail-header {
+  position: relative;
+  border-top: 1px solid #eaeaea;
+  padding: 20px 0px;
+}
+/* line 30, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\0000330}}
+.mail-header.folded-mail {
+  position: relative;
+  border-top: 1px solid #EAEAEA;
+  padding: 20px 14px;
+  background-color: rgba(242, 242, 242, 0.51);
+  cursor: pointer;
+}
+/* line 36, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\0000336}}
+.mail-header.folded-mail:hover {
+  background-color: #f2f2f2;
+}
+/* line 45, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\0000345}}
+.mail-header .sender {
+  font-size: 19px;
+  color: #292C33;
+}
+/* line 48, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\0000348}}
+.mail-header .date-sent {
+  position: absolute;
+  top: 23px;
+  right: 15px;
+  font-size: 11px;
+  color: #818181;
+}
+/* line 60, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\0000360}}
+.mail-items-header {
+  padding: 22px 20px;
+  margin-bottom: 1px;
+  border-bottom: 1px solid #292C33;
+}
+/* line 67, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\0000367}}
+.mail-items-header .end-re {
+  color: #D5D5D5;
+  font-size: 12px;
+}
+/* line 74, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\0000374}}
+.side-bar-filter .inner-sub-menu {
+  padding-left: 5px;
+}
+/* line 77, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\0000377}}
+.side-bar-filter .fa {
+  margin-left: 4px;
+}
+/* line 80, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\0000380}}
+.side-bar-filter .action-btn {
+  margin-bottom: 1px;
+}
+/* line 82, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\0000382}}
+.side-bar-filter .action-btn .ac {
+  display: block;
+  padding: 11px 18px;
+  border-radius: 2px;
+  color: #666;
+  cursor: pointer;
+}
+/* line 88, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\0000388}}
+.side-bar-filter .action-btn .ac.active {
+  background-color: #22B2E2;
+  color: #FFF;
+}
+/* line 92, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\0000392}}
+.side-bar-filter .action-btn .ac:hover {
+  background-color: #4BC7F1;
+  color: #FFF;
+}
+/* line 97, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\0000397}}
+.side-bar-filter .action-btn .bc {
+  float: right;
+}
+/* line 103, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003103}}
+.side-bar-filter .sub-filter-menu {
+  padding-top: 10px;
+}
+/* line 105, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003105}}
+.side-bar-filter .sub-filter-menu .action-btn {
+  font-size: 12px;
+  padding: 1px 11px;
+}
+/* line 108, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003108}}
+.side-bar-filter .sub-filter-menu .action-btn .ac {
+  padding: 4px 7px 6px 15px;
+  color: #9D9D9D;
+}
+/* line 111, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003111}}
+.side-bar-filter .sub-filter-menu .action-btn .ac.active {
+  background-color: transparent;
+  color: #666;
+}
+/* line 115, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003115}}
+.side-bar-filter .sub-filter-menu .action-btn .ac:hover {
+  background-color: transparent;
+  color: #666;
+}
+/* line 128, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003128}}
 .mmsg-empty {
   background-color: #F8F8F8;
   padding: 20px 20px;
   border-bottom: 1px solid #ebebeb;
 }
-/* line 33, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\0000333}}
+/* line 134, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003134}}
 .mi-info-wrap {
-  max-height: 660px;
+  height: 100VH;
   overflow-y: auto;
+  background-color: #FFF;
 }
-/* line 42, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\0000342}}
+/* line 140, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003140}}
+.sm-info-action {
+  padding: 14px 20px;
+  background-color: rgba(255, 255, 255, 0.32);
+}
+/* line 143, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003143}}
+.sm-info-action .fa.d-action {
+  color: rgba(126, 126, 126, 0.48);
+  cursor: pointer;
+  font-size: 19px;
+  margin-left: 8px;
+}
+/* line 148, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003148}}
+.sm-info-action .fa.d-action:hover {
+  color: #7e7e7e;
+}
+/* line 158, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003158}}
 .mail-filter {
   border-width: 1px;
   border-color: #eaeaea;
   border-bottom-style: solid;
   margin-left: -15px;
 }
-/* line 46, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\0000346}}
+/* line 162, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003162}}
 .mail-filter .lbe {
   margin-bottom: 20px;
 }
-/* line 49, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\0000349}}
+/* line 165, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003165}}
 .mail-filter .mail_counter {
   height: 28px;
   width: 28px;
   top: -13px;
   right: -13px;
 }
-/* line 54, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\0000354}}
+/* line 170, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003170}}
 .mail-filter .mail_counter em {
   font-size: 14px;
   line-height: 22px;
 }
-/* line 60, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\0000360}}
+/* line 176, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003176}}
 .mail-filter .dropdown-menu {
   font-size: 30px;
   font-family: Roboto, sans-serif;
@@ -18988,8 +19136,8 @@ ol[type="a"] li {
   color: #6e6e6e;
   overflow: hidden;
 }
-/* line 70, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\0000370}}
+/* line 186, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003186}}
 .mail-filter .dropdown-menu li > a {
   display: block;
   padding: 24px 0px;
@@ -18997,14 +19145,14 @@ ol[type="a"] li {
   font-weight: 300;
   border-bottom: 1px solid #eaeaea;
 }
-/* line 76, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\0000376}}
+/* line 192, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003192}}
 .mail-filter .dropdown-menu li > a:hover {
   color: #8f8f8f;
   background-color: #f9f9f9;
 }
-/* line 86, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\0000386}}
+/* line 202, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003202}}
 .mi-info {
   border-width: 1px;
   border-color: #eaeaea;
@@ -19013,167 +19161,213 @@ ol[type="a"] li {
   padding-left: 0px;
   padding-right: 0px;
 }
-/* line 95, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\0000395}}
+/* line 211, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003211}}
 .delete-msg {
   margin-top: 14px;
 }
-/* line 99, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\0000399}}
+/* line 215, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003215}}
 .mail-items {
-  margin-left: -15px;
   max-height: 660px;
   overflow-y: auto;
+  background-color: #292c33;
 }
-/* line 106, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003106}}
+/* line 219, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003219}}
+.mail-items li {
+  margin-bottom: 2px;
+  background-color: #31353d;
+}
+/* line 223, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003223}}
+.mail-items .fa-paperclip {
+  font-size: 15px;
+  color: #666;
+}
+/* line 227, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003227}}
+.mail-items .move-to-trash-action {
+  position: absolute;
+  color: #666;
+  font-size: 14px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  padding: 2px 7px;
+  border-radius: 3px;
+}
+/* line 236, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003236}}
+.mail-items .move-to-trash-action .lbl {
+  display: none;
+  font-size: 11px;
+}
+/* line 240, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003240}}
+.mail-items .move-to-trash-action:hover {
+  color: #C7C7C7;
+  border: 1px solid #C7C7C7;
+}
+/* line 244, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003244}}
+.mail-items .move-to-trash-action:hover .lbl {
+  display: inline-block;
+}
+/* line 249, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003249}}
 .mail-items .m {
-  border-left: 4px solid transparent;
-  padding: 10px 0px 16px;
+  padding: 14px 0px 25px;
   display: block;
-  color: #666666;
-  background-color: #fff;
+  color: #FFF;
   position: relative;
 }
-/* line 113, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003113}}
+/* line 254, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003254}}
 .mail-items .m:after {
   content: " ";
   position: absolute;
   width: 100%;
-  border-bottom: 1px solid #eaeaea;
   bottom: 0px;
 }
-/* line 120, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003120}}
+/* line 260, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003260}}
 .mail-items .m.unread {
-  background-color: #f9f9f9;
+  background-color: #3F444D;
 }
-/* line 122, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003122}}
-.mail-items .m.unread .name,
-.mail-items .m.unread h6 {
-  font-weight: bold;
+/* line 262, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003262}}
+.mail-items .m.unread:hover {
+  background-color: #373D49;
 }
-/* line 126, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003126}}
+/* line 269, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003269}}
 .mail-items .m.selected {
-  background-color: #22b2e2;
+  background-color: #292c33;
   color: #FFF;
 }
-/* line 129, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003129}}
-.mail-items .m.selected .mm-msg {
-  color: #FFF !important;
-}
-/* line 133, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003133}}
+/* line 273, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003273}}
 .mail-items .m:hover {
-  background-color: #4bc7f1;
+  background-color: #292c33;
   color: #FFF;
 }
-/* line 136, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003136}}
+/* line 276, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003276}}
 .mail-items .m:hover .mm-msg {
   color: #FFF !important;
 }
-/* line 142, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003142}}
+/* line 282, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003282}}
 .mail-items .message .m {
   border-left-color: #18cd83;
 }
-/* line 145, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003145}}
+/* line 285, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003285}}
 .mail-items .notification .m {
   border-left-color: #ed335d;
 }
-/* line 149, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003149}}
+/* line 289, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003289}}
 .mail-items .mm-photo {
   position: absolute;
   left: 14px;
   top: 13px;
 }
-/* line 155, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003155}}
+/* line 295, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003295}}
 .mail-items .mm-data {
-  margin-left: 90px;
   position: relative;
-  margin-right: 11px;
+  margin: 0px 20px;
 }
-/* line 159, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003159}}
+/* line 298, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003298}}
 .mail-items .mm-data .name {
-  font-size: 16px;
+  font-size: 13px;
   margin-top: 10px;
   margin-bottom: 2px;
+  font-weight: 300;
+  letter-spacing: .7px;
 }
-/* line 164, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003164}}
+/* line 305, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003305}}
 .mail-items .mm-data h6 {
   position: absolute;
   font-weight: normal;
-  right: 0px;
-  top: 0px;
+  right: -7px;
+  top: 8px;
   margin-top: 0px;
+  font-size: 10px;
+  color: #666;
 }
-/* line 171, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003171}}
+/* line 314, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003314}}
 .mail-items .mm-data .mm-msg {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   padding-right: 21px;
-  font-size: 13px;
+  font-size: 12px;
   color: #959595;
+  margin-top: 6px;
 }
-/* line 184, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003184}}
+/* line 327, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003327}}
+.top-menu-small {
+  display: block;
+  font-size: 11px;
+  padding: 5px 0px;
+}
+/* line 331, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003331}}
+.top-menu-small:hover {
+  background-color: #F9F9F9;
+}
+/* line 336, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003336}}
 .conversation {
-  padding-left: 36px;
-  padding-right: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
   min-height: 400px;
   padding-bottom: 63px;
 }
-/* line 189, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003189}}
+/* line 341, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003341}}
 .conversation .friend,
 .conversation .me {
   min-height: 105px;
   position: relative;
-  margin: 51px 0;
-  padding-left: 100px;
-  padding-right: 140px;
+  margin: 20px 0;
+  padding-left: 30px;
+  padding-right: 110px;
 }
-/* line 197, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003197}}
+/* line 349, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003349}}
 .conversation .friend {
-  padding-left: 140px;
-  padding-right: 100px;
+  padding-left: 110px;
+  padding-right: 30px;
 }
-/* line 200, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003200}}
+/* line 352, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003352}}
 .conversation .friend .msg {
   float: right !important;
 }
-/* line 205, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003205}}
+/* line 357, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003357}}
 .conversation .time-sent {
   font-size: 11px;
-  margin-top: 34px;
+  margin-top: 25px;
 }
-/* line 210, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003210}}
+/* line 362, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003362}}
 .conversation .msg {
   font-size: 13px;
-  padding: 31px;
-  border-radius: 5px;
+  padding: 21px;
+  border-radius: 4px;
   position: relative;
-  border: 1px solid #f3f3f3;
+  border: 1px solid #F3F3F3;
   width: 100%;
 }
-/* line 217, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003217}}
+/* line 369, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003369}}
 .conversation .msg:after {
   content: "";
   background-image: url('../images/n/sprites-ui.png');
@@ -19185,93 +19379,119 @@ ol[type="a"] li {
   height: 20px;
   width: 30px;
 }
-/* line 227, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003227}}
+/* line 379, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003379}}
 .conversation .iro {
   position: absolute;
   bottom: 0px;
+  font-size: 12px;
+  text-align: center;
+  width: 80px;
 }
-/* line 231, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003231}}
+/* line 386, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003386}}
 .conversation .iro .profile-photo {
-  margin-bottom: 5px;
+  margin-bottom: 13px;
+  margin-left: 12px;
 }
-/* line 237, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003237}}
+/* line 393, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003393}}
 .conversation .friend .iro {
   left: 0px;
 }
-/* line 240, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003240}}
+/* line 396, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003396}}
 .conversation .friend .msg {
   float: left;
   background-color: #f9f9f9;
 }
-/* line 243, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003243}}
+/* line 399, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003399}}
 .conversation .friend .msg:after {
   left: -25px;
 }
-/* line 250, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003250}}
+/* line 406, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003406}}
 .conversation .me .iro {
   right: 0px;
 }
-/* line 253, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003253}}
+/* line 409, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003409}}
 .conversation .me .msg {
   float: left;
   background-color: #22b2e2;
   color: #FFF;
 }
-/* line 257, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003257}}
+/* line 413, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003413}}
 .conversation .me .msg a {
   color: #FFF;
   text-decoration: underline;
 }
-/* line 261, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003261}}
+/* line 417, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003417}}
 .conversation .me .msg:after {
   background-position: 0px -816px;
   right: -25px;
   bottom: -4px;
 }
-/* line 270, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003270}}
+/* line 426, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003426}}
 .messaging {
-  margin-right: 0px;
-  position: absolute;
-  padding-right: 140px;
-  bottom: -2px;
   z-index: 10;
-  width: 100%;
+  position: relative;
+  bottom: 24px;
 }
-/* line 277, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003277}}
+/* line 430, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003430}}
 .messaging textarea {
-  float: right;
   width: 100%;
   height: 68px;
+  border: none;
+  margin-bottom: 11px;
+  padding: 0;
 }
-/* line 283, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003283}}
-.messaging .msging-send {
-  position: absolute;
-  right: 0;
-  width: 140px;
-  height: 68px;
-  font-size: 16px;
-  border-radius: 0;
+/* line 436, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003436}}
+.messaging textarea:focus,
+.messaging textarea:hover {
+  box-shadow: none;
+}
+/* line 441, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003441}}
+.messaging .reply-wrap {
+  padding: 10px;
+  border: 1px solid #EAEAEA;
+  border-radius: 3px;
+  background-color: #FFF;
+  margin: 0px 33px;
+  box-shadow: inset 1px 1px 1px 1px rgba(24, 24, 24, 0.04);
+}
+/* line 450, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003450}}
+.messaging .fa {
+  font-size: 23px;
+  margin-left: 7px;
+  padding: 3px 7px;
+  border-radius: 3px;
+  color: #AEAEAE;
+  top: 5px;
+  position: relative;
+  cursor: pointer;
+}
+/* line 459, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003459}}
+.messaging .fa:hover {
+  color: #000000;
 }
 @media (max-width: 992px) {
-  /* line 296, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003296}}
+  /* line 469, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003469}}
   .mailwrap .col-md-4 {
     width: 33.33333333333333%;
   }
-  /* line 300, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003300}}
+  /* line 473, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003473}}
   .mailwrap .col-md-8 {
     width: 66.66666666666666%;
   }

@@ -1,28 +1,129 @@
+@dark_bg_01 : #31353D;
+@dark_bg_02 : #292C33;
 @MM_max_height : 660px;
 
-.mailwrap {
-	border-width: 1px;
-	border-color: @gray_border_colour;
-	border-bottom-style: solid;
-	background-color: #FFF;	
-	overflow: hidden;
-	.a-filter {
-		display: block;
-		padding: 0px 20px;
-		font-size: 24px;
-		line-height: 71px;
-		.fa-chevron-down {
-			position: absolute;
-			top: 30%;
-			right: 20px;
-		}
-		&:hover {
-			.glyphicon-chevron-down{
-				color: @blue;	
-			}			
-		}
+.col-wrap-1 {
+	float: left;
+	height: 100vh;
+	background-color: #FFF;
+	padding: 27px 23px;
+	width: 280px;
+}
+
+.col-wrap-2 {
+	background-color: @dark_bg_01;
+	height: 100vh;
+	width: 365px;
+	color: #FFF;
+}
+
+.single-message {
+	width: 100%;
+	overflow-x: auto;
+	&.folded {
+		height: 0px;
 	}
 }
+
+.mail-header {
+
+	&.folded-mail {
+		position: relative;
+		border-top: 1px solid #EAEAEA;
+		padding: 20px 14px;
+		background-color: rgba(242, 242, 242, 0.51);
+		cursor: pointer;
+		&:hover {
+			background-color: rgba(242, 242, 242, 1);
+		}
+	}
+
+	position: relative;
+	border-top: 1px solid #eaeaea;
+	padding: 20px 0px;
+
+	.sender { font-size: 19px;
+	color: #292C33; }
+
+	.date-sent {
+		position: absolute;
+		top: 23px;
+		right: 15px;
+		font-size: 11px;
+		color: #818181;
+	}
+}
+
+
+
+
+.mail-items-header {
+	padding: 22px 20px;
+	margin-bottom: 1px;
+	border-bottom: 1px solid #292C33;
+	.filter {
+
+	} 
+	.end-re {
+		color: #D5D5D5;
+		font-size: 12px;
+	}
+}	
+
+.side-bar-filter {
+	.inner-sub-menu {
+		padding-left: 5px;
+	}
+	.fa {
+		margin-left: 4px;
+	}
+	.action-btn {
+		margin-bottom: 1px;
+		.ac {
+			display: block;
+			padding: 11px 18px;
+			border-radius: 2px;
+			color: #666;
+			cursor: pointer;
+			&.active {
+				background-color: #22B2E2;
+				color: #FFF;
+			}
+			&:hover {
+				background-color: #4BC7F1;
+				color: #FFF;
+			}
+		}
+		.bc {
+			float: right;
+		}
+	}
+
+	// sub-menu 
+	.sub-filter-menu {
+		padding-top: 10px;
+		.action-btn {
+			font-size: 12px;
+			padding: 1px 11px;
+			.ac {
+				padding: 4px 7px 6px 15px;
+				color: #9D9D9D;
+				&.active {
+					background-color: transparent;;
+					color: #666;;
+				}
+				&:hover {
+					background-color: transparent;
+					color: #666;
+				}
+			}
+		}
+		
+	}
+}
+
+
+// old below
 
 .mmsg-empty {
 	background-color: #F8F8F8;
@@ -31,8 +132,23 @@
 }
 
 .mi-info-wrap {
-	max-height: @MM_max_height;
+	height: 100VH;
 	overflow-y: auto;
+	background-color: #FFF;
+}
+
+.sm-info-action  {
+	padding: 14px 20px;
+	background-color: rgba(255, 255, 255, 0.32);
+	.fa.d-action {
+		color: rgba(126, 126, 126, 0.48);
+		cursor: pointer;
+		font-size: 19px;
+		margin-left: 8px;
+		&:hover {
+			color: rgba(126, 126, 126, 1);
+		}
+	}
 }
 
 // #ui-datepicker-div {
@@ -97,41 +213,65 @@
 }
 
 .mail-items {
-	margin-left: -15px;
 	max-height: @MM_max_height;
 	overflow-y: auto;
+	background-color: @dark_bg_02;
 	li {
-	
+		margin-bottom: 2px;
+		background-color: @dark_bg_01;
+	}
+	.fa-paperclip {
+		font-size: 15px;
+		color: #666;
+	}
+	.move-to-trash-action {
+		position: absolute;
+		// right: -16px;
+		// top: -21px;
+		color: #666;
+		font-size: 14px;
+		border: 1px solid rgba(0, 0, 0, 0);
+		padding: 2px 7px;
+		border-radius: 3px;
+		.lbl {
+			display: none;
+			font-size: 11px;
+		}
+		&:hover {
+			color: #C7C7C7;
+			border: 1px solid #C7C7C7;
+
+			.lbl {
+				display: inline-block;
+			}
+		}
 	}
 	.m {
-		border-left: 4px solid transparent;
-		padding: 10px 0px 16px;
+		padding: 14px 0px 25px;
 		display: block;
-		color: #666666;
-		background-color: #fff;
+		color: #FFF;
 		position: relative;
 		&:after {
 			content: " ";
 			position: absolute;
 			width: 100%;
-			border-bottom: 1px solid @gray_border_colour;
 			bottom: 0px;
 		}
 		&.unread {
-			background-color: #f9f9f9;
+			background-color: #3F444D;
+			&:hover {
+				background-color: #373D49;
+			}
 			.name,h6 {
-				font-weight: bold;
+				// font-weight: bold;
 			}
 		}
 		&.selected {
-			background-color: @blue;
+			background-color: @dark_bg_02;
 			color: #FFF;
-			.mm-msg {
-				color: #FFF !important;
-			}
 		}
 		&:hover {
-			background-color: @blue_btn_hover;
+			background-color: @dark_bg_02;
 			color: #FFF;
 			.mm-msg {
 				color: #FFF !important;
@@ -153,50 +293,62 @@
 	}
 
 	.mm-data {
-		margin-left: 90px;
 		position: relative;
-		margin-right: 11px;
+		margin: 0px 20px;
 		.name { 
-			font-size: 16px;
+			font-size: 13px;
 			margin-top: 10px;
 			margin-bottom: 2px;
+			font-weight: 300;
+			letter-spacing: .7px;
 		}
 		h6 {
 			position: absolute;
 			font-weight: normal;
-			right: 0px;
-			top: 0px;
+			right: -7px;
+			top: 8px;
 			margin-top: 0px;
+			font-size: 10px;
+			color: #666;
 		}
 		.mm-msg {
 			white-space: nowrap;
 			overflow: hidden;
 			text-overflow: ellipsis;
 			padding-right: 21px;
-			font-size: 13px;
+			font-size: 12px;
 			color: #959595;
+			margin-top: 6px;
 		}
 	}
 
 }
 
+.top-menu-small {
+	display: block;
+	font-size: 11px;
+	padding: 5px 0px;
+	&:hover {
+		background-color: #F9F9F9;
+	}
+}
 
 .conversation{
-	padding-left: 36px;
-	padding-right: 18px;
+	padding-left: 20px;
+	padding-right: 20px;
 	min-height: 400px;
 	padding-bottom: 63px;
 	.friend, .me {
 		min-height: 105px;
 		position: relative;
-		margin: 51px 0;
-		padding-left: 100px;
-		padding-right: 140px;
+		margin: 20px 0;
+		padding-left: 30px;
+		padding-right: 110px;
 	}
 
 	.friend {
-			padding-left: 140px;			
-			padding-right: 100px;
+			padding-left: 110px;
+			padding-right: 30px;
 		.msg {
 			float: right !important;
 		}
@@ -204,15 +356,15 @@
 
 	.time-sent {
 		font-size: 11px;
-		margin-top: 34px;
+		margin-top: 25px;
 	}
 
 	.msg {
-		font-size: 13px;		
-		padding: 31px;
-		border-radius: 5px;
+		font-size: 13px;
+		padding: 21px;
+		border-radius: 4px;
 		position: relative;
-		border: 1px solid #f3f3f3;
+		border: 1px solid #F3F3F3;
 		width: 100%;
 		&:after {
 				content: "";
@@ -227,9 +379,13 @@
 	.iro {
 		position: absolute;
 		bottom: 0px;
+		font-size: 12px;
+		text-align: center;
+		width: 80px;
 
 		.profile-photo {
-			margin-bottom: 5px;
+			margin-bottom: 13px;
+			margin-left: 12px;
 		}
 
 	}
@@ -268,26 +424,43 @@
 }
 
 .messaging {
-	margin-right: 0px;
-	position: absolute;
-	padding-right: 140px;
-	bottom: -2px;
 	z-index: 10;
-	width: 100%;
+	position: relative;
+	bottom: 24px;
 	textarea {
-		float: right;
 		width: 100%;
-		height: 68px
+		height: 68px;
+		border: none;
+		margin-bottom: 11px;
+		padding: 0;
+		&:focus, &:hover {
+			box-shadow: none;
+		}
 	}
 
-	.msging-send {
-		position: absolute;
-		right: 0;
-		width: 140px;
-		height: 68px;
-		font-size: 16px;
-		border-radius: 0;
+	.reply-wrap {
+		padding: 10px;
+		border: 1px solid #EAEAEA;
+		border-radius: 3px;
+		background-color: #FFF;
+		margin: 0px 33px;
+		box-shadow: inset 1px 1px 1px 1px rgba(24, 24, 24, 0.04)
 	}
+
+	.fa {
+		font-size: 23px;
+		margin-left: 7px;
+		padding: 3px 7px;
+		border-radius: 3px;
+		color: #AEAEAE;
+		top: 5px;
+		position: relative;
+		cursor: pointer;
+		&:hover {
+			color: #000
+		}
+	}
+
 }
 
 
