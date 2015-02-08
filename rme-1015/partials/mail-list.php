@@ -1,7 +1,5 @@
 <div class="pull-left col-wrap-2">
-	<div class="mail-items-header">
-		Enquiries <i class="fa fa-caret-right"></i> <span class="end-re">12 / 12 Lorem St. Sta. Villa, 1233</span>
-	</div>
+	<?php require('components/mail-list-header.php') ?>
 	<ul class="mail-items" ><li class="message" id="maillist-875">
 	<a href="#" class="m read thread_list" id="thread-875">
 		<div class="mm-data">

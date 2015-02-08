@@ -1,6 +1,6 @@
 <div class="col-wrap-1">
  	<div class="text-center mnu-8">
-		<button class="btn btn-success btn-large btn-block">Compose</button>
+		<button class="btn btn-success btn-large btn-block" data-target="#composeMsg" data-toggle="modal">Compose</button>
 	</div>
 	<nav class="side-bar-filter">
 		<div class="action-btn">

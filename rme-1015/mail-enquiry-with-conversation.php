@@ -8,5 +8,6 @@
 	<?php require('partials/mail-with-conversation.php'); ?>
 </div>
 
+<?php require('partials/scripts.php') ;?>
 
 <?php require('../partials/footer.php') ?>

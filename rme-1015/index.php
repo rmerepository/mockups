@@ -8,5 +8,6 @@
 	<?php require('partials/mail-content.php'); ?>
 </div>
 
+<?php require('partials/components/mail-compose-msg.php') ?>
 
 <?php require('../partials/footer.php') ?>

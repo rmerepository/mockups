@@ -6,7 +6,7 @@
       <div>Jack Sparro</div>
    </div>
    <div class="msg">
-      hey can! test again      
+      hey can! test again <a href="http://www.google.com" target="_blank" title="http://www.google.com">Link</a> 
       <div class="time-sent">Jan 20 2014</div>
    </div>
 </div>

@@ -6,6 +6,7 @@
    <div class="conversation">
    		<?php require('components/mail-header-folded.php') ?>	
 		<?php require('sample-system-mail-folded.php') ?>
+		<?php require('components/mail-load-conv.php'); ?>
 		<?php require('components/msg-me.php'); ?>
 		<?php require('components/msg-friend.php'); ?>
 		<?php require('components/mail-footer.php') ?>	

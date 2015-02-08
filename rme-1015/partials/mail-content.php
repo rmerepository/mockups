@@ -4,6 +4,7 @@
 	<?php require('components/top-action-mail.php') ?>
 
    <div class="conversation">
+   <?php require('components/mail-load-conv.php'); ?>
 
 <!-- CALLOUT ACTIONS -->
    <?php require('components/msg-me.php') ?>
