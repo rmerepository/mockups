@@ -640,7 +640,7 @@ h3.sm-hd {
 }
 .uiTabs {
 
-
+	
 
 	.nav-tabs > li > a {
 		margin-right: 0px;
@@ -653,11 +653,26 @@ h3.sm-hd {
 		border-top: none;
 	}
 
+	.nav-tabs.tab-small > li > a	{
+		font-size: 12px;
+	}
+
 	.tab-content {
 		min-height: 300px;
 		border: 1px solid @gray_border_colour;
 		border-top: none;
 		padding-bottom: 20px;
+		&.basic-tab {
+			padding: 0px;
+			min-height: 100px;
+			> .tab-pane {
+				padding: 0;
+				background-color: #FFF;
+			}
+			.brdr-top  {
+				padding: 36px 25px 18px;
+			}
+		}
 	}
 
 	.tab-content > .tab-pane, .pill-content > .pill-pane {
@@ -2148,6 +2163,12 @@ a.app-switch {
   padding: 21px 38px 7px;
   background-color: #F5F5F5;
   border-bottom: 1px solid #EBEBEB;
+}
+
+.modal-large {
+	.modal-dialog {
+		width: 810px;
+	}
 }
 
 .hr-in-m {
