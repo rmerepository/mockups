@@ -7101,7 +7101,7 @@ ol {
 /* line 90, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\0000390}}
 .center-fold .cbox {
-  margin-top: 30px;
+  margin: 30px 0 50px;
 }
 /* line 95, /Volumes/HD2/sites/rme.mockup/assets/less/tw-hooks.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/tw-hooks\.less}line{font-family:\0000395}}
