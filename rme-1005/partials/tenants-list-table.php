@@ -1,4 +1,3 @@
-
 <table class="table sd-table" >
     <thead>
       <tr class="bg-gray">
@@ -15,8 +14,9 @@
         <td>10/12/2014</td>
         
          <td> 
-          <button class="btn btn-sm btn-primary" data-toggle="modal" data-target="#viewTenantDetails">View Details</button> 
-          <button class="btn btn-sm btn-success">Approved</button>
+          <a href="#" class="btn btn-sm btn-primary" disabled data-toggle="modal" data-target="#viewTenantDetails">View Details</a> 
+          <a href="#" class="btn btn-sm btn-success" disabled>Approved</a>
+          <a href="#" class="btn btn-sm btn-danger" disabled>Deny</a>
          </td>
         
             
