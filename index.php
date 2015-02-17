@@ -6,7 +6,8 @@
 	body { font-family: "Helvetica", Arial; color: #666  }
 	a { color: #0074A2; text-decoration: none; }
 	a:hover { color: #046186 }
-	li	{ margin: 5px 0px; }
+	li	{ margin: 10px 0px; list-style: none; }
+	.sublink { font-size: 13px; color: green }
 	</style>
 </head>
 <body>
@@ -30,6 +31,12 @@
 				<li> <a href="rme-1015/mail-enquiry.php"> Mail Enquiry Sample </a> </li>
 				<li> <a href="rme-1015/mail-enquiry-with-conversation.php"> Mail Enquiry with conversation Sample </a> </li>
 			</ul>
+ 		</li>
+ 		<li>
+ 			<a href="rme-1051">RME-1051 Automatic Recording of Rent</a> <a class="sublink" href="https://rentmyestate.atlassian.net/browse/RME-866" target="_blank">(Jira task)</a>
+ 				<ul>
+ 					<li> <a href="rme-1051/connected-with-pocketbook.php">Connected to pocketbook</a> </li>
+ 				</ul>
  		</li>
  	</ul>	
 </body>

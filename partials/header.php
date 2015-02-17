@@ -175,4 +175,4 @@ function control_form ( $lbl, $name, $tabindex, $placeholder ) {
 
 
 <body class="bg-gray window-no-padding-bottom">
-<div class="rme-wrap">
+<div class="rme-wrap rent-collection">
