@@ -22,12 +22,16 @@
 
 		}
 
-	.top-cp-action a.gconnect {
-			font-size: 14px;
-			display: block;
-			margin-top: 6PX;
-			padding: 7px 15px;
-			opacity: 1;
+	a.gconnect {
+		font-size: 14px;
+		display: block;
+		margin-top: 6PX;
+		padding: 7px 15px;
+		opacity: 1;
+		margin-top: 14px;
+		position: absolute;
+		top: 0px;
+		right: 11px;
 	}
 
 		.top-cp-action a.gconnect:hover {
@@ -58,9 +62,6 @@
 		<a href="#" id="linkRentUpdate" rel="tooltip" data-original-title="Rent Increase" data-placement="top" data-toggle="tooltip"> <span class="fa fa-line-chart"></span> </a>
 		<a href="javascript:update_household(77)" rel="tooltip" data-original-title="Change lease details" data-placement="top" data-toggle="tooltip"> <span class="fa fa-edit"></span> </a>
 		<a href="#" data-original-title="Remove tenancy" rel="tooltip" data-placement="top" data-toggle="modal" data-target="#removeHouseHold"> <span class="fa fa-trash-o"></span> </a>
-		<div class="">
-			<a href="#" class="gconnect btn btn-primary" data-toggle='modal' data-target="#connectPocketbook">Connect with Pocketbook</a>
-		</div>
 	</div>
 
 
@@ -72,6 +73,7 @@
 			<b class="text-danger" id="caption_balance">$1,500 owing</b>
 			<span class="f14" id="caption_due_date">Rent Due</span>
 		</div>
+		<a href="#" class="gconnect btn btn-primary" data-toggle='modal' data-target="#connectPocketbook">Connect with Pocketbook</a>
 	</div>
 </div>				
 	
@@ -98,7 +100,7 @@
 	<input type="checkbox" name="rentReminiders" class="onoffswitch-checkbox" disabled="disabled" id="rentReminiders">
 	<label class="onoffswitch-label" for="rentReminiders">
 	<div class="onoffswitch-inner"></div>
-	<div class="onoffswitch-switch"></div>			        
+	<div class="onoffswitch-switch"></div>
 	</label>
 	</div>
 

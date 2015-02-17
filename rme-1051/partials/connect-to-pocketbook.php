@@ -23,6 +23,20 @@
         <input autocomplete="off" name="pocketbookToken" id="pocketbookToken" placeholder="Enter Your Pocketbook token" class="form-control width-full" maxlength="30" tabindex="1" value="" type="text">
       </div>
     </div>
+
+    <div class="control-group">
+      <label class="control-label" for="pocketbookToken">Categories</label>
+      <div class="controls">
+        <input autocomplete="off" name="pocketbookToken" id="pocketbookToken" placeholder="Ex: Rent Payments, Maintenance, Tax" class="form-control width-full" maxlength="30" tabindex="1" value="" type="text">
+        <div class="uihelp-text">Seperate with comma</div>
+      </div>
+    </div>
+
+    <div class="control-group">
+      <div class="controls">
+        <div class="well"> Lorem ipsum dolor sit amet, consectetur adipisicing <a href='#' title="help">elit</a>.    </div>
+      </div>
+    </div>
     </div>
 </div>
 <div class="modal-footer">
