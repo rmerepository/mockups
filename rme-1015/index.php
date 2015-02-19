@@ -2,6 +2,7 @@
 <?php require('../partials/top-nav.php') ?>
 <?php require('../partials/bread.php') ?>
 
+
 <div class="mailwrap">
 	<?php require('partials/filters.php'); ?>
 	<?php require('partials/mail-list.php'); ?>

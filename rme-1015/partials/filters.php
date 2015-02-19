@@ -1,3 +1,10 @@
+<style>
+	.mail-header .subject{
+		font-size: 12px;
+		color: #838383;
+	}
+	</style>
+
 <div class="col-wrap-1">
  	<div class="text-center mnu-8">
 		<button class="btn btn-success btn-large btn-block" data-target="#composeMsg" data-toggle="modal">Compose</button>
@@ -17,7 +24,7 @@
 					</span>
 				</div>
 				<div class="action-btn">
-					<span class="ac active">Messages</span>
+					<span class="ac">Messages</span>
 				</div>
 				<div class="action-btn">
 					<span class="ac">Notifications
@@ -25,19 +32,13 @@
 					</span>
 				</div>
 				<div class="action-btn">
-					<span class="ac" data-toggle="collapse" data-target="#myProperties">Enquiries <i class="fa fa-caret-down"></i></span>
+					<span class="ac active" data-toggle="collapse" data-target="#myProperties">Enquiries <i class="fa fa-caret-down"></i></span>
 				</div>
 
 <!-- INQUIRY PROPERT FILTER -->
-					<div class="inner-sub-menu collapse" id="myProperties">
+					<div class="inner-sub-menu collapse in" id="myProperties">
 						<div class="action-btn">
-							<span class="ac active">12 / 12 Lorem St. Sta. Villa, 1233</span>
-						</div>
-						<div class="action-btn">
-							<span class="ac">12 / 12 Lorem St. Sta. Villa, 1233</span>
-						</div>
-						<div class="action-btn">
-							<span class="ac">12 / 12 Lorem St. Sta. Villa, 1233</span>
+							<span class="ac active">161 Brisbane Street, Bulimb...</span>
 						</div>
 					</div>
 			</nav>

@@ -13,13 +13,13 @@
                     <div class="control-group">
                       <label class="control-label">Are you currently employed or self-employed?</label>
                       <div class="controls custom-radio-field">
-                          <?php radio_input('No', 'No', 'currentEmployment', 'No'  ); ?>
-                          <?php radio_input('Yes', 'Yes', 'currentEmployment', 'Yes'  ); ?>
+                          <?php radio_input('No', 'No', 'currentEmployment', 'other'  ); ?>
+                          <?php radio_input('Yes', 'Yes', 'currentEmployment', 'employed'  ); ?>
                           </div>
                     </div>
                   </div>
                 </div>
-              
+              <div class="hide employmentPane" data-option-target="employed">
                 <div class="row">
                   <div class="col-md-12">
                     <h4>Employment Details</h4>
@@ -85,6 +85,9 @@
                     <?php control_form('Email', 'employerEmail', 3, "") ?>  
                   </div>
                 </div>
+                </div>
+
+                <div class="hide employmentPane" data-option-target="other">
 
                 <div class="row">
                   <div class="col-md-12"> <h4>Other Income</h4> </div>
@@ -136,6 +139,8 @@
                 <?php control_form('Amount', 'amount', 3, "$") ?> 
               </div>
 
+              </div>
+
                 </div>
                   <div class="row"><div class="btn-container-plain text-right">
           <button class="btn btn-primary btn-large" data-toggle="collapse" data-target="#references_section"><span>Next</span></button>
@@ -145,3 +150,27 @@
     </div>
 </div>
 </div>
+
+<script>
+$(function() {
+  $("input:radio[name=currentEmployment]").click(function() {
+   
+    // Get the current selected item
+    var value = $(this).val();
+
+    // Loop thru target section
+    $(".employmentPane").each(function(i, el) {
+     
+      var el = $(el);
+     
+      // Check fo the 'data-option-target' if equal to the selected item
+      if ( el.attr('data-option-target') == value ) {
+        el.removeClass('hide');
+      } else {
+        el.addClass('hide');
+      }
+    
+    });
+  });
+})
+</script>

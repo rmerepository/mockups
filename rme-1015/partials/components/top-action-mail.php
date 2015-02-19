@@ -2,7 +2,6 @@
 <div class="clearfix">
 	<div class="pull-right">
 		<span class="d-action fa fa-reply"></span> 
-		<span class="d-action fa fa-star-o"></span>
 		<span class="d-action fa fa-trash-o"></span>
 	</div>
 </div>
