@@ -39,5 +39,11 @@
  				</ul>
  		</li>
  	</ul>	
+ 	<h2>Components</h2>
+		
+		<ul>
+			<li><a href="/components/topnav1.php">Top Nav</a></li>
+		</ul>
+
 </body>
 </html>
