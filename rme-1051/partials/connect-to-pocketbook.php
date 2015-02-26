@@ -1,5 +1,5 @@
-<div class="modal fade" id="connectPocketbook" tabindex="-1" role="dialog" aria-labelledby="connectPocketbook" aria-hidden="true">
-<div class="modal-dialog _md-small">
+<div class="modal fade" id="connectPocketbook" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="connectPocketbook" aria-hidden="true">
+<div class="modal-dialog">
 <div class="modal-content">
 <div class="modal-header">
 <button class="close" data-dismiss="modal">×</button>
@@ -11,7 +11,7 @@
   		      <div class="control-group">
       
       <div class="controls">
-        <a href="#" class="btn btn-block btn-primary btn-large">Create a pocketbook account</a>
+        <a href="#" class="btn btn-block btn-primary btn-xlarge">Create a pocketbook account</a>
       </div>
     </div>
     <div class="sep-div"><span class="wor-div">OR</span></div>

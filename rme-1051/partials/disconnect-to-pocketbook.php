@@ -1,5 +1,5 @@
-<div class="modal fade" id="disconnectPocketbook" tabindex="-1" role="dialog" aria-labelledby="disconnectPocketbook" aria-hidden="true">
-<div class="modal-dialog _md-small">
+<div class="modal fade" id="disconnectPocketbook" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="disconnectPocketbook" aria-hidden="true">
+<div class="modal-dialog">
 <div class="modal-content">
 <div class="modal-header">
 <button class="close" data-dismiss="modal">×</button>

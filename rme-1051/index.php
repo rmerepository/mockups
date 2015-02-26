@@ -23,10 +23,8 @@
 		}
 
 	a.gconnect {
-		font-size: 14px;
 		display: block;
 		margin-top: 6PX;
-		padding: 7px 15px;
 		opacity: 1;
 		margin-top: 14px;
 		position: absolute;
@@ -36,6 +34,12 @@
 
 		.top-cp-action a.gconnect:hover {
 			background-color: #4BC7F1;
+	}
+
+	.btn-xlarge {
+		font-size: 20px;
+		height: 60px;
+		line-height: 2.2;
 	}
 
 
@@ -73,7 +77,7 @@
 			<b class="text-danger" id="caption_balance">$1,500 owing</b>
 			<span class="f14" id="caption_due_date">Rent Due</span>
 		</div>
-		<a href="#" class="gconnect btn btn-primary" data-toggle='modal' data-target="#connectPocketbook">Connect with Pocketbook</a>
+		<a href="#" class="gconnect btn btn-primary btn-large" data-toggle='modal' data-target="#connectPocketbook">Connect with Pocketbook</a>
 	</div>
 </div>				
 	

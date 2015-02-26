@@ -73,7 +73,7 @@ right: 11px;
 			<b class="text-danger" id="caption_balance">$1,500 owing</b>
 			<span class="f14" id="caption_due_date">Rent Due</span>
 		</div>
-			<a href="#" class="gconnect btn btn-success" data-target="#disconnectPocketbook" data-toggle="modal"><span class="fa fa-check"></span> Connected with Pocketbook</a>
+			<a href="#" class="gconnect btn btn-success btn-large" data-target="#disconnectPocketbook" data-toggle="modal"><span class="fa fa-check"></span> Connected with Pocketbook</a>
 
 	</div>
 </div>				
