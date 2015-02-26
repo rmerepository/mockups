@@ -23,13 +23,13 @@
 		}
 
 	a.gconnect {
-		display: block;
-		margin-top: 6PX;
-		opacity: 1;
-		margin-top: 14px;
-		position: absolute;
-		top: 0px;
-		right: 11px;
+			display: block;
+			margin-top: 6PX;
+			opacity: 1;
+			margin-top: 14px;
+			position: absolute;
+			top: 0px;
+			right: 11px;
 	}
 
 		.top-cp-action a.gconnect:hover {
@@ -77,7 +77,8 @@
 			<b class="text-danger" id="caption_balance">$1,500 owing</b>
 			<span class="f14" id="caption_due_date">Rent Due</span>
 		</div>
-		<a href="#" class="gconnect btn btn-primary btn-large" data-toggle='modal' data-target="#connectPocketbook">Connect with Pocketbook</a>
+		<a href="#" id="btnConnectPocketbook" class="gconnect btn btn-primary btn-large pop-over-right" data-placement="bottom" data-trigger="hover" data-toggle="popover" data-original-title="Automatically record rent" data-content="Never check if the rent has been paid again">Set Up Automatic Tracking</a>
+		<!-- <a href="#" class="gconnect btn btn-primary btn-large" data-toggle='modal' data-target="#connectPocketbook">Set Up Automatic Tracking</a> -->
 	</div>
 </div>				
 	
@@ -471,12 +472,11 @@
 
 <script type="text/javascript">
 	$(function(){
-		$('#vacateTenantLink').click(function() {
-			$('#vacateTenantModal').modal();
+		$('#btnConnectPocketbook').click(function() {
+			$('#connectPocketbook').modal();
 		});
 	})
-
-</script>	
+</script>
 
 <?php require('partials/connect-to-pocketbook.php') ?>
 

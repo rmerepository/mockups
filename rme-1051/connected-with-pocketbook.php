@@ -23,21 +23,14 @@
 		}
 
 	a.gconnect {
-			font-size: 14px;
-			display: block;
-			margin-top: 6PX;
-			padding: 7px 15px;
-			opacity: 1;
-			margin-top: 14px;
-position: absolute;
-top: 0px;
-right: 11px;
+		display: block;
+		margin-top: 6PX;
+		opacity: 1;
+		margin-top: 14px;
+		position: absolute;
+		top: 0px;
+		right: 11px;
 	}
-
-		.top-cp-action a.gconnect:hover {
-			background-color: #2FDF97;
-	}
-
 
 </style>
 
@@ -73,7 +66,7 @@ right: 11px;
 			<b class="text-danger" id="caption_balance">$1,500 owing</b>
 			<span class="f14" id="caption_due_date">Rent Due</span>
 		</div>
-			<a href="#" class="gconnect btn btn-success btn-large" data-target="#disconnectPocketbook" data-toggle="modal"><span class="fa fa-check"></span> Connected with Pocketbook</a>
+			<a href="#" id="btnConnectPocketbook" class="gconnect btn btn-success btn-large pop-over-right" data-placement="bottom" data-trigger="hover" data-toggle="popover" data-original-title="Automatically record rent" data-content="Never check if the rent has been paid again"><span class="fa fa-check"></span> Automatic Tracking</a>
 
 	</div>
 </div>				
@@ -466,7 +459,18 @@ right: 11px;
 		</div>
 	</div>
 
+
+
+
 <?php require('partials/disconnect-to-pocketbook.php') ?>
+
+<script type="text/javascript">
+	$(function(){
+		$('#btnConnectPocketbook').click(function() {
+			$('#disconnectPocketbook').modal();
+		});
+	})
+</script>
 
 
 <?php require('../partials/footer.php') ?>
