@@ -1,10 +1,14 @@
 <header class="navbar navbar-default">
     <div class="navbar-inner">
         <div class="container-fluid clearfix">
+            <span id="burger" class="burger" data-target='#main-nav'>
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>    
             <a class="brand" href="#">
                 <img src="/assets/images/rme-logo.png" />
             </a>
-
 
             <div class="pull-right">
                 <div class="nav-links">
@@ -12,12 +16,12 @@
 
                         <li>
                             <a href="#" class="button dropdown-toggle" title="Help &amp; Support">
-                               Help &amp; Support
+                               Help
                             </a>
                         </li>
 
                         <li class="dropdown">
-                            <a href="#" id="username" class="button dropdown-toggle" data-toggle="dropdown" title="My Profile">
+                            <a href="#" id="username" class="spacer-top-5 button dropdown-toggle" data-toggle="dropdown" title="My Profile">
                                 <div class="profile-photo ppi-wrap ppi-xxsmall">
                                     <div class="_c no-img-avatar"><span class="default-avatar">BA</span>
                                     </div>

@@ -10,11 +10,6 @@
   }
 }
 
-
-.mailbox-page-link:hover .ds-icons-envelope-gray{
-  background-position: -54px -233px !important;
-}
-
 .mail_counter {
   background-color: #ed335d;
   color: #FFF;
@@ -44,6 +39,22 @@
 	-moz-border-radius: 0;
 	border-radius: 0;
 }
+
+.burger {
+    width: 36px;
+    float: left;
+    display: none;
+    margin-top: 16px;
+    margin-right: 20px;
+    cursor: pointer;
+  span {
+    height: 6px;
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    background-color: #6F6F6F;
+  }
+} 
 
 .navbar .brand {
 	display: block;
@@ -94,41 +105,31 @@
   > .button {
      display: block;
      position: relative;
+     line-height: 69px; 
+     padding: 0 10px;
   }
-
-  .profile-photo {
-    position: absolute;
-    top: 10px;
-    left: 11px;
-  }
-   .fa-chevron-down {
-      position: relative;
-      top: 2px;
-      left: 8px
-   }
+  
+  .spacer-top-5 { padding-top: 5px }
 
    > .btn {
     margin: 10px;
    }
-
-   &.dropdown > .button{
-      padding-left: 53px;
-   }
-
 }
 
 .ui-top-menu {
 
   .dropdown-toggle {
-    padding: 22px 15px;
-    font-size: 16px;
+
+    font-size: 15px;
     line-height: 22px;
     color: #6e6e6e;
     height: 69px;
+    -ms-transition: all 0.29s ease-in-out 0s;
+    transition: all 0.29s ease-in-out 0s;
   }
   .dropdown-toggle:hover, .open .dropdown-toggle {
-    background-color: @blue !important;
-    color: #FFF;
+    background-color: @rme_theme;
+    color:#fff;
   }
 
   .dropdown-menu {
@@ -141,13 +142,14 @@
 
 
 .dash-header {
-  padding: 5px 0 0 22px;
   background-color: #FBFBFB;
-  border-bottom: 1px solid #EEE;
 }
 
 .dash-menu {
-  margin-bottom: -1px;
+  padding-left: 18px;
+  border-bottom: 1px solid #EEE;
+  .close-lg { display: none; }
+  
   
   .items {
     li { 
@@ -174,5 +176,59 @@
         }
       }
     }
+  }
+}
+
+@media (max-width: 992px) { 
+
+  .burger {
+    display: inline-block;;
+  }
+
+  .navbar .brand {
+    position: absolute;
+    left: 50%;
+    margin-left: -23.5px;
+  }
+
+  .dash-header {
+    .ui-bread { 
+      padding-bottom: 10px;
+      border-bottom: 1px solid #eee;
+      .crumb {
+      font-size: 18px;
+      }
+    }
+  }
+
+  .dash-menu {
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1200;
+    background-color: #FBFBFB;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    .items li a.item {
+      padding: 25px 33px 22px;
+      font-size: 22px;
+      border-bottom: none;
+    }
+    .items li {
+      float: none;
+      margin-right: 0;
+    }
+  }
+
+  .close-lg {
+    font-size: 26px;
+    display: inline-block !important;
+    color: #747474;
+    padding: 8px 17px;
+    cursor: pointer;
   }
 }

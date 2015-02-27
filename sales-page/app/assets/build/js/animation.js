@@ -35,5 +35,22 @@ $(window).scroll(function(event) {
       el.addClass("come-in"); 
     } 
   });
+
   
 });
+
+
+$(function(){
+    $('.flexslider').flexslider({
+    animation: "slide",
+    directionNav: false, 
+    controlNav: false,
+    initDelay: 2000, 
+  });
+
+  $('.testimonials').flexslider({
+    animation: "fade",
+    directionNav: true, 
+    controlNav: false,
+  });
+})

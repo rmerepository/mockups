@@ -9,6 +9,17 @@
 			'delay': { show: 100, hide: 3000 }
 		});
 
+		$('.burger').click(function(){
+				var el = $(this),
+						target = $(el).attr('data-target');
+
+				$('#main-nav').toggleClass('show');
+		});
+
+		$('.close-lg').click(function(){
+			var el = $(this);
+			el.closest('nav').removeClass('show');
+		})
 
 		});
 	</script>

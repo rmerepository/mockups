@@ -8,13 +8,14 @@
     <meta property="og:title" content="Rent My Estate">
     <link rel="stylesheet" href="app/assets/build/css/build.css">
     <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="app/assets/build/js/jquery.flexslider-min.js"></script>
     <script src="app/assets/build/js/animation.js"></script>
   </head>
   <body>
     <header class="header-wrap">
       <nav class="text-right"><a href="#" title="Login" class="btn btn-success">Login</a></nav>
     </header>
-    <section class="hero">
+    <section class="hero bg-img bg-img-dark">
       <div class="hero-inner">
         <div class="va-box">
           <div class="va-middle tag-line">
@@ -30,19 +31,27 @@
       <div class="row">
         <div class="col-md-12 text-center">
           <h2 class="h1 section-header">Join thousands using RME</h2>
-          <div class="testimonials">
-            <div class="text-center fa fa-quote-left"></div>
-            <h4 class="text-center">I absolutely love that there is an effective, easy to use solution to managing your own property.</h4>
-          </div>
-          <div class="reviewers">
-            <div class="user active"><img src="https://s3-ap-southeast-2.amazonaws.com/appscdn/images/testimonials-photo/rme-testimonials-evie-coolum-beach-qld.png">
-              <div>Evie - QLD</div><a href="http://www.productreview.com.au/r/rent-my-estate/611924.html" target="_blank">See Full Review</a>
-            </div>
+          <div class="text-center fa fa-quote-left lf-lg"></div>
+          <div class="testimonials clearfix">
+            <ul class="slides clearfix">
+              <li>
+                <h4 class="text-center">I absolutely love that there is an effective, easy to use solution to managing your own property.</h4>
+                <div class="user"><img src="https://s3-ap-southeast-2.amazonaws.com/appscdn/images/testimonials-photo/rme-testimonials-evie-coolum-beach-qld.png">
+                  <div>Evie - QLD</div>
+                </div>
+              </li>
+              <li>
+                <h4 class="text-center">I found a tenant in 6 days</h4>
+                <div class="user"><img src="https://s3-ap-southeast-2.amazonaws.com/appscdn/images/testimonials-photo/rme-testimonials-sharon-perth.png">
+                  <div>Sharon - WA</div>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
     </section>
-    <section class="spacer-container top-border">
+    <section class="spacer-container relative alt-bg">
       <div class="container">
         <div class="row">
           <div class="col-md-6 min-h-400">
@@ -52,8 +61,21 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6"><img src="http://placehold.it/500x400" class="animate-me"></div>
         </div>
+      </div>
+      <div class="refill right-refill flexslider">
+        <ul class="content relative slides">
+          <li class="ad-site rea-ad-site">
+            <div class="va-box">
+              <div class="va-middle text-center"><img src="app/assets/images/rea-logo_v33.png" title="realestate.com.au"></div>
+            </div>
+          </li>
+          <li class="ad-site domain-ad-site">
+            <div class="va-box">
+              <div class="va-middle text-center"><img src="app/assets/images/domain-logo.png" title="Domain"></div>
+            </div>
+          </li>
+        </ul>
       </div>
     </section>
     <section class="container spacer-container">
@@ -80,31 +102,4 @@
       </div>
     </section>
   </body>
-  <section class="bg-dark-grayish-blue">
-    <section class="container spacer-container">
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <h3>Many Thanks to...</h3>
-        </div>
-      </div>
-    </section>
-  </section>
-  <footer class="bg-dark-grayish-blue">
-    <div class="container spacer-container">
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <ul class="footer-links">
-            <li> <a href="#" title="Blog">Blog</a></li>
-            <li> <a href="#" title="Contact">Contact</a></li>
-            <li> <a href="#" title="About">About</a></li>
-            <li> <a href="#" title="Pricing">Pricing</a></li>
-            <li> <a href="#" title="Tenants">Tenants</a></li>
-            <li> <a href="#" title="Help">Help</a></li>
-            <li> <a href="#" title="Facebook">Facebook</a></li>
-          </ul>
-          <div>Rent My Estate</div>
-        </div>
-      </div>
-    </div>
-  </footer>
 </html>
