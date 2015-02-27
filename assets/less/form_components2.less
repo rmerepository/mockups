@@ -23,6 +23,42 @@ legend + .control-group {
   }
 }
 
+.k-dd-blue {
+  .k-input {
+    background-color: @rme_theme;
+    color: #FFF;
+    border: none;
+    border-radius: 2px;
+    height: 39px;
+    padding: 10px 9px 9px 10px;
+    webkit-transition: background 0.5s ease-out;
+    transition: background 0.5s ease-out;
+    &:hover {
+      background-color: @blue_btn_hover;
+    }
+    .k-list {
+      background-color: @rme_theme;
+    }
+  } 
+  .k-i-arrow-s {
+    text-indent: 0px;
+  }
+  .k-icon {
+    background-image: none;
+    &:before {
+      position: absolute;
+      font-family: 'FontAwesome';
+      content: "\f078";
+      color: #FFF;
+      right: 6px;
+      top: 0;
+      font-size: 11px;
+      margin-top: -7px;
+    }
+  }
+
+}
+
 .optional-field {
   font-size: 12px;
   font-family: helvetica,arial;

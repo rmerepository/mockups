@@ -5,10 +5,9 @@
 					<span class="me-lbl">Advertise</span>
 			</div>			
 			<div class="pull-right">
-					 			<div class="control-group">
-              
+					 		<div class="control-group">
 	                <div class="controls clearfix">
-		                <select name="advertiseAction" tabindex="7" id="advertiseAction" class="form-fixed-width k-dd input-full-width">
+		                <select name="advertiseAction" tabindex="7" id="advertiseAction" class="form-fixed-width k-dd k-dd-blue input-full-width">
 		                  <option value="1">Create ad</option>
 		                  <option value="2">Make Changes</option>
 		                  <option value="3">Remove ad</option>
@@ -48,8 +47,15 @@
 				 <span class="me-lbl">Michael &amp; Lisa</span>
 			</div>			
 			<div class="pull-right">
-				<a href="#" class="btn btn-success form-fixed-width">Send &amp; Message</a>		
-				 &nbsp;&nbsp;<a href="#" class="btn btn-primary form-fixed-width">Payment Tracking</a>
+								 		<div class="control-group">
+	                <div class="controls clearfix">
+		                <select name="tenantAction" tabindex="7" id="tenantAction" class="form-fixed-width k-dd k-dd-blue input-full-width">
+		                  <option value="1">Send &amp; Message</option>
+		                  <option value="2">Payment Tracking</option>
+		                </select>
+	            
+              </div>
+            </div>
 			</div>
 			</div>
 		</div>
