@@ -1270,15 +1270,57 @@ input[type='text'] {
 	color: @green;
 }
 
+// ALERTS
+
 
 .well {
-	&.w-warning {
-		background-color: #ECC50F;
+	font-weight: 300;
+
+	&.with-fa {
 		color: #FFF;
-		padding: 25px 45px 15px 75px;
 		position: relative;
 		font-size: 15px;
+		padding-left: 59px;
 	}
+
+	&.with-fa:before {
+		position: absolute;
+		display: inline-block;
+		height: 30px;
+		width: 30px;
+		top: 50%;
+		left: 14px;
+		margin-top: -15px;
+		font-family: 'FontAwesome';
+		text-align: center;
+		border: 2px solid;
+		border-radius: 100%;
+		padding: 3px 0 0 0;
+		content: '\f12a';
+	}
+
+	&.w-warning {
+		background-color: #ECC50F
+	}
+
+	&.w-error {
+		background-color: @red;
+	}
+
+	&.w-success {
+		background-color: @green;
+		&.with-fa:before {
+			content: '\f00c';
+		}
+	}
+
+	&.w-info {
+		background-color: @blue;
+		&.with-fa:before {
+			content: '\f129';
+		}
+	}
+
 
 	.fa-icd {
 		font-size: 42px;

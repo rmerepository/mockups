@@ -17,10 +17,9 @@
 		});
 
 		$('.close-lg').click(function(){
-			var el = $(this);
-			el.closest('nav').removeClass('show');
-		})
-
+				var el = $(this);
+				el.closest('nav').removeClass('show');
+			})
 		});
 	</script>
 

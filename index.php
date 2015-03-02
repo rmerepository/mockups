@@ -52,6 +52,10 @@
 		
 		<ul>
 			<li><a href="/components/topnav1.php">Top Nav</a></li>
+			<li><a href="/components/switch.php">On/Off Switch</a></li>
+			<li><a href="./alerts-messages.php">Alerts</a></li>
+			<li><a href="/components/new-loader.php">Massive Loader</a></li>
+
 		</ul>
 
 </body>

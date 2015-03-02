@@ -13,6 +13,11 @@
             <div class="pull-right">
                 <div class="nav-links">
                     <ul class="nav ui-top-menu">
+                        <li>
+                            <a href="#" class="button dropdown-toggle" title="My Subscription">
+                               Plan
+                            </a>
+                        </li>
 
                         <li>
                             <a href="#" class="button dropdown-toggle" title="Help &amp; Support">
@@ -21,7 +26,7 @@
                         </li>
 
                         <li class="dropdown">
-                            <a href="#" id="username" class="spacer-top-5 button dropdown-toggle" data-toggle="dropdown" title="My Profile">
+                            <a href="#" id="username" class="button dropdown-toggle" data-toggle="dropdown" title="My Profile">
                                 <div class="profile-photo ppi-wrap ppi-xxsmall">
                                     <div class="_c no-img-avatar"><span class="default-avatar">BA</span>
                                     </div>

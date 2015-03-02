@@ -41,7 +41,7 @@
 }
 
 .burger {
-    width: 36px;
+    width: 33px;
     float: left;
     display: none;
     margin-top: 16px;
@@ -155,8 +155,10 @@
     li { 
         float: left; 
         margin-right: 65px;
+        position: relative;
       .fa {
         margin-right: 10px;
+        position: relative;
        }   
       a.item {
         display: block;
@@ -177,6 +179,18 @@
       }
     }
   }
+}
+
+
+.cute-bull {
+  position: absolute;
+  right: -4px;
+  top: -1px;
+  height: 8px;
+  width: 8px;
+  border-radius: 100%;
+  display: inline-block;
+  background-color: @red_hover;
 }
 
 @media (max-width: 992px) { 
