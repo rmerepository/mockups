@@ -1,10 +1,16 @@
+<?php
+$body_app_class = "bg-gray"; 
+$app_module =""
+?>
+
 <?php require('../partials/header.php') ?>
-<?php require('../partials/top-nav.php') ?>
-<?php require('../partials/bread.php') ?>
+<?php require('../partials/new-top-nav.php') ?>
+
+<?php require('../partials/new-menu-top-property-dashboard.php') ?>
 
 <style>
 
-	.top-cp-action {
+/*	.top-cp-action {
 		color: #FFF;
 		font-size: 35px;
 		position: absolute;
@@ -40,7 +46,7 @@
 		font-size: 20px;
 		height: 60px;
 		line-height: 2.2;
-	}
+	}*/
 
 
 </style>

@@ -1,7 +1,12 @@
-<?php require('../partials/header.php') ?>
-<?php require('../partials/top-nav.php') ?>
-<?php require('../partials/bread.php') ?>
+<?php
+$body_app_class = "bg-gray rent-collection"; 
+$app_module =""
+?>
 
+<?php require('../partials/header.php') ?>
+<?php require('../partials/new-top-nav.php') ?>
+
+<?php require('../partials/new-menu-top-property-dashboard.php') ?>
 <style>
 
 	.top-cp-action {
@@ -36,14 +41,8 @@
 
 <div class="row">
 		<div class="col-md-12">
-
-		<div class="wrap-g wrap-g-m">
-		<div class="max-width-wrap position-relative">
-				<h2 class="rb-font text-center mnu-40 f42 f42-r">Rent Payments</h2>	
-		</div>
-		</div>
 			
-		<div class="push-up-wrap-hi" style="margin-top: -335px;"> 
+		<div  style="margin-top: 20px;"> 
 			<div class="single-col-mid w-shadow bg-white rb-font">
 			
 
@@ -52,15 +51,20 @@
 
 
 	<div class="top-cp-action" id="divButton">
-		<a href="#" id="linkRentUpdate" rel="tooltip" data-original-title="Rent Increase" data-placement="top" data-toggle="tooltip"> <span class="fa fa-line-chart"></span> </a>
-		<a href="javascript:update_household(77)" rel="tooltip" data-original-title="Change lease details" data-placement="top" data-toggle="tooltip"> <span class="fa fa-edit"></span> </a>
+	
+		
 		<a href="#" data-original-title="Remove tenancy" rel="tooltip" data-placement="top" data-toggle="modal" data-target="#removeHouseHold"> <span class="fa fa-trash-o"></span> </a>
+
+
+			<a href="javascript:update_household(77)" rel="tooltip" data-original-title="Change lease details" data-placement="top" data-toggle="tooltip"> <span class="fa fa-edit"></span> </a>
+
+			<a href="#" id="linkRentUpdate" rel="tooltip" data-original-title="Rent Increase" data-placement="top" data-toggle="tooltip"> <span class="fa fa-line-chart"></span> </a>
+
 	</div>
 
 
-	<div class="content">
-		<div class="f26 fw-100">1.4 / 1.4 Test Street, Tesbury </div>
-		<div class="f14" id="tname">Sam Sparro</div>
+	<div class="content" style="min-height: 75px;">
+		<div class="f14" id="tname"><b>Lewis Thompson</b></div>
 		<div class="f14">
 			<span id="capRent">$300 Per Week</span> -
 			<b class="text-danger" id="caption_balance">$1,500 owing</b>
@@ -79,24 +83,26 @@
 <div class="pull-left act">
 	<h3 class="sm-hd">&nbsp;</h3>
 	<div class="v-lighter-text sub-desc">&nbsp;</div>
-	<button id="money_in" class="btn btn-primary btn-large">Received</button>
+	<button id="money_in" class="btn btn-primary">Received</button>
 </div>
 <div class="pull-left act">
 	<h3 class="sm-hd">&nbsp;</h3>
 	<div class="v-lighter-text sub-desc">&nbsp;</div>
-	<button id="money_out" class="btn btn-primary btn-large">&nbsp;&nbsp;Spent&nbsp;&nbsp;&nbsp;</button>
+	<button id="money_out" class="btn btn-primary">&nbsp;&nbsp;Spent&nbsp;&nbsp;&nbsp;</button>
 </div>
 <div class="pull-left act">
-	<h3 class="sm-hd"><span id="lblRentReminider">Turned off</span> <span id="addAdressPopover" data-html="true" data-trigger="hover" data-toggle="popover" data-original-title="Rent Reminders" data-content="If your tenant has missed or not paid their rent in full, they will receive email notifications over the following 16 days or until the rent is paid. Please ensure you still follow the formal procedures to terminate the tenancy if they don’t pay. <a href='http://www.rentmyestate.com.au/rent-payments/' target='_blank'>Read more." class="tooltip-blue po-small pop-over-right base-align" data-placement="right"></span></h3>
+	<h3 class="sm-hd"><span id="lblRentReminider">Turned on</span> <span id="addAdressPopover" data-html="true" data-trigger="hover" data-toggle="popover" data-original-title="Rent Reminders" data-content="If your tenant has missed or not paid their rent in full, they will receive email notifications over the following 16 days or until the rent is paid. Please ensure you still follow the formal procedures to terminate the tenancy if they don’t pay. <a href='http://www.rentmyestate.com.au/rent-payments/' target='_blank'>Read more." class="tooltip-blue po-small pop-over-right base-align" data-placement="right"></span></h3>
 	<div class="v-lighter-text sub-desc">Rent Reminders</div>
 
-	<div class="sw_small onoffswitch clearfix inline-block va-middle">
-	<input type="checkbox" name="rentReminiders" class="onoffswitch-checkbox" disabled="disabled" id="rentReminiders">
-	<label class="onoffswitch-label" for="rentReminiders">
-	<div class="onoffswitch-inner"></div>
-	<div class="onoffswitch-switch"></div>			        
-	</label>
-	</div>
+		               		<div class="ui-switch">
+			<figure class="onoffswitch">
+			    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+			    <label class="onoffswitch-label" for="myonoffswitch">
+			        <span class="onoffswitch-inner"></span>
+			        <span class="onoffswitch-switch"></span>
+			    </label>
+			</figure>
+		</div>
 
 </div>
 </div>	 

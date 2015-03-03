@@ -1,4 +1,4 @@
-<main class="main-wrap">
+<main class="main-wrap max-width-content">
 	<div class="row">
 		<div class="static-widget col-xs-4">
 			<div class="inner-widget bg-dark-overlay" style="background-image: url(https://members.rentmyestate.com.au/assets/uploads/userfiles/737/737-67918854954a1502fac252)">

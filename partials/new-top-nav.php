@@ -14,12 +14,6 @@
                 <div class="nav-links">
                     <ul class="nav ui-top-menu">
                         <li>
-                            <a href="#" class="button dropdown-toggle" title="My Subscription">
-                               Plan
-                            </a>
-                        </li>
-
-                        <li>
                             <a href="#" class="button dropdown-toggle" title="Help &amp; Support">
                                Help
                             </a>
