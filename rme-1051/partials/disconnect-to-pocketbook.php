@@ -8,7 +8,7 @@
 <div class="modal-body">
 	<div style="padding: 0px 0 5px">
 
-    <p>You are automatically recording rent payments from pocketbook. If the rent payments are not being recorded automatically in rentmyestate see below. </p>  		
+   <div class="well w-info with-fa">You are automatically recording rent payments from pocketbook. If the rent payments are not being recorded automatically in rentmyestate see below.</div>
 
     <div class="control-group">
       <label class="control-label" for="pocketbookToken">How Pocketbook talks to rentmyestate</label>

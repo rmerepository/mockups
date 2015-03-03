@@ -1,6 +1,14 @@
 <div class="modal fade" id="connectPocketbook" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="connectPocketbook" aria-hidden="true">
 <div class="modal-dialog">
 <div class="modal-content">
+<!-- <div class="ui-spinner-overlay">
+  <div class="spinner">
+    <h3 class="text-center">Connecting to Pocketbook</h3>
+    <div class="bounce1"></div>
+    <div class="bounce2"></div>
+    <div class="bounce3"></div>
+  </div>
+</div> -->
 <div class="modal-header">
 <button class="close" data-dismiss="modal">×</button>
 <h3>Set up automatic Tracking</h3>
@@ -8,17 +16,20 @@
 <div class="modal-body">
 	<div style="padding: 23px 0 5px">
 
-  <p>Never check if the rent has been paid again. <br><br>
-We have linked up with <a href="https://getpocketbook.com" target="_blank">pocketbook</a> so we can automatically record the rent when it reaches your bank account.</p>
-  		
-  <a href="#" target="_blank">Open the help guide</a>
-<br><br>
+Never check if the rent has been paid again. 
+  		<br><br>
+
   		      <div class="control-group">
       
       <div class="controls">
         <a href="#" class="btn btn-block btn-primary btn-xlarge">Create a Pocketbook account</a>
       </div>
     </div>
+
+We have linked up with <a href="https://getpocketbook.com" target="_blank">pocketbook</a> so we can automatically record the rent when it reaches your bank account.
+  <a href="#" target="_blank">Open the help guide</a>
+<br>
+
     <div class="sep-div"><span class="wor-div">OR</span></div>
   		
   

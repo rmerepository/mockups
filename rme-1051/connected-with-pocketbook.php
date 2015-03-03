@@ -7,37 +7,7 @@ $app_module =""
 <?php require('../partials/new-top-nav.php') ?>
 
 <?php require('../partials/new-menu-top-property-dashboard.php') ?>
-<style>
 
-	.top-cp-action {
-		color: #FFF;
-		font-size: 35px;
-		position: absolute;
-		top: 0px;
-		right: 0px;
-		z-index: 4;
-		display: inline-block;
-		text-align: right;
-		width: 209px;
-		padding-right: 14px;
-		}
-
-		.top-cp-action a {
-			float: right
-
-		}
-
-	a.gconnect {
-		display: block;
-		margin-top: 6PX;
-		opacity: 1;
-		margin-top: 14px;
-		position: absolute;
-		top: 0px;
-		right: 11px;
-	}
-
-</style>
 
 <div class="row">
 		<div class="col-md-12">
@@ -47,7 +17,7 @@ $app_module =""
 			
 
 				
-<div id="payment-wrap-info" class="wrap-main-holder   " style="background-image: url(https://members.rentmyestate.com.au/assets/uploads/userfiles/737/737-67918854954a1502fac252)">
+<div id="payment-wrap-info" class="wrap-main-holder" style="background-image: url(https://members.rentmyestate.com.au/assets/uploads/userfiles/737/737-67918854954a1502fac252)">
 
 
 	<div class="top-cp-action" id="divButton">
@@ -63,15 +33,21 @@ $app_module =""
 	</div>
 
 
-	<div class="content" style="min-height: 75px;">
+	<div class="content">
+<div class="clearfix">
+	<div class="pull-left">
 		<div class="f14" id="tname"><b>Lewis Thompson</b></div>
 		<div class="f14">
 			<span id="capRent">$300 Per Week</span> -
 			<b class="text-danger" id="caption_balance">$1,500 owing</b>
 			<span class="f14" id="caption_due_date">Rent Due</span>
 		</div>
+		</div>
+		
+		<div class="pull-right">
 			<a href="#" id="btnConnectPocketbook" class="gconnect btn btn-success btn-large pop-over-right" data-placement="bottom" data-trigger="hover" data-toggle="popover" data-original-title="Automatically record rent" data-content="Never check if the rent has been paid again"><span class="fa fa-check"></span> Automatic Tracking</a>
-
+</div>
+</div>
 	</div>
 </div>				
 	
@@ -91,8 +67,8 @@ $app_module =""
 	<button id="money_out" class="btn btn-primary">&nbsp;&nbsp;Spent&nbsp;&nbsp;&nbsp;</button>
 </div>
 <div class="pull-left act">
-	<h3 class="sm-hd"><span id="lblRentReminider">Turned on</span> <span id="addAdressPopover" data-html="true" data-trigger="hover" data-toggle="popover" data-original-title="Rent Reminders" data-content="If your tenant has missed or not paid their rent in full, they will receive email notifications over the following 16 days or until the rent is paid. Please ensure you still follow the formal procedures to terminate the tenancy if they don’t pay. <a href='http://www.rentmyestate.com.au/rent-payments/' target='_blank'>Read more." class="tooltip-blue po-small pop-over-right base-align" data-placement="right"></span></h3>
-	<div class="v-lighter-text sub-desc">Rent Reminders</div>
+	<h3 class="sm-hd"><span id="lblRentReminider">Rent Reminders</span> <span id="addAdressPopover" data-html="true" data-trigger="hover" data-toggle="popover" data-original-title="Rent Reminders" data-content="If your tenant has missed or not paid their rent in full, they will receive email notifications over the following 16 days or until the rent is paid. Please ensure you still follow the formal procedures to terminate the tenancy if they don’t pay. <a href='http://www.rentmyestate.com.au/rent-payments/' target='_blank'>Read more." class="tooltip-blue po-small pop-over-right base-align" data-placement="right"></span></h3>
+	<div class="v-lighter-text sub-desc">&nbsp;</div>
 
 		               		<div class="ui-switch">
 			<figure class="onoffswitch">
@@ -108,135 +84,6 @@ $app_module =""
 </div>	 
                              
 				
-<div class="modal fade" id="addPayment" role="dialog" aria-labelledby="addPayment" aria-hidden="true">
-<div class="modal-dialog">
-     <form action="https://members.rentmyestate.com.au/" accept-charset="utf-8" method="post" id="frmPayment"><div style="display:none">
-<input type="hidden" name="i9XAoSSyVr8I" value="d14ff716e0bf53cd1d4818c8054fec5d">
-</div>    <input type="hidden" name="lease" id="lease" value="77">
-    <input type="hidden" name="collection" id="collection">
-    <input type="hidden" name="old_type" id="old_type">
-	<div class="modal-content">
-	<div class="modal-header">
-	 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-         <h2 id="captionPayment">Add New Payment</h2>
-	</div>
-	
-	<div class="modal-body">
-
-		<div class="control-group">
-			<label class="control-label" for="dateRecieved">Date Received</label>
-			<div class="controls">
-				<input autocomplete="off" data-type="date" data-is-required="true" name="dateRecieved" id="dateRecieved" placeholder="01-Jan-2014" s="" class="ui-date-received enable-click-date-window form-control hasDatepicker" maxlength="30" type="text" value="08-Jan-2015"><img class="ui-datepicker-trigger" src="/assets/images/calendar-btn.png" alt="..." title="...">
-			</div>
-		</div>	
-
-        <div class="control-group">
-            <label class="control-label" for="fortype">Received For</label>
-            <div class="controls">
-                <span class="k-widget k-dropdown k-header" unselectable="on" role="listbox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-owns="fortype_listbox" aria-disabled="false" aria-readonly="false" aria-busy="false" aria-activedescendant="fortype_option_selected" style=""><span unselectable="on" class="k-dropdown-wrap k-state-default"><span unselectable="on" class="k-input">Rent</span><span unselectable="on" class="k-select"><span unselectable="on" class="k-icon k-i-arrow-s">select</span></span></span><input data-is-required="true" name="fortype" id="fortype" placeholder="Select how often" maxlength="30" value="" type="text" data-role="dropdownlist" style="display: none;"></span> 
-            </div> 
-        </div>
-
-        <div class="control-group" id="section_newtype" style="display:none">
-            <div class="controls">
-                <input autocomplete="off" data-is-required="true" name="newtype" id="newtype" placeholder="Enter New Type" class="form-control" maxlength="30" value="" type="text">
-            </div>
-        </div>
-
-
-  <div class="control-group">
-      <label class="control-label" for="amount">Amount Received</label>
-      <div class="controls">
-        <input autocomplete="off" data-is-required="true" name="amount" id="amount" data-type="amount" placeholder="$" class="form-control" maxlength="30" value="" type="text">
-      </div>
-    </div>
-    
-        <div class="control-group" id="section_description" style="display:none">
-            <label class="control-label" for="description">Description</label>
-            <div class="controls">
-                <textarea name="description" id="description" placeholder="For June - Aug 14 qrt" class="form-control" maxlength="1000"></textarea>  
-            </div> 
-        </div>
-
-	</div>
-
-
-
-	<div class="modal-footer">
-		 <a href="#" data-dismiss="modal" aria-hidden="true">Cancel</a> &nbsp;&nbsp;&nbsp; <button class="btn btn-primary" type="submit" id="confirmPayment">Confirm Payment</button>
-	</div>
-	</div>	
-    </form></div>
-
-
-</div>
-
-
-				
-<div class="modal fade" id="addExpense" role="dialog" aria-labelledby="addExpense" aria-hidden="true">
-<div class="modal-dialog">
-     <form action="https://members.rentmyestate.com.au/" accept-charset="utf-8" method="post" id="frmExpense"><div style="display:none">
-<input type="hidden" name="i9XAoSSyVr8I" value="d14ff716e0bf53cd1d4818c8054fec5d">
-</div>    <input type="hidden" name="xlease" id="xlease" value="77">
-    <input type="hidden" name="xcollection" id="xcollection">
-	<div class="modal-content">
-	<div class="modal-header">
-	 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-         <h2 id="xcaptionPayment">Enter Your Expense</h2>
-	</div>
-	
-	<div class="modal-body">
-
-		<div class="control-group">
-			<label class="control-label" for="xdateRecieved">Date Paid</label>
-			<div class="controls">
-				<input autocomplete="off" data-type="date" data-is-required="true" name="xdateRecieved" id="xdateRecieved" placeholder="01-Jan-2014" s="" class="ui-date-received enable-click-date-window form-control hasDatepicker" maxlength="30" type="text" value="08-Jan-2015"><img class="ui-datepicker-trigger" src="/assets/images/calendar-btn.png" alt="..." title="...">
-			</div>
-		</div>	
-
-        <div class="control-group">
-            <label class="control-label" for="xfortype">Paid For</label>
-            <div class="controls">
-                <span class="k-widget k-dropdown k-header" unselectable="on" role="listbox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-owns="xfortype_listbox" aria-disabled="false" aria-readonly="false" aria-busy="false" aria-activedescendant="xfortype_option_selected" style=""><span unselectable="on" class="k-dropdown-wrap k-state-default"><span unselectable="on" class="k-input">General Maintenance</span><span unselectable="on" class="k-select"><span unselectable="on" class="k-icon k-i-arrow-s">select</span></span></span><input data-is-required="true" name="xfortype" id="xfortype" placeholder="Select how often" maxlength="30" value="" type="text" data-role="dropdownlist" style="display: none;"></span>
-            </div> 
-        </div>
-
-        <div class="control-group" id="xsection_newtype" style="display:none">
-            <div class="controls">
-                <input autocomplete="off" data-is-required="true" name="xnewtype" id="xnewtype" placeholder="Enter New Type" class="form-control" maxlength="30" value="" type="text">
-            </div>
-        </div>
-
-                <div class="control-group">
-            <label class="control-label" for="xdescription">Description</label>
-            <div class="controls">
-                <textarea name="xdescription" id="xdescription" placeholder="Repair dishwasher handle" class="form-control" maxlength="1000"></textarea>
-            </div> 
-        </div>
-
-
-  <div class="control-group">
-      <label class="control-label" for="xamount">Amount Paid</label>
-      <div class="controls">
-        <input autocomplete="off" data-is-required="true" data-type="amount" name="xamount" id="xamount" placeholder="$" class="form-control" maxlength="30" value="" type="text">
-      </div>
-    </div>
-
-
-
-	</div>
-
-
-
-	<div class="modal-footer">
-		 <a href="#" data-dismiss="modal" aria-hidden="true">Cancel</a> &nbsp;&nbsp;&nbsp; <button class="btn btn-primary" type="submit" id="xconfirmPayment">Confirm Expense</button>
-	</div>
-	</div>	
-    </form></div>
-
-
-</div>
-
 
 				<div class="info-group text-center bg-gray">
 					<h3>Payment History</h3>
@@ -469,11 +316,16 @@ $app_module =""
 
 
 <?php require('partials/disconnect-to-pocketbook.php') ?>
+<?php require('partials/confirm-disconnect.php') ?>
 
 <script type="text/javascript">
 	$(function(){
 		$('#btnConnectPocketbook').click(function() {
 			$('#disconnectPocketbook').modal();
+		});
+
+		$('#disconnectPocketbook').click(function() {
+			$('#confirmDisconnectPocketbook').modal();
 		});
 	})
 </script>
