@@ -9,6 +9,8 @@ $app_module =""
 <?php require('../partials/new-menu-top-property-dashboard.php') ?>
 
 
+<link rel="stylesheet" href="style.css">
+
 <div class="row">
 		<div class="col-md-12">
 			
@@ -17,18 +19,20 @@ $app_module =""
 			
 
 				
-<div id="payment-wrap-info" class="wrap-main-holder" style="background-image: url(https://members.rentmyestate.com.au/assets/uploads/userfiles/737/737-67918854954a1502fac252)">
+<div id="payment-wrap-info" class="wrap-main-holder" style="background-image: url('./house-inside.jpg')">
 
 
 	<div class="top-cp-action" id="divButton">
-	
+	<a href="#" id="linkRentUpdate" rel="tooltip" data-original-title="Rent Increase" data-placement="top" data-toggle="tooltip"> <span class="fa fa-line-chart"></span> </a>
 		
+
+			<a href="javascript:update_household(77)" rel="tooltip" data-original-title="Change lease details" data-placement="top" data-toggle="tooltip"> <span class="fa fa-edit"></span> </a>
 		<a href="#" data-original-title="Remove tenancy" rel="tooltip" data-placement="top" data-toggle="modal" data-target="#removeHouseHold"> <span class="fa fa-trash-o"></span> </a>
 
 
-			<a href="javascript:update_household(77)" rel="tooltip" data-original-title="Change lease details" data-placement="top" data-toggle="tooltip"> <span class="fa fa-edit"></span> </a>
+		
 
-			<a href="#" id="linkRentUpdate" rel="tooltip" data-original-title="Rent Increase" data-placement="top" data-toggle="tooltip"> <span class="fa fa-line-chart"></span> </a>
+			
 
 	</div>
 
@@ -36,11 +40,14 @@ $app_module =""
 	<div class="content">
 <div class="clearfix">
 	<div class="pull-left">
-		<div class="f14" id="tname"><b>Lewis Thompson</b></div>
-		<div class="f14">
+		<div id="tname"><b>Lewis Thompson</b></div>
+		<div class="ie-wrap">
 			<span id="capRent">$300 Per Week</span> -
-			<b class="text-danger" id="caption_balance">$1,500 owing</b>
-			<span class="f14" id="caption_due_date">Rent Due</span>
+			<span class="as">
+			<b class="text-danger" id="caption_balance">$300 owing</b>
+			<span class="f14" id="caption_due_date">Rent Due</span><br>
+			<b class="text-success" >Up to Date</b>
+			</span>
 		</div>
 		</div>
 		
@@ -125,9 +132,9 @@ $app_module =""
 		</thead>
 		<tbody>
     <tr>
-        <td>10/12/2014</td>
+        <td>15/11/2014</td>
         <td>Rent</td>
-        <td><div>02/12/2014 - 08/12/2014 ($300)</div><div>25/11/2014 - 01/12/2014 ($300)</div><div>18/11/2014 - 24/11/2014 ($100)</div></td>
+        <td><div>15/11/2014 - 14/12/2014</div></td>
         <td><span class="text-success">+</span>$700</td>
         <td><span class="text-success">+</span>$2,601</td>
         <td>
@@ -136,7 +143,7 @@ $app_module =""
 
                 <a href="javascript:edit(1382)" rel="tooltip" data-original-title="Edit" data-placement="top" data-toggle="tooltip"> <span class="fa fa-edit"></span>   </a>
                 <a href="javascript:remove(1382,'Rent')" rel="tooltip" data-original-title="Remove this Payment" data-placement="top" data-toggle="tooltip"> <span class="fa fa-trash-o text-danger"></span> </a>
-                <a href="javascript:sendReceipt(1382,'Rent')" rel="tooltip" data-original-title="Email your tenant a receipt" data-placement="top" data-toggle="tooltip"> <span class="fa fa-file-text-o text-success"></span>   </a>
+                <a href="#" rel="tooltip" data-original-title="Email your tenant a receipt" data-placement="top" data-toggle="tooltip"> <span class="fa fa-file-text-o text-success"></span>   </a>
                 
 
             </div>
@@ -148,11 +155,11 @@ $app_module =""
 
 
     <tr>
-        <td>19/11/2014</td>
-        <td>Rent</td>
-        <td>18/11/2014 - 18/11/2014 ($200)</td>
-        <td><span class="text-success">+</span>$200</td>
-        <td><span class="text-success">+</span>$1,901</td>
+				<td>15/11/2014</td>
+				<td>Rent</td>
+				<td><div>15/10/2014 - 14/11/2014</div></td>
+        <td>&nbsp;</td>
+        <td><span class="text-success">+</span>$1,500</td>
         <td>
             <div class="tbl-action-text">
                 
@@ -170,9 +177,9 @@ $app_module =""
 
 
     <tr>
-        <td>14/11/2014</td>
+        <td>15/11/2014</td>
         <td>Rent</td>
-        <td><div>11/11/2014 - 17/11/2014 ($300)</div><div>04/11/2014 - 10/11/2014 ($300)</div><div>28/10/2014 - 03/11/2014 ($100)</div></td>
+        <td><div>15/10/2014 - 14/11/2014</div></td>
         <td><span class="text-success">+</span>$700</td>
         <td><span class="text-success">+</span>$1,701</td>
         <td>
@@ -245,44 +252,124 @@ $app_module =""
 		<tbody>
 
 		    <tr>
-          <td>10/12/2014</td>
-          <td>Misc</td>
-          <td>          	
-          		<div>25/11/2014 - 01/12/2014 ($300)</div>
-          </td>
-          <td>$200</td>
-          <td>
-          	<div class="tbl-action-text">
-	             <a href="javascript:edit(1382)" rel="tooltip" data-original-title="Edit" data-placement="top" data-toggle="tooltip"> <span class="fa fa-edit"></span>   </a>  
-	             <a href="javascript:remove(1382,'Rent')" rel="tooltip" data-original-title="Remove this Paymet" data-placement="top" data-toggle="tooltip"> <span class="fa fa-trash-o text-danger"></span> </a> 
-	             <a href="javascript:sendReceipt(1382,'Rent')" rel="tooltip" data-original-title="Email your tenant a receipt" data-placement="top" data-toggle="tooltip"> <span class="fa fa-file-text-o text-success"></span>   </a>
-             </div>
-
-             
-          </td>
-
-  </tr>
-
-	<tr style="background: #FFF1F1">
-		<td colspan="3">Move out date: 12 January 2015</td>
-		<td colspan="2">Balance to vacate: $1,500</td>
-	</tr>
-    <tr>
-          <td>10/12/2014</td>
+          <td>15/11/2014</td>
           <td>Rent</td>
-          <td><div>02/12/2014 - 08/12/2014 ($300)</div><div>25/11/2014 - 01/12/2014 ($300)</div><div>18/11/2014 - 24/11/2014 ($100)</div></td>
-          <td>$700</td>
+          <td>          	
+          		<div>15/11/2014 - 14/12/2014</div>
+          </td>
+          <td>$1,500</td>
           <td>
           	<div class="tbl-action-text">
 	             <a href="javascript:edit(1382)" rel="tooltip" data-original-title="Edit" data-placement="top" data-toggle="tooltip"> <span class="fa fa-edit"></span>   </a>  
 	             <a href="javascript:remove(1382,'Rent')" rel="tooltip" data-original-title="Remove this Paymet" data-placement="top" data-toggle="tooltip"> <span class="fa fa-trash-o text-danger"></span> </a> 
 	             <a href="javascript:sendReceipt(1382,'Rent')" rel="tooltip" data-original-title="Email your tenant a receipt" data-placement="top" data-toggle="tooltip"> <span class="fa fa-file-text-o text-success"></span>   </a>
              </div>
+             <div class="v-lighter-text sub-desc" id="showu" style="display:none">Receipt last sent today</div>
 
              
           </td>
 
   </tr>
+
+          		    <tr>
+          <td>15/10/2014</td>
+          <td>Rent</td>
+          <td>          	
+          		<div>15/10/2014 - 14/11/2014</div>
+          </td>
+          <td>$1,500</td>
+          <td>
+          	<div class="tbl-action-text">
+	             <a href="javascript:edit(1382)" rel="tooltip" data-original-title="Edit" data-placement="top" data-toggle="tooltip"> <span class="fa fa-edit"></span>   </a>  
+	             <a href="javascript:remove(1382,'Rent')" rel="tooltip" data-original-title="Remove this Paymet" data-placement="top" data-toggle="tooltip"> <span class="fa fa-trash-o text-danger"></span> </a> 
+	             <a href="javascript:sendReceipt(1382,'Rent')" rel="tooltip" data-original-title="Email your tenant a receipt" data-placement="top" data-toggle="tooltip"> <span class="fa fa-file-text-o text-success"></span>   </a>
+             </div>
+             <div class="v-lighter-text sub-desc" >Receipt last sent 15/10/2014</div>
+
+             
+          </td>
+
+  </tr>
+
+		    <tr>
+          <td>15/09/2014</td>
+          <td>Rent</td>
+          <td>          	
+          		<div>15/09/2014 - 14/10/2014</div>
+          </td>
+          <td>$1500</td>
+          <td>
+          	<div class="tbl-action-text">
+	             <a href="javascript:edit(1382)" rel="tooltip" data-original-title="Edit" data-placement="top" data-toggle="tooltip"> <span class="fa fa-edit"></span>   </a>  
+	             <a href="javascript:remove(1382,'Rent')" rel="tooltip" data-original-title="Remove this Paymet" data-placement="top" data-toggle="tooltip"> <span class="fa fa-trash-o text-danger"></span> </a> 
+	             <a href="javascript:sendReceipt(1382,'Rent')" rel="tooltip" data-original-title="Email your tenant a receipt" data-placement="top" data-toggle="tooltip"> <span class="fa fa-file-text-o text-success"></span>   </a>
+             </div>
+					<div class="v-lighter-text sub-desc">Receipt last sent 16/09/2014</div>
+             
+          </td>
+
+  </tr>
+
+    <tr>
+          <td>15/09/2014</td>
+          <td>Rent</td>
+          <td>          	
+          		<div>15/09/2014 - 14/10/2014</div>
+          </td>
+          <td>$1500</td>
+          <td>
+          	<div class="tbl-action-text">
+	             <a href="javascript:edit(1382)" rel="tooltip" data-original-title="Edit" data-placement="top" data-toggle="tooltip"> <span class="fa fa-edit"></span>   </a>  
+	             <a href="javascript:remove(1382,'Rent')" rel="tooltip" data-original-title="Remove this Paymet" data-placement="top" data-toggle="tooltip"> <span class="fa fa-trash-o text-danger"></span> </a> 
+	             <a href="javascript:sendReceipt(1382,'Rent')" rel="tooltip" data-original-title="Email your tenant a receipt" data-placement="top" data-toggle="tooltip"> <span class="fa fa-file-text-o text-success"></span>   </a>
+             </div>
+					<div class="v-lighter-text sub-desc">Receipt last sent 16/09/2014</div>
+             
+          </td>
+
+  </tr>
+
+
+  <tr>
+          <td>15/09/2014</td>
+          <td>Rent</td>
+          <td>          	
+          		<div>15/09/2014 - 14/10/2014</div>
+          </td>
+          <td>$1500</td>
+          <td>
+          	<div class="tbl-action-text">
+	             <a href="javascript:edit(1382)" rel="tooltip" data-original-title="Edit" data-placement="top" data-toggle="tooltip"> <span class="fa fa-edit"></span>   </a>  
+	             <a href="javascript:remove(1382,'Rent')" rel="tooltip" data-original-title="Remove this Paymet" data-placement="top" data-toggle="tooltip"> <span class="fa fa-trash-o text-danger"></span> </a> 
+	             <a href="javascript:sendReceipt(1382,'Rent')" rel="tooltip" data-original-title="Email your tenant a receipt" data-placement="top" data-toggle="tooltip"> <span class="fa fa-file-text-o text-success"></span>   </a>
+             </div>
+					<div class="v-lighter-text sub-desc">Receipt last sent 16/09/2014</div>
+             
+          </td>
+
+  </tr>
+
+
+  <tr>
+          <td>15/09/2014</td>
+          <td>Rent</td>
+          <td>          	
+          		<div>15/09/2014 - 14/10/2014</div>
+          </td>
+          <td>$1500</td>
+          <td>
+          	<div class="tbl-action-text">
+	             <a href="javascript:edit(1382)" rel="tooltip" data-original-title="Edit" data-placement="top" data-toggle="tooltip"> <span class="fa fa-edit"></span>   </a>  
+	             <a href="javascript:remove(1382,'Rent')" rel="tooltip" data-original-title="Remove this Paymet" data-placement="top" data-toggle="tooltip"> <span class="fa fa-trash-o text-danger"></span> </a> 
+	             <a href="javascript:sendReceipt(1382,'Rent')" rel="tooltip" data-original-title="Email your tenant a receipt" data-placement="top" data-toggle="tooltip"> <span class="fa fa-file-text-o text-success"></span>   </a>
+             </div>
+					<div class="v-lighter-text sub-desc">Receipt last sent 16/09/2014</div>
+             
+          </td>
+
+  </tr>
+
+
 
 
 
@@ -318,6 +405,8 @@ $app_module =""
 <?php require('partials/disconnect-to-pocketbook.php') ?>
 <?php require('partials/confirm-disconnect.php') ?>
 
+<script src="https://members-dev.rentmyestate.com.au/assets/js/common.js?v=1.21.3"></script>
+
 <script type="text/javascript">
 	$(function(){
 		$('#btnConnectPocketbook').click(function() {
@@ -327,8 +416,19 @@ $app_module =""
 		$('#disconnectPocketbook').click(function() {
 			$('#confirmDisconnectPocketbook').modal();
 		});
+
+		$('.fa-file-text-o').click(function(){
+			uiAlertMsg( 'A receipt for $1500 has been sent to Lewis (owners will also receive a copy)', 'success','sticky');
+
+			$('#showu').fadeIn();
+			// $('#frmPayment').data('meUIHelper').toast('Payment successful​ly removed','success');
+			return false;
+		});
+
 	})
 </script>
+
+
 
 
 <?php require('../partials/footer.php') ?>

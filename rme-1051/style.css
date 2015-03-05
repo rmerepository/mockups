@@ -1,0 +1,17 @@
+	.ie-wrap {
+		overflow: hidden;
+		position: relative;
+		width: 500px;
+
+	}	
+	.as {
+		position: absolute;
+		top:0px;
+		margin-left: 4px;
+		-webkit-transition: all 0.5s;
+		transition: all 0.5s;
+	}
+
+	body:hover .as{
+		top:-22px;
+	}
