@@ -10851,7 +10851,7 @@ h3 .popover {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/top-navbar\.less}line{font-family:\00003154}}
 .dash-menu .items li {
   float: left;
-  margin-right: 65px;
+  margin-right: 40px;
   position: relative;
 }
 /* line 158, /Volumes/HD2/sites/rme.mockup/assets/less/top-navbar.less */
@@ -13259,16 +13259,16 @@ span.remove-occupant:hover {
   width: 100%;
   height: 100%;
   background-color: #fff;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: background 0.5s;
+  transition: background 0.5s;
   z-index: 2;
 }
 /* line 53, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\0000353}}
 .inner-widget-action {
   background-color: #FFF;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: background 0.5s;
+  transition: background 0.5s;
 }
 /* line 57, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\0000357}}
@@ -13299,6 +13299,629 @@ span.remove-occupant:hover {
   .static-widget.col-xs-4 {
     width: 100%;
   }
+}
+/* line 82, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\0000382}}
+.ui-sortable {
+  min-height: 20px;
+}
+/* line 86, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\0000386}}
+.close-widget {
+  display: none;
+}
+/* line 90, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\0000390}}
+.widgets-section.mid-section,
+.widget-menu-settings {
+  max-width: 1135px;
+  padding-top: 35px;
+}
+/* line 96, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\0000396}}
+.widget-head h3,
+.widget a {
+  color: inherit;
+}
+/* line 100, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003100}}
+.widget-view-1 {
+  font-size: 25px;
+  text-align: center;
+}
+/* line 105, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003105}}
+.inner-widget-action .fa {
+  margin-right: 10px;
+}
+/* line 110, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003110}}
+.inner-widget-action .name {
+  position: absolute;
+  bottom: 14px;
+  width: 100%;
+  text-align: center;
+  color: #C0C0C0;
+  font-size: 16px;
+}
+/* line 119, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003119}}
+.inner-widget-sm {
+  min-height: 215px;
+}
+/* line 129, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003129}}
+.view-listing .static-widget.col-xs-4 {
+  width: 100%;
+  margin-bottom: 0px;
+}
+/* line 135, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003135}}
+.view-listing .inner-widget-sm {
+  min-height: 0;
+  border-bottom: 1px dashed #eee;
+  padding: 20px 20px;
+}
+/* line 140, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003140}}
+.view-listing .wrp-o {
+  position: relative;
+  float: left;
+}
+/* line 144, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003144}}
+.view-listing .inner-widget-action .name {
+  position: relative;
+  float: right;
+  right: 0px;
+  bottom: auto;
+  width: auto;
+}
+/* line 153, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003153}}
+.view-listing .widget-view-1 {
+  font-size: 25px;
+  text-align: left;
+}
+/* line 161, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003161}}
+.ui-sortable .ui-drag {
+  cursor: pointer !important;
+  display: block;
+  height: 100%;
+  padding-top: 1px;
+}
+/* line 168, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003168}}
+.ui-sortable .dragging {
+  cursor: move !important;
+}
+/* line 170, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003170}}
+.ui-sortable .dragging .ui-drag {
+  cursor: move !important;
+}
+/* line 176, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003176}}
+.sek {
+  background-color: #FFF;
+  z-index: 999;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 32px;
+  margin-top: -30px;
+  padding: 6px 0;
+  opacity: .7;
+}
+/* line 187, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003187}}
+.sek .b {
+  opacity: 1;
+}
+/* line 192, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003192}}
+.ui-sortable .widget {
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.18);
+  margin-bottom: 40px;
+  border-radius: 5px;
+  height: 350px;
+  position: relative;
+  background-color: #FFF;
+}
+/* line 202, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003202}}
+.ui-sortable .widget-inner {
+  float: left;
+  height: 100%;
+  width: 100%;
+}
+/* line 209, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003209}}
+.widget-head {
+  text-align: center;
+  min-height: 40px;
+}
+/* line 215, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003215}}
+.dashboard-2 .widget-head {
+  height: 55px;
+}
+/* line 219, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003219}}
+.dashboard-2 .widget-content {
+  height: 203px;
+  overflow: hidden;
+}
+/* line 224, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003224}}
+.dashboard-2 .collapsible .widget-content {
+  height: auto;
+}
+/* line 228, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003228}}
+.dashboard-2 .collapsible .property-profile-photo {
+  height: 274px;
+}
+/* line 232, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003232}}
+.ui-sortable .widget:hover {
+  box-shadow: 0px 0px 21px rgba(0, 0, 0, 0.1);
+}
+/* line 236, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003236}}
+.ui-sortable h1 {
+  font-weight: 100;
+}
+/* line 240, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003240}}
+.ui-sortable .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: none;
+}
+/* line 247, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003247}}
+.widget-head h3 {
+  padding: 0 40px;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 0px 25px;
+}
+/* line 257, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003257}}
+.mails-ui-widget .profile-photo,
+.widget-content .profile-photo {
+  margin: 0 auto;
+}
+/* line 262, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003262}}
+.widget-settings {
+  border: 1px solid #eaeaea;
+  width: 231px;
+  background-color: #fff;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 20;
+  overflow: hidden;
+}
+/* line 272, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003272}}
+#widgetSettingsList-menu {
+  padding: 0px;
+  margin: 20px 0 0 0;
+}
+/* line 279, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003279}}
+#widgetSettingsList-menu .widget-items {
+  position: relative;
+  display: block;
+  padding: 15px 44px 15px 18px;
+  color: #868686;
+  border-top: 1px solid #FFF;
+}
+/* line 286, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003286}}
+#widgetSettingsList-menu .widget-items:hover,
+#widgetSettingsList-menu .widget-items.active {
+  background-color: #f8f8f8;
+}
+/* line 291, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003291}}
+#widgetSettingsList-menu .widget-items em {
+  background-image: url('../images/n/sprites-ui.png');
+  background-repeat: no-repeat;
+  background-position: -10px -219px;
+  display: inline-block;
+  height: 38px;
+  width: 32px;
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  margin-top: -16px;
+}
+/* line 302, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003302}}
+#widgetSettingsList-menu .widget-items em.active {
+  background-position: -10px -344px;
+}
+/* line 306, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003306}}
+#widgetSettingsList hr {
+  width: 184px;
+}
+/* line 310, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003310}}
+.wui-nav-wrap {
+  width: 86%;
+  margin: 18px auto 10px;
+}
+/* line 315, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003315}}
+#widgetSettingsList {
+  display: none;
+  background-color: #FFF;
+  width: 100%;
+  border-top: none;
+}
+/* line 322, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003322}}
+.widget-menu-settings {
+  margin: 40px auto;
+  height: 80px;
+  display: none;
+}
+/* line 328, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003328}}
+.widget-note {
+  text-align: center;
+  padding: 10px 20px;
+  color: #909090;
+  font-size: 15px;
+  position: relative;
+}
+/* line 336, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003336}}
+.collapsible .widget-note {
+  padding: 0px;
+  position: absolute;
+  bottom: 0px;
+  overflow: hidden;
+  left: 0px;
+  width: 100%;
+  height: 62px;
+}
+/* line 345, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003345}}
+.collapsible .property-profile-photo {
+  height: 283px;
+  border-radius: 0px 0px 5px 5px;
+}
+/* line 350, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003350}}
+.collapsible .widget-note .widget-note-inner {
+  padding: 10px 20px;
+  background-color: #FFF;
+  position: relative;
+  bottom: -66px;
+  border-radius: 0px 0px 4px 4px;
+  width: 100%;
+  right: 0px;
+  -webkit-transition: bottom 0.2s ease-out;
+  -moz-transition: bottom 0.2s ease-out;
+  -o-transition: bottom 0.2s ease-out;
+  -ms-transition: bottom 0.2s ease-out;
+  transition: bottom 0.2s ease-out;
+  min-height: 62px;
+}
+/* line 362, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003362}}
+.collapsible.widget-hover .widget-note-inner {
+  bottom: 0px;
+}
+/* line 365, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003365}}
+.collapsible .w-ui {
+  margin-top: 15px;
+}
+/* line 369, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003369}}
+.widget-head .fs-small {
+  font-size: 16px !important;
+  line-height: 114% !important;
+  margin-top: 17px !important;
+}
+/* line 375, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003375}}
+.widget-head .fs-medium {
+  font-size: 20px !important;
+  line-height: 114% !important;
+  margin-top: 24px !important;
+}
+/* line 381, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003381}}
+.widget-head .wui-subheading {
+  margin-bottom: 0 !important;
+  margin-top: -18px !important;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 0px 25px;
+}
+/* line 389, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003389}}
+#mailbox_widget .dashboard-2 .widget-content {
+  margin-top: -20px;
+}
+/* line 393, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003393}}
+.mails-ui-widget {
+  margin-top: -20px;
+}
+/* line 396, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003396}}
+.wui-no-header {
+  margin-top: 48px;
+}
+/* line 399, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003399}}
+.property-profile-photo {
+  background-repeat: no-repeat;
+  height: 216px;
+  background-image: url('../images/house-avatar.png');
+  background-position: center center;
+  background-size: cover;
+  box-shadow: inset 0px 15px 15px -15px rgba(0, 0, 0, 0.28);
+}
+/* line 408, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003408}}
+#mailbox_widget .widget-content {
+  margin-top: -19px;
+  min-height: 169px;
+}
+/* line 413, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003413}}
+.mails-ui-widget {
+  margin-top: -28px;
+}
+/* line 418, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003418}}
+.add-property-gr {
+  border: 1px dashed #bebebe;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+}
+/* line 424, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003424}}
+.add-property-gr.crl {
+  border-radius: 50%;
+  height: 210px;
+  width: 210px;
+  margin-bottom: 25px !important;
+}
+/* line 429, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003429}}
+.add-property-gr.crl .blue-sign-plus {
+  margin-top: 16px;
+}
+/* line 435, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003435}}
+.blue-sign-plus {
+  font-size: 119px;
+  font-weight: 100;
+  color: #bebebe;
+}
+/* line 441, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003441}}
+.wui-addproperty-btn:hover .blue-sign-plus {
+  color: #22b2e2;
+}
+/* line 446, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003446}}
+.blue-sign-plus.lg {
+  font-size: 131px;
+  padding: 31px 0px 39px;
+  display: block;
+}
+/* line 453, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003453}}
+.wui-addproperty-btn:hover .add-property-gr {
+  border-color: #22b2e2;
+}
+/* line 457, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003457}}
+.w-ui {
+  background-image: url('../images/n/sprites-images.png');
+  background-repeat: no-repeat;
+  background-position: -99999px -99999px;
+  display: inline-block;
+}
+/* line 462, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003462}}
+.widget-notifications {
+  height: 116px;
+  width: 159px;
+  background-position: -2px -1px;
+  margin-left: 56px;
+}
+/* line 469, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003469}}
+.widget-renatal-forms {
+  background-position: -301px -4px;
+  width: 214px;
+  height: 213px;
+}
+/* line 475, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003475}}
+.widget-add-new-tenant {
+  background-position: -623px -24px;
+  width: 214px;
+  height: 213px;
+}
+/* line 482, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003482}}
+.widget-tenant-search {
+  background-position: -337px -261px;
+  width: 214px;
+  height: 213px;
+}
+/* line 489, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003489}}
+.widget-rent-collection {
+  background-position: -651px 6px;
+  width: 214px;
+  height: 213px;
+}
+/* line 495, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003495}}
+.message-count {
+  margin-top: 7px;
+  font-size: 13px;
+}
+/* line 500, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003500}}
+.wui-head-small {
+  font-size: 15px;
+}
+/* line 504, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003504}}
+.ui-sortable h1.rb-font {
+  line-height: 100%;
+  font-size: 60px;
+}
+/* line 511, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003511}}
+.widget-files {
+  width: 250px;
+  display: inline-block;
+  height: 211px;
+  background-position: -2px -210px;
+}
+/* line 518, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003518}}
+.ads-status-wrap {
+  background: #FFF;
+  margin: auto;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+  margin-top: -53px;
+  padding: 15px;
+  opacity: .9;
+}
+/* line 530, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003530}}
+.collapsible .ads-status-wrap {
+  margin-top: 0px;
+}
+/* line 534, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003534}}
+.ads-status {
+  font-size: 32px;
+  font-weight: 100;
+}
+/* line 538, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003538}}
+.ads-status.published {
+  color: #18cd83;
+}
+/* line 542, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003542}}
+.sub-ads-status {
+  padding: 9px 0px;
+}
+/* line 547, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003547}}
+.wui-subheading {
+  font-size: 16px;
+  color: #989898;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  margin-top: -18px;
+  margin-bottom: 15px;
+}
+/* line 556, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003556}}
+.wui-b-items {
+  padding: 0 30px;
+  margin-top: 20px;
+}
+/* line 561, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003561}}
+.wui-b-item {
+  font-family: roboto;
+  margin-bottom: 34px;
+}
+/* line 564, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003564}}
+.wui-b-item h4 {
+  font-size: 23px;
+  margin: 5px 0px;
+}
+/* line 568, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003568}}
+.wui-b-item .sub-text {
+  color: #acacac;
+}
+/* line 571, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003571}}
+.wui-io-info {
+  float: left;
+}
+/* line 575, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003575}}
+.wui-io-icon {
+  background-image: url('../images/n/sprites-images.png');
+  background-repeat: no-repeat;
+  background-position: -99999px -99999px;
+  float: right;
+  width: 52px;
+  height: 55px;
+}
+/* line 581, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003581}}
+.wui-io-icon.c-dollar {
+  background-position: -701px -343px;
+}
+/* line 582, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003582}}
+.wui-io-icon.c-user {
+  background-position: -701px -271px;
+}
+/* line 589, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003589}}
+.module-property-dashboard .property-profile-photo {
+  height: 201px;
+}
+/* line 592, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003592}}
+.module-property-dashboard .widget-notifications {
+  height: 97px;
+}
+/* line 598, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003598}}
+:focus {
+  outline: none;
+}
+/* line 599, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003599}}
+::-moz-focus-inner {
+  border: 0;
+}
+/* line 601, /Volumes/HD2/sites/rme.mockup/assets/less/dashboard-widget.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/dashboard-widget\.less}line{font-family:\00003601}}
+*,
+a:hover,
+a:active,
+a:focus {
+  outline: 0;
 }
 /* line 1, /Volumes/HD2/sites/rme.mockup/assets/less/icons-defaults.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/icons-defaults\.less}line{font-family:\000031}}
@@ -19436,14 +20059,30 @@ ol[type="a"] li {
 .messaging .fa:hover {
   color: #000000;
 }
+/* line 477, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003477}}
+#templateHeader {
+  display: none;
+}
+/* line 478, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003478}}
+#templateContainer {
+  width: auto !important;
+  max-width: 700px !important;
+}
+/* line 482, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003482}}
+.twoColTable td {
+  padding: 12px !important;
+}
 @media (max-width: 992px) {
-  /* line 478, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003478}}
+  /* line 487, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003487}}
   .mailwrap .col-md-4 {
     width: 33.33333333333333%;
   }
-  /* line 482, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003482}}
+  /* line 491, /Volumes/HD2/sites/rme.mockup/assets/less/mailbox.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/mailbox\.less}line{font-family:\00003491}}
   .mailwrap .col-md-8 {
     width: 66.66666666666666%;
   }
@@ -19793,6 +20432,111 @@ ol[type="a"] li {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/breadcrumb\.less}line{font-family:\0000332}}
 .main-listing {
   font-weight: 300;
+}
+/* line 42, /Volumes/HD2/sites/rme.mockup/assets/less/breadcrumb.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/breadcrumb\.less}line{font-family:\0000342}}
+.ui-bread {
+  margin-bottom: 0px;
+}
+/* line 43, /Volumes/HD2/sites/rme.mockup/assets/less/breadcrumb.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/breadcrumb\.less}line{font-family:\0000343}}
+.ui-bread .fa-chevron-down {
+  margin: 0px 11px 0 0px;
+  top: 2px;
+}
+/* line 45, /Volumes/HD2/sites/rme.mockup/assets/less/breadcrumb.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/breadcrumb\.less}line{font-family:\0000345}}
+.ui-bread .ui-crumbs {
+  float: left;
+  margin-right: 20px;
+}
+/* line 48, /Volumes/HD2/sites/rme.mockup/assets/less/breadcrumb.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/breadcrumb\.less}line{font-family:\0000348}}
+.ui-bread .ui-crumbs:first-child {
+  margin-left: 0px;
+}
+/* line 53, /Volumes/HD2/sites/rme.mockup/assets/less/breadcrumb.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/breadcrumb\.less}line{font-family:\0000353}}
+.ui-bread .ui-c-item {
+  display: block;
+  line-height: 48px;
+  padding: 0px 22px;
+  font-size: 14px;
+  background-color: #ffffff;
+  position: relative;
+  z-index: 1;
+}
+/* line 61, /Volumes/HD2/sites/rme.mockup/assets/less/breadcrumb.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/breadcrumb\.less}line{font-family:\0000361}}
+.ui-bread .ui-c-item:hover .glyphicon-chevron-down {
+  color: #22b2e2;
+}
+/* line 64, /Volumes/HD2/sites/rme.mockup/assets/less/breadcrumb.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/breadcrumb\.less}line{font-family:\0000364}}
+.ui-bread .ui-c-item:hover {
+  background: rgba(255, 255, 255, 0.8);
+  color: #4bc7f1;
+}
+/* line 67, /Volumes/HD2/sites/rme.mockup/assets/less/breadcrumb.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/breadcrumb\.less}line{font-family:\0000367}}
+.ui-bread .ui-c-item:hover::after {
+  border-left-color: rgba(255, 255, 255, 0.8);
+}
+/* line 70, /Volumes/HD2/sites/rme.mockup/assets/less/breadcrumb.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/breadcrumb\.less}line{font-family:\0000370}}
+.ui-bread .ui-c-item:hover::before {
+  border-color: rgba(255, 255, 255, 0.8) rgba(255, 255, 255, 0.8) rgba(255, 255, 255, 0.8) transparent;
+}
+/* line 74, /Volumes/HD2/sites/rme.mockup/assets/less/breadcrumb.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/breadcrumb\.less}line{font-family:\0000374}}
+.ui-bread .ui-c-item:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  margin-top: -24px;
+  border-width: 24px 0 24px 1em;
+  border-style: solid;
+  border-color: #ffffff #ffffff #ffffff rgba(0, 0, 0, 0);
+  left: -1em;
+}
+/* line 84, /Volumes/HD2/sites/rme.mockup/assets/less/breadcrumb.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/breadcrumb\.less}line{font-family:\0000384}}
+.ui-bread .ui-c-item:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  margin-top: -24px;
+  border-top: 24px solid rgba(0, 0, 0, 0);
+  border-bottom: 24px solid rgba(0, 0, 0, 0);
+  border-left: 14px solid #ffffff;
+  right: -14px;
+}
+/* line 97, /Volumes/HD2/sites/rme.mockup/assets/less/breadcrumb.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/breadcrumb\.less}line{font-family:\0000397}}
+.ui-bread .start .ui-c-item {
+  border-radius: 4px 0px 0px 4px;
+}
+/* line 99, /Volumes/HD2/sites/rme.mockup/assets/less/breadcrumb.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/breadcrumb\.less}line{font-family:\0000399}}
+.ui-bread .start .ui-c-item::before {
+  border: none;
+}
+/* line 106, /Volumes/HD2/sites/rme.mockup/assets/less/breadcrumb.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/breadcrumb\.less}line{font-family:\00003106}}
+.ui-bread .end .ui-c-item {
+  color: #7a7a7a;
+  padding-left: 11px;
+  background-color: transparent;
+}
+/* line 110, /Volumes/HD2/sites/rme.mockup/assets/less/breadcrumb.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/breadcrumb\.less}line{font-family:\00003110}}
+.ui-bread .end .ui-c-item::after {
+  border-left-color: transparent;
+}
+/* line 113, /Volumes/HD2/sites/rme.mockup/assets/less/breadcrumb.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/breadcrumb\.less}line{font-family:\00003113}}
+.ui-bread .end .ui-c-item::before {
+  border-color: transparent transparent transparent transparent;
 }
 /* line 4, /Volumes/HD2/sites/rme.mockup/assets/less/form_components2.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/HD2\/sites\/rme\.mockup\/assets\/less\/form_components2\.less}line{font-family:\000034}}

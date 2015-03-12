@@ -34,86 +34,85 @@
 }
 
 
-// @bread-color: #FFF;
-// @bread-hover-color: rgba(255, 255, 255, 0.80);
-// @bread-color-end: transparent;
-// @bread-text-color-end: #7A7A7A;
+@bread-color: #FFF;
+@bread-hover-color: rgba(255, 255, 255, 0.80);
+@bread-color-end: transparent;
+@bread-text-color-end: #7A7A7A;
 
-// .ui-bread {
-// 	margin-left: 34px;
-// 	.fa-chevron-down { margin: 0px 11px 0 0px;  top: 2px; }
-// 	margin-bottom: 0px;
-// 	.ui-crumbs {
-// 		float: left;			
-// 		margin-right: 20px;
-// 		&:first-child {
-// 			margin-left: 0px;
-// 		}
+.ui-bread {
+	.fa-chevron-down { margin: 0px 11px 0 0px;  top: 2px; }
+	margin-bottom: 0px;
+	.ui-crumbs {
+		float: left;			
+		margin-right: 20px;
+		&:first-child {
+			margin-left: 0px;
+		}
 
-// 	}
-// 	.ui-c-item {
-// 		display: block;
-// 		line-height: 48px;
-// 		padding: 0px 22px;
-// 		font-size: 14px;
-// 		background-color: @bread-color;
-// 		position: relative;
-// 		z-index: 1;		
-// 		&:hover .glyphicon-chevron-down {
-// 			color: @rme_theme;
-// 		}		
-// 		&:hover {
-// 			background: @bread-hover-color;
-// 			color: @blue_btn_hover;
-// 			&::after {
-// 				border-left-color: @bread-hover-color;
-// 			}
-// 			&::before {
-// 				border-color: @bread-hover-color @bread-hover-color @bread-hover-color transparent;
-// 			}
-// 		}
-// 		&:before {
-// 			content: "";
-// 			position: absolute;
-// 			top: 50%;
-// 			margin-top: -24px;
-// 			border-width: 24px 0 24px 1em;
-// 			border-style: solid;
-// 			border-color: @bread-color @bread-color @bread-color rgba(0, 0, 0, 0);
-// 			left: -1em;
-// 		}
-// 		&:after {
-// 			content: "";
-// 			position: absolute;
-// 			top: 50%;
-// 			margin-top: -24px;
-// 			border-top: 24px solid rgba(0, 0, 0, 0);
-// 			border-bottom: 24px solid rgba(0, 0, 0, 0);
-// 			border-left: 14px solid @bread-color;
-// 			right: -14px;
-// 		}
-// 	}
+	}
+	.ui-c-item {
+		display: block;
+		line-height: 48px;
+		padding: 0px 22px;
+		font-size: 14px;
+		background-color: @bread-color;
+		position: relative;
+		z-index: 1;		
+		&:hover .glyphicon-chevron-down {
+			color: @rme_theme;
+		}		
+		&:hover {
+			background: @bread-hover-color;
+			color: @blue_btn_hover;
+			&::after {
+				border-left-color: @bread-hover-color;
+			}
+			&::before {
+				border-color: @bread-hover-color @bread-hover-color @bread-hover-color transparent;
+			}
+		}
+		&:before {
+			content: "";
+			position: absolute;
+			top: 50%;
+			margin-top: -24px;
+			border-width: 24px 0 24px 1em;
+			border-style: solid;
+			border-color: @bread-color @bread-color @bread-color rgba(0, 0, 0, 0);
+			left: -1em;
+		}
+		&:after {
+			content: "";
+			position: absolute;
+			top: 50%;
+			margin-top: -24px;
+			border-top: 24px solid rgba(0, 0, 0, 0);
+			border-bottom: 24px solid rgba(0, 0, 0, 0);
+			border-left: 14px solid @bread-color;
+			right: -14px;
+		}
+	}
 	
-// 	.start {
-// 		.ui-c-item { 
-// 			border-radius: 4px 0px 0px 4px;
-// 			&::before {
-// 				border:none;
-// 			}
-// 		}
-// 	}
+	.start {
+		.ui-c-item { 
+			border-radius: 4px 0px 0px 4px;
+			&::before {
+				border:none;
+			}
+		}
+	}
 
-// 	.end {
-// 		.ui-c-item { 
-// 			color: @bread-text-color-end;
-// 			padding-left: 11px;
-// 			background-color: @bread-color-end;
-// 			&::after {
-// 				border-left-color: @bread-color-end;
-// 			}
-// 			&::before {
-// 				border-color: @bread-color-end @bread-color-end @bread-color-end transparent;
-// 			}
-// 		}
-// 	}
-// }
+	.end {
+		.ui-c-item { 
+			color: @bread-text-color-end;
+			padding-left: 11px;
+			background-color: @bread-color-end;
+			&::after {
+				border-left-color: @bread-color-end;
+			}
+			&::before {
+				border-color: @bread-color-end @bread-color-end @bread-color-end transparent;
+			}
+		}
+	}
+}

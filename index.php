@@ -38,6 +38,9 @@
  					<li> <a href="rme-1051/connected-with-pocketbook.php">Connected to pocketbook</a> </li>
  				</ul>
  		</li>
+ 		<li>
+ 			<a href="rme-1011">RME-1011 Enquiry</a> 
+ 		</li>
  	</ul>	
 
  	<h2>Dashboard</h2>
@@ -46,6 +49,7 @@
 			<li><a href="/dashboard/owner.php">Owner Dashboard</a></li>
 			<li><a href="/dashboard/property.php">Property Dashboard</a></li>
 			<li><a href="#">Tenant Dashboard</a> <span class="sublink text-danger">(Not Ready)</span></li>
+			<li><a href="/dashboard/rent.php">Rent Dashboard</a></span></li>
 		</ul>
 
  	<h2>Components</h2>
