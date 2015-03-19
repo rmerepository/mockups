@@ -22,11 +22,17 @@
 
 <h3 class="ma-line"><span class="text-de">Invite Owners</span></h3>
 
-<div class="control-group">
+<div class="control-group has-error">
 	<label class="control-label" for="inviteEmailAddress">Enter the email address you want to add as an owner</label>
 	<div class="controls">
 		<input id="inviteEmailAddress" class="form-control fc-large" maxlength="50" name="inviteEmailAddress" type="text" autocomplete="off" placeholder="Enter Email">
-	<button class="btn btn-primary btn-lg">Add</button></div>
+		
+</div>
+</div>
+
+<div class="control-group">
+<div class="controls">
+		<button id="btnInvite" class="btn btn-primary btn-lg">Add</button></div>
 </div>
 
 <ul class="basic-lists">

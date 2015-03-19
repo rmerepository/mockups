@@ -1,6 +1,5 @@
 <?php require('../partials/header.php') ?>
-<?php require('../partials/top-nav.php') ?>
-<?php require('../partials/bread.php') ?>
+<?php require('../partials/new-menu-top.php') ?>
 
 <div class="mailwrap">
 	<?php require('partials/filters.php'); ?>

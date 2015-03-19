@@ -1,6 +1,4 @@
 <?php require('../partials/header.php') ?>
-<?php require('../partials/top-nav.php') ?>
-<?php require('../partials/bread.php') ?>
 
 <style>
 	.no-converasation {

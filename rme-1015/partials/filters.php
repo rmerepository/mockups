@@ -11,7 +11,7 @@
 	</div>
 	<nav class="side-bar-filter">
 		<div class="action-btn">
-			<span class="ac active">Inbox 
+			<span class="ac">Inbox 
 				<span class="count-item bc">10</span>
 			</span>
 		</div>
@@ -42,7 +42,7 @@
 						</div>
 					</div>
 			</nav>
-		<div class="action-btn">
+<!-- 		<div class="action-btn">
 			<span class="ac">Sent 
 				<span class="count-item bc">10</span>
 			</span>
@@ -56,11 +56,11 @@
 			<span class="ac">Trash 
 				<span class="count-item bc">10</span>
 			</span>
-		</div>
-		<div class="action-btn">
+		</div> -->
+<!-- 		<div class="action-btn">
 			<span class="ac">Unread 
 				<span class="count-item bc">10</span>
 			</span>
-		</div>
+		</div> -->
 	</nav>
 </div>

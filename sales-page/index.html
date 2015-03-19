@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="ui-c-loader">
   <head>
     <title>Homepage</title>
     <meta charset="utf-8">
@@ -9,101 +9,142 @@
     <meta property="og:title" content="Rent My Estate">
     <link rel="stylesheet" href="app/assets/build/css/build.css">
     <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="app/assets/build/js/porthole.min.js"></script>
+    <script src="https://members.rentmyestate.com.au/assets/js/modals/rme.modals.auth.js"></script>
+    <script src="app/assets/build/js/login.js"></script>
+    <script src="http://www.rentmyestate.com.au/wp-content/themes/rme/js/bootstrap.js?ver=4.0"></script>
     <script src="app/assets/build/js/jquery.flexslider-min.js"></script>
     <script src="app/assets/build/js/animation.js"></script>
   </head>
   <body>
-    <header class="header-wrap">
-      <nav class="text-right"><a href="#" title="Login" class="btn btn-success">Login</a></nav>
+    <header class="header-wrap"><a href="/" title="rentmyestate" class="brand logo">rentmyestate</a>
+      <nav class="text-right">
+        <div id="uiLoginWrap" class="login-signup"></div>
+      </nav>
     </header>
-    <section class="hero bg-img bg-img-dark">
-      <video autoplay loop id="bgvid" poster="/app/assets/images/kids-bubbles.jpg">
-        <source src="TEST.mov" type="video/mp4">
-      </video>
+    <section class="hero bg-img bg-img-layer vh-100">
       <div class="hero-inner">
         <div class="va-box">
           <div class="va-middle tag-line">
             <div>
-              <h1 class="text-center">Your humble home to managing your own property</h1>
+              <h1 class="hero-title text-center">Your humble home to managing your own property</h1>
             </div>
-            <div class="text-center"><a href="#" title="Watch the Video" class="play-button"><span class="fa fa-play"></span></a></div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="container spacer-container">
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <h2 class="h1 section-header">Join thousands using RME</h2>
-          <div class="text-center fa fa-quote-left lf-lg"></div>
-          <div class="testimonials clearfix">
-            <ul class="slides clearfix">
-              <li>
-                <h4 class="text-center">I absolutely love that there is an effective, easy to use solution to managing your own property.</h4>
-                <div class="user"><img src="https://s3-ap-southeast-2.amazonaws.com/appscdn/images/testimonials-photo/rme-testimonials-evie-coolum-beach-qld.png">
-                  <div>Evie - QLD</div>
-                </div>
-              </li>
-              <li>
-                <h4 class="text-center">I found a tenant in 6 days</h4>
-                <div class="user"><img src="https://s3-ap-southeast-2.amazonaws.com/appscdn/images/testimonials-photo/rme-testimonials-sharon-perth.png">
-                  <div>Sharon - WA</div>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="spacer-container relative alt-bg">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 min-h-400">
-            <div class="va-box">
-              <div class="va-middle">
-                <p class="h3">No stress...find great tenants at the drop of the hat. <br/> (We’ve mastered this!)</p>
+            <div class="text-center"><a href="//fast.wistia.net/embed/iframe/dcinj8d8dv?popover=true" title="Watch the Video" class="play-button wistia-popover[height=539,playerColor=22b2e2,width=960]"><span class="fa fa-play"></span></a>
+              <div>
+                  <button data-register="me" title="Try Free Now" class="btn t btn-primary btn-xlg">Try Free Now</button>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="refill right-refill flexslider">
-        <ul class="content relative slides">
-          <li class="ad-site rea-ad-site">
-            <div class="va-box">
-              <div class="va-middle text-center"><img src="app/assets/images/rea-logo_v33.png" title="realestate.com.au"></div>
-            </div>
-          </li>
-          <li class="ad-site domain-ad-site">
-            <div class="va-box">
-              <div class="va-middle text-center"><img src="app/assets/images/domain-logo.png" title="Domain"></div>
-            </div>
-          </li>
-        </ul>
-      </div>
+      <video autoplay loop id="bgvid" poster="/app/assets/images/banner-img-3.jpg">
+        <source src="test.mov" type="video/mp4">
+      </video><span data-smth-scroll="true" data-href-target="#di" class="caret-down"><span class="fa fa-chevron-down"></span></span>
     </section>
-    <section class="container spacer-container">
-      <div class="row">
-        <div class="col-md-6 min-h-400">
+    <section id="di" class="container min-h-680">
+      <div class="row full-height fh-all">
+        <div class="col-md-12 text-center">
           <div class="va-box">
             <div class="va-middle">
-              <p class="h3">
-                Picture this...Automatic Rent Tracking, Access to trades people
-                and Tenant login just to name a few
-              </p>
+              <h2 class="h1 section-header">Join thousands using RME</h2>
+              <div class="text-center fa fa-quote-left lf-lg"></div>
+              <div class="testimonials clearfix">
+                <ul class="slides clearfix">
+                  <li>
+                    <h4 class="text-center">I absolutely love that there is an effective, easy to use solution to managing your own property.</h4>
+                    <div class="user"><img src="https://s3-ap-southeast-2.amazonaws.com/appscdn/images/testimonials-photo/rme-testimonials-evie-coolum-beach-qld.png">
+                      <div>Evie - QLD</div>
+                    </div>
+                  </li>
+                  <li>
+                    <h4 class="text-center">I found a tenant in 6 days</h4>
+                    <div class="user"><img src="https://s3-ap-southeast-2.amazonaws.com/appscdn/images/testimonials-photo/rme-testimonials-sharon-perth.png">
+                      <div>Sharon - WA</div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-md-6"><img src="http://placehold.it/500x400" class="animate-me"></div>
       </div>
     </section>
-    <section class="container spacer-container">
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <h2 class="h1">Let us give you a tour</h2>
-          <div class="spacer-top-40"><a href="advertise.html" class="btn btn-primary btn-xlg animate-me">Take the Tour</a></div>
+    <section class="relative alt-bg bg-1-cover bg-img bg-img-layer min-h-680 bg-center">
+      <div class="container full-height fh-all">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="va-box">
+              <div class="va-middle color-w">
+                <h2 class="h1 t">No stress...find great tenants at the drop of the hat.<span class="sub-text">(We’ve mastered this!)</span></h2>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-5 bg-white-80 text-center hm-slider-midfix">
+            <h3>Unlimited Advertising on</h3>
+            <div class="flexslider dil">
+              <ul class="content relative slides">
+                <li class="ad-site"><img src="/app/assets/images/rea-logo-2.png" title="realestate.com.au" class="res"></li>
+                <li class="ad-site"><img src="/app/assets/images/domain-logo-2.png" title="Domain" class="res"></li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </section>
+    <section class="container spacer-container text-center">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="va-box">
+            <div class="va-middle">
+              <h2 class="h1 t">Picture this...<span class="sub-text">Automatic Rent Tracking, Access to trades people and Tenant login just to name a few</span></h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center gap-90">
+        <div class="col-md-3 animate-me"><img src="/app/assets/images/rent-payments.png">
+          <h5 class="li-sub-text">Rent Payments</h5>
+        </div>
+        <div class="col-md-3 animate-me"><img src="/app/assets/images/online-tenant-application.png">
+          <h5 class="li-sub-text">Online Tenant Application</h5>
+        </div>
+        <div class="col-md-3 animate-me soon"><img src="/app/assets/images/trades-people-soon.png">
+          <h5 class="li-sub-text">Access to Trades People</h5>
+        </div>
+        <div class="col-md-3 animate-me soon"><img src="/app/assets/images/routine-inspection-soon.png">
+          <h5 class="li-sub-text">Routine Inspection</h5>
+        </div>
+      </div>
+    </section>
+    <section class="alt-bg text-center">
+      <div class="container vh-100">
+        <div class="va-box">
+          <div class="va-middle">
+            <h2 class="h1">Let us give you a tour
+              <div class="spacer-top-40"></div><a href="advertise.html" title="Take the tour" class="btn t btn-primary btn-xlg">Take the tour</a>
+            </h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <ul class="footer-links">
+              <li> <a href="/blog" title="Blog">Blog</a></li>
+              <li> <a href="happiness-gurus.html" title="Contact">Contact</a></li>
+              <li> <a href="about-us.html" title="About">About</a></li>
+              <li> <a href="pricing.html" title="Pricing">Pricing</a></li>
+              <li> <a href="tenant-login.html" title="Tenants">Tenants</a></li>
+              <li> <a href="http://support.rentmyestate.com.au" title="Help">Help</a></li>
+            </ul>
+            <div class="colophon">©2010-2015 All Rights Reserved. Rent My Estate. <a href="#">Privacy and Terms</a></div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

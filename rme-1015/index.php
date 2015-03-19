@@ -1,7 +1,6 @@
 <?php require('../partials/header.php') ?>
 <?php require('../partials/top-nav.php') ?>
-<?php require('../partials/bread.php') ?>
-
+<?php require('../dashboard/tenant-partials/tenant-top.php') ?>
 
 <div class="mailwrap">
 	<?php require('partials/filters.php'); ?>

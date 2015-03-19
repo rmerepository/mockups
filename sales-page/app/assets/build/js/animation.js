@@ -27,6 +27,24 @@
   };
     
 })(jQuery);
+
+$(function(){
+
+var htmlBody = $('body')
+  , htmlWindow = $(window)
+  , htmlDocument = $(document);
+
+
+ // SMooth scrolling link
+$('[data-smth-scroll=true]').on('click', function(){
+  var defGap = 0;
+
+    $('html, body').animate({
+        scrollTop: $( $(this).attr('data-href-target') ).offset().top - defGap
+    }, 700);
+   return false;
+}); 
+
 $(window).scroll(function(event) {
   
   $(".animate-me").each(function(i, el) {
@@ -35,17 +53,22 @@ $(window).scroll(function(event) {
       el.addClass("come-in"); 
     } 
   });
+  
+    if ( $(this).scrollTop() > 120  ) 
+      htmlBody.addClass('fixed-nav');
+    else 
+      htmlBody.removeClass('fixed-nav');
 
   
 });
 
 
-$(function(){
-    $('.flexslider').flexslider({
+
+  $('.flexslider').flexslider({
     animation: "slide",
     directionNav: false, 
-    controlNav: false,
-    initDelay: 2000, 
+    controlNav: true,
+    initDelay: 1000, 
   });
 
   $('.testimonials').flexslider({

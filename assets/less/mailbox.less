@@ -371,18 +371,19 @@
 	.msg {
 		font-size: 13px;
 		padding: 21px;
-		border-radius: 4px;
+		border-radius: 4px 4px 4px 0px;
 		position: relative;
-		border: 1px solid #F3F3F3;
 		width: 100%;
 		&:after {
-				content: "";
-				.background-image-custom ( '../images/n/sprites-ui.png', 1px, -849px);
+				content: "\f0d9";
+				font-family: 'fontawesome';
 				display: block;
 				position: absolute;
-				bottom: -3px;				
+				bottom: 0px;
 				height: 20px;
-				width: 30px;
+				width: 12px;
+				color: #F9F9F9; 
+				font-size: 20px;
 			}
 	}
 	.iro {
@@ -400,13 +401,13 @@
 	}
 	.friend {
 		.iro {
-			left: 0px
+			left: 0px;
 		}
 		.msg {
 			float: left;
 			background-color: #f9f9f9;
 			&:after {
-				left: -25px;				
+				left: -7px;
 			}
 		}
 	}
@@ -419,14 +420,16 @@
 			float: left;
 			background-color: @blue;
 			color: #FFF;
+			border-radius: 4px 4px 0px 4px;
 			a {
 				color: #FFF;
 				text-decoration: underline;
 			}
 			&:after {
-				background-position: 0px -816px;
-				right: -25px;
-				bottom: -4px;			
+				content: "\f0da";
+				color: @blue;
+				right: -11px;
+				bottom: -0px;
 			}
 		}
 	}

@@ -16,30 +16,6 @@
 			<div class="mm-msg">Hamish Clarke is interested in 161 Brisbane Street, Bulimba, 4171</div>
 		</div>
 	</a>
-</li><li class="notification" id="maillist-887">
-	<a href="#" class="m read thread_list unread" id="thread-887">
-		<div class="mm-data">
-			<div class="name">Rent My Estate</div>
-			<h6>Jan 22 2014</h6>
-			<div class="mm-msg">Hamish Clarke is interested in 161 Brisbane Street, Bulimba, 4171</div>
-		</div>
-	</a>
-</li><li class="notification" id="maillist-873">
-	<a href="#" class="m read thread_list" id="thread-873">
-		<div class="mm-data">
-			<div class="name">Rent My Estate</div>
-			<h6>Jan 14 2014</h6>
-			<div class="mm-msg">Hamish Clarke is interested in 161 Brisbane Street, Bulimba, 4171</div>
-		</div>
-	</a>
-</li><li class="message" id="maillist-845">
-	<a href="#" class="m read thread_list" id="thread-845">
-		<div class="mm-data">
-			<div class="name">Rent My Estate</div>
-			<h6>Jan 14 2014</h6>
-			<div class="mm-msg">Hamish Clarke is interested in 161 Brisbane Street, Bulimba, 4171</div>
-		</div>
-	</a>
 </li>
 </ul>
 </div>
