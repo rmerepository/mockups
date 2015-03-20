@@ -1,12 +1,4 @@
-<style>
-	.side-lbl {
-			display: inline-block;
-			padding-top: 10px;
-			color: #BABABA;
-			padding-right: 8px;
-	}
-</style>
-<h3>Snapshot of your lease</h3>
+<h3 class="mtop-none">Snapshot of your lease</h3>
 <div class="info-block">
 <div class="row me-well"> 
 			<div class="pull-left">

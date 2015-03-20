@@ -1,3 +1,4 @@
+<header class="dash-header">
 <nav class="dash-menu" id="main-nav">
 <div class="text-right"><span class="close-lg">&times;</span></div>
 	<ul class="items clearfix">
@@ -8,3 +9,4 @@
 		<li> <a href="#" class="item" title="Profile"><i class="fa fa-user"></i> Profile</a> </li>
 	</ul>
 </nav>
+</header>
