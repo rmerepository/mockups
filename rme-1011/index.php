@@ -8,12 +8,12 @@
 			max-width: 530px;
 	}
 
-	.basic-lists-item {
+	.basic-lists li {
 		border-top: 1px solid #EEE;
 		padding: 15px 0;
 	}
 
-	.basic-lists-item:first-child {
+	.basic-lists li:first-child {
 		border-top: none;	
 	}
 </style>

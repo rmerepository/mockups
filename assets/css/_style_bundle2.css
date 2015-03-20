@@ -21337,3 +21337,25 @@ input.save-btn {
   margin-left: 0;
   padding: 20px 31px 10px 31px;
 }
+
+
+  .dd-w-button {
+    position: relative;
+    width: 176px;
+  }
+  .dd-w-button .btn-main-action {
+    position: absolute;
+    z-index: 20;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-right: 1px solid #FFF;
+    height: 39px;
+    width: 132px;
+    padding-left: 12px;
+    padding-right: 0;
+    text-align: left;
+  }
+  .dd-w-button .k-dd-blue .k-icon:before {
+    right: 11px;
+  }
+

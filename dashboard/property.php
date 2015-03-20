@@ -3,6 +3,10 @@ $body_app_class = "bg-gray";
 $app_module =""
 ?>
 
+<style>
+	.
+</style>
+
 <?php require('../partials/header.php') ?>
 <?php require('../partials/new-top-nav.php') ?>
 
