@@ -48,7 +48,7 @@
 		<ul>
 			<li><a href="/dashboard/owner.php">Owner Dashboard</a></li>
 			<li><a href="/dashboard/property.php">Property Dashboard</a></li>
-			<li><a href="#">Tenant Dashboard</a> <span class="sublink text-danger">(Not Ready)</span></li>
+			<li><a href="/dashboard/tenant-1.php">Tenant Dashboard</a></li>
 			<li><a href="/dashboard/rent.php">Rent Dashboard</a></span></li>
 		</ul>
 
