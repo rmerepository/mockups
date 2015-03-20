@@ -1,4 +1,17 @@
 <header class="dash-header">
+<div class="ui-bread clearfix">
+
+     
+     <a class="crumb" href="https://members-dev.rentmyestate.com.au/dashboard/owner" title="Return to Dashboard"><i class="fa fa-angle-left"></i></a>
+
+
+        <div class="dropdown crumb">
+     <span data-toggle="dropdown" class="dropdown-toggle" role="button"> 1a1 / 21 Greed , Wehla  3518 <span class="fa fa-sort-desc"></span>
+     </span>
+
+        </div>
+            </div>
+
 <nav class="dash-menu" id="main-nav">
 <div class="text-right"><span class="close-lg">&times;</span></div>
 	<ul class="items clearfix">

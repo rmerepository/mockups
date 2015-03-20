@@ -1,3 +1,4 @@
+<div style="max-width: 700px; margin:auto">
 <h3 class="mtop-none">Snapshot of your lease</h3>
 <div class="info-block">
 <div class="row me-well"> 
@@ -42,3 +43,4 @@
 			</div>
 		</div>
 		</div>
+</div>
