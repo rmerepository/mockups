@@ -3464,40 +3464,6 @@ hr {
   background-color: #292c33;
   color: #FFF;
 }
-/* line 159, assets/source/less/scaffolding.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/scaffolding\.less}line{font-family:\00003159}}
-footer {
-  padding: 50px 0;
-}
-/* line 163, assets/source/less/scaffolding.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/scaffolding\.less}line{font-family:\00003163}}
-.colophon {
-  margin-top: 10px;
-  font-size: 13px;
-}
-/* line 168, assets/source/less/scaffolding.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/scaffolding\.less}line{font-family:\00003168}}
-.footer-links {
-  display: inline-block;
-  padding: 0;
-}
-/* line 171, assets/source/less/scaffolding.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/scaffolding\.less}line{font-family:\00003171}}
-.footer-links li {
-  display: inline-block;
-  list-style: none;
-  padding: 0px 20px;
-}
-/* line 176, assets/source/less/scaffolding.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/scaffolding\.less}line{font-family:\00003176}}
-.footer-links a {
-  color: #808080;
-}
-/* line 178, assets/source/less/scaffolding.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/scaffolding\.less}line{font-family:\00003178}}
-.footer-links a:hover {
-  color: #000000;
-}
 /* line 9, assets/source/less/type.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/type\.less}line{font-family:\000039}}
 h1,
@@ -4057,6 +4023,45 @@ b {
 @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-type\.less}line{font-family:\0000356}}
 .property-websites .col-md-3 {
   margin: 15px 0px;
+}
+/* line 61, assets/source/less/me-type.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-type\.less}line{font-family:\0000361}}
+.article {
+  max-width: 750px;
+  margin: 80px auto;
+  padding: 0 30px;
+  line-height: 1.8;
+  font-family: 'robotoregular';
+}
+/* line 67, assets/source/less/me-type.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-type\.less}line{font-family:\0000367}}
+.article p {
+  font-size: 18px;
+  margin: 30px;
+  color: rgba(0, 0, 0, 0.5);
+}
+/* line 72, assets/source/less/me-type.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-type\.less}line{font-family:\0000372}}
+.article blockquote {
+  color: rgba(0, 0, 0, 0.4);
+  border-left-color: #22b2e2;
+  font-family: 'georgia';
+  font-style: italic;
+  font-size: 22px;
+  line-height: 1.5;
+}
+/* line 83, assets/source/less/me-type.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-type\.less}line{font-family:\0000383}}
+.call-to-action h3 {
+  margin-bottom: 30px;
+}
+@media (max-width: 768px) {
+  /* line 89, assets/source/less/me-type.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-type\.less}line{font-family:\0000389}}
+  h2,
+  .h2 {
+    font-size: 28px;
+  }
 }
 /*! ~~ */
 /*
@@ -5614,19 +5619,19 @@ img.res {
   height: 100%;
 }
 @media (max-width: 992px) {
-  /* line 73, assets/source/less/me-grid.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-grid\.less}line{font-family:\0000373}}
+  /* line 71, assets/source/less/me-grid.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-grid\.less}line{font-family:\0000371}}
   .full-height {
     height: 100% !important;
     display: table;
   }
-  /* line 74, assets/source/less/me-grid.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-grid\.less}line{font-family:\0000374}}
+  /* line 72, assets/source/less/me-grid.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-grid\.less}line{font-family:\0000372}}
   .full-height h3 {
     margin-bottom: 70px;
   }
-  /* line 78, assets/source/less/me-grid.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-grid\.less}line{font-family:\0000378}}
+  /* line 76, assets/source/less/me-grid.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-grid\.less}line{font-family:\0000376}}
   .full-height.fh-all .row,
   .full-height.fh-all .col-md-1,
   .full-height.fh-all .col-md-2,
@@ -5640,29 +5645,29 @@ img.res {
   .full-height.fh-all .col-md-10,
   .full-height.fh-all .col-md-11,
   .full-height.fh-all .col-md-12 {
-    height: 100%;
+    height: auto;
   }
-  /* line 87, assets/source/less/me-grid.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-grid\.less}line{font-family:\0000387}}
+  /* line 85, assets/source/less/me-grid.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-grid\.less}line{font-family:\0000385}}
   .full-height.fh-all .row {
-    height: 100%;
+    height: auto;
     display: table-cell;
     vertical-align: bottom;
     text-align: center;
   }
 }
-/* line 96, assets/source/less/me-grid.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-grid\.less}line{font-family:\0000396}}
+/* line 94, assets/source/less/me-grid.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-grid\.less}line{font-family:\0000394}}
 .hm-slider-midfix {
   padding: 190px 40px 0px 40px;
 }
-/* line 100, assets/source/less/me-grid.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-grid\.less}line{font-family:\00003100}}
+/* line 98, assets/source/less/me-grid.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-grid\.less}line{font-family:\0000398}}
 .gap-90 {
   margin-top: 90px;
 }
-/* line 102, assets/source/less/me-grid.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-grid\.less}line{font-family:\00003102}}
+/* line 100, assets/source/less/me-grid.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-grid\.less}line{font-family:\00003100}}
 .front-control {
   position: absolute;
   color: #FFF;
@@ -5670,8 +5675,8 @@ img.res {
   z-index: 9;
   width: 100%;
 }
-/* line 111, assets/source/less/me-grid.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-grid\.less}line{font-family:\00003111}}
+/* line 109, assets/source/less/me-grid.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-grid\.less}line{font-family:\00003109}}
 .soon:after {
   content: "Coming soon";
   font-size: 12px;
@@ -5680,58 +5685,80 @@ img.res {
   display: block;
   margin-top: 10px;
 }
-/* line 119, assets/source/less/me-grid.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-grid\.less}line{font-family:\00003119}}
+/* line 117, assets/source/less/me-grid.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-grid\.less}line{font-family:\00003117}}
 .soon .li-sub-text {
   border-top-color: #acacac;
 }
-/* line 127, assets/source/less/me-grid.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-grid\.less}line{font-family:\00003127}}
+/* line 125, assets/source/less/me-grid.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-grid\.less}line{font-family:\00003125}}
 .spacer-container {
-  padding: 110px 0px 130px;
+  padding: 100px 0px 130px;
 }
-/* line 131, assets/source/less/me-grid.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-grid\.less}line{font-family:\00003131}}
+/* line 129, assets/source/less/me-grid.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-grid\.less}line{font-family:\00003129}}
 .space-bottom-none {
   padding-bottom: 0;
 }
-/* line 135, assets/source/less/me-grid.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-grid\.less}line{font-family:\00003135}}
+/* line 133, assets/source/less/me-grid.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-grid\.less}line{font-family:\00003133}}
 .spacer-top-50 {
   margin-top: 50px;
 }
-/* line 139, assets/source/less/me-grid.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-grid\.less}line{font-family:\00003139}}
+/* line 137, assets/source/less/me-grid.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-grid\.less}line{font-family:\00003137}}
 .spacer-top-40 {
   margin-top: 40px;
 }
-/* line 143, assets/source/less/me-grid.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-grid\.less}line{font-family:\00003143}}
+/* line 141, assets/source/less/me-grid.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-grid\.less}line{font-family:\00003141}}
 .min-h-680 {
   height: 680px;
 }
-/* line 147, assets/source/less/me-grid.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-grid\.less}line{font-family:\00003147}}
+/* line 145, assets/source/less/me-grid.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-grid\.less}line{font-family:\00003145}}
 .min-h-400 {
   height: 400px;
 }
-/* line 150, assets/source/less/me-grid.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-grid\.less}line{font-family:\00003150}}
+/* line 148, assets/source/less/me-grid.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-grid\.less}line{font-family:\00003148}}
 .min-h-560 {
   height: 560px;
 }
-/* line 154, assets/source/less/me-grid.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-grid\.less}line{font-family:\00003154}}
+/* line 152, assets/source/less/me-grid.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-grid\.less}line{font-family:\00003152}}
 .min-h-670 {
   height: 670px;
 }
-/* line 159, assets/source/less/me-grid.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-grid\.less}line{font-family:\00003159}}
+/* line 157, assets/source/less/me-grid.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-grid\.less}line{font-family:\00003157}}
 #rme-auth-modal_frame {
   display: block;
 }
-/* line 162, assets/source/less/me-grid.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-grid\.less}line{font-family:\00003162}}
+@media (max-width: 992px) {
+  /* line 161, assets/source/less/me-grid.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-grid\.less}line{font-family:\00003161}}
+  .hm-slider-midfix {
+    padding: 40px 40px 0px 40px;
+    min-height: 350px;
+    margin-top: 45px;
+    background-color: #ffffff !important;
+  }
+  /* line 168, assets/source/less/me-grid.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-grid\.less}line{font-family:\00003168}}
+  .min-h-680,
+  .min-h-670 {
+    height: auto;
+  }
+  /* line 171, assets/source/less/me-grid.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-grid\.less}line{font-family:\00003171}}
+  .space-bottom-none.spacer-container,
+  .min-h-680.space-bottom-none {
+    padding-bottom: 0px;
+  }
+}
+/* line 177, assets/source/less/me-grid.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-grid\.less}line{font-family:\00003177}}
 .bg-1-cover {
   background-image: url('/app/assets/images/banner-img-2.jpg');
 }
@@ -6740,6 +6767,69 @@ select[multiple].form-group-lg .form-control {
   @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/forms\.less}line{font-family:\00003561}}
   .form-horizontal .form-group-sm .control-label {
     padding-top: 6px;
+  }
+}
+/*! ~~ */
+/* line 1, assets/source/less/me-footer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-footer\.less}line{font-family:\000031}}
+footer {
+  padding: 50px 0;
+}
+/* line 5, assets/source/less/me-footer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-footer\.less}line{font-family:\000035}}
+.colophon {
+  margin-top: 10px;
+  font-size: 13px;
+}
+/* line 10, assets/source/less/me-footer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-footer\.less}line{font-family:\0000310}}
+.footer-links {
+  display: inline-block;
+  margin: auto;
+  padding: 0;
+}
+/* line 14, assets/source/less/me-footer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-footer\.less}line{font-family:\0000314}}
+.footer-links li {
+  display: inline-block;
+  list-style: none;
+  padding: 0px 20px;
+}
+/* line 19, assets/source/less/me-footer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-footer\.less}line{font-family:\0000319}}
+.footer-links a {
+  color: #808080;
+}
+/* line 21, assets/source/less/me-footer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-footer\.less}line{font-family:\0000321}}
+.footer-links a:hover {
+  color: #000000;
+}
+@media (max-width: 768px) {
+  /* line 28, assets/source/less/me-footer.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-footer\.less}line{font-family:\0000328}}
+  .footer-links {
+    display: block;
+  }
+  /* line 30, assets/source/less/me-footer.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-footer\.less}line{font-family:\0000330}}
+  .footer-links li {
+    display: inline-block;
+    text-align: left;
+    width: 48%;
+  }
+  /* line 34, assets/source/less/me-footer.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-footer\.less}line{font-family:\0000334}}
+  .footer-links li a {
+    padding: 10px 0;
+    display: block;
+  }
+  /* line 37, assets/source/less/me-footer.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/me-footer\.less}line{font-family:\0000337}}
+  .colophon {
+    margin-top: 20px;
+    font-size: 13px;
+    padding: 0 30px;
   }
 }
 /*! ~~ */
@@ -8179,18 +8269,19 @@ video#bgvid {
   background-size: cover;
   background-position: bottom center;
   position: relative;
+  opacity: 1;
 }
-/* line 81, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\0000381}}
+/* line 82, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\0000382}}
 .bg-img.bg-img-layer .container {
   position: relative;
   z-index: 10;
 }
-/* line 85, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\0000385}}
+/* line 86, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\0000386}}
 .bg-img.bg-img-layer:before {
   content: '';
-  background-color: rgba(0, 0, 0, 0.66);
+  background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
   top: 0px;
   left: 0px;
@@ -8198,43 +8289,47 @@ video#bgvid {
   width: 100%;
   z-index: 1;
 }
-/* line 95, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\0000395}}
+/* line 96, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\0000396}}
 .bg-img.bg-img-blue:before {
   background-color: rgba(34, 178, 226, 0.87);
-  opacity: 1;
 }
 /* line 99, assets/source/less/header.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\0000399}}
+.bg-img.bg-img-gray:before {
+  background-color: rgba(62, 67, 74, 0.87);
+}
+/* line 102, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003102}}
 .bg-img.bg-center {
   background-position: center center;
 }
-/* line 104, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003104}}
+/* line 107, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003107}}
 .left-img {
   position: absolute;
   right: 0px;
   top: 0px;
   margin-right: 50px;
 }
-/* line 111, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003111}}
+/* line 114, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003114}}
 .hidden-overflow {
   overflow: hidden;
 }
-/* line 115, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003115}}
+/* line 118, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003118}}
 .rb-medium {
   font-family: 'robotomedium';
 }
-/* line 119, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003119}}
+/* line 122, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003122}}
 .rb-bold {
   font-family: 'robotobold';
   letter-spacing: 1px;
 }
-/* line 124, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003124}}
+/* line 127, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003127}}
 .bg23 {
   background-color: #22b2e2;
   background-repeat: no-repeat;
@@ -8242,50 +8337,50 @@ video#bgvid {
   background-position: center center;
   color: #FFF;
 }
-/* line 132, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003132}}
+/* line 135, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003135}}
 .text-white {
   color: #FFF;
 }
-/* line 136, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003136}}
+/* line 139, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003139}}
 .bg-color-49B6B6 {
   background-color: #49B6B6;
 }
-/* line 140, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003140}}
+/* line 143, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003143}}
 .bg-color-B67F49 {
   background-color: #B67F49;
 }
-/* line 144, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003144}}
+/* line 147, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003147}}
 .bg-color-B64972 {
   background-color: #B64972;
 }
-/* line 149, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003149}}
+/* line 152, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003152}}
 .full-width-content {
   margin-left: 15px;
   margin-right: 15px;
 }
-/* line 154, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003154}}
+/* line 157, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003157}}
 .vertical-content {
   xheight: 600px;
 }
-/* line 156, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003156}}
+/* line 159, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003159}}
 .vertical-content .header {
   padding: 0 50px;
   margin-top: 62px;
 }
-/* line 159, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003159}}
+/* line 162, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003162}}
 .vertical-content .header h1 {
   margin-bottom: 0px;
 }
-/* line 166, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003166}}
+/* line 169, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003169}}
 .features .feature {
   color: #808080;
   display: block;
@@ -8297,27 +8392,27 @@ video#bgvid {
   box-shadow: 0px 2px 2px 0 rgba(0, 0, 0, 0.1);
   font-family: 'robotothin';
 }
-/* line 176, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003176}}
+/* line 179, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003179}}
 .features .feature:hover {
   background-color: #22b2e2;
   color: #FFF;
 }
-/* line 181, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003181}}
+/* line 184, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003184}}
 .features .feature .fa {
   display: block;
   font-size: 45px;
   margin-bottom: 23px;
 }
-/* line 186, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003186}}
+/* line 189, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003189}}
 .features .feature .lbl-feature {
   display: block;
   font-size: 22px;
 }
-/* line 194, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003194}}
+/* line 197, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003197}}
 .hero {
   color: #FFF;
   position: relative;
@@ -8325,45 +8420,45 @@ video#bgvid {
   z-index: 1;
   background-color: #444;
 }
-/* line 200, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003200}}
+/* line 203, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003203}}
 .hero.hero-sub-page {
   z-index: 4;
 }
-/* line 205, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003205}}
+/* line 208, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003208}}
 .hero-auto {
   height: auto;
 }
-/* line 209, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003209}}
+/* line 212, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003212}}
 .min-h-400 {
   height: 400px;
 }
-/* line 213, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003213}}
+/* line 216, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003216}}
+.min-h-550 {
+  height: 550px;
+}
+/* line 220, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003220}}
 .vh-100 {
   height: 100vh;
 }
-/* line 218, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003218}}
+/* line 225, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003225}}
 .vh-70 {
   height: 70vh;
 }
-/* line 222, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003222}}
+/* line 229, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003229}}
 .bg-iwl {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
-/* line 228, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003228}}
-.section-header {
-  color: #2D2D2D;
-}
-/* line 233, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003233}}
+/* line 235, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003235}}
 .next-page {
   display: block;
   height: 100%;
@@ -8375,50 +8470,50 @@ video#bgvid {
   opacity: .7;
   color: #FFF;
 }
-/* line 242, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003242}}
+/* line 244, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003244}}
 .next-page span {
   display: none;
 }
-/* line 246, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003246}}
+/* line 248, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003248}}
 .next-page:hover {
   color: #FFF;
   opacity: 1;
 }
-/* line 249, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003249}}
+/* line 251, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003251}}
 .next-page:hover span {
   display: block;
 }
-/* line 253, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003253}}
+/* line 255, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003255}}
 .next-page .fa {
   position: relative;
 }
-/* line 255, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003255}}
+/* line 257, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003257}}
 .next-page .fa span {
   position: absolute;
   font-size: 15px;
   left: -82px;
   top: 33%;
 }
-/* line 265, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003265}}
+/* line 267, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003267}}
 .hero-header {
   line-height: 1.3;
 }
-/* line 267, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003267}}
+/* line 269, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003269}}
 .hero-header .fa {
   position: relative;
   top: -16px;
   font-size: 16px;
   margin-right: 10px;
 }
-/* line 276, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003276}}
+/* line 278, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003278}}
 .hero-inner {
   z-index: 10;
   position: absolute;
@@ -8428,49 +8523,49 @@ video#bgvid {
   bottom: 0;
   overflow: hidden;
 }
-/* line 284, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003284}}
+/* line 286, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003286}}
 .hero-inner .btn-xlg {
   margin-top: 30px;
 }
-/* line 291, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003291}}
+/* line 293, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003293}}
 .overflow {
   overflow: visible;
 }
-/* line 295, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003295}}
+/* line 297, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003297}}
 .va-box {
   display: table;
   width: 100%;
   height: 100%;
 }
-/* line 301, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003301}}
+/* line 303, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003303}}
 .va-middle,
 .va-bottom {
   display: table-cell;
 }
-/* line 305, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003305}}
+/* line 307, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003307}}
 .va-middle {
   vertical-align: middle;
 }
-/* line 309, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003309}}
+/* line 311, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003311}}
 .bottom-item {
   position: absolute;
   bottom: 0;
   width: 100%;
   padding: 25px 0px;
 }
-/* line 316, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003316}}
+/* line 318, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003318}}
 .va-bottom {
   vertical-align: bottom;
 }
-/* line 320, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003320}}
+/* line 322, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003322}}
 .play-button {
   display: inline-block;
   border: 5px solid #FFF;
@@ -8482,8 +8577,8 @@ video#bgvid {
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
-/* line 330, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003330}}
+/* line 332, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003332}}
 .play-button .fa-play {
   color: #FFF;
   font-size: 32px;
@@ -8491,28 +8586,33 @@ video#bgvid {
   top: 27%;
   right: 27%;
 }
-/* line 337, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003337}}
+/* line 339, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003339}}
 .play-button:hover {
   background-color: rgba(0, 0, 0, 0.5);
 }
-/* line 344, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003344}}
+/* line 346, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003346}}
 .banner-img-4 {
   background-image: url('/app/assets/images/banner-img-4.jpg');
 }
-/* line 348, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003348}}
+/* line 350, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003350}}
 .banner-img-5 {
   background-image: url('/app/assets/images/banner-img-v5.jpg');
 }
-/* line 352, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003352}}
+/* line 354, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003354}}
 .banner-img-8 {
   background-image: url('/app/assets/images/rme-group.jpg');
 }
-/* line 357, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003357}}
+/* line 358, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003358}}
+.banner-img-dimitri {
+  background-image: url('/app/assets/images/testimonials/me-dimitri-.jpg');
+}
+/* line 362, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003362}}
 .caret-down {
   position: absolute;
   bottom: 12px;
@@ -8529,19 +8629,19 @@ video#bgvid {
   transition: all 0.5s ease-out;
   cursor: pointer;
 }
-/* line 372, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003372}}
+/* line 377, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003377}}
 .caret-down:hover {
   color: #FFF;
   background-color: rgba(0, 0, 0, 0.7);
 }
-/* line 378, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003378}}
+/* line 383, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003383}}
 .top-border {
   border-top: 1px solid #eaeaea;
 }
-/* line 382, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003382}}
+/* line 387, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003387}}
 .fa.lf-lg {
   display: block;
   font-size: 40px;
@@ -8549,21 +8649,21 @@ video#bgvid {
   color: #EFEFEF;
   margin: 40px 0px;
 }
-/* line 390, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003390}}
+/* line 395, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003395}}
 .testimonials {
   max-width: 694px;
   margin: 40px auto;
 }
-/* line 393, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003393}}
+/* line 398, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003398}}
 .testimonials h4 {
   font-size: 25px;
   line-height: 1.6;
   padding: 0 20px;
 }
-/* line 398, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003398}}
+/* line 403, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003403}}
 .testimonials .user {
   padding-top: 30px;
   display: inline-block;
@@ -8575,8 +8675,8 @@ video#bgvid {
   font-size: 14px;
   height: 80px;
 }
-/* line 408, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003408}}
+/* line 413, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003413}}
 .testimonials .user img {
   border-radius: 100%;
   height: 80px;
@@ -8585,124 +8685,124 @@ video#bgvid {
   top: 0px;
   -webkit-filter: grayscale(1);
 }
-/* line 416, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003416}}
+/* line 421, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003421}}
 .testimonials .user.active {
   opacity: 1;
 }
-/* line 420, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003420}}
+/* line 425, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003425}}
 .testimonials .user:hover img {
   -webkit-filter: none;
 }
-/* line 430, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003430}}
+/* line 435, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003435}}
 .wrap-me-browser {
   border-radius: 4px 4px 0px 0px;
   box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.15);
 }
 @media (max-width: 992px) {
-  /* line 441, assets/source/less/header.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003441}}
+  /* line 446, assets/source/less/header.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003446}}
   img {
     max-width: 100%;
   }
-  /* line 445, assets/source/less/header.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003445}}
+  /* line 450, assets/source/less/header.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003450}}
   .wrap-me-browser,
   .img-wrap-middle {
     margin-top: 80px;
   }
-  /* line 449, assets/source/less/header.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003449}}
+  /* line 454, assets/source/less/header.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003454}}
   .spacer-container {
-    padding-top: 110px;
+    padding-top: 70px;
   }
-  /* line 452, assets/source/less/header.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003452}}
+  /* line 457, assets/source/less/header.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003457}}
   .left-img {
     position: relative;
     margin-right: 0px;
   }
-  /* line 460, assets/source/less/header.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003460}}
+  /* line 465, assets/source/less/header.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003465}}
   .hero-title {
     font-size: 40px;
   }
-  /* line 464, assets/source/less/header.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003464}}
+  /* line 469, assets/source/less/header.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003469}}
   h1,
   .h1 {
     font-size: 35px;
   }
 }
 @media (max-width: 768px) {
-  /* line 473, assets/source/less/header.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003473}}
+  /* line 478, assets/source/less/header.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003478}}
   .spacer-container {
     padding-top: 70px;
     padding-bottom: 70px;
   }
-  /* line 478, assets/source/less/header.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003478}}
+  /* line 483, assets/source/less/header.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003483}}
   .min-h-680 {
     height: auto;
     padding-top: 50px;
     padding-bottom: 55px;
   }
-  /* line 484, assets/source/less/header.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003484}}
+  /* line 489, assets/source/less/header.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003489}}
   .hero-title {
     font-size: 35px;
   }
-  /* line 488, assets/source/less/header.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003488}}
+  /* line 493, assets/source/less/header.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003493}}
   h1,
   .h1 {
     font-size: 30px;
   }
-  /* line 492, assets/source/less/header.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003492}}
+  /* line 497, assets/source/less/header.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003497}}
   h3,
   .h3 {
     font-size: 22px;
   }
-  /* line 496, assets/source/less/header.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003496}}
+  /* line 501, assets/source/less/header.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003501}}
   .sub-text {
     font-size: 18px;
   }
-  /* line 501, assets/source/less/header.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003501}}
+  /* line 506, assets/source/less/header.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003506}}
   .testimonials h4 {
     font-size: 16px;
     padding: 0 30px;
   }
-  /* line 505, assets/source/less/header.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003505}}
+  /* line 510, assets/source/less/header.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003510}}
   .testimonials .flex-direction-nav a:before {
     font-size: 42px;
   }
-  /* line 511, assets/source/less/header.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003511}}
+  /* line 516, assets/source/less/header.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003516}}
   .fa.lf-lg {
     display: none;
   }
 }
-/* line 523, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003523}}
+/* line 528, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003528}}
 .login-signup .dropdown-menu {
   right: 0px;
   left: auto;
   width: 190px;
 }
-/* line 528, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003528}}
+/* line 533, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003533}}
 .login-signup .dropdown-menu .ui-dp-content {
   padding-left: 0px;
 }
-/* line 531, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003531}}
+/* line 536, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003536}}
 .login-signup .dropdown-menu .ui-dp-content li > a {
   padding: 10px 0px;
   display: block;
@@ -8713,29 +8813,29 @@ video#bgvid {
   -o-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
-/* line 537, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003537}}
+/* line 542, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003542}}
 .login-signup .dropdown-menu .ui-dp-content li > a:hover {
   color: #474747;
   background-color: #f8f8f8;
 }
-/* line 544, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003544}}
+/* line 549, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003549}}
 .login-signup .dropdown-menu hr {
-  display: none;
-}
-/* line 548, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003548}}
-.login-signup .dropdown-menu .cui-tooltip {
   display: none;
 }
 /* line 553, assets/source/less/header.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003553}}
+.login-signup .dropdown-menu .cui-tooltip {
+  display: none;
+}
+/* line 558, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003558}}
 .login-signup li {
   list-style: none;
 }
-/* line 556, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003556}}
+/* line 561, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003561}}
 .login-signup .nav > li > a {
   opacity: .7;
   -webkit-transition: all 0.5s ease-out;
@@ -8744,20 +8844,20 @@ video#bgvid {
   -o-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
-/* line 561, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003561}}
+/* line 566, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003566}}
 .login-signup .nav > li > a:hover,
 .login-signup .nav > li > a:focus {
   opacity: 1;
   background: none;
 }
-/* line 567, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003567}}
+/* line 572, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003572}}
 .login-signup .ui-top-menu > li {
   float: left;
 }
-/* line 572, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003572}}
+/* line 577, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003577}}
 .login-signup .mailbox-page-link:after {
   content: "\f003";
   display: inline-block;
@@ -8765,13 +8865,13 @@ video#bgvid {
   font-size: 35px;
   font-family: 'fontAwesome';
 }
-/* line 580, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003580}}
+/* line 585, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003585}}
 .login-signup .nav-links > a {
   padding: 0px;
 }
-/* line 584, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003584}}
+/* line 589, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003589}}
 .login-signup .ppi-xxsmall {
   height: 50px;
   width: 50px;
@@ -8781,25 +8881,25 @@ video#bgvid {
   text-align: center;
   background-color: #FFF;
 }
-/* line 592, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003592}}
+/* line 597, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003597}}
 .login-signup .ppi-xxsmall img {
   height: 100%;
   width: 100%;
 }
-/* line 598, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003598}}
+/* line 603, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003603}}
 .login-signup #username {
   padding-left: 15px !important;
   background: none;
 }
-/* line 601, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003601}}
+/* line 606, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003606}}
 .login-signup #username > span {
   display: none !important;
 }
-/* line 607, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003607}}
+/* line 612, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003612}}
 .login-signup .default-avatar {
   position: absolute;
   display: block;
@@ -8812,16 +8912,16 @@ video#bgvid {
   letter-spacing: 1px;
   font-family: robotobold;
 }
-/* line 620, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003620}}
+/* line 625, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003625}}
 .animate-me {
   -webkit-transform: translateY(150px);
   transform: translateY(150px);
   opacity: 0;
   transition: all 0.5s ease-out;
 }
-/* line 627, assets/source/less/header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003627}}
+/* line 632, assets/source/less/header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/assets\/source\/less\/header\.less}line{font-family:\00003632}}
 .come-in {
   opacity: 1;
   -webkit-transform: translateY(0px);
