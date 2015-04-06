@@ -7,9 +7,22 @@
 			</div>
 			<div class="modal-body">
 				<div class="control-group">
-					<label class="control-label" for="firstName">First name</label>
+					<label class="control-label" for="first_name">First Name</label>
 					<div class="controls">
-						<input autocomplete="off" data-is-required="true" name="first_name" placeholder="First Name" class="form-control" maxlength="30" tabindex="1" value="" type="text">
+						<input autocomplete="off" data-is-required="true" id="first_name" name="first_name" placeholder="First Name" class="form-control" maxlength="30" tabindex="1" value="" type="text">
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label" for="last_name">Last Name</label>
+					<div class="controls">
+						<input autocomplete="off" data-is-required="true" id="last_name" name="last_name" placeholder="Last Name" class="form-control" maxlength="30" tabindex="1" value="" type="text">
+					</div>
+				</div>
+
+				<div class="control-group">
+					<label class="control-label" for="mobile">Mobile</label>
+					<div class="controls">
+						<input autocomplete="off" data-is-required="true" id="mobile" name="mobile" placeholder="Contact No." class="form-control" maxlength="30"  value="" type="text">
 					</div>
 				</div>
 
