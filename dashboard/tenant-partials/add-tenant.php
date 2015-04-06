@@ -38,7 +38,7 @@
 			<div class="control-group">
 				<div class="clearfix controls"> 
 			<div class="pull-left">
-					<label  class="me-lbl control-label">Invite Tenant </label>
+					<label  class="me-lbl control-label">Invite Tenant &bull; <a href="http://support.rentmyestate.com.au/article/63-what-happens-when-i-invite-my-tenant" target="_blank">Help</a></label>
 			</div>			
 			<div class="pull-right">
 					 		<div>
