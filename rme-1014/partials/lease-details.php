@@ -20,7 +20,50 @@
 <div class="blue-header">
 	<h3 class="fw200">Get your new tenancy set up</h3>
 </div>
+
 <div class="collapsible-forms">
+<div class="medium-header">
+      <h3>
+      <span href="#" class="collapse-ad collapsed bg-gray" data-toggle="collapse" data-target="#TenantDetails_section">
+      <i class="colpd-icons"></i>Tenant Details</span>
+      </h3>
+    </div>
+
+    <div class="colpd-content collapse" id="TenantDetails_section">
+	<div class="medium-items">
+		<div class="row">
+			<div class="col-md-5">
+				<div class="control-group">
+					<div class="input-append date controls">
+						<label class="control-label" for="firstName">First Name</label>
+						<div class="controls">
+							<input tabindex="1" width="30" name="firstName" readonly="true" value="John" type="text"  id="firstName" class="form-control">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-5">
+				<div class="control-group">
+					<div class="input-append date controls">
+						<label class="control-label" for="email">Email</label>
+						<div class="controls">
+							<input value="email@email.com" width="30" name="email" type="text" id="email" readonly="true" class="form-control">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+</div>
+		</div>
+<div class="collapsible-forms">
+<div class="medium-header">
+      <h3>
+      <span href="#" class="collapse-ad collapsed bg-gray" data-toggle="collapse" data-target="#leaseDetails_section">
+      <i class="colpd-icons"></i>Lease Details</span>
+      </h3>
+    </div>
+    <div id="leaseDetails_section">
 	<div class="medium-items">
 		<div class="row">
 			<div class="col-md-5">
@@ -222,6 +265,9 @@
       	 <p class="control-group">Don’t have the lease? <a href="#">Download yours now and fill it out.</a>  </p>
        		</div>
        </div>
+</div>
+
+      
 
 
 	</div>
