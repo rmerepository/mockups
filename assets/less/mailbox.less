@@ -2,21 +2,51 @@
 @dark_bg_02 : #292C33;
 @MM_max_height : 660px;
 
+
+
+.mailwrap {
+	height: 69vh;
+}
+
 .col-wrap-1 {
 	float: left;
-	height: 76vh;
+	height: 100%;
 	background-color: #FFF;
 	padding: 27px 23px;
-	width: 280px;
+	width: 250px;
 	overflow-y: auto;
+	margin-left: -251px;
+	border-right: 1px solid #eee;
+	-webkit-transition: all 0.5s ease-out;
+		transition: all 0.5s ease-out;
+}
+
+.mail-filter-show {
+	.col-wrap-1 {
+		margin-left: 0px;	
+	}
 }
 
 .col-wrap-2 {
-	background-color: @dark_bg_01;
-	height: 76vh;
-	width: 340px;
-	color: #FFF;
-	overflow-y: auto
+	background-color: #FFF;
+	height: 100%;
+	width: 300px;
+	color: @dark_bg_02;
+	overflow-y: auto;
+	border-right: 1px solid #eee;
+}
+
+.filter-control {
+	position: absolute;
+  left: 18px;
+  margin-top: -3px;
+  color: #7D7D7D;
+  cursor: pointer;
+  padding: 5px;
+  display: inline-block;
+  &:hover {
+  	color: @blue_btn_hover;
+  }
 }
 
 .single-message {
@@ -66,9 +96,9 @@
 }
 
 .mail-items-header {
+	position: relative;
 	padding: 16px 15px;
-	margin-bottom: 1px;
-	border-bottom: 1px solid #292C33;
+	border-bottom: 1px solid #EEE;
 	text-align: center;
 	.filter {
 
@@ -141,7 +171,7 @@
 }
 
 .mi-info-wrap {
-	height: 76VH;
+	height: 100%;
 	overflow-y: auto;
 	background-color: #FFF;
 }
@@ -223,11 +253,8 @@
 
 .mail-items {
 	max-height: @MM_max_height;
-	overflow-y: auto;
-	background-color: @dark_bg_02;
 	li {
-		margin-bottom: 2px;
-		background-color: @dark_bg_01;
+		border-bottom: 1px solid #EEE;
 	}
 	.fa-paperclip {
 		font-size: 15px;
@@ -249,17 +276,18 @@
 		&:hover {
 			color: #C7C7C7;
 			border: 1px solid #C7C7C7;
-
 			.lbl {
 				display: inline-block;
 			}
 		}
 	}
 	.m {
-		padding: 14px 0px 25px;
+		padding: 13px 0px 20px;
 		display: block;
 		color: #FFF;
 		position: relative;
+		-webkit-transition: all 0.5s ease-out;
+		transition: all 0.5s ease-out;
 		&:after {
 			content: " ";
 			position: absolute;
@@ -267,24 +295,48 @@
 			bottom: 0px;
 		}
 		&.unread {
-			background-color: #3F444D;
+			background-color: #FFF;
+			.mm-data {
+				font-weight: 500px;
+				.name { 
+				  font-size: 14px;
+				  font-weight: 500;
+					color: @dark_bg_02; 
+				}
+			}
+			.mm-data:before {
+			  content: '\2022';
+			  position: absolute;
+			  color: #18CD83;
+			  font-size: 40px;
+			  line-height: 1;
+			  left: -16px;
+			  top: -9px;
+			  font-weight: normal;
+			}
 			&:hover {
-				background-color: #373D49;
+				background-color: #FBFBFB;
 			}
 			.name,h6 {
 				// font-weight: bold;
 			}
 		}
 		&.selected {
-			background-color: @dark_bg_02;
+			background-color: @rme_theme;
 			color: #FFF;
+			.name {
+				color: #FFF
+			}
+
+			.mm-data h6, .mm-msg {
+				color: #FFF;
+			}
+			&:hover {
+				background-color: @blue_btn_hover;
+			}
 		}
 		&:hover {
-			background-color: @dark_bg_02;
-			color: #FFF;
-			.mm-msg {
-				color: #FFF !important;
-			}
+			background-color: #FBFBFB;
 		}
 	}
 
@@ -303,13 +355,14 @@
 
 	.mm-data {
 		position: relative;
-		margin: 0px 20px;
+		margin: 0px 20px 0px 25px;
 		.name { 
 			font-size: 13px;
 			margin-top: 10px;
 			margin-bottom: 2px;
-			font-weight: 300;
+			font-weight: 500;
 			letter-spacing: .7px;
+			color: #666;
 		}
 		h6 {
 			position: absolute;
@@ -371,19 +424,18 @@
 	.msg {
 		font-size: 13px;
 		padding: 21px;
-		border-radius: 4px 4px 4px 0px;
+		border-radius: 4px;
 		position: relative;
+		border: 1px solid #F3F3F3;
 		width: 100%;
 		&:after {
-				content: "\f0d9";
-				font-family: 'fontawesome';
+				content: "";
+				.background-image-custom ( '../images/n/sprites-ui.png', 1px, -849px);
 				display: block;
 				position: absolute;
-				bottom: 0px;
+				bottom: -3px;				
 				height: 20px;
-				width: 12px;
-				color: #F9F9F9; 
-				font-size: 20px;
+				width: 30px;
 			}
 	}
 	.iro {
@@ -401,13 +453,13 @@
 	}
 	.friend {
 		.iro {
-			left: 0px;
+			left: 0px
 		}
 		.msg {
 			float: left;
 			background-color: #f9f9f9;
 			&:after {
-				left: -7px;
+				left: -25px;				
 			}
 		}
 	}
@@ -420,16 +472,14 @@
 			float: left;
 			background-color: @blue;
 			color: #FFF;
-			border-radius: 4px 4px 0px 4px;
 			a {
 				color: #FFF;
 				text-decoration: underline;
 			}
 			&:after {
-				content: "\f0da";
-				color: @blue;
-				right: -11px;
-				bottom: -0px;
+				background-position: 0px -816px;
+				right: -25px;
+				bottom: -4px;			
 			}
 		}
 	}

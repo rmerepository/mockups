@@ -1,6 +1,6 @@
 <main class="main-wrap max-width-content" id="mainWrapList">
 	<div class="text-left mnub-25">
-		<button class="btn btn-success"> + Add New Tenants </button>
+		<button class="btn btn-success" data-toggle="modal" data-target="#addTenant"> + Add New Tenants </button>
 		&nbsp;&nbsp; <button id="listings-view" class="btn"> <span class="fa fa-list"></span> </button>
 		
 	</div>

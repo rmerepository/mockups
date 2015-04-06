@@ -7,6 +7,8 @@ $app_module = ""
 <?php require('../partials/new-top-nav.php') ?>
 
 <?php require('../partials/new-menu-top-property-dashboard.php') ?>
-<?php require('partials/rent-partials.php') ?>	
+<?php require('partials/rent-partials.php') ?>
+
+<?php require('tenant-partials/add-tenant.php') ?>
 
 <?php require('../partials/footer.php') ?>
