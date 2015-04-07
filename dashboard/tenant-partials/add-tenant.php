@@ -7,6 +7,13 @@
 			</div>
 			<div class="modal-body">
 				<div class="control-group">
+					<label class="control-label" for="name">Name</label>
+					<div class="controls">
+						<input autocomplete="off" data-is-required="true" id="name" name="name" placeholder="Name" class="form-control" maxlength="30" tabindex="1" value="" type="text">
+					</div>
+				</div>
+
+<!-- 				<div class="control-group">
 					<label class="control-label" for="first_name">First Name</label>
 					<div class="controls">
 						<input autocomplete="off" data-is-required="true" id="first_name" name="first_name" placeholder="First Name" class="form-control" maxlength="30" tabindex="1" value="" type="text">
@@ -24,12 +31,13 @@
 					<div class="controls">
 						<input autocomplete="off" data-is-required="true" id="mobile" name="mobile" placeholder="Contact No." class="form-control" maxlength="30"  value="" type="text">
 					</div>
-				</div>
+				</div> -->
 
 					<div class="control-group">
 					<label class="control-label" for="paymentPeriod">Email Address</label>
 					<div class="controls controls-popover-float">
-						<input autocomplete="off" data-is-required="true" name="email" data-type="email" placeholder="Email" class="form-control" maxlength="30" tabindex="1" value="" type="text">
+						<input autocomplete="off" data-is-required="true" name="email" data-type="email" placeholder="Email" class="form-control fc-large" maxlength="30" tabindex="1" value="" type="text"> 
+						<span class="tooltip-blue pop-over-right"  data-toggle="popover" data-html="true" data-trigger="hover" data-placement="right" data-content="Soon we'll be able to send late notifications when your tenants have not paid their rent." style="vertical-align: top;" data-original-title="Coming Soon"></span>
 					</div>
 				</div>
 
@@ -56,7 +64,7 @@
 			</div>
 			</div>
 
-<div class="well with-fa w-info">
+<div class="well with-fa w-warning">
 		Invitation will be sent to use rentmyestate
 	</div>
 

@@ -48,7 +48,7 @@
             </div>
          </div>
          <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-5">
                <div class="control-group">
                   <div class="input-append date controls">
                      <label class="control-label" for="mobile">Mobile</label>
@@ -58,6 +58,9 @@
                   </div>
                </div>
             </div>
+             <div class="col-md-1" style="padding-left:0">
+             <span class="tooltip-blue pop-over-right"  data-toggle="popover" data-html="true" data-trigger="hover" data-placement="right" data-content="Soon your tenant will be able to log in and see all their payments and get rent reminders." style="vertical-align: top;margin-top: 34px;margin-left: 0;" data-original-title="Coming Soon"></span>
+             </div>
             <div class="col-md-6">
                <div class="control-group">
                   <div class="input-append date controls">
