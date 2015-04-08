@@ -14,7 +14,7 @@
    }
 </style>
 <div class="blue-header">
-   <h3 class="fw200">Get your new tenancy set up</h3>
+   <h3 class="fw200">Message</h3>
 </div>
 <div class="collapsible-forms">
    <div class="medium-header">

@@ -5,6 +5,19 @@
 		
 	</div>
 	<div class="row">
+			<div class="static-widget col-xs-4">
+			<div class="inner-widget inner-widget-sm inner-widget-action">
+				<div class="wrp-o">
+					<div class="va-box">
+						<div class="va-middle">
+						<div class="widget-view-1">
+								<div><span class="fa fa-calendar"></span>Track Rent</div>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 		<div class="static-widget col-xs-4">
 			<div class="inner-widget inner-widget-sm inner-widget-action">
 				<div class="wrp-o">
