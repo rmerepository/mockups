@@ -16,6 +16,7 @@
 						</div>
 					</div>
 				</div>
+				<div class="name"><span class="fa fa-user"></span>James Murphy</div>
 			</div>
 		</div>
 		<div class="static-widget col-xs-4">
