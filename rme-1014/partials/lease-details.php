@@ -6,11 +6,11 @@
    padding: 40px 0 0 0;
    }
    .btn-default {
-   border: 1px solid #e3e3e3;
-   color: #666666;
+      border: 1px solid #e3e3e3;
+      color: #666666;
    }
    .btn-default:hover {
-   background-color: #FBFBFB;
+    background-color: #FBFBFB;
    }
 </style>
 <div class="blue-header">
@@ -25,6 +25,9 @@
    </div>
    <div class="colpd-content collapse" id="TenantDetails_section">
       <div class="medium-items">
+      <div class="well with-fa w-warning">
+         Message
+      </div>
          <div class="row">
             <div class="col-md-6">
                <div class="control-group">
