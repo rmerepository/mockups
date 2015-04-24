@@ -1,3 +1,42 @@
+// ICONS & colors
+
+
+@_blue 		: #e74c3c;
+@_gray 		: #6C7A89;
+@_dgray 	: #2C3E50;
+@_green		: #16A085;
+@_violet	:	#8E44AD;
+@_yellow	: #E67E22;
+
+// '\f0ad';
+
+.feed( @icon, @colour ) {
+
+		border: 1px solid lighten(@colour, 20%);
+
+		.activity { 
+			background-color: lighten(@colour, 20%) ; 
+			border-bottom: 1px solid lighten(@colour, 20%);
+			color: #FFF;
+		}
+
+		&.feed:before {
+			content : @icon;
+			background-color: lighten(@colour, 20%) ;
+		}
+
+		&.feed:after {
+			content: '\f0d9';
+			left: -6px;
+			color: lighten(@colour, 20%) ;
+			top: 15px;
+			font-size: 20px;
+			text-shadow: -2px 0px lighten(@colour, 20%);
+		}
+
+}
+
+
 .info-block {
 	padding: 0 15px 0 15px;
 }
@@ -6,14 +45,17 @@
 
 	margin-left: 25px;
 	margin-right: 15px;
+	padding-left: 15px;
 
 	.wrap-feeds {
 		border-left: 2px solid #eee;
 		margin-left: 10px;
 	}
 
+
 	.feed {
-		border: 1px solid #eee;
+
+		a { color: #FFF; text-decoration: underline; }
 		margin: 40px 0 40px 45px;
 		border-radius: 2px;
 		position: relative;
@@ -25,14 +67,7 @@
 		  top: 7px;
 		  font-family: 'fontAwesome';
 		}
-		&:after {
-			content: '\f0d9';
-			left: -6px;
-			color: #FBFBFB;
-			top: 15px;
-			font-size: 20px;
-			text-shadow: -1px 0px #EEE;
-		}
+
 		&:before {
 		  content: '\f003';
 		  border-radius: 100%;
@@ -44,75 +79,61 @@
 		  color: #FFF;
 		}
 
-		// 
-
-		&.wrench:before {
-			 content: '\f0ad';
-			 background-color: #e74c3c;
-		}
-
-		&.pencil:before {
-			content: '\f040';
-			background-color: #f39c12;
-		}
-
-		&.dollar:before {
-			content: '\f155';
-			background-color: #16a085;
-		}
-
-	
-		&.notification:before {
-			content: '\f0f3';
-			background-color: #16a085;
-		}
-		
-
-		&.house:before {
-			content: '\f015';
-			background-color: #2980b9;
-		}
-
-		&.user:before {
-			content: '\f007';
-			background-color: #2c3e50
-		}
-
-		&.phone:before {
-			content: '\f095';
-			background-color: #8e44ad;
-		}
-
-		&.email:before {
-			content: '\f003';
-			background-color: #8e44ad
-		}
-
-		&.calendar:before {
-			content: '\f073';
-			background-color: #F9BF3B
-		}
-
-		&.user-invite:before {
-			content: '\f234';
-			background-color: #6C7A89
-		}
-
-
-		
-
 		 .activity {
-			background-color: #FBFBFB;
-			border-bottom: 1px solid #EEE;
 			padding: 20px;
 			font-size: 16px;
 			color: #666;
 		 }
 		 .time {
 		 	padding: 10px 20px;
-		 	color: #BABABA;
+		 	background: #FBFBFB;
 		 }
 	}
+
+	.calendar {
+		.feed( '\f073', @_yellow)
+	}
+
+	.user-invite {
+		.feed('\f234', @_gray)
+	}
+
+	.house {
+		.feed('\f015', #E74C3C)
+	}
+
+		.dollar {
+			.feed('\f155', @_green)
+			
+		}
+		
+		.notification {
+			.feed('\f155', @_green)
+			
+		}
+
+
+		.phone {
+			.feed('\f095', @_violet)
+		}
+
+		.email {
+			.feed('\f003', @_violet)
+		}
+
+		.pencil {
+			.feed('\f040', #f39c12)
+		}
+
+		.dollar {
+			.feed('\f155', #16a085)
+
+		}
+		
+		.user {
+			.feed('\f007', @_dgray)
+		}
+
 
 }
 
@@ -122,10 +143,12 @@
 		display: inline-block;
 		padding: 10px;
 		border-radius: 1px;
-		background-color: #FFF;
+		background-color: #FBFBFB;
 		width: 105px;
 		text-align: center;
+		border: 1px solid #EEE;
 	}
+
 }
 
 .me-container {
