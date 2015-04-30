@@ -1,7 +1,7 @@
 // ICONS & colors
 
 
-@_blue 		: #e74c3c;
+@_blue 		: #7095B9;
 @_gray 		: #6C7A89;
 @_dgray 	: #2C3E50;
 @_green		: #16A085;
@@ -12,12 +12,11 @@
 
 .feed( @icon, @colour ) {
 
-		border: 1px solid lighten(@colour, 20%);
+		border: 1px solid lighten(@colour, 30%);
 
 		.activity { 
-			background-color: lighten(@colour, 20%) ; 
-			border-bottom: 1px solid lighten(@colour, 20%);
-			color: #FFF;
+			background-color: #FBFBFB ; 
+			border-bottom: 1px solid lighten(@colour, 30%);
 		}
 
 		&.feed:before {
@@ -28,10 +27,10 @@
 		&.feed:after {
 			content: '\f0d9';
 			left: -6px;
-			color: lighten(@colour, 20%) ;
+			color: #FBFBFB ;
 			top: 15px;
 			font-size: 20px;
-			text-shadow: -2px 0px lighten(@colour, 20%);
+			text-shadow: -1px 0px lighten(@colour, 30%);
 		}
 
 }
@@ -54,8 +53,6 @@
 
 
 	.feed {
-
-		a { color: #FFF; text-decoration: underline; }
 		margin: 40px 0 40px 45px;
 		border-radius: 2px;
 		position: relative;
@@ -86,7 +83,7 @@
 		 }
 		 .time {
 		 	padding: 10px 20px;
-		 	background: #FBFBFB;
+		 	background: #FFF;
 		 }
 	}
 
@@ -167,6 +164,11 @@
 		display: inline-block;
 		font-size: 16px;
 		margin-top: 10px
+	}
+		&.sub-item  { 
+		padding-left: 35px;
+		padding-top: 10px;
+		padding-bottom: 10px;
 	}
 }
 
