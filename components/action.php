@@ -1,4 +1,13 @@
+<style>
+	.dd-w-button { position: relative; }
+	.btn-main-action {
+		position: absolute;
+		z-index: 2;
+		border-right: 1px solid #FFF;
+		border-radius: 2px 0 0 2px;
+	}
 
+</style>
 
 <div class="col-md-8">
 <div class="info-block">

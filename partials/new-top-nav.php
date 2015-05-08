@@ -13,16 +13,16 @@
             <div class="pull-right">
                 <div class="nav-links">
                     <ul class="nav ui-top-menu">
-                        <li>
+                      <!--   <li>
                             <a href="#" class="button dropdown-toggle" title="Help &amp; Support">
                                Help
                             </a>
-                        </li>
+                        </li> -->
 
                         <li class="dropdown">
                             <a href="#" id="username" class="button dropdown-toggle" data-toggle="dropdown" title="My Profile">
                                 <div class="profile-photo ppi-wrap ppi-xxsmall">
-                                    <div class="_c no-img-avatar"><span class="default-avatar">BA</span>
+                                    <div class="_c no-img-avatar"><span class="default-avatar">HC</span>
                                     </div>
                                 </div> 
                             </a>

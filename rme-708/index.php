@@ -159,7 +159,7 @@
 
 <?php 
 	
-	function control_form_summary ( $lbl, $name, $tabindex ) {
+	function control_form_summary ( $lbl, $name, $tabindex = 0) {
 		echo '<div class="control-group">
 		        <label class="control-label">'.$lbl.'</label>
 		        <div class="controls">

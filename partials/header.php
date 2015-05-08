@@ -34,6 +34,10 @@
 <![endif]-->
 
 <script src="<?php echo $assets_link; ?>/assets/js/common.js?v=1.1.4"> </script>
+<style>
+	body { overflow-x: hidden; }
+</style>
+
 </head>
 
 <?php 

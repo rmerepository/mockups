@@ -66,6 +66,6 @@
       </div>  
 </div>
 
-<div class="lsff-lbl">
-  New card information entered here will not be saved as your monthly renewal billing details.
-</div>
+<div class="well with-fa w-warning">
+   New card information entered here will not be saved as your monthly renewal billing details.
+  </div>
