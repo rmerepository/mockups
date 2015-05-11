@@ -35,8 +35,10 @@ We have linked up with <a href="https://getpocketbook.com" target="_blank">pocke
   
       <div class="control-group" style="margin-top: 20px;">
       <label class="control-label" for="pocketbookToken">Already have a Pocketbook account?</label>
+
+
       <div class="controls">
-        <input autocomplete="off" name="pocketbookToken" id="pocketbookToken" placeholder="Enter Your Pocketbook token" class="form-control width-full" maxlength="30" tabindex="1" value="" type="text">
+        <a href="#" class="btn btn-block btn-success btn-xlarge">Connect to Pocketbook</a>
       </div>
     </div>
 
