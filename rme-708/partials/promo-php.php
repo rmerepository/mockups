@@ -1,8 +1,7 @@
-<hr class="hr-in-m">
 
 <div class="purchased-items">
 		<div class="medium">
-			<div> <i class="fa fa-tag"></i> &nbsp; Have a <a href="#" data-toggle="collapse" data-target="#promo-m" class="collapsed">promo code</a> or pay via <a href="#" data-toggle="collapse" data-target="#credits-m" class="collapsed">credits</a>?</div>
+			<div> <i class="fa fa-tag"></i> &nbsp; Have a <a href="#" data-toggle="collapse" data-target="#promo-m" class="collapsed">promo code</a>? <!--  or pay via <a href="#" data-toggle="collapse" data-target="#credits-m" class="collapsed">credits</a>? --></div>
 
 			<div id="promo-m" class="colpd-content oe-mar collapse" style="height: 0px;">	
                             <div class="oe-inner">                                

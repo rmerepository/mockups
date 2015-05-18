@@ -26,7 +26,7 @@
       <input class="paymentOptionAD" data-with-col-option="true" data-target="#creditCardinfo" type="checkbox" value="creditCard1" id="paymenTypeCC">
       <label for="paymenTypeCC" class="powered-by-stripe-solid-inline">
         <span class="credit-cards-icons lbl-pay-option"></span>
-        <div class="ls-opt-lbl">Use a different credit card for this one off payment. (using a new credit card will not replace your monthly billing information).</div>
+        <!-- <div class="ls-opt-lbl">Use a different credit card for this one off payment. (using a new credit card will not replace your monthly billing information).</div> -->
       </label>
    </div>
 </div>
@@ -66,6 +66,6 @@
       </div>  
 </div>
 
-<div class="well with-fa w-warning">
+<!-- <div class="well with-fa w-warning">
    New card information entered here will not be saved as your monthly renewal billing details.
-  </div>
+  </div> -->
