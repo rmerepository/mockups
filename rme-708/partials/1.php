@@ -9,6 +9,7 @@
       padding: 16px;
       border-radius: 10px;
       box-shadow: 0px 2px 3px #EBEBEB;
+      margin: 20px 0px;
   }
 
   .modal-wid-wrap {
@@ -26,6 +27,7 @@
     margin-bottom: 20px;
     color: #A5A5A5;
     position: relative;
+      margin-bottom: 35px;
   }
 
    .box-details h3 .top-action{ 
@@ -51,6 +53,47 @@
   background-repeat: no-repeat;
   opacity: .8;
 }
+.medium-header .collapse-ad {
+  display: inline-block;
+  max-width: 450px;
+  position: relative;
+  padding-left: 42px;
+}
+
+.collapse-cc-details {
+  padding: 0 25px 20px;
+}
+
+.medium-header .colpd-icons  {
+   position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.purchased-items .medium-header.sub-sf {
+  font-size: 14px;
+  margin-bottom: 2px;
+  padding-left: 10px;
+  border-bottom: dashed 1px #F1F1F1;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+.medium-items {
+  margin-left: 43px;
+}
+
+.fixed-top {
+  position: absolute;
+  max-width: 400px;
+  margin: auto;
+  z-index: 9999;
+}
+
+.fixed-modal-body .modal-body {
+  padding-top: 129px;
+}
+
 </style>
 
 
@@ -69,7 +112,22 @@
     </div>
 
 
-       <div class="box-details">
+            <div class="box-details">
+
+        <h3>Purchase Details</h3>
+        
+  
+        <?php include('purchased-item.php') ?>
+
+        <div style="margin:0px 0px 30px 0px">
+          <?php include('promo-php.php') ?>
+        </div>
+
+        <?php include('grand-total.php') ?>
+
+      </div>
+
+             <div class="box-details">
 
         <h3>Shipping Details <a href="#" id="changeShippingAddress" class="top-action">Change</a></h3>
         
@@ -90,24 +148,7 @@
 
       </div>
 
-
-  <br>
-
-            <div class="box-details">
-
-        <h3>Purchase Details</h3>
-          
-          <div style="margin:0px 0px 30px 0px">
-          <?php include('promo-php.php') ?>
-        </div>
-  
-        <?php include('purchased-item.php') ?>
-
-        <?php include('grand-total.php') ?>
-
-      </div>
-
-        <br>
+      
 
      <div class="box-details">
       
@@ -119,9 +160,6 @@
       <?php //include('payment-option-pp.php'); ?>
 
       </div>
-
-
-
 
     </div>
     <div class="modal-footer">
@@ -174,6 +212,9 @@ $(function(){
     $('#shippingAddress').hide();
     $('#editShippingAddress').removeClass('hide');
   });
+
+
+
 })
 
 </script>
