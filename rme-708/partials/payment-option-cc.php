@@ -1,26 +1,3 @@
-<style type="text/css">
-.ls-opt-lbl {
-  background: #F7F7F7;
-  margin-left: -45px;
-  top: 16px;
-  position: relative;
-  padding: 10px 19px;
-  border-radius: 0 0 2px 2px;
-  color: #898989;
-  font-size: 13px;
-  line-height: 150%;
-}
-.lsff-lbl {
-  padding: 10px 19px;
-  margin-left: -7px;
-  font-size: 13px;
-  border: 1px solid #EBEBEB;
-  color: #FFF;
-  border-radius: 2px;
-  background-color: #F2C858;
-}
-</style>
-
 <div class="control-group mno-22">
   <div class="cs-chck-box custom-checkbox-field features-item custom-radio-field">
       <input class="paymentOptionAD" data-with-col-option="true" data-target="#creditCardinfo" type="checkbox" value="creditCard1" id="paymenTypeCC">

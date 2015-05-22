@@ -13,7 +13,7 @@ body {
   background-color: #FFF;
   color: #6C6C6C;
 }
-.header {  
+.header {
   background-color: #FFF;
   width: 100%;
   border-bottom: 1px solid #EBEBEB;
@@ -134,7 +134,7 @@ table td {
   font-size: 10px;
 }
 
-.ins-date-warp {  
+.ins-date-warp {
   background-image: url('../images/public-tenant-icons/summary-profile-tps.png');
   background-position: -221px -450px;
   background-repeat: no-repeat;
@@ -202,7 +202,7 @@ h3.header-features {
   position: absolute;
   bottom: 53px;
   padding: 10px 0px;
-} 
+}
 
 .mfi {
   position: relative;
@@ -302,9 +302,12 @@ h3.header-features {
   top: 192px;
 }
 .re_description {
-  overflow: hidden;
   position: relative;
+  height: 270px;
+	overflow:hidden;
+	text-overflow: ellipsis;
 }
+
 .contact-icons {
   vertical-align: middle;
   margin-right: 20px;

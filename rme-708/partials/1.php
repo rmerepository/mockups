@@ -1,102 +1,3 @@
-<style>
-
-.modal-body {
-
-  padding: 20px 20px;
-}
-  .box-details {
-      background-color: #FFF;
-      padding: 16px;
-      border-radius: 10px;
-      box-shadow: 0px 2px 3px #EBEBEB;
-      margin: 20px 0px;
-  }
-
-  .modal-wid-wrap {
-    margin-left: -16px;
-    margin-right: -16px;
-    padding: 22px 20px 0px;
-    background-color: #FFF;
-    border-bottom: none;
-  }
-
-
-  .box-details h3 {
-    margin-top: 0px;
-    font-size: 18px;
-    margin-bottom: 20px;
-    color: #A5A5A5;
-    position: relative;
-      margin-bottom: 35px;
-  }
-
-   .box-details h3 .top-action{ 
-      font-size: 12px;
-      position: absolute;
-      bottom: 0;
-      right: 0;
-   }
-
-  .box-details .custom-checkbox-field  {
-    margin-left: 0px;
-  }
-
-.credits-by-rme::after {
-    content: " ";
-  display: block;
-  position: absolute;
-  top: 24px;
-  right: 9px;
-  height: 27px;
-  width: 121px;
-  background-image: url('/assets/images/credits-rme.png');
-  background-repeat: no-repeat;
-  opacity: .8;
-}
-.medium-header .collapse-ad {
-  display: inline-block;
-  max-width: 450px;
-  position: relative;
-  padding-left: 42px;
-}
-
-.collapse-cc-details {
-  padding: 0 25px 20px;
-}
-
-.medium-header .colpd-icons  {
-   position: absolute;
-  left: 0;
-  top: 0;
-}
-
-.purchased-items .medium-header.sub-sf {
-  font-size: 14px;
-  margin-bottom: 2px;
-  padding-left: 10px;
-  border-bottom: dashed 1px #F1F1F1;
-  margin-bottom: 10px;
-  padding-bottom: 5px;
-}
-
-.medium-items {
-  margin-left: 43px;
-}
-
-.fixed-top {
-  position: absolute;
-  max-width: 400px;
-  margin: auto;
-  z-index: 9999;
-}
-
-.fixed-modal-body .modal-body {
-  padding-top: 129px;
-}
-
-</style>
-
-
 <div class="modal" keyboard="true" id="upgradePlan"  role="dialog" aria-labelledby="upgradePlan" aria-hidden="true">
 <div class="modal-dialog">
   <div class="modal-content">
@@ -112,7 +13,7 @@
     </div>
 
 
-            <div class="box-details">
+         <div class="box-details">
 
         <h3>Purchase Details</h3>
         

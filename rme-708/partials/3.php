@@ -6,6 +6,10 @@
             <h2 class="normal-weight">Summary</h2>
          </div>
          <div class="modal-body">
+
+
+            <div class="box-details">
+            <h3>Purchase Details</h3>
             <div class="purchased-items">
                <div class="medium">
                   <div class="medium-header">
@@ -28,8 +32,17 @@
                   </div>
                </div>
             </div>
-            <div>&nbsp;</div>
-            <h4 class="collapse-ad collapse in">Credit Card Information </h4>
+
+
+            
+
+            </div>
+
+            <?php include 'shipping-details.php'; ?> 
+         
+            <div class="box-details">
+            
+            <h3>Credit Card Information</h3>
             <div id="ccCreditCard">
                <div class="row">
                   <div class="col-md-6">
@@ -59,6 +72,7 @@
                      </div>
                   </div>
                </div>
+            </div>
             </div>
          </div>
          <div class="modal-footer">

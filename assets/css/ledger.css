@@ -1,0 +1,155 @@
+@page { margin: 215px 12px 50px 12px; }
+
+      body {
+        font-family: roboto_font_light, 'Helvetica', 'Arial'; 
+        font-size: 10px;
+        color: #6C636C;
+      }
+
+      #wrap {
+        background-color: #FFF;
+        
+      }
+
+      .ledger, .ledger-header {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      .ledger-header {
+        font-size: 11px;
+      }
+
+      th {
+        font-family: 'Helvetica', 'Arial'; 
+        text-align: left;
+        font-weight: bold;
+      }
+
+      .ledger td, th {
+          padding : 5px;
+          border-collapse: collapse;
+        }
+
+      .basic-td td, .basic-td th {
+          padding : 5px;
+          border-collapse: collapse;
+        }
+
+        td.ndor {
+          padding-bottom: 0px;
+          vertical-align: bottom;
+        }
+
+        .ledger td{
+            font-family: roboto_font_med, 'Helvetica', 'Arial'; 
+            font-size: 10px;
+            vertical-align: bottom;
+        }
+
+      /*update for owner ledger*/
+
+      #header { 
+        position: fixed;
+        left: 0px; 
+        top: -215px;
+        right: 0px;
+        font-size: 12px
+      }
+
+
+  .period-date {
+    margin: 3px 0;
+  }
+
+  .v-middle {
+    vertical-align: middle;
+  }
+
+    .ledger-header-wrap{
+      border-top: 1px solid #F2F2F2;
+      border-bottom: 1px solid #F2F2F2;
+      margin-top: 20px;
+    }
+
+
+    .ledger-info {
+      width: 100%;
+      line-height: 110%;
+    }
+
+
+
+        .even , .bg-grayed{
+     background-color: #F9F9F9;
+    }
+
+    .mnud {
+      width: 176px;
+      height: 30px;
+    }
+
+    .logo-wrap {
+      height: 30px;
+      margin-top: 15px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #F2F2F2;
+    }
+    
+    .ledger-info-wrap {
+      position: relative;
+      margin: 15px 0;
+    }
+
+    .main-title {
+      text-align: center;
+      font-size: 12px;
+      font-family: 'Helvetica', 'Arial';
+    }
+
+    .period-col {
+      padding-bottom: 0px;
+    }
+
+    .period-table {
+      border-collapse: collapse;
+    }
+
+      .ledger td {
+        padding-top: 3px;
+        padding-bottom: 10px;
+      
+       }
+
+    .lg-font {
+     font-family: 'Helvetica', 'Arial';
+     font-size: 11px; 
+     font-weight: bold;
+    }
+
+    .lg-font-10 {
+     font-size: 10px; 
+    }
+
+    .div-row {
+      border-top: 1px solid #F2F2F2;
+      margin: 5px 0 0px; 
+    }
+
+    .page-number {
+      position: absolute;
+      top: 2px;
+      right: 0px;
+      font-size: 9px;
+       color: #8C8C8C;
+    }
+
+  .text-right {
+    text-align: right;
+  }
+
+   td.vd-td {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      vertical-align: middle;
+    }

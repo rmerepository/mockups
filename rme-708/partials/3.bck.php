@@ -7,6 +7,8 @@
     </div>
 
     <div class="modal-body">
+    
+    <div class="box-details">
 
     <div class="purchased-items">
     <div class="medium">
@@ -22,7 +24,9 @@
         </div>
     </div>
     
-</div>
+    </div>
+
+    </div>
 
 <div class="modal-wid-wrap brdr-top mno-22">
     <div class="purchased-items">
