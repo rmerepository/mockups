@@ -2,15 +2,14 @@
 @dark_bg_02 : #292C33;
 @MM_max_height : 660px;
 
-.bottom-padding-none {
-	padding-bottom: 0px;
-	overflow: hidden;
-	.rme-wrap  {
-		padding-bottom: 0px;
-	}
+
+
+.mailwrap {
+	height: 69vh;
 }
 
 .col-wrap-1 {
+	float: left;
 	height: 100%;
 	background-color: #FFF;
 	padding: 27px 23px;
@@ -18,26 +17,13 @@
 	overflow-y: auto;
 	margin-left: -251px;
 	border-right: 1px solid #eee;
-}
-
-.col-wrap-1, .col-wrap-2 {
-	position: absolute;
-}
-
-.col-wrap-1, .col-wrap-2, .mi-info-wrap {
-	-webkit-transition: all 0.2s ease-out;
-	transition: all 0.2s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+		transition: all 0.5s ease-out;
 }
 
 .mail-filter-show {
 	.col-wrap-1 {
-		margin-left: 0px;
-	}
-	.col-wrap-2 {
-		margin-left: 250px;
-	}
-	.mi-info-wrap {
-		margin-left: 550px;
+		margin-left: 0px;	
 	}
 }
 
@@ -63,30 +49,6 @@
   }
 }
 
-.mi-info-wrap {
-	margin-left: 300px;
-}
-
-.mailwrap {
-	position: relative;
-}
-
-.message {
-	position: relative;
-}
-
-.inline-loader {
-	position: absolute;
-	height: 100%;
-	width: 100%;
-	background-color: rgba(255, 255, 255, 0.78);
-	display: block;
-	z-index: 20;
-	.spinner {
-		margin: 33px auto 0px;
-	}
-}
-
 .single-message {
 	width: 100%;
 	overflow-x: auto;
@@ -95,10 +57,6 @@
 	}
 }
 
-.wrap-conv {
-  overflow-y: auto;
-  height: 100%;
-}
 .mail-header {
 
 	&.folded-mail {
@@ -214,8 +172,8 @@
 
 .mi-info-wrap {
 	height: 100%;
+	overflow-y: auto;
 	background-color: #FFF;
-	position: relative;
 }
 
 .sm-info-action  {
@@ -347,15 +305,14 @@
 				}
 			}
 			.mm-data:before {
-			  content: '\f111';
+			  content: '\2022';
 			  position: absolute;
 			  color: #18CD83;
-				font-size: 12px;
-				line-height: 1;
-				left: -16px;
-				top: 4px;
-				font-weight: normal;
-			  font-family: 'fontawesome';
+			  font-size: 40px;
+			  line-height: 1;
+			  left: -16px;
+			  top: -9px;
+			  font-weight: normal;
 			}
 			&:hover {
 				background-color: #FBFBFB;
@@ -410,8 +367,8 @@
 		h6 {
 			position: absolute;
 			font-weight: normal;
-			right: -9px;
-			top: -16px;
+			right: -7px;
+			top: 8px;
 			margin-top: 0px;
 			font-size: 10px;
 			color: #666;
@@ -439,14 +396,14 @@
 }
 
 .conversation{
-		padding-left: 20px;
-		padding-right: 20px;
-	  min-height: 0;
-	  padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	min-height: 400px;
+	padding-bottom: 63px;
 	.friend, .me {
 		min-height: 105px;
 		position: relative;
-		margin: 15px 0;
+		margin: 20px 0;
 		padding-left: 30px;
 		padding-right: 110px;
 	}
@@ -461,12 +418,12 @@
 
 	.time-sent {
 		font-size: 11px;
-		margin-top: 15px;
+		margin-top: 25px;
 	}
 
 	.msg {
 		font-size: 13px;
-		padding: 18px;
+		padding: 21px;
 		border-radius: 4px;
 		position: relative;
 		border: 1px solid #F3F3F3;
@@ -483,13 +440,13 @@
 	}
 	.iro {
 		position: absolute;
-		bottom: 13px;
+		bottom: 0px;
 		font-size: 12px;
 		text-align: center;
 		width: 80px;
 
 		.profile-photo {
-			margin-bottom: 6px;
+			margin-bottom: 13px;
 			margin-left: 12px;
 		}
 
@@ -528,20 +485,10 @@
 	}
 }
 
-.is-reply {
-	.conversation {
-	  padding-bottom: 140px;
-	}
-}
-
 .messaging {
-  z-index: 10;
-  position: absolute;
-  bottom: 0px;
-  width: 97%;
-  left: 0;
-  display: none;
-
+	z-index: 10;
+	position: relative;
+	bottom: 24px;
 	textarea {
 		width: 100%;
 		height: 68px;
@@ -554,21 +501,12 @@
 	}
 
 	.reply-wrap {
-		  padding: 10px;
-		  border-top: 1px solid #EAEAEA;
-		  background-color: #FFF;
-		  position: relative;
-		  padding-right: 110px;
-		.controls {
-			width: 100%;
-		}
-
-		#btn_im {
-			position: absolute;
-			top: 12px;
-			right: 8px;
-			line-height: 49px;
-			} 
+		padding: 10px;
+		border: 1px solid #EAEAEA;
+		border-radius: 3px;
+		background-color: #FFF;
+		margin: 0px 33px;
+		box-shadow: inset 1px 1px 1px 1px rgba(24, 24, 24, 0.04)
 	}
 
 	.fa {
@@ -584,6 +522,7 @@
 			color: #000
 		}
 	}
+
 }
 
 // VIEW FIX ON MESSAGE

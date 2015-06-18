@@ -49,11 +49,6 @@ ul, ol { padding: 0px }
 	max-height: none !important;
 }
 
-.tpl-hidden {
-	height: 0px;
-	visibility: hidden;
-}
-
 .box-shadow {
 	box-shadow: 0px 2px 2px 0 rgba(0, 0, 0, 0.1);
 }
@@ -98,10 +93,6 @@ ul, ol { padding: 0px }
 	font-weight: 300;
 }
 
-.va-wrap {
-  margin-top: 40px;
-  padding: 0 20px 0 20px;
-}
 
 // VERTICAL ALIGN 
 
@@ -157,6 +148,11 @@ ul, ol { padding: 0px }
 	}
 }
 
+.main-wrap {
+	margin-top: 40px;
+	padding: 0 20px 0 20px;
+}
+
 .ma-line:after{
 	content: '';
 	position: absolute;
@@ -165,22 +161,6 @@ ul, ol { padding: 0px }
 	display: block;
 	top: 50%;
 }
-
-// basic lists
-
-.basic-lists {
-		max-height: 300px;
-		overflow-y: auto;
-		max-width: 530px;
-		li {
-			border-top: 1px solid #EEE;
-			padding: 15px 0;
-		}
-		li:first-child {
-			border-top: none;	
-		}
-}
-
 
 .no-border {
 	border: none !important;
@@ -849,6 +829,10 @@ input[type='text'] {
 
 @media screen and (max-width: 1030px) {
 
+	.rme-wrap {
+		width: 1030px;
+	}
+
 	.full-width	.rme-wrap {
 		width: 100%
 	}
@@ -1301,14 +1285,8 @@ input[type='text'] {
 	color: @green;
 }
 
- .col-sep-control {
- float: left;
- text-align: center;
- display: inline-block;
- padding: 40px 0 0 0;
- }
-
 // ALERTS
+
 
 .well {
 	font-weight: 400;
@@ -2190,7 +2168,6 @@ input[type='text'] {
 .property-listings.listing-slide-inner {
 	border-top: none;
 	border-left: none;
-	height: 100%;
 }
 
 .listing-slide-inner .property-switcher,
@@ -2271,6 +2248,14 @@ a.app-switch {
 	overflow: visible
 }
 
+.modal-wid-wrap {
+  margin-left: -35px;
+  margin-right: -35px;
+  margin-top: -20px;
+  padding: 21px 38px 7px;
+  background-color: #F5F5F5;
+  border-bottom: 1px solid #EBEBEB;
+}
 
 .modal-large {
 	.modal-dialog {
@@ -3040,6 +3025,35 @@ ul.type-circle li{
 }
 
 
+	.lbl-pay-option {
+		height: 33px;
+		display: inline-block;
+		padding-top: 9px;
+	}
+
+	.credit-cards-icons {
+		background-image: url('/assets/images/credit-cards.png');
+		width: 225px;
+	}
+
+	.paypal-icon {
+		background-image: url('/assets/images/paypal.png');
+		width: 51px;
+	}
+
+	.powered-by-stripe:before {
+		content: " ";
+		display: block;
+		position: fixed;
+		bottom: 11px;
+		right: 27px;
+		height: 27px;
+		width: 121px;
+		background-image: url('/assets/images/powered-by-stripe-outline.png');
+		background-repeat: no-repeat;
+		opacity: .5;
+	}	
+
 	.modal-overlap-loader {
 		background-image: url('../images/ajax-loader.gif');
 		background-position: center;
@@ -3068,6 +3082,9 @@ ul.type-circle li{
 		background-repeat: no-repeat;
 		opacity: .5
 	}	
+
+
+
 
 .ui-tag {
 	background: #cacaca;

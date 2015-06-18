@@ -1,0 +1,86 @@
+#flash {
+    margin-bottom: 0px; 
+}
+#flash p{
+ margin: 0;
+}
+.msg, .alert, .alert-danger, .alert-error, .alert-success {
+    position: relative;
+    border: 2px solid;
+    font-size: 12px;
+    color: #727272;
+    padding: 10px;
+    .border-radius(3px);
+}
+.msg a.closebtn, a.close {
+    font-family: Arial;
+    position: absolute;
+    height: 14px;
+    display: block;
+    width: 10px;
+    line-height: 100%;
+    top: 0;
+    right: -1px;
+    color: @white;
+    padding: 0 0 0 6px;
+    font-size: 10px;
+}
+#flash a.close {
+    top: 0px;
+    right: -1px;
+    color: @white;
+    line-height: 100%;
+    position: absolute;
+    opacity: 100;
+}
+
+.logins .msg {
+    margin-top: 10px
+}
+
+.error input[type="text"], .error input[type="email"], .error select, .error textarea, .error input[type="password"], .error .dk_container{
+    border-color: @red;
+}
+.error .msg, .alert-danger, .alert-error {
+    background-color: @white_smoke;
+    border-color: @red;
+}
+.error .msg a.closebtn, .alert-danger .close, .alert-error .close {
+    background-image: @misc_url_src;
+    background-position: -82px -190px;
+    background-repeat: no-repeat;
+}
+.warning input[type="text"], .warning input[type="email"], .warning select, .warning textarea, .warning input[type="password"], .warning .dk_container {
+    border-color: @yellow;
+}
+.warning .msg, .alert {
+    background-color: #fffcf5;
+    border-color: @yellow;
+}
+.warning .msg a.closebtn, .alert .close {
+    background-image: @misc_url_src;
+    background-position: -106px -190px;
+    background-repeat: no-repeat;
+  
+}
+.success input[type="text"], .success input[type="email"], .success select, .success textarea, .success input[type="password"], .success .dk_container {
+    border-color: @green;
+}
+.success .msg, .alert-success {
+    background-color: #f7fff5;
+    border-color: @green;
+}
+.success .msg a.closebtn, .alert-success .close {
+    background-image: @misc_url_src;
+    background-position: -82px -214px;
+    background-repeat: no-repeat;
+}
+.all-fields-required {
+    margin-bottom: 25px;
+}
+.all-fields-required .msg{
+    display: none;
+}
+.required {
+    color: @red;
+}

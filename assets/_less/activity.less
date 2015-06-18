@@ -12,6 +12,13 @@
 
 .feed( @icon, @colour ) {
 
+		border: 1px solid lighten(@colour, 30%);
+
+		.activity { 
+			background-color: #FBFBFB ; 
+			border-bottom: 1px solid lighten(@colour, 30%);
+		}
+
 		&.feed:before {
 			content : @icon;
 			background-color: lighten(@colour, 20%) ;
@@ -23,32 +30,21 @@
 			color: #FBFBFB ;
 			top: 15px;
 			font-size: 20px;
-			text-shadow: -3px 0px #EEE;
+			text-shadow: -1px 0px lighten(@colour, 30%);
 		}
 
 }
 
-
-ul.wrap-feeds::after {
-  content: '';
-  background-color: #D3D3D3;
-  border-radius: 100%;
-  height: 20px;
-  width: 20px;
-  display: block;
-  margin-left: -11px;
-}
 
 .info-block {
 	padding: 0 15px 0 15px;
 }
 
 .activity-feed {
-	
-	margin: 50px 15 50px 25px;
 
+	margin-left: 25px;
+	margin-right: 15px;
 	padding-left: 15px;
-	
 
 	.wrap-feeds {
 		border-left: 2px solid #eee;
@@ -58,10 +54,8 @@ ul.wrap-feeds::after {
 
 	.feed {
 		margin: 40px 0 40px 45px;
-		border-radius: 6px;
+		border-radius: 2px;
 		position: relative;
-		background-color: #FFF;
-		box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.05);
 		&.first{ margin-top: 10px; }
 		&:before, &:after { 
 			display: inline-block;
@@ -83,15 +77,13 @@ ul.wrap-feeds::after {
 		}
 
 		 .activity {
-			padding: 30px 20px;
+			padding: 20px;
 			font-size: 16px;
 			color: #666;
-			border-radius: 6px 6px 0px 0px;
 		 }
 		 .time {
 		 	padding: 10px 20px;
-		 	border-radius: 0px 0px 6px 6px;
-		 	color: #C5C5C5;
+		 	background: #FFF;
 		 }
 	}
 
@@ -100,7 +92,7 @@ ul.wrap-feeds::after {
 	}
 
 	.user-invite {
-		.feed('\f007', @_gray)
+		.feed('\f234', @_gray)
 	}
 
 	.house {
@@ -148,24 +140,12 @@ ul.wrap-feeds::after {
 		display: inline-block;
 		padding: 10px;
 		border-radius: 1px;
+		background-color: #FBFBFB;
 		width: 105px;
 		text-align: center;
-		border-radius: 6px;
-		background-color: #FFF;
-		box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.05);
+		border: 1px solid #EEE;
 	}
-}
 
-.activity-year {
-	margin-left: -50px;
-  background-color: #FFF;
-  padding: 10px;
-  text-align: center;
-  font-size: 23px;
-  color: #535353;
-  margin-top: 10px;
-  margin-bottom: 39px;
-  background: #FBFBFB;
 }
 
 .me-container {
@@ -191,8 +171,6 @@ ul.wrap-feeds::after {
 		padding-bottom: 10px;
 	}
 }
-
-
 
 .property-image-w {
 	height: 140px;

@@ -1,0 +1,123 @@
+.toast-container {
+	width:470px;
+	z-index:9999;
+}
+
+* html .toast-container {
+	position:absolute;
+}
+
+.toast-item {
+	background: url('../images/grid.png') #FFFFFF;
+	overflow: hidden;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border: 1px solid #f3f3f3;
+	-webkit-box-shadow: 0 0px 10px 1px rgba(22, 22, 22, 0.28);
+	-moz-box-shadow: 0 0px 10px 1px rgba(22, 22, 22, 0.28);
+	box-shadow: 0 0px 10px 1px rgba(22, 22, 22, 0.28);
+	margin-bottom: 10px;
+	height:auto;
+	font-size:14px;
+	margin:0 0 12px;
+	padding:0px 6px 0px 1px;
+	color: #f3f3f3;
+	min-height: 56px;
+	position: relative;
+}
+
+.toast-item p {
+	background-position: 13px center;
+	background-repeat: no-repeat;
+	padding-left: 96px;
+	margin-top: 12px;
+	width: 342px;
+	float: left;
+	display: table;
+	height: 60px;
+}
+
+.small-container .toast-item p {
+	width: 453px;
+}
+
+
+.toast-item p em{
+	color: #2c9cc8;
+	vertical-align: middle;
+	display: table-cell;
+	font-style: normal;
+}
+
+.toast-item-close {
+	background: url(../images/notification-icons-close.png) no-repeat;
+	width: 10px;
+	height: 11px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+}
+
+.toast-type-warning p{
+	color:#dbb52f;
+	background-image: url(../images/notification-icons-warning.png);
+}
+
+.toast-type-error p{
+	color:#f04c52;
+	background-image: url(../images/notification-icons-error.png);
+}
+
+.toast-type-notice p{
+	color: #2c9cc0;
+	background-image: url(../images/notification-icons-notice.png);
+}
+
+.toast-type-success p{
+	color: #12af3f;
+	background-image: url(../images/notification-icons-success.png);
+}
+
+.toast-position-top-left {
+	position:fixed;
+	left:20px;
+	top:20px;
+}
+
+.toast-position-top-center {
+	position:fixed;
+	top:118px;
+	left:50%;
+	margin-left: -237px;
+}
+
+.toast-position-top-right {
+	position:fixed;
+	top:20px;
+	right:20px;
+}
+
+.toast-position-middle-left {
+	position:fixed;
+	left:20px;
+	top:50%;
+	margin-top:-40px;
+}
+
+.toast-position-middle-center {
+	position:fixed;
+	left:50%;
+	margin-left: -237px;
+	margin-top:-40px;
+	top:50%;
+}
+
+.toast-position-middle-right {
+	position:fixed;
+	right:20px;
+	margin-left:-140px;
+	margin-top:-40px;
+	top:50%;
+}

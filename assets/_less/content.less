@@ -28,7 +28,7 @@ h3 {
 }
 
 .mid-section {
-  background-color: #F8F8F8;
+  background-color: #F9F9F9;
   position: relative;
   min-height: 290px;
   &.summary-wrap {
@@ -47,9 +47,6 @@ h3 {
     z-index: 2011;
   }
   
-  .property-listings .main-listing {
-    height: 300px;  
-  }
 }
 
 .property-listings {
@@ -57,7 +54,7 @@ h3 {
   border: 1px solid @gray_border_colour;
   border-radius: 0px 0px 4px 4px;
   .main-listing {
-    height: 100%;
+    max-height: 300px;
     overflow-y: auto; 
   }
   .ui-footer {  
@@ -621,32 +618,6 @@ a.remove-user-form-owner-list:hover {
   padding-left: 29px;
 } 
 
-/*********
-Billing Start
-**********/
-
-.box-details {
-  background-color: #FFF;
-  padding: 16px;
-  border-radius: 10px;
-  box-shadow: 0px 2px 3px #EBEBEB;
-  margin: 20px 0px;
-
-  h3 {
-    margin-top: 0px;
-    font-size: 18px;
-    color: #A5A5A5;
-    position: relative;
-    margin-bottom: 35px;
-
-    .top-action {
-      font-size: 12px;
-      position: absolute;
-      bottom: 0;
-      right: 0;
-    }
-  }
-}
 
 .bill-confirm-box .payment-details.paypal .change-payment-details{
   padding: 9px;
@@ -729,7 +700,7 @@ Billing Start
   margin-left: 21px
 }
 .medium-items {
-  margin-left: 43px;
+  margin-left: 30px;
 }
 .medium-subitems {
   margin: 10px 0px;
@@ -798,13 +769,7 @@ border: 1px solid #EAEAEA;
         border-radius: 5px 5px 0px 0px;
 }
 
-
 .modal-wid-wrap {
-  margin-left: -16px;
-  margin-right: -16px;
-  padding: 22px 20px 0px;
-  background-color: #FFF;
-  border-bottom: none;
   .purchased-items {
     margin-bottom: 0px;
   }
@@ -823,19 +788,6 @@ border: 1px solid #EAEAEA;
   .grand-total {
     margin-top: 10px;
   }
-
-  .colpd-icons {
-    position: absolute;
-    left: 0;
-    top: 0;
-  }
-
-   .collapse-ad {
-      display: inline-block;
-      max-width: 400px;
-      position: relative;
-      padding-left: 42px;
-    }
 
   .medium-header {
     margin-bottom: 6px;
@@ -861,10 +813,7 @@ border: 1px solid #EAEAEA;
 
     &.sub-sf {
       font-size: 14px;
-      padding-left: 10px;
-      border-bottom: dashed 1px #F1F1F1;
-      margin-bottom: 10px;
-      padding-bottom: 5px;
+      margin-bottom: 2px;
       b {
         font-weight: normal;
       }
@@ -882,6 +831,8 @@ border: 1px solid #EAEAEA;
 
   }
 
+
+
   .oe-mar {    
     .medium-header {
       font-size: 17px;
@@ -897,48 +848,6 @@ border: 1px solid #EAEAEA;
     }
   }
 
-}
-
-  .lbl-pay-option {
-    height: 33px;
-    display: inline-block;
-    padding-top: 9px;
-  }
-
-  .credit-cards-icons {
-    background-image: url('/assets/images/credit-cards.png');
-    width: 225px;
-  }
-
-  .paypal-icon {
-    background-image: url('/assets/images/paypal.png');
-    width: 51px;
-  }
-
-  .powered-by-stripe:before {
-    content: " ";
-    display: block;
-    position: fixed;
-    bottom: 11px;
-    right: 27px;
-    height: 27px;
-    width: 121px;
-    background-image: url('/assets/images/powered-by-stripe-outline.png');
-    background-repeat: no-repeat;
-    opacity: .5;
-  } 
-
-.credits-by-rme::after {
-  content: " ";
-  display: block;
-  position: absolute;
-  top: 24px;
-  right: 9px;
-  height: 27px;
-  width: 121px;
-  background-image: url('/assets/images/credits-rme.png');
-  background-repeat: no-repeat;
-  opacity: .8;
 }
 
 
