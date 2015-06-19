@@ -22,7 +22,7 @@
 			<li> <a href="#" class="item" title="Messages"> <i class="fa fa-envelope-o"> <span class="cute-bull"></span> </i> Mailbox</a> </li>
 			<li> <a href="#" class="item" title="More" data-toggle="dropdown" class="dropdown-toggle" role="button" >More &nbsp;&nbsp;<i class="fa fa-angle-down"></i></a> 
 			
-				<div class="dropdown-menu" role="menu">
+				<div class="dropdown-menu nice-dropdown" role="menu">
 					<ul>
 						<li> <a href="#">Applications</a> </li>
 						<li> <a href="#">Forms</a> </li>
