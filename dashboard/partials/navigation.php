@@ -20,7 +20,7 @@
 			<li> <a href="#" class="item" title="Rent"> <i class="fa fa-tag"> </i> Advertisement</a> </li>
 			<li> <a href="#" class="item" title="Rent"> <i class="fa fa-usd"> </i> Payments</a> </li>
 			<li> <a href="#" class="item" title="Messages"> <i class="fa fa-envelope-o"> <span class="cute-bull"></span> </i> Mailbox</a> </li>
-			<li> <a href="#" class="item" title="More" data-toggle="dropdown" class="dropdown-toggle" role="button" >More &nbsp;&nbsp;<i class="fa fa-angle-down"></i></a> 
+			<li class="dropdown"> <a href="#" class="item" title="More" data-toggle="dropdown" class="dropdown-toggle" role="button" >More &nbsp;&nbsp;<i class="fa fa-angle-down"></i></a> 
 			
 				<div class="dropdown-menu nice-dropdown" role="menu">
 					<ul>

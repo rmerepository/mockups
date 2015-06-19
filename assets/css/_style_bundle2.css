@@ -10964,8 +10964,33 @@ h3 .popover {
     float: none;
     margin-right: 0;
   }
-  /* line 248, ..\less\top-navbar.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\.\.\/less\/top-navbar\.less}line{font-family:\00003248}}
+  /* line 247, ..\less\top-navbar.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\.\.\/less\/top-navbar\.less}line{font-family:\00003247}}
+  .dash-menu .items li.dropdown a.item {
+    display: none;
+  }
+  /* line 252, ..\less\top-navbar.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\.\.\/less\/top-navbar\.less}line{font-family:\00003252}}
+  .dash-menu .nice-dropdown {
+    display: block;
+    position: relative;
+    transform: scaleY(1);
+    box-shadow: none;
+    background-color: transparent;
+    width: 100%;
+    margin-left: 20px;
+  }
+  /* line 260, ..\less\top-navbar.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\.\.\/less\/top-navbar\.less}line{font-family:\00003260}}
+  .dash-menu .nice-dropdown ul > li a {
+    padding: 5px 20px;
+    font-size: 17 px;
+    padding: 4px 20px;
+    color: #666666;
+    opacity: 0.7;
+  }
+  /* line 270, ..\less\top-navbar.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\.\.\/less\/top-navbar\.less}line{font-family:\00003270}}
   .close-lg {
     font-size: 26px;
     display: inline-block !important;
@@ -11169,8 +11194,13 @@ h3 .popover {
 .ppi-box ._c img {
   position: relative;
 }
-/* line 32, ..\less\activity.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\.\.\/less\/activity\.less}line{font-family:\0000332}}
+/* line 31, ..\less\activity.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\.\.\/less\/activity\.less}line{font-family:\0000331}}
+.activity-wrap {
+  padding: 0 40px;
+}
+/* line 36, ..\less\activity.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\.\.\/less\/activity\.less}line{font-family:\0000336}}
 ul.wrap-feeds::after {
   content: '';
   background-color: #D3D3D3;
@@ -11180,25 +11210,25 @@ ul.wrap-feeds::after {
   display: block;
   margin-left: -11px;
 }
-/* line 42, ..\less\activity.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\.\.\/less\/activity\.less}line{font-family:\0000342}}
+/* line 46, ..\less\activity.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\.\.\/less\/activity\.less}line{font-family:\0000346}}
 .info-block {
   padding: 0 15px 0 15px;
 }
-/* line 46, ..\less\activity.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\.\.\/less\/activity\.less}line{font-family:\0000346}}
+/* line 50, ..\less\activity.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\.\.\/less\/activity\.less}line{font-family:\0000350}}
 .activity-feed {
   margin: 50px 15 50px 25px;
   padding-left: 15px;
 }
-/* line 53, ..\less\activity.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\.\.\/less\/activity\.less}line{font-family:\0000353}}
+/* line 57, ..\less\activity.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\.\.\/less\/activity\.less}line{font-family:\0000357}}
 .activity-feed .wrap-feeds {
   border-left: 2px solid #eee;
   margin-left: 10px;
 }
-/* line 59, ..\less\activity.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\.\.\/less\/activity\.less}line{font-family:\0000359}}
+/* line 63, ..\less\activity.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\.\.\/less\/activity\.less}line{font-family:\0000363}}
 .activity-feed .feed {
   margin: 40px 0 40px 45px;
   border-radius: 6px;
@@ -11206,13 +11236,13 @@ ul.wrap-feeds::after {
   background-color: #FFF;
   box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.05);
 }
-/* line 65, ..\less\activity.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\.\.\/less\/activity\.less}line{font-family:\0000365}}
+/* line 69, ..\less\activity.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\.\.\/less\/activity\.less}line{font-family:\0000369}}
 .activity-feed .feed.first {
   margin-top: 10px;
 }
-/* line 66, ..\less\activity.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\.\.\/less\/activity\.less}line{font-family:\0000366}}
+/* line 70, ..\less\activity.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\.\.\/less\/activity\.less}line{font-family:\0000370}}
 .activity-feed .feed:before,
 .activity-feed .feed:after {
   display: inline-block;
@@ -11221,8 +11251,8 @@ ul.wrap-feeds::after {
   top: 7px;
   font-family: 'fontAwesome';
 }
-/* line 74, ..\less\activity.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\.\.\/less\/activity\.less}line{font-family:\0000374}}
+/* line 78, ..\less\activity.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\.\.\/less\/activity\.less}line{font-family:\0000378}}
 .activity-feed .feed:before {
   content: '\f003';
   border-radius: 100%;
@@ -11233,16 +11263,16 @@ ul.wrap-feeds::after {
   padding-top: 11px;
   color: #FFF;
 }
-/* line 85, ..\less\activity.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\.\.\/less\/activity\.less}line{font-family:\0000385}}
+/* line 89, ..\less\activity.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\.\.\/less\/activity\.less}line{font-family:\0000389}}
 .activity-feed .feed .activity {
   padding: 30px 20px;
   font-size: 16px;
   color: #666;
   border-radius: 6px 6px 0px 0px;
 }
-/* line 91, ..\less\activity.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\.\.\/less\/activity\.less}line{font-family:\0000391}}
+/* line 95, ..\less\activity.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\.\.\/less\/activity\.less}line{font-family:\0000395}}
 .activity-feed .feed .time {
   padding: 10px 20px;
   border-radius: 0px 0px 6px 6px;
@@ -11408,13 +11438,13 @@ ul.wrap-feeds::after {
   font-size: 20px;
   text-shadow: -3px 0px #eeeeee;
 }
-/* line 145, ..\less\activity.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\.\.\/less\/activity\.less}line{font-family:\00003145}}
+/* line 149, ..\less\activity.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\.\.\/less\/activity\.less}line{font-family:\00003149}}
 .activity-date {
   margin-left: -51px;
 }
-/* line 147, ..\less\activity.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\.\.\/less\/activity\.less}line{font-family:\00003147}}
+/* line 151, ..\less\activity.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\.\.\/less\/activity\.less}line{font-family:\00003151}}
 .activity-date span {
   display: inline-block;
   padding: 10px;
@@ -11425,8 +11455,8 @@ ul.wrap-feeds::after {
   background-color: #FFF;
   box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.05);
 }
-/* line 159, ..\less\activity.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\.\.\/less\/activity\.less}line{font-family:\00003159}}
+/* line 163, ..\less\activity.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\.\.\/less\/activity\.less}line{font-family:\00003163}}
 .activity-year {
   margin-left: -50px;
   background-color: #FFF;
@@ -11438,40 +11468,40 @@ ul.wrap-feeds::after {
   margin-bottom: 39px;
   background: #FBFBFB;
 }
-/* line 171, ..\less\activity.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\.\.\/less\/activity\.less}line{font-family:\00003171}}
+/* line 175, ..\less\activity.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\.\.\/less\/activity\.less}line{font-family:\00003175}}
 .me-container {
   padding: 50px 15px;
   background-color: #FFF;
 }
-/* line 176, ..\less\activity.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\.\.\/less\/activity\.less}line{font-family:\00003176}}
+/* line 180, ..\less\activity.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\.\.\/less\/activity\.less}line{font-family:\00003180}}
 .me-well {
   background-color: #FFF;
   border-bottom: 1px dotted #EEE;
   padding: 20px 0px;
 }
-/* line 180, ..\less\activity.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\.\.\/less\/activity\.less}line{font-family:\00003180}}
+/* line 184, ..\less\activity.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\.\.\/less\/activity\.less}line{font-family:\00003184}}
 .me-well .control-group {
   margin-bottom: 0px;
 }
-/* line 183, ..\less\activity.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\.\.\/less\/activity\.less}line{font-family:\00003183}}
+/* line 187, ..\less\activity.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\.\.\/less\/activity\.less}line{font-family:\00003187}}
 .me-well .me-lbl {
   display: inline-block;
   font-size: 16px;
   margin-top: 10px;
 }
-/* line 188, ..\less\activity.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\.\.\/less\/activity\.less}line{font-family:\00003188}}
+/* line 192, ..\less\activity.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\.\.\/less\/activity\.less}line{font-family:\00003192}}
 .me-well.sub-item {
   padding-left: 35px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* line 197, ..\less\activity.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\.\.\/less\/activity\.less}line{font-family:\00003197}}
+/* line 201, ..\less\activity.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\.\.\/less\/activity\.less}line{font-family:\00003201}}
 .property-image-w {
   height: 140px;
   border-radius: 2px;
@@ -21960,5 +21990,10 @@ input.save-btn {
   @media -sass-debug-info{filename{font-family:file\:\/\/\.\.\/less\/views\/small\.less}line{font-family:\00003104}}
   .messaging {
     position: fixed;
+  }
+  /* line 110, ..\less\views\small.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\.\.\/less\/views\/small\.less}line{font-family:\00003110}}
+  .activity-wrap {
+    padding: 0 5px;
   }
 }
