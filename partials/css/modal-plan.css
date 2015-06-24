@@ -29,6 +29,7 @@
 	display: none;
 }
 
+
 .pill.active .discount {
 	display: block;
 	position: absolute;
@@ -106,6 +107,12 @@
 	text-align: left;
 	font-size: 15px;
 }
+
+.buy2 .plan ul li {
+	text-align: center;
+	font-size: 18px;
+}
+
 
 .btn-no-bg {
 	border: 1px solid #22B2E2;

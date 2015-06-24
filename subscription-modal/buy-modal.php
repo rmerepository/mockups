@@ -1,4 +1,4 @@
-<div class="modal wide plan-modal" keyboard="true" id="planModal"  role="dialog" aria-labelledby="Modal Plan" aria-hidden="true">
+<div class="modal wide plan-modal buy2" keyboard="true" id="buyModal"  role="dialog" aria-labelledby="Modal Plan" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-body">
@@ -22,11 +22,8 @@
 								<a href="#" class="btn btn-no-bg btn-gray"> <span class="fa fa-check"></span> Current</a>
 							</figure>
 							<main>
-								<ul>
-									<li>Rent Tracking (30 transactions)</li>
+								<ul class="text-center">
 									<li>$180 per advertisement</li>
-									<li>Basic Support</li>
-									<li>Tenant Check (NTD) $30</li>
 									<li>For Lease Sign $80</li>
 								</ul>
 							</main>
@@ -40,12 +37,9 @@
 								<a href="#" class="btn btn-primary">Choose Plan</a>
 							</figure>
 							<main>
-								<ul>
-									<li>Automatic Rent Tracking</li>
+								<ul class="text-center">
 									<li>$90 per advertisement</li>
-									<li>Basic Support</li>
-									<li>Tenant Check (NTD)</li>
-									<li>For Lease Sign $80</li>
+									<li>For Lease Sign $70</li>
 								</ul>
 							</main>
 						</div>
@@ -58,12 +52,9 @@
 								<a href="#" class="btn btn-no-bg">Choose Plan</a>
 							</figure>
 							<main>
-								<ul>
-									<li>Automatic Rent Tracking</li>
+								<ul class="text-center">
 									<li>$80 per advertisement</li>
-									<li>Full Support</li>
-									<li>Tenant Check (NTD)</li>
-									<li>For Lease Sign $80</li>
+									<li>For Lease Sign $60</li>
 								</ul>
 							</main>
 						</div>
