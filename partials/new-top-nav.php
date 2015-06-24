@@ -13,11 +13,11 @@
             <div class="pull-right">
                 <div class="nav-links">
                     <ul class="nav ui-top-menu">
-                      <!--   <li>
-                            <a href="#" class="button dropdown-toggle" title="Help &amp; Support">
-                               Help
+                        <li>
+                            <a href="#" class="button" title="Upgrade Plan" data-toggle="modal" data-target="#planModal">
+                                <span class="text-success">Upgrade Plan</span> 
                             </a>
-                        </li> -->
+                        </li> 
 
                         <li class="dropdown">
                             <a href="#" id="username" class="button dropdown-toggle" data-toggle="dropdown" title="My Profile">
