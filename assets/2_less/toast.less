@@ -1,0 +1,74 @@
+.toast-container {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: 1300;
+}
+
+.toast-item-wrapper {
+	width: 100%;
+}
+
+.toast-item {
+	padding: 29px 66px;
+	color: #FFF;
+	text-align: center;
+	font-style: normal;
+	height: 100%;
+	vertical-align: middle;	
+	font-size: 16px;
+	position: relative;
+}
+
+.toast-item em{
+	font-style: normal;
+}
+
+.toast-type-error {
+	background: @red;
+}
+
+.toast-type-warning {
+	background: @yellow;
+}
+
+.toast-type-alert {
+	background: @red;
+}
+
+.toast-type-success {
+	background: @green;	
+}
+
+.toast-type-notice {
+	background: @blue;	
+}
+
+.toast-item-close {
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	height: 30px;
+	width: 30px;
+	background: #FFF;
+	display: inline-block;
+	border-radius: 50%;
+	cursor: pointer;
+	color: #b2b2b2;
+	margin-top: -15px;
+}
+
+.toast-item-close:hover {
+	background-color: @blue_for_btn;
+	color: #FFF;
+}
+
+.toast-item-close:after {
+	content: "\d7";
+	font-size: 26px;
+	line-height: 32px;
+}
+
+.toast-item-wrapper {
+	top:0px;
+}

@@ -178,7 +178,14 @@
           border-bottom-color: #666;
         }
       }
+      &.open {
+        a.item {
+          opacity: 1;
+          border-bottom-color: #666;
+        }
+      }
     }
+
   }
 }
 
@@ -235,6 +242,28 @@
     .items li {
       float: none;
       margin-right: 0;
+
+      &.dropdown {
+        a.item {
+          display: none;
+        }
+      }
+    }
+    .nice-dropdown {
+      display: block;
+      position: relative;
+      transform: scaleY(1);
+      box-shadow: none;
+      background-color: transparent;
+      width: 100%;
+      margin-left: 20px;
+      ul > li a {
+      padding: 5px 20px;
+      font-size: 17 px;
+      padding: 4px 20px;
+      color: rgb(102, 102, 102);
+      opacity: 0.7;
+      }
     }
   }
 

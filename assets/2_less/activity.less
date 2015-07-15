@@ -10,28 +10,7 @@
 
 // '\f0ad';
 
-.activity-wrap {
-	padding: 0 40px; 
-}
-
-.gray .max-width-content {
-	background-color: #F8F8F8;
-}
-
 .feed( @icon, @colour ) {
-
-		margin: 40px 0 40px 45px;
-		border-radius: 6px;
-		position: relative;
-		background-color: #FFF;
-		box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.05);
-
-		.activity { 
-		  padding: 30px 20px;
-		  font-size: 16px;
-		  color: #666;
-		  border-radius: 6px 6px 0px 0px;
-		}
 
 		&.feed:before {
 			content : @icon;
@@ -47,6 +26,10 @@
 			text-shadow: -3px 0px #EEE;
 		}
 
+}
+
+.activity-wrap {
+	padding: 0 40px;
 }
 
 
@@ -65,9 +48,11 @@ ul.wrap-feeds::after {
 }
 
 .activity-feed {
+	
+	margin: 50px 15 50px 25px;
 
-  margin: 50px 15px 50px 25px;
-  padding-left: 15px;
+	padding-left: 15px;
+	
 
 	.wrap-feeds {
 		border-left: 2px solid #eee;
@@ -77,8 +62,10 @@ ul.wrap-feeds::after {
 
 	.feed {
 		margin: 40px 0 40px 45px;
-		border-radius: 2px;
+		border-radius: 6px;
 		position: relative;
+		background-color: #FFF;
+		box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.05);
 		&.first{ margin-top: 10px; }
 		&:before, &:after { 
 			display: inline-block;
@@ -100,14 +87,15 @@ ul.wrap-feeds::after {
 		}
 
 		 .activity {
-			padding: 20px;
+			padding: 30px 20px;
 			font-size: 16px;
 			color: #666;
+			border-radius: 6px 6px 0px 0px;
 		 }
 		 .time {
-		  padding: 10px 20px;
-		  border-radius: 0px 0px 6px 6px;
-		  color: #C5C5C5;
+		 	padding: 10px 20px;
+		 	border-radius: 0px 0px 6px 6px;
+		 	color: #C5C5C5;
 		 }
 	}
 
@@ -161,28 +149,27 @@ ul.wrap-feeds::after {
 .activity-date {
 	margin-left: -51px;
 	span {
-	  display: inline-block;
-	  padding: 10px;
-	  border-radius: 1px;
-	  width: 105px;
-	  text-align: center;
-	  border-radius: 6px;
-	  background-color: #FFF;
-	  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.05);
+		display: inline-block;
+		padding: 10px;
+		border-radius: 1px;
+		width: 105px;
+		text-align: center;
+		border-radius: 6px;
+		background-color: #FFF;
+		box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.05);
 	}
 }
 
 .activity-year {
 	margin-left: -50px;
-	background-color: #FFF;
-	padding: 10px;
-	text-align: center;
-	font-size: 23px;
-	color: #535353;
-	margin-top: 10px;
-	margin-bottom: 39px;
-	box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.05);
-	border-radius: 4px;
+  background-color: #FFF;
+  padding: 10px;
+  text-align: center;
+  font-size: 23px;
+  color: #535353;
+  margin-top: 10px;
+  margin-bottom: 39px;
+  background: #FBFBFB;
 }
 
 .me-container {

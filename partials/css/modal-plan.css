@@ -8,17 +8,31 @@
 }
 
 .plan-modal .plans {
-	margin: 50px 0px ;
+	margin: 35px 0px 50px ;
 }
 
 .plan-modal h2 {
-	margin: 10px 0 35px;
+	margin: 10px 0 45px;
 	font-weight: 300;
+}
+
+.plan-modal h2 .sub{
+	display: block;
+	font-size: 26px;
+	opacity: .9;
+	margin-top: 9px;
+}
+
+.btn-no-bg[disabled], .btn-no-bg.disabled {
+	background-color: rgba(226, 226, 226, 0.12);
+	color: #575757;
+	border-color: rgba(226, 226, 226, 0.72);
 }
 
 .plan-modal .plans .plan {
 	border: 1px solid #EEE;
 	padding-bottom: 20px;
+	min-height: 335px;
 }
 
 .plan-modal footer {
@@ -26,11 +40,6 @@
 }
 
 .pill .discount {
-	display: none;
-}
-
-
-.pill.active .discount {
 	display: block;
 	position: absolute;
 	right: -24px;
@@ -90,9 +99,9 @@
 	border: medium none;
 	position: relative;
 	z-index: 999;
-	box-shadow: 0px 0px 0px 4px #FAFEFD, 0px 0px 2px 5px rgba(0, 0, 0, 0.13);
+	box-shadow: 0px 0px 0px 4px #FFF, 0px 0px 2px 6px #e1f5fe;
 	border-radius: 2px;
-	background-color: rgba(24, 205, 131, 0.02);
+	background-color: #e1f5fe;
 }
 
 .plan.popular h3{
@@ -104,7 +113,6 @@
 	list-style: outside none none;
 	color: #808080;
 	padding: 5px 12px;
-	text-align: left;
 	font-size: 15px;
 }
 
@@ -134,4 +142,64 @@
 
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
 	background-color: #B0B9BC;
+}
+
+
+.plan-features {
+  max-width: 1200px;
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.05);
+  border-radius: 2px;
+}
+
+.plan-features table {
+  width: 100%;
+}
+
+.plan-features table td,
+.plan-features table th {
+  padding: 10px 15px;
+  text-align: center;
+}
+
+.plan-features thead {
+  border-bottom: 1px solid #f8f8f8;
+}
+
+.plan-features tr.even {
+  background-color: #f8f8f8;
+}
+
+.plan-features .fa-check {
+  color: #22b2e2;
+}
+
+.plan-features .plan-names th {
+  text-align: center;
+}
+
+.plan-features .plan-names th h3 {
+  color: #F5A623;
+  font-size: 22px;
+  margin: 10px 0px;
+}
+
+.plan-features .feature-label {
+  text-align: left;
+}
+
+.plan-features .description {
+  font-size: 12px;
+}
+
+.plan-features th.popular h3 {
+  color: #18cd83;
+}
+
+.plan-features .btn {
+  font-size: 12px;
+  margin: 12px 0;
+}
+
+.plan-features {
+	margin: 20px 0px;
 }

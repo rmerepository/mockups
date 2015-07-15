@@ -1161,6 +1161,27 @@ input[type='text'] {
 	}
 }
 
+.nice-dropdown {
+	background-color: rgb(255, 255, 255);
+	padding: 15px 0px;
+	box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.06), 0px 2px 18px rgba(0, 0, 0, 0.18);
+	margin-top: 0px;
+	width: 230px;
+	transform: scaleY(0);
+	-ms-transition: all 0.29s ease-in-out 0s;
+	transition: all 0.29s ease-in-out 0s;
+	ul > li a {
+		display: block;
+		padding: 10px 20px;
+	}
+}
+
+
+.open {
+	.nice-dropdown {
+		transform: scaleY(1);
+	}
+}
 
 
 
@@ -3076,33 +3097,6 @@ ul.type-circle li{
 	border-radius: 2px;
 	color: #FFF !important;
 }
-
-.nice-dropdown {
-	background-color: rgb(255, 255, 255);
-	padding: 15px 0px;
-	box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.06), 0px 2px 18px rgba(0, 0, 0, 0.18);
-	margin-top: 0px;
-	width: 230px;
-	transform: scaleY(0);
-	-ms-transition: all 0.29s ease-in-out 0s;
-	transition: all 0.29s ease-in-out 0s;
-	ul > li {
-		float: none;
-		width: 100%;
-		a {
-			display: block;
-			padding: 10px 20px;
-		}
-	}
-}
-
-
-.open {
-	.nice-dropdown {
-		transform: scaleY(1);
-	}
-}
-
 
 .new-ribbon {
 	background-image: url('../images/n/new-red-ribbon.png');

@@ -1,0 +1,184 @@
+.custom-checkbox-field {
+  margin-left: -8px;
+}
+.custom-checkbox-field input[type="checkbox"],
+.custom-radio-field input[type="checkbox"],
+.custom-checkbox-field input[type="radio"],
+.custom-radio-field input[type="radio"] {
+  padding: 0;
+  margin: 0;
+  height: 16px;
+  width: 16px;
+  float: left;
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+  display: block;
+}
+.custom-checkbox-field label,
+.custom-radio-field label,
+.custom-checkbox-field2 label {
+  background-image: url("../images/n/sprites-ui.png");
+  background-repeat: no-repeat;
+  cursor: pointer;
+  padding: 10px 0 0 46px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1;
+  height: 35px;
+}
+.custom-checkbox-field.liner {
+  width: 150px;
+  display: inline-block;
+}
+// Apply custom icon for uncheck
+.custom-checkbox-field:not(#dummy) > input[type="checkbox"] + label {
+  background-position: -5px -220px;
+}
+// Apply custom icon for uncheck hover
+.custom-checkbox-field:not(#dummy) > input[type="checkbox"] + label:hover {
+  background-position: -5px -282px;
+}
+// Apply custom icon for checked
+.custom-checkbox-field:not(#dummy) > input[type="checkbox"]:checked + label {
+  background-position: -5px -345px;
+}
+// Apply custom icon for checked hover
+.custom-checkbox-field:not(#dummy) > input[type="checkbox"]:checked + label:hover {
+  background-position: -5px -406px;
+}
+
+.custom-radio-field:not(#dummy) > input[type="radio"] + label {
+  background-position: -6px -3px;
+}
+.custom-radio-field:not(#dummy) > input[type="radio"]:checked + label {
+  background-position: -6px -47px;
+}
+
+
+.cs-chck-box.custom-radio-field label { 
+    /*background-image: none;*/
+    background-color: #FFF; 
+    padding: 19px 0 16px 45px;
+    border: 1px solid #EBEBEB;
+    display: block;
+    height: auto;
+    border-radius: 2px;
+  } 
+
+  /*Apply custom icon for uncheck*/
+  .cs-chck-box.custom-checkbox-field:not(#dummy) > input[type="checkbox"] + label {
+    background-position: -5px -200px;
+  }
+  
+  /*Apply custom icon for uncheck hover*/
+  .cs-chck-box.custom-checkbox-field:not(#dummy) > input[type="checkbox"] + label:hover {
+    background-position: -5px -262px;
+  }
+  
+  /*Apply custom icon for checked*/
+  .cs-chck-box.custom-checkbox-field:not(#dummy) > input[type="checkbox"]:checked + label {
+    background-position: -5px -326px;
+    background-color: #F3F3F3;
+  }
+  
+  /*Apply custom icon for checked hover*/
+  .cs-chck-box.custom-checkbox-field:not(#dummy) > input[type="checkbox"]:checked + label:hover {
+    background-position: -5px -387px;
+    background-color: #F3F3F3;
+  }
+
+.ck-green {
+  background-image: url("../images/n/sprites-ui.png");
+  background-position: 133px 10px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  padding: 21px 50px 20px 5px !important;
+  &:hover {
+    background-position: 133px -84px;
+  }
+  &.selected {
+    background-position: 133px -1089px
+  }
+}
+
+.ui-dropdownchecklist-selector {  
+  &.ui-state-default {
+    background: none;
+    padding: 12px 9px 5px 10px;
+    border: none;
+    color: #666;
+  }
+}
+
+.ui-dropdownchecklist-selector-wrapper {
+  position: relative;
+  border: 1px solid  @gray_border_colour;
+  color: #878787;
+  font-size: 15px;
+  line-height: 100%;  
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+.ui-dropdownchecklist-selector-wrapper:focus,
+.ui-dropdownchecklist-selector-wrapper:hover {
+  -webkit-box-shadow: 0 0 4px #E2E2E2;
+  box-shadow: 0 0 4px #E2E2E2;
+}
+
+.ui-dropdownchecklist-text {
+  color: #878787;
+  line-height: 151%;
+}
+
+
+.ui-dropdownchecklist-item {
+  position: relative;
+}
+
+.ui-dropdownchecklist-dropcontainer {
+  background: #FAFAFA;
+  border-color: @gray_border_colour;
+}
+.ui-dropdownchecklist-item.ui-state-default {
+  background: none ;
+  border: none;
+  padding: 6px 13px;  
+  cursor: pointer;
+  color: #666;
+  border-bottom: 1px solid #EAEAEA;
+  &:hover {
+    background: #FFF;
+    color: #878787;
+  }
+}
+
+.ui-dropdownchecklist-dropcontainer .ui-dropdownchecklist-item.ui-state-default:last-child{
+  border-bottom: none;
+}
+
+.ui-dropdownchecklist {
+  .ui-icon {
+    font-size: 0px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-image: url("../images/n/sprites-ui.png");
+    background-position: -16px -580px;
+    display: block;
+    width: 19px;
+    height: 10px;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    width: 22px;
+    display: inline-block;
+  }  
+  .ui-state-active, &:hover {
+    .ui-icon {
+      background-position: -16px -516px;
+    }  
+  }
+}
+ 
+

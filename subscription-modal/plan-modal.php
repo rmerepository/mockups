@@ -2,12 +2,12 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-body">
-      		<h2 class="text-center">Way to go! You're ready for an upgrade!</h2>
-					
+      		<h2 class="text-center">10 Vincent Drive is on the <b>Free Plan.</b> <span class="sub">Upgrade your plan to unlock the goodness!</span> </h2>
+ 				
 					<div class="text-center">
 						<ul class="nav nav-pills clearfix">
 							<li class="nav-option pill active"> <a href="#">Monthly Billing</a> </li>
-							<li class="nav-option pill"> <a href="#">Yearly Billing</a> <span class="discount">20% <br> Off</span> </li>
+							<li class="nav-option pill"> <a href="#">Yearly Billing</a> <span class="discount">Save <br> 20% </span> </li>
 						</ul>
 					</div>
 
@@ -16,59 +16,61 @@
 						<div class="plan current col-md-4">
 							<header class="text-center">
 								<h3 class="plan-header">Free Forever</h3>
-								<div class="plan-price"><span class="price" data-price-discount="0" data-price-regular="0">0</span> / mo</div>
+								<div class="plan-price"><span class="price" data-price-discount="0" data-price-regular="0">0</span> / month</div>
 							</header>
 							<figure class="text-center">
-								<a href="#" class="btn btn-no-bg btn-gray"> <span class="fa fa-check"></span> Current</a>
+								<a href="#" class="btn btn-no-bg btn-gray" disabled> <span class="fa fa-check"></span> Current</a>
 							</figure>
 							<main>
-								<ul>
-									<li>Rent Tracking (30 transactions)</li>
-									<li>$180 per advertisement</li>
-									<li>Basic Support</li>
-									<li>Tenant Check (NTD) $30</li>
-									<li>For Lease Sign $80</li>
+								<ul class="text-center">
+									<li>1 Tenancy</li>
+									<li>Automatic Rent Tracking</li>
 								</ul>
 							</main>
 						</div>
 						<div class="plan popular col-md-4">
 							<header class="text-center">
 								<h3>Time Saver</h3>
-								<div class="plan-price"><span class="price" data-price-discount="17" data-price-regular="19">19</span> / mo</div>
+								<div class="plan-price"><span class="price" data-price-discount="17" data-price-regular="19">19</span> / month</div>
 							</header>
 							<figure class="text-center">
 								<a href="#" class="btn btn-primary">Choose Plan</a>
 							</figure>
 							<main>
-								<ul>
+								<ul class="text-center">
+									<li>Unlimited Tenancies</li>
 									<li>Automatic Rent Tracking</li>
-									<li>$90 per advertisement</li>
-									<li>Basic Support</li>
-									<li>Tenant Check (NTD)</li>
-									<li>For Lease Sign $80</li>
+									<li>Rent Reciepts &amp; Reports</li>
+									<li>Late Notifications</li>
 								</ul>
 							</main>
 						</div>
 						<div class="plan col-md-4">
 							<header class="text-center">
 								<h3>Advance</h3>
-								<div class="plan-price"><span class="price" data-price-discount="37" data-price-regular="39">39</span> / mo</div>
+								<div class="plan-price"><span class="price" data-price-discount="37" data-price-regular="39">39</span> / month</div>
 							</header>
 							<figure class="text-center">
 								<a href="#" class="btn btn-no-bg">Choose Plan</a>
 							</figure>
 							<main>
-								<ul>
-									<li>Automatic Rent Tracking</li>
-									<li>$80 per advertisement</li>
-									<li>Full Support</li>
-									<li>Tenant Check (NTD)</li>
-									<li>For Lease Sign $80</li>
+								<ul class="text-center">
+									<li><b>Everythink in Time Saver plus:</b></li>
+									<li>We'll sort your rent increase</li>
+									<li>We'll enter your payments</li>
+									<li>Dedicated Account Manager</li>
 								</ul>
 							</main>
 						</div>
 					</div>
+					<div class="text-center"> <p><a href="#" class="text-danger" style="font-size: 22px;">View all features</a> </p> </div>
+
+							<?php require_once('all-features.php') ?>
+
 					<div class="text-center"> <b>Don‘t worry</b>, you can upgrade, downgrade or cancel your plan at any time!  </div>
+
+
+
       </div>
     </div>
   </div>
