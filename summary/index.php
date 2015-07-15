@@ -98,12 +98,13 @@ $app_module =""
 			<button class="btn btn-success">Make Changes</button> <button class="btn btn-primary">Preview</button>
 		</div>
 		<div class="summary-promote text-center promote-padding">
-			<h3>Advertise on Cubbi</h3>
-			<p>Get you ad published on cubbi immediately for FREE</p>
+			<h3>Advertise on Cubbi
+				<div class="sub">Get you ad published on cubbi immediately for FREE</div>
+			</h3>
 			<div class="logo-wrap">
-				<span class="logo">LOGO</span>
+				<span class="logo" style="padding:20px;display:block">LOGO</span>
 			</div>
-			<button class="btn btn-primary">Published Now</button>
+			<button class="btn btn-primary btn-xlarge">Published Now</button>
 		</div>
 		<div class="summary-promote" style="min-height: 710px;">
 			<div class="top">
@@ -115,7 +116,12 @@ $app_module =""
 					<div class="pasok" style="display:none">pasok</div>
 					<table class="_tbl-or">
 						<tbody><tr>
-							<td class="_col1-2 promote-option-header"><h3>Choose your Advertising options</h3></td>
+							<td class="_col1-2 promote-option-header">
+								<h3>
+									Get more exposure
+									<div class="sub">You can choose to upgrade your ad at anytime</div>
+								</h3>								
+							</td>
 							<td class="_col-3">
 								<ul class="top-media-l ">
 									
