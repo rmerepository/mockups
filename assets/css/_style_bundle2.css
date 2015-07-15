@@ -6983,7 +6983,8 @@ h6 {
 }
 /* line 15, ..\less\tw-hooks.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/\.\.\/less\/tw-hooks\.less}line{font-family:\0000315}}
-h3 .sub {
+h3 .sub,
+h4 .sub {
   font-size: 16px;
   margin-top: 8px;
 }
