@@ -9,7 +9,7 @@ $address 	= isset($_GET["address"]) ? $_GET["address"] : "";
 <table cellspacing="0" cellpadding="0" style="border:none;font-family:'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;" width="100%">
 	<tr>	
 		<td style="font-family:'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;" width="400">			
-			<span style="font-family:'Open Sans', 'Helvetica Neue', Helvetica, sans-serif; font-size: 18px; color: #82cec6"><?php echo $name; ?> </span> <span style="font-family:'Open Sans', 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; color: #ee7682"><?php echo $position; ?></span>			
+			<span style="font-family:'Open Sans', 'Helvetica Neue', Helvetica, sans-serif; font-size: 18px; color: #82cec6"><?php echo $name; ?> </span> <span style="font-family:'Open Sans', 'Helvetica Neue', Helvetica, sans-serif; font-size: 14px; color: #ee7682"><?php echo $position; ?></span>			
 		</td>		
 		<td rowspan="4"> <a href="http://cubbi.com.au" title="cubbi" style="color: #b3b3b3; text-decoration: none;"><img border="0" src="https://s3-ap-southeast-2.amazonaws.com/cubbi/cubbi-logo.jpg" width="124" width="49" title="cubbi" alt="cubbi"> </a></td>
 	</tr>
@@ -17,7 +17,7 @@ $address 	= isset($_GET["address"]) ? $_GET["address"] : "";
 		<td height="7px"></td>
 	</tr>
 	<tr>
-		<td> <span style="font-family:'Open Sans', 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; color: #b3b3b3">Suite 504, 365 Little Collins Street, Melbourne 3000</span></td>
+		<td> <span style="font-family:'Open Sans', 'Helvetica Neue', Helvetica, sans-serif; font-size: 14px; color: #b3b3b3">Suite 504, 365 Little Collins Street, Melbourne 3000</span></td>
 	</tr>
 	<tr>
 		<td>
