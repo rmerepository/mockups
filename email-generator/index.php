@@ -11,7 +11,7 @@ $address 	= isset($_GET["address"]) ? $_GET["address"] : "";
 		<td style="font-family:'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;" width="400">			
 			<span style="font-family:'Open Sans', 'Helvetica Neue', Helvetica, sans-serif; font-size: 18px; color: #82cec6"><?php echo $name; ?> </span> <span style="font-family:'Open Sans', 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; color: #ee7682"><?php echo $position; ?></span>			
 		</td>		
-		<td rowspan="4"> <img src="https://s3-ap-southeast-2.amazonaws.com/cubbi/cubbi-logo.jpg" width="124" width="49" alt="cubbi"> </td>
+		<td rowspan="4"> <a href="http://cubbi.com.au" title="cubbi" style="color: #b3b3b3; text-decoration: none;"><img border="0" src="https://s3-ap-southeast-2.amazonaws.com/cubbi/cubbi-logo.jpg" width="124" width="49" title="cubbi" alt="cubbi"> </a></td>
 	</tr>
 		<tr>
 		<td height="7px"></td>
@@ -21,19 +21,22 @@ $address 	= isset($_GET["address"]) ? $_GET["address"] : "";
 	</tr>
 	<tr>
 		<td>
-		<table cellspacing="0" cellpadding="0" style="border:none" width="340px;">
+		<table cellspacing="0" cellpadding="0" style="border:none" width="345px;">
 			<tr>
 				<td style="font-family:'Open Sans', 'Helvetica Neue', Helvetica, sans-serif; font-size: 14px; color: #b3b3b3">
-				 	<div>t: 1300 654 600</div>
+				 	<span style="color: #b3b3b3; text-decoration: none;">t: 1300 654 600</span>
 				</td>
 				<td style="font-family:'Open Sans', 'Helvetica Neue', Helvetica, sans-serif; font-size: 14px; color: #b3b3b3">
-					<div>m: 0401 572 425</div>
+					<span style="color: #b3b3b3; text-decoration: none;">m: 0401 572 425</span>
 				</td>
 				<td style="font-family:'Open Sans', 'Helvetica Neue', Helvetica, sans-serif; font-size: 14px; color: #b3b3b3">
-					<div><a href="http://cubbi.com.au" style="color: #b3b3b3; text-decoration: none;">w: cubbi.com.au</a></div>
+					<span><a href="http://cubbi.com.au" title="cubbi" style="color: #b3b3b3; text-decoration: none;">w: cubbi.com.au</a></span>
 				</td>
 			</tr>
-			</td>			
+			<tr>
+				<td></td>
+			</tr>
+			</td>
 		</table>
 	</tr>
 </table>
