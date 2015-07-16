@@ -30,7 +30,7 @@ $address 	= isset($_GET["address"]) ? $_GET["address"] : "";
 					<div>m: 0401 572 425</div>
 				</td>
 				<td style="font-family:'Open Sans', 'Helvetica Neue', Helvetica, sans-serif; font-size: 14px; color: #b3b3b3">
-					<div>w: <a href="http://cubbi.com.au" style="color: #b3b3b3; text-decoration: none;">cubbi.com.au</a></div>
+					<div><a href="http://cubbi.com.au" style="color: #b3b3b3; text-decoration: none;">w: cubbi.com.au</a></div>
 				</td>
 			</tr>
 			</td>			
