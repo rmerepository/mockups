@@ -24,13 +24,13 @@ $address 	= isset($_GET["address"]) ? $_GET["address"] : "";
 		<table cellspacing="0" cellpadding="0" style="border:none" width="340px;">
 			<tr>
 				<td style="font-family:'Open Sans', 'Helvetica Neue', Helvetica, sans-serif; font-size: 14px; color: #b3b3b3">
-				 	t: 1300 654 600
+				 	<div>t: 1300 654 600</div>
 				</td>
 				<td style="font-family:'Open Sans', 'Helvetica Neue', Helvetica, sans-serif; font-size: 14px; color: #b3b3b3">
-					m: 0401 572 425
+					<div>m: 0401 572 425</div>
 				</td>
 				<td style="font-family:'Open Sans', 'Helvetica Neue', Helvetica, sans-serif; font-size: 14px; color: #b3b3b3">
-					w: <a href="http://cubbi.com.au" style="color: #b3b3b3; text-decoration: none;">cubbi.com.au</a>
+					<div>w: <a href="http://cubbi.com.au" style="color: #b3b3b3; text-decoration: none;">cubbi.com.au</a></div>
 				</td>
 			</tr>
 			</td>			
