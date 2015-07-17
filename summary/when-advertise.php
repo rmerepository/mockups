@@ -98,13 +98,10 @@ $app_module =""
 			<button class="btn btn-success">Make Changes</button> <button class="btn btn-primary">Preview</button>
 		</div>
 		<div class="summary-promote text-center promote-padding">
-			<h3>Advertise on Cubbi
-				<div class="sub">Get you ad published on cubbi immediately for FREE</div>
-			</h3>
-			<div class="logo-wrap">
-				<span class="logo" style="padding:10px 0px 25px;display:block"> <img src="/assets/images/c/cubbi-logo.png" style="height: 50px; width:139px "> </span>
-			</div>
-			<button class="btn btn-success btn-xlarge">Published Now</button>
+			<h3>Your ad is Published</h3>
+			<button class="btn btn-success">Remove Ad</button>
+			<button class="btn btn-primary">Leased</button>
+			<button class="btn btn-primary">Withdrawn</button>
 		</div>
 		<div class="summary-promote" style="min-height: 710px;">
 			<div class="top">
