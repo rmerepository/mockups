@@ -91,7 +91,7 @@ $app_module =""
 		</li>
 	</ul>
 </section>
-<div class="position-relative promote-true"> <!-- change the class to "promote-null" if no ads -->
+<div class="position-relative promote-true"> <!-- change the class to "promote-null" if no ads a-->
 <div class="mid-section summary-wrap">
 	<div class="summary-content">
 		<div class="text-right summary-top-action">
