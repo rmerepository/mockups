@@ -98,13 +98,13 @@ $app_module =""
 			<button class="btn btn-success">Make Changes</button> <button class="btn btn-primary">Preview</button>
 		</div>
 		<div class="summary-promote text-center promote-padding">
-			<h3>Advertise on Cubbi
-				<div class="sub">Get you ad published on cubbi immediately for FREE</div>
+			<h3>Let's get your ad live!
+				<div class="sub">Well' publish your ad on Cubbi (free). To get more exposure we suggest chooshing from the options below.</div>
 			</h3>
 			<div class="logo-wrap">
 				<span class="logo" style="padding:10px 0px 25px;display:block"> <img src="/assets/images/c/cubbi-logo.png" style="height: 50px; width:139px "> </span>
 			</div>
-			<button class="btn btn-success btn-xlarge">Published Now</button>
+			<button class="btn btn-success btn-xlarge">Published Ad</button>
 		</div>
 		<div class="summary-promote" style="min-height: 710px;">
 			<div class="top">
@@ -149,8 +149,8 @@ $app_module =""
 									<img src="/assets/images/summary-promote/rea-domain-round.png" alt="rea-domain">
 								</td>
 								<td class="media-desc _col-2">
-									<h1>10 Real Estate Websites</h1>
-									<p>Display your property on 10 popular real estate websites including realestate.com.au and Domain for as long as it takes to find the right tenants.</p>
+									<h1>Realestate.com.au &amp; Domain</h1>
+									<p>Get your property on 10 popular real estates websites including realestate.com.au and Domain for as long as it takes to find the right tenants.</p>
 									<a href="#showPropertySites" data-toggle="modal">Show included websites</a>
 									
 								</td>
@@ -278,7 +278,7 @@ $app_module =""
 						<div class="checkout-total text-center">
 							<h3 class="amount"><sup>$</sup><b class="total">0</b></h3>
 							<p>
-								<button class="btn btn-primary" id="checkoutSummaryOrderLeaseOrRea"> Process </button>
+								<button class="btn btn-success" id="checkoutSummaryOrderLeaseOrRea"> Process </button>
 							</p></div>
 						</td>
 					</tr>
@@ -292,19 +292,22 @@ $app_module =""
 <!-- BILLING MODULE -->
 <div id="billingDiv"></div>
 <!-- For Lease Sample -->
-<div class="modal fade" id="leaseSignSample" tabindex="-1" role="dialog" aria-labelledby="leaseSignSample" aria-hidden="true">
+
+
+<div class="modal fade" id="removeAd" tabindex="-1" role="dialog" aria-labelledby="removeAd" aria-hidden="true">
 <div class="modal-dialog _md-xwide">
 <div class="modal-content">
 	<div class="modal-header">
 		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-		<h2>For Lease Sign</h2>
+		<h2>Remove Ad</h2>
 	</div>
 	<div class="modal-body">
-		<img src="/assets/images/lease-sign-sample.png" class="_resI">
+		
 	</div>
 	<div class="modal-footer"></div>
 </div>
 </div>
 </div>
+
 </div>
 <?php require('../partials/footer.php') ?>
