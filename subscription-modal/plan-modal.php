@@ -68,9 +68,6 @@
 							<?php include('all-features.php') ?>
 
 					<div class="text-center"> <b>Don‘t worry</b>, you can upgrade, downgrade or cancel your plan at any time!  </div>
-
-
-
       </div>
     </div>
   </div>
