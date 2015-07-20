@@ -24,9 +24,10 @@
 }
 
 .btn-no-bg[disabled], .btn-no-bg.disabled {
-	background-color: rgba(226, 226, 226, 0.12);
-	color: #575757;
-	border-color: rgba(226, 226, 226, 0.72);
+	background-color: transparent;
+	color: #525d5c;
+	border-color: #859190;
+	opacity: .5;
 }
 
 .plan-modal .plans .plan {
@@ -58,9 +59,6 @@
 	margin-bottom: 22px;
 }
 
-.plan h3 {
-	color: #F5A623;
-}
 
 .plan-price {
 	color: #B9B9B9;
@@ -96,16 +94,26 @@
 }
 
 .plan-modal .plans .plan.popular {
-	border: medium none;
-	position: relative;
-	z-index: 999;
-	box-shadow: 0px 0px 0px 4px #FFF, 0px 0px 2px 6px #e1f5fe;
-	border-radius: 2px;
-	background-color: #e1f5fe;
+  border: medium none;
+  position: relative;
+  z-index: 999;
+  box-shadow: 0px 0px 0px 4px #FFF, 0px 0px 2px 6px rgba(131, 208, 200, 0.22);
+  border-radius: 2px;
+  background-color: rgba(131, 208, 200, 0.09);
+}
+
+.plan-modal .plans .plan.popular:before {
+	content: "";
+	height: 58px;
+	width: 58px;
+	display: block;
+	background-image: url('/assets/images/c/popular-ribbon.png');
+	position: absolute;
+	right: 0;
 }
 
 .plan.popular h3{
-	color: #18CD83;
+	color: #83cfc7;
 	font-size: 30px;
 }
 
@@ -114,11 +122,6 @@
 	color: #808080;
 	padding: 5px 12px;
 	font-size: 15px;
-}
-
-.buy2 .plan ul li {
-	text-align: center;
-	font-size: 18px;
 }
 
 
@@ -169,8 +172,8 @@
   background-color: #f8f8f8;
 }
 
-.plan-features .fa-check {
-  color: #22b2e2;
+.plan-features td .fa-check {
+  color: #ee7682;
 }
 
 .plan-features .plan-names th {
@@ -178,7 +181,6 @@
 }
 
 .plan-features .plan-names th h3 {
-  color: #F5A623;
   font-size: 22px;
   margin: 10px 0px;
 }
@@ -192,7 +194,7 @@
 }
 
 .plan-features th.popular h3 {
-  color: #18cd83;
+  color: #83cfc7;
 }
 
 .plan-features .btn {

@@ -2,7 +2,7 @@
       <div class="navbar-inner">
         <div class="container-fluid clearfix">
 			<a class="brand" href="#">
-				<img src="/assets/images/rme-logo.png" />
+				<img src="/assets/images/c/cubbi-logo.png">
 			</a>
 
 

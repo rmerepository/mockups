@@ -554,10 +554,14 @@ h3.sm-hd {
 	min-width: 91px;
 }
 
-.btn-light {
+.btn-light, .btn[disabled], .btn.disabled {
 	background: transparent;
 	border: 1px solid #859190;
 }
+
+.btn[disabled], .btn.disabled { 	 	
+	opacity: .5;
+} 
 
 .btn-mega {
 	height: auto;
@@ -983,11 +987,6 @@ input[type='text'] {
 		opacity: 1;
 	}
 }
-
-.btn[disabled], .btn.disabled { 	 	
-	background-color: #E2E2E2; 	 	
-	color: #666; 	 	
-} 
 
 .btn.fa-btn {
 	padding: 10px 11px 9px 11px;

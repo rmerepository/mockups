@@ -2,7 +2,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-body">
-      		<h2 class="text-center">Way to go! You're ready for an upgrade!</h2>
+      		<h2 class="text-center" style="font-size: 25px;">10 Vincent Drive is on the <b>Free Plan.</b> <span class="sub">Upgrade your plan to unlock the goodness!</span> </h2>
 					
 					<div class="text-center">
 						<ul class="nav nav-pills clearfix">
@@ -19,12 +19,12 @@
 								<div class="plan-price"><span class="price" data-price-discount="0" data-price-regular="0">0</span> / mo</div>
 							</header>
 							<figure class="text-center">
-								<a href="#" class="btn btn-no-bg btn-gray"> <span class="fa fa-check"></span> Current</a>
+								<a href="#" class="btn btn-light btn-gray" disabled> <span class="fa fa-check"></span> Current</a>
 							</figure>
 							<main>
 								<ul class="text-center">
-									<li>$180 per advertisement</li>
-									<li>For Lease Sign $80</li>
+									<li>1 Tenancy</li>
+									<li>Automatic Rent Tracking</li>
 								</ul>
 							</main>
 						</div>
@@ -38,8 +38,10 @@
 							</figure>
 							<main>
 								<ul class="text-center">
-									<li>$90 per advertisement</li>
-									<li>For Lease Sign $70</li>
+									<li><b>Everythink in Time Saver plus:</b></li>
+									<li>Unlimited Tenancies</li>
+									<li>Rent Reciepts &amp; Reports</li>
+									<li>Late Notifications</li>
 								</ul>
 							</main>
 						</div>
@@ -49,16 +51,20 @@
 								<div class="plan-price"><span class="price" data-price-discount="37" data-price-regular="39">39</span> / mo</div>
 							</header>
 							<figure class="text-center">
-								<a href="#" class="btn btn-no-bg">Choose Plan</a>
+								<a href="#" class="btn btn-light">Choose Plan</a>
 							</figure>
 							<main>
 								<ul class="text-center">
-									<li>$80 per advertisement</li>
-									<li>For Lease Sign $60</li>
+									<li><b>Everythink in Time Saver plus:</b></li>
+									<li>We'll sort your rent increase</li>
+									<li>We'll enter your payments</li>
+									<li>Dedicated Account Manager</li>
 								</ul>
 							</main>
 						</div>
 					</div>
+					<div class="text-center"> <p><a href="#" class="text-danger" style="font-size: 22px;">View all features</a> </p> </div>
+					<?php include('all-features.php') ?>
 					<div class="text-center"> <b>Don‘t worry</b>, you can upgrade, downgrade or cancel your plan at any time!  </div>
       </div>
     </div>

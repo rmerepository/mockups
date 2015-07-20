@@ -6,7 +6,27 @@ $app_module =""
 <?php require('../partials/header.php') ?>
 <?php require('../partials/new-top-nav.php') ?>
 
-<p style="margin:50px"> <button class="btn btn-primary" data-toggle="modal" data-target="#buyModal">Process</button> </p>
+    <div style="padding:40px">
+
+<p>SUBSCRIPTION MODAL - SUMMARY PAGE</p>
+<p>For subscription modal that popus up when choosing to advertise on realestate.com.au</p>
+<p>
+    <a href="#" class="button" title="Upgrade Plan" data-toggle="modal" data-target="#planModal">
+        <span class="text-success">Modal Plan</span> 
+    </a>
+</p>
+
+<hr>
+
+<p>SUBSCRIPTION MODAL - ALL OTHER EVENTS</p>
+<p>For subscription modal that pops up for all other events that require a paid plan</p>
+<p>
+    <a href="#" class="button" title="Upgrade Plan" data-toggle="modal" data-target="#planModal">
+        <span class="text-success">Modal Plan</span> 
+    </a>
+</p>
+
+</div>
 
 <?php require('plan-modal.php') ?>
 <?php require('buy-modal.php') ?>

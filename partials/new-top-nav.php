@@ -7,7 +7,7 @@
                 <span></span>
             </span>    
             <a class="brand" href="#">
-                <img src="/assets/images/rme-logo.png" />
+                <img src="/assets/images/c/cubbi-logo.png">
             </a>
 
             <div class="pull-right">

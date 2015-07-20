@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title></title>
-</head>
-
-<body>
   <div class="plan-features">
     <table>
       <thead>
@@ -12,7 +5,7 @@
           <th></th>
 
           <th>
-            <h3>Free Forever</h3><a href="#" class="btn btn-no-bg btn-gray" disabled> <span class="fa fa-check"></span> Current</a>
+            <h3>Free Forever</h3><a href="#" class="btn btn-light btn-gray" disabled> <span class="fa fa-check"></span> Current</a>
           </th>
 
           <th class="popular">
@@ -20,7 +13,7 @@
           </th>
 
           <th>
-            <h3>Advance</h3><a href="#" class="btn btn-no-bg">Choose Plan</a>
+            <h3>Advance</h3><a href="#" class="btn btn-light">Choose Plan</a>
           </th>
         </tr>
       </thead>
@@ -69,5 +62,3 @@
       </tbody>
     </table>
   </div>
-</body>
-</html>
