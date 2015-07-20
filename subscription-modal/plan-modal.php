@@ -64,9 +64,7 @@
 						</div>
 					</div>
 					<div class="text-center"> <p><a href="#" class="text-danger" style="font-size: 22px;">View all features</a> </p> </div>
-
 							<?php include('all-features.php') ?>
-
 					<div class="text-center"> <b>Don‘t worry</b>, you can upgrade, downgrade or cancel your plan at any time!  </div>
       </div>
     </div>
