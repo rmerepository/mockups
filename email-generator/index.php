@@ -23,7 +23,7 @@
 			<table cellspacing="0" cellpadding="0" style="border:none" width="400px;">
 				<tr>
 					<td style="font-family:'Open Sans', 'Helvetica Neue', Helvetica, sans-serif; font-size: 14px; color: #b3b3b3">
-						<span style="color: #b3b3b3; text-decoration: none;">t:&nbsp;1300&nbsp;654&nbsp;600</span> &nbsp;&nbsp; <span style="color: #b3b3b3; text-decoration: none;">m:&nbsp;0401&nbsp;572&nbsp;425</span>  &nbsp;&nbsp; <span><a href="http://cubbi.com.au" title="cubbi" style="color: #b3b3b3; text-decoration: none;">w: www.cubbi.com.au</a></span>
+						<span style="color: #b3b3b3; text-decoration: none;">t:&nbsp;1300&nbsp;654&nbsp;600</span> &nbsp;&nbsp; <span style="color: #b3b3b3; text-decoration: none;">m:&nbsp;0401&nbsp;572&nbsp;425</span>  &nbsp;&nbsp; <span><a href="http://www.cubbi.com.au" title="cubbi" style="color: #b3b3b3; text-decoration: none;">w: www.cubbi.com.au</a></span>
 					</td>
 				</tr>
 				<tr>
