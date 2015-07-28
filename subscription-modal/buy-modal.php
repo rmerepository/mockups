@@ -38,7 +38,7 @@
 							</figure>
 							<main>
 								<ul class="text-center">
-									<li><b>Everythink in Time Saver plus:</b></li>
+									<li><b>Everything in Time Saver plus:</b></li>
 									<li>Unlimited Tenancies</li>
 									<li>Rent Reciepts &amp; Reports</li>
 									<li>Late Notifications</li>
@@ -55,7 +55,7 @@
 							</figure>
 							<main>
 								<ul class="text-center">
-									<li><b>Everythink in Time Saver plus:</b></li>
+									<li><b>Everything in Time Saver plus:</b></li>
 									<li>We'll sort your rent increase</li>
 									<li>We'll enter your payments</li>
 									<li>Dedicated Account Manager</li>
