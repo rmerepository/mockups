@@ -2,6 +2,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-body">
+      		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
       		<h2 class="text-center" style="font-size: 25px;">10 Vincent Drive is on the <b>Free Plan.</b> <span class="sub">Upgrade your plan to unlock the goodness!</span> </h2>
  				
 					<div class="text-center">

@@ -6,6 +6,14 @@ $app_module =""
 <?php require('../partials/header.php') ?>
 <?php require('../partials/new-top-nav.php') ?>
 
+<style>
+    .modal-body .close {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+</style>
+
     <div style="padding:40px">
 
 <p>SUBSCRIPTION MODAL - SUMMARY PAGE</p>
